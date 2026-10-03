@@ -273,7 +273,7 @@ def build() -> dict:
                 e.pop("wallet_sample", None)
                 e["token"] = tk(e["token"])
             elif lab.startswith("CLUSTER_MEMBER"):
-                c = clusters.setdefault(e["cluster_id"], {"id": e["cluster_id"], "funder": e["funder"],
+                c = clusters.setdefault(e["cluster_id"], {"id": e["cluster_id"], "funder": e.get("funder"),
                                                           "member_count": e.get("member_count"), "members": []})
                 c["members"].append(i)
                 e.pop("members", None)

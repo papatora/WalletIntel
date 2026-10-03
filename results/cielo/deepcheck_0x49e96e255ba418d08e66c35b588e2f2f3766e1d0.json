@@ -1,0 +1,140 @@
+{
+ "address": "0x49e96e255ba418d08e66c35b588e2f2f3766e1d0",
+ "gmgn_claim_30d": 193114.75171162776,
+ "labels_db": [],
+ "lists": [
+  "8"
+ ],
+ "n_transfers_fetched": 144,
+ "realized_usd_est": 97917.6,
+ "unrealized_usd_est": 0.0,
+ "events_priced": 21,
+ "events_unpriced": 123,
+ "n_tokens_touched": 42,
+ "tokens": [
+  {
+   "token": "0x39dbed3a2bd333467115de45665cc57f813c4571",
+   "buys": 14,
+   "sells": 2,
+   "realized_usd": 98470.85,
+   "unrealized_usd": 0.0,
+   "still_holding": true
+  },
+  {
+   "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0x366efff7918807c144700cfc4b69bd21e42537f8",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0x34af5e01c064f738e7c0f8ecd856aee7c6954661",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0x352a746f58fd970358593b8f60d1283a46f90528",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0x91da2b31cc53c829b7bf1907bddd385e261c6a28",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0xc9ec05ed00de82629cdb1d6c3ea5d34f383a5396",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0x59dd61695ec7a5b11945dec2096be1f616200c4c",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0xba20f7753edbcb37805092e23d92e03954d27685",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0xd2d6c666a888c71a5c8071684ea1f05299e6f846",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0x534a5b083ee6de25840077b6934880e9c4c4a919",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0x4d6e66c687ea3e134401bc498c9dde4517983124",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0x62229f3ca0a51d2396dedb6b54ea6789cbbc02b0",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0xc8ef1f57191877b0f58fdfb3007a26c8d446b36e",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  },
+  {
+   "token": "0xbd575d76875c76d3572ddd028ec2ac7f577f74fc",
+   "buys": 0,
+   "sells": 0,
+   "realized_usd": 0.0,
+   "unrealized_usd": 0.0,
+   "still_holding": false
+  }
+ ],
+ "method": "FIFO on transfers, price = nearest-block pool price dari DB lokal; UNPRICED dikecualikan (konservatif)",
+ "ratio_est_vs_gmgn": 0.507,
+ "n_created_tokens": 0,
+ "verdict": "CONFIRMED_BY_ESTIMATE"
+}

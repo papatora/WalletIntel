@@ -1345,3 +1345,40 @@ validasi dua arah, hati-hati copytrade.
 paging.next_query utk cursor); fetch 403 kalau tanpa header khas; data wallet
 publik-list Cielo tak pernah dirender penuh utk anonim — jalur = feed item
 href /profile/<addr>.
+
+## SNAPSHOT S-49 — 2026-10-03/04: CIELO FULL HARVEST (KUOTA) + DEEPCHECK 53 KANDIDAT
+
+**FOLLOW-HARVEST (izin user, akun Rabby burn khusus scraping):**
+- `myWallets.getListOfWallets?bundle_id=X` = JACKPOT: wallet penuh + label
+  komunitas + profil X (handle+followers) + saldo. Mutation `lists.followList`
+  = TOGGLE (follow/unfollow sama). Import pasca-follow ASYNC (butuh poll 3s+).
+- **BLOKER: plan basic kuota "maximum number of wallets"** — tracked=0 pun
+  tetap ditolak → limit dihitung dari akumulasi import (per periode), bukan
+  saldo saat ini. Script v1 di-kill tengah jalan; cleanup state berjalan.
+  LANJUTKAN nanti saat kuota pulih (tunggu/reset); file full yang collected 0
+  sudah dihapus; script v2 (cielo_follow_harvest.py) siap rerun.
+- Eksperimen terkontrol DEVS: followed=False saat dicek ulang → kuota memang
+  global, bukan bug script.
+
+**DEEPCHECK 53 DIAMOND CANDIDATES (cielo_deepcheck.py, izin user OK):**
+Metode jujur: FIFO dari transfer on-chain (Etherscan V2 max_pages=5), harga
+nearest-block dari price_points DB. **Keterbatasan terukur: hanya 3% event
+ber-harga (1.266/47.515 — wallet menyentuh token di luar universe DB);
+43/53 truncated (>=990 transfer).**
+- 1 CONFIRMED_BY_ESTIMATE: **0x49e96e255ba4** est +$97,9K (21 event priced,
+  42 token, list "8") — kandidat paling solid sejauh ini.
+- 5 POSITIVE_BUT_BELOW_CLAIM (positif nyata, klaim GMGN jauh lebih besar).
+- **13 DEV** (created_tokens>0) termasuk #2/#3 klaim terbesar (0xb86f49 $542K,
+  0x5638484 $390K) — DIBUANG dari kandidat (kriteria: bukan dev).
+- 2 INSIDER (label DB). 32 NOT_CONFIRMED = **belum terukur**, bukan terbukti halu.
+- diamond_candidates_revised.json: 38 kandidat aktif; known_entities +verdict.
+
+**PELAJARAN S-49:** klaim PnL pihak ketiga (GMGN/Cielo) WAJIB diberi verdict
+terpisah: confirmed / not-measured / contradicted — jangan dilaporkan flat.
+"NOT_CONFIRMED" dgn coverage 3% ≠ halu. Dev-check (created_tokens) murah dan
+menyelamatkan banyak waktu — lakukan SEBELUM derive PnL.
+
+**NEXT:** (1) rerun follow-harvest saat kuota pulih; (2) utk memperbesar
+coverage pricing: track-ca/enrich token-token yang disentuh kandidat solid
+(0x49e96e dst) via VPS — masuk antrean volume_sweep; (3) verifier R1-R3 penuh
+via pipeline VPS utk kandidat revised 38.

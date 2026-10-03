@@ -19,7 +19,10 @@
    "name": "eca.eth",
    "type": "OTHER",
    "source": "arkham",
-   "verified_at": "2026-09-17T17:26:25.888159+00:00"
+   "verified_at": "2026-09-17T17:26:25.888159+00:00",
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x1195c074f898b7644ba732407619c9804dfe6dce": {
    "name": "SnuggleVaultAdminSatellite",
@@ -676,35 +679,50 @@
    "type": "OTHER",
    "source": "cielo:Begin. Alpha List TOP PN",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 26608.99375232546
+   "pnl_30d_usd_gmgn": 26608.99375232546,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0x3d06315c94ac30b6061c91caf748fc2db04a89f4": {
    "name": "Begin. Alpha List TOP PNL (*cielo)",
    "type": "OTHER",
    "source": "cielo:Begin. Alpha List TOP PN",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 18687.567430247615
+   "pnl_30d_usd_gmgn": 18687.567430247615,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x7a2363a401b2340c7941dd2eeff0196a5078d2e6": {
    "name": "Begin. Alpha List TOP PNL / bsc7 (*cielo)",
    "type": "OTHER",
    "source": "cielo:Begin. Alpha List TOP PN/bsc7",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 141030.16262974642
+   "pnl_30d_usd_gmgn": 141030.16262974642,
+   "deepcheck_verdict": "INSIDER_FLAG_DB",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0x9debaf794213659d12b289653588f1339c11e209": {
    "name": "Begin. Alpha List TOP PNL (*cielo)",
    "type": "OTHER",
    "source": "cielo:Begin. Alpha List TOP PN",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 76049.06605768921
+   "pnl_30d_usd_gmgn": 76049.06605768921,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 422.44,
+   "deepcheck_note": ""
   },
   "0xbf004bff64725914ee36d03b87d6965b0ced4903": {
    "name": "Begin. Alpha List TOP PNL (*cielo)",
    "type": "OTHER",
    "source": "cielo:Begin. Alpha List TOP PN",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 11627.341922332917
+   "pnl_30d_usd_gmgn": 11627.341922332917,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xfd7e55a555555c2f25053a38ec744de1afea4fa4": {
    "name": "Begin. Alpha List TOP PNL / R IMPORT (*cielo)",
@@ -746,7 +764,10 @@
    "type": "OTHER",
    "source": "cielo:ikigai",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 390762.6575107049
+   "pnl_30d_usd_gmgn": 390762.6575107049,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0x7ec1960cd95652675cb6dd59ba52f6b7c8b2dfdd": {
    "name": "ikigai (*cielo)",
@@ -795,7 +816,10 @@
    "type": "OTHER",
    "source": "cielo:ikigai/R IMPORT",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 486794.4300726815
+   "pnl_30d_usd_gmgn": 486794.4300726815,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x0cbb693e0199cb7ad4f3c846f43045cb95247fc5": {
    "name": "z (*cielo)",
@@ -823,14 +847,20 @@
    "type": "OTHER",
    "source": "cielo:bsc7",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 32050.565554289562
+   "pnl_30d_usd_gmgn": 32050.565554289562,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xa83b73f5644cde337b61da79589f10ea15548811": {
    "name": "bsc7 (*cielo)",
    "type": "OTHER",
    "source": "cielo:bsc7",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 48054.176941446196
+   "pnl_30d_usd_gmgn": 48054.176941446196,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0x0121525f755c9e7bbc525bba6672716ab46ced57": {
    "name": "Fomo app top traders / Hashim (*cielo)",
@@ -935,7 +965,10 @@
    "type": "OTHER",
    "source": "cielo:🏷 FomoMaster",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 31376.261797713727
+   "pnl_30d_usd_gmgn": 31376.261797713727,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x302d86e24d7474f0408a53e26a1111c041a94093": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -998,7 +1031,10 @@
    "type": "OTHER",
    "source": "cielo:🏷 FomoMaster",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 24646.20211080533
+   "pnl_30d_usd_gmgn": 24646.20211080533,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": -23.98,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x6c309ed33fdf16a9a26e175860cbab48bb17a0b6": {
    "name": "🏷 FomoMaster (*cielo)",
@@ -1103,7 +1139,10 @@
    "type": "OTHER",
    "source": "cielo:🏷 FomoMaster/Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 79007.30155173119
+   "pnl_30d_usd_gmgn": 79007.30155173119,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xfc1a4cf6be46c553fae87ad3d2c00ba8da971308": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -1278,7 +1317,10 @@
    "type": "OTHER",
    "source": "cielo:qpqpqp",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 46293.7876662783
+   "pnl_30d_usd_gmgn": 46293.7876662783,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xc1e42f862d202b4a0ed552c1145735ee088f6ccf": {
    "name": "qpqpqp (*cielo)",
@@ -1404,7 +1446,10 @@
    "type": "OTHER",
    "source": "cielo:basic_list",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 42700.45187469581
+   "pnl_30d_usd_gmgn": 42700.45187469581,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 1.6,
+   "deepcheck_note": ""
   },
   "0xb693f6c6db4c17d49feff778a65713b240a64cec": {
    "name": "basic_list (*cielo)",
@@ -1558,21 +1603,30 @@
    "type": "OTHER",
    "source": "cielo:R IMPORT",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 45028.23570006155
+   "pnl_30d_usd_gmgn": 45028.23570006155,
+   "deepcheck_verdict": "INSIDER_FLAG_DB",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0x2fd1887e5d99014cb0b8884f06560ed20d65003d": {
    "name": "Wallets (*cielo)",
    "type": "OTHER",
    "source": "cielo:Wallets",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 76940.18924645767
+   "pnl_30d_usd_gmgn": 76940.18924645767,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0x3c5083022114ea14fb3d8d06f5931c629c2bedd6": {
    "name": "Wallets (*cielo)",
    "type": "OTHER",
    "source": "cielo:Wallets",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 47453.80173334591
+   "pnl_30d_usd_gmgn": 47453.80173334591,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": -7347.1,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x3eaf27253dbafc6bf74f46c467dc81a3c0bc8224": {
    "name": "Wallets (*cielo)",
@@ -1593,7 +1647,10 @@
    "type": "OTHER",
    "source": "cielo:Wallets",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 25741.998690648874
+   "pnl_30d_usd_gmgn": 25741.998690648874,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0xbac453b9b7f53b35ac906b641925b2f5f2567a89": {
    "name": "Wallets (*cielo)",
@@ -1810,14 +1867,20 @@
    "type": "OTHER",
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 10853.734560115474
+   "pnl_30d_usd_gmgn": 10853.734560115474,
+   "deepcheck_verdict": "POSITIVE_BUT_BELOW_CLAIM",
+   "deepcheck_est_realized_usd": 764.18,
+   "deepcheck_note": ""
   },
   "0x92bff72e6c943a1348aedf15d68e758e811dec64": {
    "name": "Fomo Top Traders (*cielo)",
    "type": "OTHER",
    "source": "cielo:Fomo Top Traders",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 25005.836688862353
+   "pnl_30d_usd_gmgn": 25005.836688862353,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": -0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x477d7e84de6b16551481217b3d177a3bbdb5828c": {
    "name": "Whale (*cielo)",
@@ -1866,7 +1929,10 @@
    "type": "OTHER",
    "source": "cielo:Whale",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 282815.5368547358
+   "pnl_30d_usd_gmgn": 282815.5368547358,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": -32367.11,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xd8d5b0f7219aed171efb5ae2ac3b9941206f7349": {
    "name": "Whale (*cielo)",
@@ -1880,7 +1946,10 @@
    "type": "OTHER",
    "source": "cielo:Whale",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 20943.500160343177
+   "pnl_30d_usd_gmgn": 20943.500160343177,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xfb941d2344b72ea9101400392b818173772d0ddf": {
    "name": "Whale (*cielo)",
@@ -1957,7 +2026,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood Top Traders/Track RH",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 139727.1248663605
+   "pnl_30d_usd_gmgn": 139727.1248663605,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x00aab1a3c7d97953f326d8067ccd9ca288aded53": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -1985,7 +2057,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 11807.735045126128
+   "pnl_30d_usd_gmgn": 11807.735045126128,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x07a70a89a82b377b366d9371ff1524a5606ea064": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2055,7 +2130,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 65195.39843691918
+   "pnl_30d_usd_gmgn": 65195.39843691918,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x20113ecb4c087bcb2c54378b6f45560db05be469": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2160,14 +2238,20 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 24196.623889269682
+   "pnl_30d_usd_gmgn": 24196.623889269682,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x4959ad9145030d5a2f3cce66ca4da8b3d35dbe1d": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 266390.7742470856
+   "pnl_30d_usd_gmgn": 266390.7742470856,
+   "deepcheck_verdict": "POSITIVE_BUT_BELOW_CLAIM",
+   "deepcheck_est_realized_usd": 10195.97,
+   "deepcheck_note": ""
   },
   "0x4a662531ac19eb5f74c09a9118d5dbc19021a9ef": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2188,7 +2272,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 98618.17034406646
+   "pnl_30d_usd_gmgn": 98618.17034406646,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x56647f61fd15a8eb8c2c5638a165e40f278dedf9": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2230,7 +2317,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 21488.572148132665
+   "pnl_30d_usd_gmgn": 21488.572148132665,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x69326e48f68500fb6cf3b3a7da640737b9cc347b": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2279,7 +2369,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 241341.5915103021
+   "pnl_30d_usd_gmgn": 241341.5915103021,
+   "deepcheck_verdict": "POSITIVE_BUT_BELOW_CLAIM",
+   "deepcheck_est_realized_usd": 10189.1,
+   "deepcheck_note": ""
   },
   "0x76711d3f71d6829a13ecd3475cd4c16fa1b46c59": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2384,7 +2477,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 12051.375395655055
+   "pnl_30d_usd_gmgn": 12051.375395655055,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x8ba3bbd70000940e1c46530fd63819ab1e0ba0a6": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2398,7 +2494,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 296741.97307822295
+   "pnl_30d_usd_gmgn": 296741.97307822295,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x961c19a6edd923fe3c8536c3c589a92e66659b4c": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2447,7 +2546,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 161450.16658829185
+   "pnl_30d_usd_gmgn": 161450.16658829185,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xa9ba2df5ccbba195f9bd14cbcc4efc809edc7ff1": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2636,14 +2738,20 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 26349.78838988572
+   "pnl_30d_usd_gmgn": 26349.78838988572,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": -948.89,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xe2aa5249955645acd0cdcfc2b3c22fb73666b473": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 63418.68541152731
+   "pnl_30d_usd_gmgn": 63418.68541152731,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xe342ad48330a8bd9967be6c4a9ae4665f7b44673": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2664,7 +2772,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 23845.649827104757
+   "pnl_30d_usd_gmgn": 23845.649827104757,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xe6a5f7f6de90d5693fac766fca4d0d3214f95083": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2748,7 +2859,10 @@
    "type": "OTHER",
    "source": "cielo:Track RH",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 118449.16807935265
+   "pnl_30d_usd_gmgn": 118449.16807935265,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x1287a9a82117c9702aab753cba8d5cabfa5d923a": {
    "name": "Track RH (*cielo)",
@@ -2797,7 +2911,10 @@
    "type": "OTHER",
    "source": "cielo:Track RH",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 14899.615223761826
+   "pnl_30d_usd_gmgn": 14899.615223761826,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x4490f012704942a70f3d00f27f8bbeff52c58b0c": {
    "name": "Track RH (*cielo)",
@@ -2818,7 +2935,10 @@
    "type": "OTHER",
    "source": "cielo:Track RH",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 26262.796057394506
+   "pnl_30d_usd_gmgn": 26262.796057394506,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x5788858ed0ad70dea5056738b7ffd1810eacb84f": {
    "name": "Track RH (*cielo)",
@@ -2846,7 +2966,10 @@
    "type": "OTHER",
    "source": "cielo:Track RH",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 68636.92060458113
+   "pnl_30d_usd_gmgn": 68636.92060458113,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0x7dcac0c1128ee764556e789975962aeee8f59e59": {
    "name": "Track RH (*cielo)",
@@ -2860,7 +2983,10 @@
    "type": "OTHER",
    "source": "cielo:Track RH",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 4434370.953063099
+   "pnl_30d_usd_gmgn": 4434370.953063099,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0x814a128c8b65e428dc9864cac3d3031b03e677bc": {
    "name": "Track RH (*cielo)",
@@ -2888,7 +3014,10 @@
    "type": "OTHER",
    "source": "cielo:Track RH",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 35438.20730657387
+   "pnl_30d_usd_gmgn": 35438.20730657387,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308": {
    "name": "Track RH (*cielo)",
@@ -2937,14 +3066,20 @@
    "type": "OTHER",
    "source": "cielo:Copytrade",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 60572.15484893093
+   "pnl_30d_usd_gmgn": 60572.15484893093,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 0.57,
+   "deepcheck_note": ""
   },
   "0xbd164e62834f3ba22b80f76d82bab8d20f8e3304": {
    "name": "Alphas (*cielo)",
    "type": "OTHER",
    "source": "cielo:Alphas",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 17061.349397511407
+   "pnl_30d_usd_gmgn": 17061.349397511407,
+   "deepcheck_verdict": "POSITIVE_BUT_BELOW_CLAIM",
+   "deepcheck_est_realized_usd": 86.89,
+   "deepcheck_note": ""
   },
   "0x0a53765848ecb8ccd820781fc47c9c95bfcf3c36": {
    "name": "8 (*cielo)",
@@ -2993,7 +3128,10 @@
    "type": "OTHER",
    "source": "cielo:8",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 193114.75171162776
+   "pnl_30d_usd_gmgn": 193114.75171162776,
+   "deepcheck_verdict": "CONFIRMED_BY_ESTIMATE",
+   "deepcheck_est_realized_usd": 97917.6,
+   "deepcheck_note": ""
   },
   "0x5388a7f24e86c9c9d855a98c2f5a339afa6a3acc": {
    "name": "8 (*cielo)",
@@ -3126,14 +3264,20 @@
    "type": "OTHER",
    "source": "cielo:for yoyo",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 19341.99414985275
+   "pnl_30d_usd_gmgn": 19341.99414985275,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": -1725.15,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xb86f49b6387386badc4d74a217faa3273ad36c03": {
    "name": "for yoyo (*cielo)",
    "type": "OTHER",
    "source": "cielo:for yoyo",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 542880.5419239766
+   "pnl_30d_usd_gmgn": 542880.5419239766,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": -42676.0,
+   "deepcheck_note": ""
   },
   "0xd4cf04bc9d7c80b49c6c30a633f7b9bd5370b4d6": {
    "name": "for yoyo (*cielo)",
@@ -3161,7 +3305,10 @@
    "type": "OTHER",
    "source": "cielo:👛FWAIRpfp",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 184067.17251750708
+   "pnl_30d_usd_gmgn": 184067.17251750708,
+   "deepcheck_verdict": "NOT_CONFIRMED",
+   "deepcheck_est_realized_usd": -0.0,
+   "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu"
   },
   "0xcb5ebee4654ce75db2f5c843ccb515988db52b77": {
    "name": "👛FWAIRpfp (*cielo)",
@@ -3182,7 +3329,10 @@
    "type": "OTHER",
    "source": "cielo:Robinhood list",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 154150.52295469693
+   "pnl_30d_usd_gmgn": 154150.52295469693,
+   "deepcheck_verdict": "POSITIVE_BUT_BELOW_CLAIM",
+   "deepcheck_est_realized_usd": 99.05,
+   "deepcheck_note": ""
   },
   "0x02361e9a88ea4addbb2ac8189605222c5aef7dc1": {
    "name": "Hashcats early minters (*cielo)",
@@ -3224,7 +3374,10 @@
    "type": "OTHER",
    "source": "cielo:Hashcats early minters",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 70347.07757320224
+   "pnl_30d_usd_gmgn": 70347.07757320224,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0x3fcbad0dedbfe5154417473e2b24ac597bb1a451": {
    "name": "Hashcats early minters (*cielo)",
@@ -3266,7 +3419,10 @@
    "type": "OTHER",
    "source": "cielo:Hashcats early minters",
    "verdict": "ROBINHOOD_ACTIVE",
-   "pnl_30d_usd_gmgn": 94432.2586499048
+   "pnl_30d_usd_gmgn": 94432.2586499048,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0x9595fc099174ee5669405d71a94a941252035a0d": {
    "name": "Hashcats early minters (*cielo)",
@@ -3308,7 +3464,10 @@
    "type": "OTHER",
    "source": "cielo:Hashcats early minters",
    "verdict": "KNOWN_IN_DB",
-   "pnl_30d_usd_gmgn": 67783.7118338242
+   "pnl_30d_usd_gmgn": 67783.7118338242,
+   "deepcheck_verdict": "DEV",
+   "deepcheck_est_realized_usd": 0.0,
+   "deepcheck_note": ""
   },
   "0xfa94ebdf91c62cd5f1790f2fc0159d52ed5dd7b6": {
    "name": "Hashcats early minters (*cielo)",

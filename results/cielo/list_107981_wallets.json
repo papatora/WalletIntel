@@ -1,0 +1,15 @@
+{
+ "list_id": 107981,
+ "name": "Robinhood Top Traders",
+ "creator_name": "0x7cc4...2fc9a",
+ "twitter_handle": "elnomic",
+ "wallets_count": 7,
+ "collected": [
+  "0x1e59145625236d3663fc63d000a31d42d3393cee",
+  "0x25c256f6437de6e9ba2c0ded33b87d99bd9de8db",
+  "0x54d209d9d224a615e0e5f0476644886897b75e45",
+  "0x5b0051e4ea8eaf6ec523ab2aa76fe0149e68b040"
+ ],
+ "coverage": "4/7",
+ "ts": "2026-10-03T16:19:49.151357+00:00"
+}

@@ -1,0 +1,14 @@
+{
+ "list_id": 105025,
+ "name": "bsc7",
+ "creator_name": "0x7f4c...05502",
+ "twitter_handle": null,
+ "wallets_count": 7,
+ "collected": [
+  "0x2ce9d43d1cba6ae31d7f07bfe0098dfa2d833373",
+  "0x7a2363a401b2340c7941dd2eeff0196a5078d2e6",
+  "0xa83b73f5644cde337b61da79589f10ea15548811"
+ ],
+ "coverage": "3/7",
+ "ts": "2026-10-03T16:20:08.457721+00:00"
+}

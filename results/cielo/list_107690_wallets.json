@@ -1,0 +1,17 @@
+{
+ "list_id": 107690,
+ "name": "Tracking wallet",
+ "creator_name": "567913...9bd9e",
+ "twitter_handle": null,
+ "wallets_count": 36,
+ "collected": [
+  "0x127fc27c306d4c16b2f88f5f793b292f8bbad89c",
+  "0x17b6ba8661fb7cad8270cba8e380e744a8581ac5",
+  "0x827eadb1007b1a0278966658009bf3115a2b12df",
+  "0xcb684551a67127356f8b53f66f059d7c645dac07",
+  "0xd95ae117f8c7e0ab01e38a5159a9fe48fb0b7366",
+  "7cDTpWy5SLrBwK9xbPqB4tiuc3wGkYpuDxSb4BniRMcG"
+ ],
+ "coverage": "6/36",
+ "ts": "2026-10-03T16:26:28.629904+00:00"
+}

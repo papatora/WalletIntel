@@ -1313,3 +1313,35 @@ laporan. Guardrail yang memutus jalur kerja harian = regresi, bukan fitur.
 - Selaras: remote origin, .env lokal+VPS, .env.example, settings.py default,
   setup.sh REPO_URL, night_delta push URL, deploy/ops scripts.
 - Commit 61133b6 ter-push ke URL baru (origin/main = lokal).
+
+## SNAPSHOT S-48 — 2026-10-03: CIELO PUBLIC LISTS HARVEST + VERIFY ON-CHAIN
+
+**SUMBER:** app.cielo.finance public lists (komunitas) — scrape via Brave CDP
+sesi login user (login wallet 2026-10-03; profil persist). TANPA bypass:
+fetch in-page dgn header tRPC (trpc-accept jsonl + x-trpc-source nextjs-react
++ x-page-route). ANONIM = cuma 50 list metadata; WALLET penuh via feed
+preview: tiap item link /profile/<FULL_ADDR> → auto-scroll → kumpulkan.
+SCRIPT: scripts/cielo_scrape.py (lists) + cielo_harvest_wallets.py (wallet,
+resumable) + cielo_verify.py (db|etherscan|gmgn|full stage).
+
+**HASIL:** 50 list · 905 wallet unik (381 EVM / 524 SOL) · coverage parsial
+(feed = wallet aktif; Robinhood KOLs 129/250, Track RH 31/60, FomoMaster
+324/5560). VERIFY EVM: **221 aktif di robinhood chain** (Etherscan V2/robinscan,
+max_pages=1), **79 sudah di DB** (11 INSIDER + 6 CT_ATTRIBUTED + 22 GENERALIST
++ AIRDROP 2), 81 bukan wallet RH, 0 gagal-check.
+
+**INTEGRASI:** known_entities.json +380 nametag — nama = Arkham entity kalau
+ada, kalau tidak "<ListName> (*cielo)" (provenance terbuka, type OTHER).
+results/cielo/: cielo_lists.json, list_<id>_wallets.json ×50,
+verify_results.json, nametags.json, diamond_candidates.json (53 wallet
+PnL>$10k GMGN — BELUM lewat verifier R1-R3 internal, jangan dianggap final!).
+
+**TEMUAN:** top PnL 30d GMGN di RH: 0x7e3ba68c (Track RH) +$4,43 jt; 0xb86f49
++$542K; 0x000461a7 +$528K (GENERALIST di DB kita). 88 wallet lintas-list
+(konsensus komunitas). BEBERAPA "alpha" komunitas = INSIDER versi mesin —
+validasi dua arah, hati-hati copytrade.
+
+**PELAJARAN S-48:** tRPC response = JSONL superjson (parse baris per baris,
+paging.next_query utk cursor); fetch 403 kalau tanpa header khas; data wallet
+publik-list Cielo tak pernah dirender penuh utk anonim — jalur = feed item
+href /profile/<addr>.

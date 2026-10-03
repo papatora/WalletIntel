@@ -1,0 +1,22 @@
+{
+ "list_id": 107398,
+ "name": "Whale",
+ "creator_name": "0x4ac6...96585",
+ "twitter_handle": null,
+ "wallets_count": 14,
+ "collected": [
+  "0x477d7e84de6b16551481217b3d177a3bbdb5828c",
+  "0x5b7ab4b4b4768923cddef657084223528c807963",
+  "0x5ece3095b6b9fcd6e4566dfd440be4f7609baded",
+  "0x6888e153ccf88d9e98dc24e1e9c3b99a58558fad",
+  "0x8999c15ae0e04a3766e50a4d88e83a2219d228f4",
+  "0x963ce0719f67bec752b02923902ed93ef72edbd6",
+  "0xb5b731f340554b672f686ca8459d55ced5e5bda4",
+  "0xd8d5b0f7219aed171efb5ae2ac3b9941206f7349",
+  "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0",
+  "0xfb941d2344b72ea9101400392b818173772d0ddf",
+  "0xff8ce9674b5b5f731d030b0fff6d927e510dae05"
+ ],
+ "coverage": "11/14",
+ "ts": "2026-10-03T16:21:29.124828+00:00"
+}

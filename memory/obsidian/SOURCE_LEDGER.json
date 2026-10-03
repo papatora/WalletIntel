@@ -1,0 +1,457 @@
+{
+  "cluster": "WalletIntel",
+  "curation_date": "2026-10-03",
+  "records": [
+    {
+      "source_id": "W01",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\README.md",
+      "relative_path": "README.md",
+      "sha256": "cb4678f4df2f50bde7dc9d618d59fc89dd3e163252d92a0d11a3edb12613b9c2",
+      "category": "documented-methodology",
+      "read_scope": "Producer role, pipeline, local/VPS boundary and honest-limit sections",
+      "topic_targets": [
+        "WalletIntel/Producer Pipeline",
+        "WalletIntel/Scoring and Eligibility",
+        "WalletIntel/Security and Operational Boundaries"
+      ],
+      "reason": "Durable documented methodology extracted; implementation and live state not revalidated by this curation"
+    },
+    {
+      "source_id": "W02",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\SECURITY_POLICY.md",
+      "relative_path": "SECURITY_POLICY.md",
+      "sha256": "87b9c8e69947f8f9eee7834a154b75baf84d6ba37b97a5a7b6b843625733d5d7",
+      "category": "documented-methodology",
+      "read_scope": "Complete sanitized policy; no credentials or remote commands copied",
+      "topic_targets": [
+        "WalletIntel/PnL Verification",
+        "WalletIntel/Security and Operational Boundaries"
+      ],
+      "reason": "Durable documented methodology extracted; implementation and live state not revalidated by this curation"
+    },
+    {
+      "source_id": "W03",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\docs\\ARCHITECTURE.md",
+      "relative_path": "docs/ARCHITECTURE.md",
+      "sha256": "d394e41d8e6e164030bed913f0fd00910458c362684e2caad67b3b8fd0643e33",
+      "category": "documented-methodology",
+      "read_scope": "Complete documented pipeline and resumption/scaling design",
+      "topic_targets": [
+        "WalletIntel/Producer Pipeline",
+        "WalletIntel/Wallet Identity",
+        "WalletIntel/Transaction Accounting",
+        "WalletIntel/Price and Unit Integrity",
+        "WalletIntel/Discovery and Volume Signals",
+        "WalletIntel/Consumer Export Contract"
+      ],
+      "reason": "Durable documented methodology extracted; implementation and live state not revalidated by this curation"
+    },
+    {
+      "source_id": "W04",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\docs\\SCORING.md",
+      "relative_path": "docs/SCORING.md",
+      "sha256": "c847fff6627929f2f5697a06c18a89ef4f36fa6e31a25c2aa23a2b3d7ad7e783",
+      "category": "documented-methodology",
+      "read_scope": "Complete metric definitions, anti-gaming and R1/R2/R3 verification policy",
+      "topic_targets": [
+        "WalletIntel/Transaction Accounting",
+        "WalletIntel/Price and Unit Integrity",
+        "WalletIntel/PnL Verification",
+        "WalletIntel/Scoring and Eligibility",
+        "WalletIntel/Anti Gaming and Clusters",
+        "WalletIntel/Consumer Export Contract"
+      ],
+      "reason": "Durable documented methodology extracted; implementation and live state not revalidated by this curation"
+    },
+    {
+      "source_id": "W05",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\docs\\WALLET_TAXONOMY.md",
+      "relative_path": "docs/WALLET_TAXONOMY.md",
+      "sha256": "952c485d8f657d0bbe3424c0d3471ec8015df8fc3430072596424475eef2985e",
+      "category": "documented-methodology",
+      "read_scope": "Evidence/confidence rules and current taxonomy definitions; identity examples excluded",
+      "topic_targets": [
+        "WalletIntel/Wallet Identity",
+        "WalletIntel/Anti Gaming and Clusters",
+        "WalletIntel/Consumer Export Contract"
+      ],
+      "reason": "Durable documented methodology extracted; implementation and live state not revalidated by this curation"
+    },
+    {
+      "source_id": "W06",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\docs\\memory\\05_TECHNICAL_LANDMINES.md",
+      "relative_path": "docs/memory/05_TECHNICAL_LANDMINES.md",
+      "sha256": "44dc5ff5a89c225155d715dccb65313368bdf46b4fa42e80c525d50d12ee0156",
+      "category": "historical-reference",
+      "read_scope": "Complete historical technical lesson sections",
+      "topic_targets": [
+        "WalletIntel/Transaction Accounting",
+        "WalletIntel/Price and Unit Integrity",
+        "WalletIntel/Data Quality Lessons"
+      ],
+      "reason": "Dated snapshot/proposal retained as evidence; no operational restart or current health claim"
+    },
+    {
+      "source_id": "W07",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\docs\\memory\\07_COPYTRADE_CRITERIA.md",
+      "relative_path": "docs/memory/07_COPYTRADE_CRITERIA.md",
+      "sha256": "1402b33929a57e5862270b341eef43d787783345a78f8cd729321eab353472a6",
+      "category": "historical-reference",
+      "read_scope": "Tier/eligibility method and caveats; identity examples excluded",
+      "topic_targets": [
+        "WalletIntel/PnL Verification",
+        "WalletIntel/Scoring and Eligibility",
+        "WalletIntel/Anti Gaming and Clusters"
+      ],
+      "reason": "Dated snapshot/proposal retained as evidence; no operational restart or current health claim"
+    },
+    {
+      "source_id": "W08",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\docs\\DIRECTIVE_VOLUME_SWEEP.md",
+      "relative_path": "docs/DIRECTIVE_VOLUME_SWEEP.md",
+      "sha256": "96d91238824563820d38c537c47a31bd76bab0bbbe1f512fb5e9bec6eea35298",
+      "category": "historical-reference",
+      "read_scope": "Complete dated discovery directive, not a running-state assertion",
+      "topic_targets": [
+        "WalletIntel/Discovery and Volume Signals"
+      ],
+      "reason": "Dated snapshot/proposal retained as evidence; no operational restart or current health claim"
+    },
+    {
+      "source_id": "W09",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\docs\\memory\\01_STATE.md",
+      "relative_path": "docs/memory/01_STATE.md",
+      "sha256": "c56f5f0888f6a99843c625c0c2bd23a73e8e7a9424048889c1dceb30c28bd8a9",
+      "category": "historical-reference",
+      "read_scope": "Complete dated state snapshot; counts/sessions excluded",
+      "topic_targets": [
+        "WalletIntel/Data Quality Lessons",
+        "WalletIntel/Security and Operational Boundaries"
+      ],
+      "reason": "Dated snapshot/proposal retained as evidence; no operational restart or current health claim"
+    },
+    {
+      "source_id": "W10",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\docs\\API.md",
+      "relative_path": "docs/API.md",
+      "sha256": "84d328adc21926d55905abafd5527e8f8271d657d03a8e720f4e0452ef7bd3f3",
+      "category": "documented-methodology",
+      "read_scope": "Complete documented export/API payload shape; example metrics excluded",
+      "topic_targets": [
+        "WalletIntel/Consumer Export Contract"
+      ],
+      "reason": "Durable documented methodology extracted; implementation and live state not revalidated by this curation"
+    },
+    {
+      "source_id": "W11",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\MIGRATION_REPORT.md",
+      "relative_path": "MIGRATION_REPORT.md",
+      "sha256": "7b5edfce88dcb870bf6b7bad37f1406805dfdc6aea08be605695dc9ba73d308f",
+      "category": "documented-methodology",
+      "read_scope": "Canonical relocation and remote/publishing disposition sections",
+      "topic_targets": [
+        "WalletIntel/Security and Operational Boundaries"
+      ],
+      "reason": "Durable documented methodology extracted; implementation and live state not revalidated by this curation"
+    },
+    {
+      "source_id": "W12",
+      "source_path": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\docs\\FIXED_LEDGER.md",
+      "relative_path": "docs/FIXED_LEDGER.md",
+      "sha256": "2bffc6c9abb817c6bd8c819e3ad00971dd559a6004bccfe26236b81245cba54a",
+      "category": "historical-reference",
+      "read_scope": "Pipeline/data lesson sections and latest S47 tail; chronological intermediate examples excluded",
+      "topic_targets": [
+        "WalletIntel/Price and Unit Integrity",
+        "WalletIntel/Discovery and Volume Signals",
+        "WalletIntel/Data Quality Lessons",
+        "WalletIntel/Security and Operational Boundaries"
+      ],
+      "reason": "Dated snapshot/proposal retained as evidence; no operational restart or current health claim"
+    }
+  ],
+  "legacy_source_refs": [
+    {
+      "source_id": "S34",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\Catchup & Handoff.md",
+      "sha256": "325558ff2ee652ad8dbcec6f2454d6dde602adb668ad120de9ef328a39492de0",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S34"
+    },
+    {
+      "source_id": "S35",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\deployer_registry.md",
+      "sha256": "69add9490ad20a2c8767c42929244c58a08eb29af524acca5dddc228241359a6",
+      "original_category": "archived-by-reference",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S35"
+    },
+    {
+      "source_id": "S36",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\DIRECTIVE_PUMP_ANALYZER_SCANNER.md",
+      "sha256": "da23e74de7fa92accb5554c9368f568203478af0bc81eeb2fd661bff37a6189a",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S36"
+    },
+    {
+      "source_id": "S37",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\docs\\memory\\01_STATE.md",
+      "sha256": "7fc09d38326dfb1b57db17e01b8f9b4597efaf244fec850606e7498e741c7e39",
+      "original_category": "archived-by-reference",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S37"
+    },
+    {
+      "source_id": "S38",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\docs\\memory\\02_DIAMOND_WALLETS.md",
+      "sha256": "2d0c259d47e4138fcfd627a2aa57454dcb819fbd15597a31b50d02b2f6377590",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S38"
+    },
+    {
+      "source_id": "S39",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\docs\\memory\\03_DETECTIONS.md",
+      "sha256": "f21bf987fd9cc24ad37984a5330f356f0b7bdcdea4746408b8eac3c8bef9520c",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S39"
+    },
+    {
+      "source_id": "S40",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\docs\\memory\\04_NEXT_STEPS.md",
+      "sha256": "f4f717ccd4c7d5a3a83c7a922ef72fe9bb9b1696f1e51bae937ae2a5364bd94c",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S40"
+    },
+    {
+      "source_id": "S41",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\docs\\memory\\05_TECHNICAL_LANDMINES.md",
+      "sha256": "bdb5ca8742cb8ceb71519ed9d903c2ab88ccc1bc1dc655c98d8beb4985841732",
+      "original_category": "consolidated",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S41"
+    },
+    {
+      "source_id": "S42",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\docs\\memory\\06_GMGN_API.md",
+      "sha256": "0a7bfa7e4f77bea7ff863326b36f1b198038c3752f89a071cdfb238d061ab7df",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S42"
+    },
+    {
+      "source_id": "S43",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\docs\\memory\\07_COPYTRADE_CRITERIA.md",
+      "sha256": "3ddab701b213c62a5165cbc98c0b3c4df5e3a32ca9f37ab352c4eaec69c1cd52",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S43"
+    },
+    {
+      "source_id": "S44",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\docs\\memory\\08_PUMP_PLAYBOOK.md",
+      "sha256": "99a3ecc6340ac3837be1216f061a73a0ec7b53d9772cf7c3a725940139e75ef2",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S44"
+    },
+    {
+      "source_id": "S45",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\docs\\memory\\09_VPS_OPS.md",
+      "sha256": "47e0b3145eed6c59110008f9f120490655d69b57e9f2a740b35eaf7711623900",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S45"
+    },
+    {
+      "source_id": "S46",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\funding_sources.md",
+      "sha256": "1444e68074b4da5cab9cc7c642da0115628b9b7f6bf49218119301f8342201df",
+      "original_category": "archived-by-reference",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S46"
+    },
+    {
+      "source_id": "S47",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\GMGN_PANDUAN_LENGKAP.md",
+      "sha256": "3470c8c9550185ac5b1853d07e08755cb8bc64c239059e31c595d5c31477b96c",
+      "original_category": "archived-by-reference",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S47"
+    },
+    {
+      "source_id": "S48",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\HANDOFF (repo).md",
+      "sha256": "c337125259e3d680cf17d0285743b62e48555d4bf0b2a28cfd5dcf086adc7344",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S48"
+    },
+    {
+      "source_id": "S49",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\HANDOFF_MASTER.md",
+      "sha256": "39f5ea7f044915e3c03bf463b6df33078d897b0452ef2f618e97a13526923152",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S49"
+    },
+    {
+      "source_id": "S50",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\PRE_COMPACT.md",
+      "sha256": "d9d8fc4597b10e2d132f123fed4a6462873b3655519717ddf4c660175fa2766d",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S50"
+    },
+    {
+      "source_id": "S51",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\PROGRESS (repo).md",
+      "sha256": "247eb07778c535b3ee694a8280033c1e5eed1f2524588252cbdbaa6c43631dcb",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S51"
+    },
+    {
+      "source_id": "S52",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\ROADMAP.md",
+      "sha256": "8967db14e708c33f13f3d8132d9586d7d495b981ee8b113df3aad8cc2cb26719",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S52"
+    },
+    {
+      "source_id": "S53",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\SECURITY_POLICY.md",
+      "sha256": "ee88a2ce7af2b6106b9474b212872c1ed52e0fcd13d06ad565f24f59b25a58f8",
+      "original_category": "consolidated",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S53"
+    },
+    {
+      "source_id": "S54",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\ULTIMATE_PROMPT_SMART_MONEY_FEED.md",
+      "sha256": "ecd040ff55b2e95b89b49ea4e665ffbd8d9fb6379c27d9d952671cab945e8001",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S54"
+    },
+    {
+      "source_id": "S55",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\ULTIMATE_PROMPT.md",
+      "sha256": "766f954dee0b6232902eabeac9ea9e541b90defaa763df213ed17d33404feeec",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S55"
+    },
+    {
+      "source_id": "S56",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\VPS_SETUP.md",
+      "sha256": "58490fd7dbc601398cc4939799023542f7678f51fb6f5f24d1abf6c36c3f0502",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S56"
+    },
+    {
+      "source_id": "S57",
+      "source_path": "C:\\Users\\ROG\\Documents\\Obsidian\\Sniper Token\\TopWallet\\WALLET_TAXONOMY.md",
+      "sha256": "70ce1f21db7d6a442d2652a5bd29a6271b7b2d66384b721d21aab0a2d86504b3",
+      "original_category": "cross-referenced",
+      "disposition": "cross-referenced historical knowledge; original aliases, identities, commands and status payloads stay out of active guidance",
+      "topic_targets": [
+        "WalletIntel/Historical Knowledge"
+      ],
+      "token_catalog": "TokenSniper/ARCHIVE_INDEX#^S57"
+    }
+  ],
+  "excluded_areas": [
+    {
+      "area": "results/databases/generated reports/raw logs",
+      "reason": "No knowledge text copied from volatile operational outputs"
+    },
+    {
+      "area": "credentials/browser profiles/proxies/sessions",
+      "reason": "Sensitive operational assets excluded entirely"
+    },
+    {
+      "area": "runtime code/dependencies/builds",
+      "reason": "Read-only documentation curation; no code or dependency migration"
+    },
+    {
+      "area": "old deployment/autonomous prompts",
+      "reason": "Not current authority; history by reference only"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+ "list_id": 104689,
+ "name": "ikigai",
+ "creator_name": "0x4ca3...51e17",
+ "twitter_handle": null,
+ "wallets_count": 143,
+ "collected": [
+  "0x0b7a0cb0e4276218412806dbbb03854ee2853dfb",
+  "0x1b49e23c977ceb8bea8806fff6df1a942ca9a984",
+  "0x1bfc74841fe9ec54ee4013458c98f6907f17e31d",
+  "0x2a02d192ceb3f03eb75360ecd653eba044b483c0",
+  "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+  "0x7ec1960cd95652675cb6dd59ba52f6b7c8b2dfdd",
+  "0x93764f433f1eff622f9b7649272e14c5780a929d",
+  "0xafba765e49a4545569e955f6c4baba12e427bf64",
+  "0xde02381c288837b32fb013f1c19af97ebc4e1e28",
+  "0xf6593971d6b30f7b3fa1fad45608a6601eb4372f",
+  "0xfdaf199ae935753c70824f6c73d4877ddceea57b",
+  "0xfefea9427bef554cc572bc4e887a0b9642fd8f4e"
+ ],
+ "coverage": "12/143",
+ "ts": "2026-10-03T16:37:02.307419+00:00"
+}

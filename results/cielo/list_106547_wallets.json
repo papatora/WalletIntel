@@ -1,0 +1,24 @@
+{
+ "list_id": 106547,
+ "name": "Wallets",
+ "creator_name": "0x53dc...3f985",
+ "twitter_handle": "mcsnaggle",
+ "wallets_count": 199,
+ "collected": [
+  "0x000461a73d3985eef4923655782aa5d0de75c111",
+  "0x2fd1887e5d99014cb0b8884f06560ed20d65003d",
+  "0x3c5083022114ea14fb3d8d06f5931c629c2bedd6",
+  "0x3eaf27253dbafc6bf74f46c467dc81a3c0bc8224",
+  "0x579b659288863879c1ce04f29457d1eb331bbaa3",
+  "0x93764f433f1eff622f9b7649272e14c5780a929d",
+  "0x98c43da65205b7c53a857d79f3d1f6fbc0b76fa5",
+  "0xbac453b9b7f53b35ac906b641925b2f5f2567a89",
+  "0xbd6b8d8fa94f7307840252548549b56a33c98054",
+  "0xf703fd64093b50797abdc9e450632240fa2ba5d4",
+  "0xfefea9427bef554cc572bc4e887a0b9642fd8f4e",
+  "6DtEedWf9Wk5hA7Xth82Eq441yf5DA4aGLqaQAVfDokm",
+  "8Eyg7icUTUDKoZsz628UfJzF4XFKxXjAizVgJD5npknh"
+ ],
+ "coverage": "13/199",
+ "ts": "2026-10-03T16:38:05.867669+00:00"
+}

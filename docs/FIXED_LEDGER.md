@@ -364,3 +364,8 @@ per-stage/per-entry = kelaparan; kunci hanya di commit.
   AUTO_PUSH_RESULTS=true, remote origin dipasang lagi, push terbukti.
 - Dipertahankan: branding, REPO_ROOT-relative paths (perbaikan sah).
 - Delta 2 Okt: DB lokal 145.027 wallets / 1,08 jt swaps / max_ts 14:14 UTC.
+
+## S-48 (2026-10-03) — Cielo public lists: harvest + verify + nametag
+- scripts/cielo_scrape.py / cielo_harvest_wallets.py / cielo_verify.py (baru)
+- 50 list, 905 wallet unik; 221 EVM aktif RH (robinscan/Etherscan V2); 79 di DB
+- known_entities +380 "*cielo" nametag; diamond_candidates.json 53 (GMGN, unverified)

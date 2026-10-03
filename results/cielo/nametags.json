@@ -1,0 +1,3090 @@
+{
+ "0xa4b366ad22fc0d06f1e934ff468e8922431a87b8": {
+  "name": "Polymarket Tradoors (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Polymarket Tradoors"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x00241901735b6fd9a8c7e2a0448ee09d01cd767e": {
+  "name": "Begin. Alpha List TOP PNL (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Begin. Alpha List TOP PNL"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0f84d2da979180394fbf9c4499febd0f602a6767": {
+  "name": "Begin. Alpha List TOP PNL (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Begin. Alpha List TOP PNL"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x3d06315c94ac30b6061c91caf748fc2db04a89f4": {
+  "name": "Begin. Alpha List TOP PNL (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Begin. Alpha List TOP PNL"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x7a2363a401b2340c7941dd2eeff0196a5078d2e6": {
+  "name": "Begin. Alpha List TOP PNL / bsc7 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Begin. Alpha List TOP PNL",
+   "bsc7"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x9debaf794213659d12b289653588f1339c11e209": {
+  "name": "Begin. Alpha List TOP PNL (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Begin. Alpha List TOP PNL"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xbf004bff64725914ee36d03b87d6965b0ced4903": {
+  "name": "Begin. Alpha List TOP PNL (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Begin. Alpha List TOP PNL"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xfd7e55a555555c2f25053a38ec744de1afea4fa4": {
+  "name": "Begin. Alpha List TOP PNL / R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Begin. Alpha List TOP PNL",
+   "R IMPORT"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0b7a0cb0e4276218412806dbbb03854ee2853dfb": {
+  "name": "ikigai (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x1b49e23c977ceb8bea8806fff6df1a942ca9a984": {
+  "name": "ikigai (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x1bfc74841fe9ec54ee4013458c98f6907f17e31d": {
+  "name": "ikigai (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x2a02d192ceb3f03eb75360ecd653eba044b483c0": {
+  "name": "ikigai (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x5638484ba2d2f1d1d35020572b0aa439a9869192": {
+  "name": "ikigai (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x7ec1960cd95652675cb6dd59ba52f6b7c8b2dfdd": {
+  "name": "ikigai (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x93764f433f1eff622f9b7649272e14c5780a929d": {
+  "name": "ikigai / Wallets (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai",
+   "Wallets"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xafba765e49a4545569e955f6c4baba12e427bf64": {
+  "name": "ikigai (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xde02381c288837b32fb013f1c19af97ebc4e1e28": {
+  "name": "ikigai (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xf6593971d6b30f7b3fa1fad45608a6601eb4372f": {
+  "name": "ikigai (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xfdaf199ae935753c70824f6c73d4877ddceea57b": {
+  "name": "ikigai (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xfefea9427bef554cc572bc4e887a0b9642fd8f4e": {
+  "name": "ikigai / R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "ikigai",
+   "R IMPORT",
+   "Wallets",
+   "Robinhood list"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x0cbb693e0199cb7ad4f3c846f43045cb95247fc5": {
+  "name": "z (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "z"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x71f5ef09f6ffb881eeeba7a9827aebdd35b4dee2": {
+  "name": "z (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "z"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x13c809eb0a4e32ce98a8c4eda8ac5a108ab5905d": {
+  "name": "Hasan (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hasan"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x2ce9d43d1cba6ae31d7f07bfe0098dfa2d833373": {
+  "name": "bsc7 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "bsc7"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xa83b73f5644cde337b61da79589f10ea15548811": {
+  "name": "bsc7 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "bsc7"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x0121525f755c9e7bbc525bba6672716ab46ced57": {
+  "name": "Fomo app top traders / Hashim (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Fomo app top traders",
+   "Hashim",
+   "for yoyo"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0a6ebed0155edb4b21d92ad02897a626cd90119e": {
+  "name": "Fomo app top traders / for yoyo (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Fomo app top traders",
+   "for yoyo"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x2fbd041a069bb3d7099d55179169091cfeec4221": {
+  "name": "Fomo app top traders / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Fomo app top traders",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x3f6c9c7df12ae7497b2327b549d90f189217652c": {
+  "name": "Fomo app top traders (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Fomo app top traders"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x696d1265c8fc4f14797abebfae3c43ebfa9d8e28": {
+  "name": "Fomo app top traders / 🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Fomo app top traders",
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist",
+   "for yoyo"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x7d33ff5cc473d0cec8c9a37dcfb448828a89e82c": {
+  "name": "Fomo app top traders (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Fomo app top traders"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x8f62a08537cede87d511aca6436274ab4ca080a3": {
+  "name": "Fomo app top traders / for yoyo (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Fomo app top traders",
+   "for yoyo"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x9509b4f579b2fba3733b893f893268e96979f790": {
+  "name": "Fomo app top traders (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Fomo app top traders"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0aa10e4cdf73d93aeb3c260a6731f011c982204c": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0eb6f8e5c8bc7d5c920d485b7b3d52e56cdef21f": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x1377a50e4d096e575b21c5d61db1028b50fd14ba": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x1ccc73e7b8fa5db02040aec0049d42cee4661cc5": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x2325477424f68143b7495b449a51fff3d735e111": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x2590bb60daa5ae970db488eeef220d9bdb37a6a2": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x2d89671b6a79b9b542cfeb289bf0ad52f7be3676": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x302d86e24d7474f0408a53e26a1111c041a94093": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x334e672889cbf0aa5d55c1906236831e10aa670f": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x378b849d363b031ab42b7a72bd2e57e0c2486797": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x3908f1b7d129fd25f9c7755c1b0ee0d63e5317a8": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x39f3368de104a0091d1b7c80fab4c8b046001879": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x4424e78f9ab4438a9b6c17fc2319ffa1c887863d": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x445e7d1e97a8fe176d5d27c9e8bf777ad621ccd7": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x5bcb6a7f7454009d8eacee1004ca9dc32fa57557": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x647ff5f9c1ed0669dd467ae37c68ec832a8b2fe9": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x6c309ed33fdf16a9a26e175860cbab48bb17a0b6": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x7b47b1a7c53fb0f7d42cc6d515dc2a8edc63fba0": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x82410ffaacaeb91c1dccc5d31c1155885cd010fc": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x8e2e8b410f468b67e976c5819285acfbd4b3fff3": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x8ee1f129d49296611974774089b0b9c015235cc9": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x9681f7cf19ffd3cea7fac6e0beb8636ed3dc9eb1": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xa2916f89798f75c05400c57ec0f2e9ccc9f478b4": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xa9fa7df0ed58a36006b683763f1f5de227d19833": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xacd7faeda8fbcf7470d1a9d596a0087a0dd8801b": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xaf53f2aa39806eb5a4e13f7b0549d9aa0341b75b": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xb1764e627a568b344bc2fa25ca7fd44364105ac0": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xbdce13a1cadea23a61013fbfb470c7eef4ba9520": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xc16840a627035b8085f50843e28ba16176fe7757": {
+  "name": "🏷 FomoMaster (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xd874259110c6e086f1d2fee474b73e69b8f5dab0": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xe4419cc511a5c462f06639a58b452b6c153af8b3": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xfc1a4cf6be46c553fae87ad3d2c00ba8da971308": {
+  "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x96489abcb9f583d6835c8ef95ffc923d05a86825": {
+  "name": "polymarket (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "polymarket"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xc6dd722558dbfbd8fa780efcbe819ed8c6604b9f": {
+  "name": "polymarket (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "polymarket"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x0172e05392aba65366c4dbbb70d958bbf43304e4": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0a5e1db3671faccd146404925bda5c59929f66c3": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x11d67fa925877813b744abc0917900c2b1d6eb81": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x215462dc79523ac795216e1baa27586840fa9382": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x3e8734ec146c981e3ed1f6b582d447dde701d90c": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x3ec6732676db7996c1b34e64b0503f941025cb63": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x473d3a2005499301dc353afa9d0c9c5980b5188c": {
+  "name": "qpqpqp / basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp",
+   "basic_list",
+   "8"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x4cd6b970f42b41ee58c2e4b7ab99863d5ae52a23": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x5922160c970573663914f8e53644a0615e8fa8d2": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x5b191f5a2b4a867c4ed71858daccc51fc59c69c0": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x614d98a57a5d879d717152de0690ed2b04562ade": {
+  "name": "qpqpqp / 8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp",
+   "8"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x6595a41a2ebe230522076c544fb2de11a6666226": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x6cd68e8f04490cd1a5a21cc97cc8bc15b47dc9eb": {
+  "name": "qpqpqp / 8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp",
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x7ac34681f6aaeb691e150c43ee494177c0e2c183": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x8a25d8c9fa8c7a726137f2d618d85cbc2c083f78": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x90c0bf8d71369d21f8addf0da33d21dcb0b1c384": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xa53a13a80d72a855481de5211e7654fabdfe3526": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xa7888f85bd76deef3bd03d4dbcf57765a49883b3": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xaef202b989076ad8f4a1e03ebe31d4b446306f9b": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xb554b9856dfdbf52b98e0e4d2b981c34e20e1dab": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xb81a0e6c38c3fec8a171cfe9631f60127a0c5bfd": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xbdfa4f4492dd7b7cf211209c4791af8d52bf5c50": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xc1e42f862d202b4a0ed552c1145735ee088f6ccf": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xef80c44d996ebac95aa62589986fb3fcdfe3f7d9": {
+  "name": "qpqpqp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xfa4fc4ec2f81a4897743c5b4f45907c02ce06199": {
+  "name": "qpqpqp / 8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "qpqpqp",
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0122ce392947eabc77c43f9de7845efb984f9768": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x02648f6be61bfc6417d36925491bf07f607d52da": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0c5a2c72c009252f0e7312f5a1ab87de02be6fbe": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x22963f931baa98d5ce2a43ab7681a638a693f560": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x28683f7ee8d4c0bc197bc6903f2657665134cc02": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x2874aa935c118b8e170c35ae0e75e507d1332218": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x2dcda1f3ba1ba1d48af5316a2a25f2770483ed55": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x37ac09e1640577e1d71e3787297a56b58f88f0f2": {
+  "name": "basic_list / 8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list",
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x3e57efef507b4db7acfa2ee79ceca6b19e18d106": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x416bf0c000935bfeb47348ed0e697098c9376730": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x4a3bd5a10792744a8e505e202e9f9145b2d4d5d4": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x5be9a4959308a0d0c7bc0870e319314d8d957dbb": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x60ede4402a34762d608ad9ba7bd3797f5bfe544c": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x6f10719408d99d917f395efc2e2ec9136b873ceb": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x9dbc5e35a2f1a6dc214bdb7ed7a8c706d77f0a74": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xb693f6c6db4c17d49feff778a65713b240a64cec": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xcb2d30df2f13b7f7604971237660e3146ec98601": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xccb8e090fe070945cc0131a075b6e1ea8f208812": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xd262925214df9809cf194bd56fa1fa7204055cae": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xd41cecbe07954ffdc490e2162180d62e616af2bb": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xe09cf8f1cc9416869604b588a2c33fb62b90f67e": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xeb2b89f1dea00d1120b39189f2a1e3744b647bb4": {
+  "name": "basic_list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "basic_list"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0865a0cb946272e59d787dee8dd23f3e60cc723e": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x104ba3aeac0dea30fe9cbef0c344a8f252e6bbd6": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x153993fa6becc54cfd213c58750db81e194060ad": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x2594e5dea22b3be4c6016c318f83f5726144752e": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x29909b9c97845d5eb998b4aa41664a46c5dc35c6": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x61d2799799afc6a29fd9e7139912e3582349e235": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x7dc6218e692fe2fb3b073ea1215cbd84a464911d": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x82efd7b96e36688b391f25a1a2de38469bbc2420": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xb4beddf1b828aaed9638601f7145b0f6093f2d3f": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xbee73337623a3d1bc61ee4dbde4945d38426d3b9": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xcc8bfdb51260bcb255e3ff3746ecbd7f44d5b958": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xcde567e3a91235688829c83f5e75f45e94d4fa41": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xdd6c766f788243468e448326347a64368fb791d7": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xf13176ece4ed8d9aa4c335cd4f247458d4863fe4": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xfc847231c6cebca90ad50605ef9738360ccfab29": {
+  "name": "R IMPORT (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "R IMPORT"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x000461a73d3985eef4923655782aa5d0de75c111": {
+  "name": "eca.eth",
+  "source": "arkham",
+  "lists": [
+   "Wallets"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x2fd1887e5d99014cb0b8884f06560ed20d65003d": {
+  "name": "Wallets (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Wallets"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x3c5083022114ea14fb3d8d06f5931c629c2bedd6": {
+  "name": "Wallets (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Wallets"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x3eaf27253dbafc6bf74f46c467dc81a3c0bc8224": {
+  "name": "Wallets (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Wallets"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x579b659288863879c1ce04f29457d1eb331bbaa3": {
+  "name": "Wallets / Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Wallets",
+   "Hashcats early minters"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x98c43da65205b7c53a857d79f3d1f6fbc0b76fa5": {
+  "name": "Wallets (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Wallets"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xbac453b9b7f53b35ac906b641925b2f5f2567a89": {
+  "name": "Wallets (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Wallets"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xbd6b8d8fa94f7307840252548549b56a33c98054": {
+  "name": "Wallets (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Wallets"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xf703fd64093b50797abdc9e450632240fa2ba5d4": {
+  "name": "Wallets (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Wallets"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x0008d343091ef8bd3efa730f6aae5a26a285c7a2": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x0166f6b0ac0900d0b7499755bf7038c4cc819b04": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x089786580b66e76131d8ef9f7d165d1525338143": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x1a751188343bee997ff2132f5454e0b5da477705": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x1f8a8ac54244e4016a376152b2f92d467552fa7b": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x270b43c8e8f1082f9784e9046d4db50d55d64eeb": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x2820930e1f7bbf5af46602b37941ee51a31e6cd9": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x39cc9c86e67baf2129b80fe3414c397492ea8026": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x420df17a6a19421593b8f54cd6cf067fda5ac530": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x48260a95ec90269512e76171f47df467660c9ee0": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x4e968ebebb3679cce0029beaaeb388813f826d42": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x57e766997ed89ec496fdf3fa315d12bc2ae87e63": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x5e84a4bba53d563438c1f4020f8d9d7d89499999": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x6033f255b56ebdcb7f5a408d62628733e945bb1b": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x6434d19c2e6788e53aa3ec5c6fc0112b1852e554": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x6eef09b526d883f98762a7005fabd2c800dfca44": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x71d13056cb985d985ae0f1877818b91d9c4cbd05": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x73da1af06106a7f3ac717ef0fd637177175d98b7": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x82dcba7a8bf3aa462040038ecb3d5d90901676e8": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x88f556c6911d57c3970b4f9ad2a8a14263b6fffa": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x8a8035f056af830b7205c58c1dc037f826fc2b92": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x8acfe17a5fe62966a27e579e28c10e936de614f2": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x8e2ad92d1986c37d4cc9618c13ae9950f4d3192b": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x9aaf2f84afb2162a1efa57018bd4b1ae0da28cce": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xbff8b65222b51acdc6a0ba21d31e5a31fb0c716f": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xdbd47f66aa2f00b3db03397f260ce9728298c495": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xeca85146092c3be0ae36d36f39b3d6fe5a7e4b69": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xfc7af206e1a69f7886fb47ff8e1287fff4406d03": {
+  "name": "Whales (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whales"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x92bff72e6c943a1348aedf15d68e758e811dec64": {
+  "name": "Fomo Top Traders (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Fomo Top Traders"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x477d7e84de6b16551481217b3d177a3bbdb5828c": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x5b7ab4b4b4768923cddef657084223528c807963": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x5ece3095b6b9fcd6e4566dfd440be4f7609baded": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x6888e153ccf88d9e98dc24e1e9c3b99a58558fad": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x8999c15ae0e04a3766e50a4d88e83a2219d228f4": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x963ce0719f67bec752b02923902ed93ef72edbd6": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xb5b731f340554b672f686ca8459d55ced5e5bda4": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xd8d5b0f7219aed171efb5ae2ac3b9941206f7349": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xfb941d2344b72ea9101400392b818173772d0ddf": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xff8ce9674b5b5f731d030b0fff6d927e510dae05": {
+  "name": "Whale (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Whale"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x127fc27c306d4c16b2f88f5f793b292f8bbad89c": {
+  "name": "Tracking wallet (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Tracking wallet"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x17b6ba8661fb7cad8270cba8e380e744a8581ac5": {
+  "name": "Tracking wallet (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Tracking wallet"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x827eadb1007b1a0278966658009bf3115a2b12df": {
+  "name": "Tracking wallet (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Tracking wallet"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xcb684551a67127356f8b53f66f059d7c645dac07": {
+  "name": "Tracking wallet (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Tracking wallet"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xd95ae117f8c7e0ab01e38a5159a9fe48fb0b7366": {
+  "name": "Tracking wallet (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Tracking wallet"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x1e59145625236d3663fc63d000a31d42d3393cee": {
+  "name": "Robinhood Top Traders (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood Top Traders"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x25c256f6437de6e9ba2c0ded33b87d99bd9de8db": {
+  "name": "Robinhood Top Traders / Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood Top Traders",
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x54d209d9d224a615e0e5f0476644886897b75e45": {
+  "name": "Robinhood Top Traders / Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood Top Traders",
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x5b0051e4ea8eaf6ec523ab2aa76fe0149e68b040": {
+  "name": "Robinhood Top Traders / Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood Top Traders",
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x00aab1a3c7d97953f326d8067ccd9ca288aded53": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x02f5e5749afe751c828a7317f9d5f58b128fef0e": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x03ce8ddef358c89311301181e2c208054776c566": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x06de9c48b1e639ed5c13ec8fbd4080a38e39f2d1": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x07a70a89a82b377b366d9371ff1524a5606ea064": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0e5a2e624d4d63b7729f61af4e38aea711bc25b7": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0ea656b6c008b67795edfd68ca7888d7ec77de9e": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x1021edc9d8011878073eaefb578df688fbf6f645": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x12eb410d6d447f726fe4be3cf978e2e1f7e59786": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x12ff752b5d155af696a914008f91fa763df85a8a": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x149cf4fc89cff29be4706e43b94da176b79e7a84": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x15c0a9ccb2ddad86cb4abfdde5e4f8052257a034": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x180906a0ef400e4747eac35d4e02ffa18979e328": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x194db29f5bebacf3201abc9dbdda452116a3ff23": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x20113ecb4c087bcb2c54378b6f45560db05be469": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x28a92ff139536c780b3d8b172e68bd2d32a666a6": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x2a8f874417159f163611455f78b7ec079c19f085": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x2e798a0521f368f470a59a8025d1a2909908d93b": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x2fc93d79b86fb4484cf304d77a1dc7d9a8453702": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x30df64b78b1823d5e6515c11d10d399d600886e4": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x32e69aa3ab56042830d358a80770bd7ed3e7d757": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x3443aa206607217d2a435995bf1bfa23940c97fd": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x3d75a12619b2dbc2a1e15e9ad09c19cbcc09e17d": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x3ebb557872fa16b3982b49019412481b99ab2680": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x3ecbecb8e47702249842c29cc5aed564ad1fa84b": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x442fce56aaa4fcbc862e285043faabf9b89c82c2": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x44fbe0006661d6d17188f1f6d42b32b5577179f7": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x48646495c5c9a575a1dbbaee4bcf0fe684936c05": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x4946384166c60244cf383927bd7d2536ed2ae962": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x4959ad9145030d5a2f3cce66ca4da8b3d35dbe1d": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x4a662531ac19eb5f74c09a9118d5dbc19021a9ef": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x4a89f08a964b372cdef121f050b2a894dd49d829": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x4c03221cd461891a1a1806fd3ccd4e6dd094b746": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x56647f61fd15a8eb8c2c5638a165e40f278dedf9": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x5865363bb04450ab313dcd2e71a189efb3c31e41": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x5be7b8b7b156cabf62e11d2e1bd791edc181ffe8": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x5f735a1dcaaea782cec6146b8ab5f851d0d64c3c": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x65984079c8afffcc476a2976c1e263fe6cbc9ac9": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x662053fd75f1f7da7e524d884b96552a13d2800b": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x69326e48f68500fb6cf3b3a7da640737b9cc347b": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x6a310d73aea2ec587cd53794316b5eb570f2d7a7": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x6ac31557234e5fe1582eb6f338c169315c433095": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x6b8c63edf0fe845bfd10c635f340e9c54218c7f5": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x6ed3b31b6062679868c1036d3667c44afad44d56": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x745d77b6768e71bfa66363377fddc361734cffe3": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x75a9323514561dc2e876fe5ac293ce6253de4fd6": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x76711d3f71d6829a13ecd3475cd4c16fa1b46c59": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x7a26decb85b0aa6e1962a23d1d485bae6708027b": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x7a7c6aab33e9c41428c82411ef8e8b22ebac8cac": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x7c3725c906090397dd62434d70c093d3713efe77": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x7cdea0c423c9b59d7c1edb4cf70aa921304106c7": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x7d2ab590157a2101cb4b3a8671ee94a962023907": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x7e852343bfb6fae0fde911db16c8fcdca3b43bfd": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x81bbe314acdd93d25eeed3db5903e0fcd059fcc6": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x82b270406d88d4615374af31acd7be031a8a9212": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x84159200079f3fbcc78da8e19126aaf19e026d73": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x84e63b774416eaa7b95bb1d1367add3ea2cdffa4": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x86b0952d05a174ce6129966bb36297410d5edcc3": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x87e667966e5e5bb682c61a8d5490e0056d306f58": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x8a59f7ff60b2c26dcd70ec54c4cbec5c88f74324": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x8ab8c0843d9738885d6273dfe3de86c56eea364c": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x8ba3bbd70000940e1c46530fd63819ab1e0ba0a6": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x93c006f2051cb72168cf8c27cafe0fb2d71682c8": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x961c19a6edd923fe3c8536c3c589a92e66659b4c": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x97e54db1702d22b62d240764e4968066cb6bb3ef": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x9bc850760fc80157a43354d1d387ff820263cba3": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x9c2660a1ce0b20d821690d0743435d4f1c809f56": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xa33006ed7308caf63a25221ae68641e3342d9456": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xa5239426423e2600c1dc35a8fce400929c547e4d": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xa8c6bdae9ba7e6371d839f4bdab94085b32c8c39": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xa9ba2df5ccbba195f9bd14cbcc4efc809edc7ff1": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xab23e72f4c1cc3b0d48b2a1acd496f3b135b4aa5": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xac5e65e0fe4bf85af99e7f02e061e4aed05bba0c": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xb486b86c3316f0a17806af46e9c1b04a5e26db78": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xb4c86f29795693157f5d90b3ddfd383637b55f01": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xb7cb0bf23de1c323be6a385a940b55fe66609f3c": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xb988681d5aeab116ee3d3dae2319e3bc4dd5a0b0": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xbcabfa4e684a9fa5be4993ccc89e9bceb306cf4c": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xbda9009d92d3cd2fd16e7a65331225ca77dd2d77": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xbe1eaa605d3694639988dd4fcd7cee7ab8b1d74d": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xbe38d196d1378f8388c94c3ed73c3c11632eea7e": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xbf1c2724a07365cb7f2946acebe160eef8948db4": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xbf6c6f756033faab8a5b2ee8da8835e0d9e0651b": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xc1d4b5e64473fd90bf0390a1e0b61876064fd503": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xc2ab80157e2f8d9a94452b03162258f46e602322": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xd2b4aa3a2629ac53b6f9a44099cdecde19173ec6": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xd43496b3426c4632b8a0d468869fd7225ddfbaab": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xd466984221277c929406ea61ee562c32f042a64a": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xd73d6b8b9e875569c0f03c572a3806e619bcbec2": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xd7bd8a718d3ff8b19b0b4df43adb0a07ae1ad425": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xd996956eee524ed268abf2ba979086555812ec6e": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xdbc4a38033e2c5b671caecfde9f4b7c5cd3e408e": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xdd29a525f0ef9e89e5cdfbbc047b6f4d52adad84": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xdd8795475306152abe5f45f1ce97c017fd2f02e7": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xddec8241dc6c88ea1db528dd887be91aa2f06a37": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xdfa705fa2db5044e672d597e5eddcc11a9f2815c": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xdfbf57e58fc787513dcce09e868c523b2fb32f1a": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xe2aa5249955645acd0cdcfc2b3c22fb73666b473": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xe342ad48330a8bd9967be6c4a9ae4665f7b44673": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xe3b95f920ec0452aad2aeaf83b01f2212fc82c9e": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xe46f99935c755a7fa835bb8c054d901705af18be": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xe6a5f7f6de90d5693fac766fca4d0d3214f95083": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xeaba08d410edca0361a72ab259ec5fa14c449ea5": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xeb0f432beecf10dcc828fc1e36a3386caf634637": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xebf6391fff9d2745dcb8847e349d29a6cb1ba180": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xecae1b6f71a976412faba4ed0a4c373e0c98f7e3": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xf21a5458a848282783c132cdc2d7308ff533b240": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xf2821338ef97dccdd1760bc22ac4389bc955ee6c": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xf5e0735b343b2c4343902212bdb0d5c083ab58fb": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xf7c0d9aee226b632a25b1c096d8c285ed20d55b1": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xfd70ec56e9a0c7be48ba9962f322f6336d3cceeb": {
+  "name": "Robinhood KOLs Watchlist (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x0621bef3b8097d24f0faf48c8069daa1c32a8623": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x08ae4f745f707c276a6dff242ac6ca92ef816531": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x1287a9a82117c9702aab753cba8d5cabfa5d923a": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x1379cd72f35c82719abd38c3ce759c44f8ffdd1c": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x1648c13a8ed3ffb194b2c033497a5e82e543cb82": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x16657de1a0faac319359d6dc15d31b355cb535c0": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x1f5bbef0722b6188b87b29dff530d6cfb5a46967": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x36fbd671e61e245fce9c7e88bfaa244e3ba2b9ee": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x3bf4ec524a33e9b99cb5f08801763fcf4a9516b3": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x4490f012704942a70f3d00f27f8bbeff52c58b0c": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x452dc198eb970456ff28ee91a3409c393577b6dd": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x4f0c3ba33a6eca7b646f1d28b8de970e39621995": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x5788858ed0ad70dea5056738b7ffd1810eacb84f": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x69c5fb51dd3668799a7a0f80d805a4700000dead": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x6d8ac75d911bf7339fcf414ea79ae1edde18dabc": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x7b3d8e939ee08b52d06ab5e6f85791a6007e8d61": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x7dcac0c1128ee764556e789975962aeee8f59e59": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x7e3ba68c49561aae7c23c1d20fef0f1d7615a3ad": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x814a128c8b65e428dc9864cac3d3031b03e677bc": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x9071b9dd7045a9842a9953bf1195e8609013a5e6": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xa75c9890caee194fb598cdf7b84c9610e6e21a12": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xbb165400963d64db7e9d89758b4a21ccb2819b00": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xd4e3f654c2a4b4bb778e712feb214e87d35b0f2d": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xd88c9e286aafbaff87ef56f3976e1d12e02528f3": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xdd35a714941a6777a835d21dc1b37fd474b59f4a": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xeee29d1a6fa5873065ad8789c6e15231b48318a0": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xf29f0a86420399f662577b68c48137d510084d96": {
+  "name": "Track RH (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Track RH"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x6af3f52369c39f6ca2d9a50799723feff7ff679e": {
+  "name": "Copytrade (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Copytrade"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xbd164e62834f3ba22b80f76d82bab8d20f8e3304": {
+  "name": "Alphas (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Alphas"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0a53765848ecb8ccd820781fc47c9c95bfcf3c36": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x0ca6cadb6a8ca4199788b9a060c3285fe7b897fd": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x2385233abb910357e2b97a16d40e0443e53d0769": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x28aa4f9ffe21365473b64c161b566c3cdead0108": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x28d3bdece9a0c7f54687f734fa73fba04ecf5785": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x3096d872e1fcc96e5e55f43411971d49bb137b9b": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x49e96e255ba418d08e66c35b588e2f2f3766e1d0": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x5388a7f24e86c9c9d855a98c2f5a339afa6a3acc": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x54dc6782d6fc5fc05f8486d365186ff25cc44ba7": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x5a98dbceeca053b7845fc4dd79124f66908ade50": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x60753e8622a6cfea1df449a9625a9778bb922b72": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x68e7e72938db36a5cbbca7b52c71dbbaadfb8264": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x6cd66dbdfe289ab83d7311b668ada83a12447e21": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x81231357a913ec6e1f3afbce8e662632c1c8eee5": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x84d0f74d21a89f86b67e9a38d8559d0b4e10f12d": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x8ce17ff2c7376e9adfe9c63c47a801097fa6c525": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x9e47fbb2a2a27b3b02e4a63b3ef5a3dc863c0223": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xa2425918f30af40db42b7ed6197be7f7be43895f": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xb4fb31e7b1471a8e52dd1e962a281a732ead59c1": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xc44fd102415ff62769a4e37c70dea27033a5291f": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xd310a932cb1db29cdeff5a7b6fc34ac7b4f0ed8c": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0xd360ecb91406717ad13c4fae757b69b417e2af6b": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xde6b2a06407575b98724818445178c1f5fd53361": {
+  "name": "8 (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "8"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x08a16898f9b85308d1316984c1804abc663d86c6": {
+  "name": "for yoyo (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "for yoyo"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x0e17fc4e333958e7b259ab652f334b2f5bbdb27e": {
+  "name": "for yoyo (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "for yoyo"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x426035cb5cf51221d137c026e0eed5c6bb2484e0": {
+  "name": "for yoyo (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "for yoyo"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xb86f49b6387386badc4d74a217faa3273ad36c03": {
+  "name": "for yoyo (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "for yoyo"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xd4cf04bc9d7c80b49c6c30a633f7b9bd5370b4d6": {
+  "name": "for yoyo (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "for yoyo"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xeea1a89465e31fbd95ab99b2f81ab3b974cb674e": {
+  "name": "for yoyo (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "for yoyo"
+  ],
+  "verdict": "NOT_ON_ROBINHOOD"
+ },
+ "0x421f26be890341fa59d4b1427a0b59245a66ae29": {
+  "name": "👛FWAIRpfp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "👛FWAIRpfp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xc7a8c94c29fc6002102224fc8e7a53783ac31f77": {
+  "name": "👛FWAIRpfp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "👛FWAIRpfp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xcb5ebee4654ce75db2f5c843ccb515988db52b77": {
+  "name": "👛FWAIRpfp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "👛FWAIRpfp"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xd5a9c4a92dde274e126f82b215fccb511147cd8e": {
+  "name": "👛FWAIRpfp (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "👛FWAIRpfp"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xe5d2753cecf751d724d1b80b97a545d7ffa70700": {
+  "name": "Robinhood list (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Robinhood list"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x02361e9a88ea4addbb2ac8189605222c5aef7dc1": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x023d068f3d2fe0b2bfca389c96a7f2768ac0d931": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x0ebe4c9e737fae1eef7ba1163699b9c26ebae93c": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x1112b8c161119d4f866e4c21bacf0eeb3a1c91d9": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x3261408f59f5e5d0de752ee68c8dcaf1b51aa2ab": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x371903abb32f5f69b536b77495e92adedfea25da": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x3fcbad0dedbfe5154417473e2b24ac597bb1a451": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x5621526a055ef21d26a71d9f4d5af359bfb2b041": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x6a6536a9a883fc0f575fd0ee88957130f004dcd5": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0x83b340697f1323fd74068cc3f6822ea3dff5a1b9": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x8a9c6dbd526bbb8ca1f397db35d504a8cc941e82": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x903e74d99f279e4b24f1c3a7ab24dd6c70bb5043": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x9595fc099174ee5669405d71a94a941252035a0d": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x9648263fa2ae4a72fec9027766be04f268b9705a": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0x9b140a3a7fe193f46121835fcdcabb957739b187": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xb218cf732155003877092d595ef520b59fa64de4": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xe09561c07c3c5b1b40b948ec557106e503d08701": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "ROBINHOOD_ACTIVE"
+ },
+ "0xe28601398a5448d1147e6e8b0e0c6d686f0d216d": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ },
+ "0xfa94ebdf91c62cd5f1790f2fc0159d52ed5dd7b6": {
+  "name": "Hashcats early minters (*cielo)",
+  "source": "cielo",
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "verdict": "KNOWN_IN_DB"
+ }
+}

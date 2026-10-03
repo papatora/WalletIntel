@@ -1,0 +1,520 @@
+[
+ {
+  "address": "0x7e3ba68c49561aae7c23c1d20fef0f1d7615a3ad",
+  "pnl_30d_usd_gmgn": 4434370.953063099,
+  "labels_db": [],
+  "lists": [
+   "Track RH"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xb86f49b6387386badc4d74a217faa3273ad36c03",
+  "pnl_30d_usd_gmgn": 542880.5419239766,
+  "labels_db": [],
+  "lists": [
+   "for yoyo"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x000461a73d3985eef4923655782aa5d0de75c111",
+  "pnl_30d_usd_gmgn": 528085.7923661071,
+  "labels_db": [
+   "GENERALIST"
+  ],
+  "lists": [
+   "Wallets"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xfefea9427bef554cc572bc4e887a0b9642fd8f4e",
+  "pnl_30d_usd_gmgn": 486794.4300726815,
+  "labels_db": [
+   "GENERALIST"
+  ],
+  "lists": [
+   "ikigai",
+   "R IMPORT",
+   "Wallets",
+   "Robinhood list"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x5638484ba2d2f1d1d35020572b0aa439a9869192",
+  "pnl_30d_usd_gmgn": 390762.6575107049,
+  "labels_db": [
+   "INSIDER"
+  ],
+  "lists": [
+   "ikigai"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x93c006f2051cb72168cf8c27cafe0fb2d71682c8",
+  "pnl_30d_usd_gmgn": 296741.97307822295,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xb5b731f340554b672f686ca8459d55ced5e5bda4",
+  "pnl_30d_usd_gmgn": 282815.5368547358,
+  "labels_db": [],
+  "lists": [
+   "Whale"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x4959ad9145030d5a2f3cce66ca4da8b3d35dbe1d",
+  "pnl_30d_usd_gmgn": 266390.7742470856,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x75a9323514561dc2e876fe5ac293ce6253de4fd6",
+  "pnl_30d_usd_gmgn": 241341.5915103021,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x49e96e255ba418d08e66c35b588e2f2f3766e1d0",
+  "pnl_30d_usd_gmgn": 193114.75171162776,
+  "labels_db": [],
+  "lists": [
+   "8"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xc7a8c94c29fc6002102224fc8e7a53783ac31f77",
+  "pnl_30d_usd_gmgn": 184067.17251750708,
+  "labels_db": [],
+  "lists": [
+   "👛FWAIRpfp"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xa8c6bdae9ba7e6371d839f4bdab94085b32c8c39",
+  "pnl_30d_usd_gmgn": 161450.16658829185,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xe5d2753cecf751d724d1b80b97a545d7ffa70700",
+  "pnl_30d_usd_gmgn": 154150.52295469693,
+  "labels_db": [],
+  "lists": [
+   "Robinhood list"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x7a2363a401b2340c7941dd2eeff0196a5078d2e6",
+  "pnl_30d_usd_gmgn": 141030.16262974642,
+  "labels_db": [
+   "CT_ATTRIBUTED",
+   "INSIDER"
+  ],
+  "lists": [
+   "Begin. Alpha List TOP PNL",
+   "bsc7"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x5b0051e4ea8eaf6ec523ab2aa76fe0149e68b040",
+  "pnl_30d_usd_gmgn": 139727.1248663605,
+  "labels_db": [
+   "GENERALIST"
+  ],
+  "lists": [
+   "Robinhood Top Traders",
+   "Track RH"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x08ae4f745f707c276a6dff242ac6ca92ef816531",
+  "pnl_30d_usd_gmgn": 118449.16807935265,
+  "labels_db": [
+   "GENERALIST"
+  ],
+  "lists": [
+   "Track RH"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x4c03221cd461891a1a1806fd3ccd4e6dd094b746",
+  "pnl_30d_usd_gmgn": 98618.17034406646,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x903e74d99f279e4b24f1c3a7ab24dd6c70bb5043",
+  "pnl_30d_usd_gmgn": 94432.2586499048,
+  "labels_db": [],
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xe4419cc511a5c462f06639a58b452b6c153af8b3",
+  "pnl_30d_usd_gmgn": 79007.30155173119,
+  "labels_db": [],
+  "lists": [
+   "🏷 FomoMaster",
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x2fd1887e5d99014cb0b8884f06560ed20d65003d",
+  "pnl_30d_usd_gmgn": 76940.18924645767,
+  "labels_db": [
+   "INSIDER"
+  ],
+  "lists": [
+   "Wallets"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x9debaf794213659d12b289653588f1339c11e209",
+  "pnl_30d_usd_gmgn": 76049.06605768921,
+  "labels_db": [],
+  "lists": [
+   "Begin. Alpha List TOP PNL"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x371903abb32f5f69b536b77495e92adedfea25da",
+  "pnl_30d_usd_gmgn": 70347.07757320224,
+  "labels_db": [
+   "CT_ATTRIBUTED",
+   "INSIDER"
+  ],
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x7b3d8e939ee08b52d06ab5e6f85791a6007e8d61",
+  "pnl_30d_usd_gmgn": 68636.92060458113,
+  "labels_db": [
+   "CT_ATTRIBUTED"
+  ],
+  "lists": [
+   "Track RH"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xe28601398a5448d1147e6e8b0e0c6d686f0d216d",
+  "pnl_30d_usd_gmgn": 67783.7118338242,
+  "labels_db": [
+   "CT_ATTRIBUTED",
+   "INSIDER"
+  ],
+  "lists": [
+   "Hashcats early minters"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x194db29f5bebacf3201abc9dbdda452116a3ff23",
+  "pnl_30d_usd_gmgn": 65195.39843691918,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xe2aa5249955645acd0cdcfc2b3c22fb73666b473",
+  "pnl_30d_usd_gmgn": 63418.68541152731,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x6af3f52369c39f6ca2d9a50799723feff7ff679e",
+  "pnl_30d_usd_gmgn": 60572.15484893093,
+  "labels_db": [],
+  "lists": [
+   "Copytrade"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xa83b73f5644cde337b61da79589f10ea15548811",
+  "pnl_30d_usd_gmgn": 48054.176941446196,
+  "labels_db": [],
+  "lists": [
+   "bsc7"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x3c5083022114ea14fb3d8d06f5931c629c2bedd6",
+  "pnl_30d_usd_gmgn": 47453.80173334591,
+  "labels_db": [
+   "GENERALIST"
+  ],
+  "lists": [
+   "Wallets"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xbdfa4f4492dd7b7cf211209c4791af8d52bf5c50",
+  "pnl_30d_usd_gmgn": 46293.7876662783,
+  "labels_db": [],
+  "lists": [
+   "qpqpqp"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xfc847231c6cebca90ad50605ef9738360ccfab29",
+  "pnl_30d_usd_gmgn": 45028.23570006155,
+  "labels_db": [
+   "INSIDER"
+  ],
+  "lists": [
+   "R IMPORT"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x9dbc5e35a2f1a6dc214bdb7ed7a8c706d77f0a74",
+  "pnl_30d_usd_gmgn": 42700.45187469581,
+  "labels_db": [
+   "GENERALIST"
+  ],
+  "lists": [
+   "basic_list"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xbb165400963d64db7e9d89758b4a21ccb2819b00",
+  "pnl_30d_usd_gmgn": 35438.20730657387,
+  "labels_db": [],
+  "lists": [
+   "Track RH"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x2ce9d43d1cba6ae31d7f07bfe0098dfa2d833373",
+  "pnl_30d_usd_gmgn": 32050.565554289562,
+  "labels_db": [],
+  "lists": [
+   "bsc7"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x2d89671b6a79b9b542cfeb289bf0ad52f7be3676",
+  "pnl_30d_usd_gmgn": 31376.261797713727,
+  "labels_db": [],
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x0f84d2da979180394fbf9c4499febd0f602a6767",
+  "pnl_30d_usd_gmgn": 26608.99375232546,
+  "labels_db": [],
+  "lists": [
+   "Begin. Alpha List TOP PNL"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xdfbf57e58fc787513dcce09e868c523b2fb32f1a",
+  "pnl_30d_usd_gmgn": 26349.78838988572,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x4f0c3ba33a6eca7b646f1d28b8de970e39621995",
+  "pnl_30d_usd_gmgn": 26262.796057394506,
+  "labels_db": [
+   "GENERALIST"
+  ],
+  "lists": [
+   "Track RH"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x98c43da65205b7c53a857d79f3d1f6fbc0b76fa5",
+  "pnl_30d_usd_gmgn": 25741.998690648874,
+  "labels_db": [
+   "GENERALIST"
+  ],
+  "lists": [
+   "Wallets"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x92bff72e6c943a1348aedf15d68e758e811dec64",
+  "pnl_30d_usd_gmgn": 25005.836688862353,
+  "labels_db": [],
+  "lists": [
+   "Fomo Top Traders"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x647ff5f9c1ed0669dd467ae37c68ec832a8b2fe9",
+  "pnl_30d_usd_gmgn": 24646.20211080533,
+  "labels_db": [],
+  "lists": [
+   "🏷 FomoMaster"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x4946384166c60244cf383927bd7d2536ed2ae962",
+  "pnl_30d_usd_gmgn": 24196.623889269682,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xe46f99935c755a7fa835bb8c054d901705af18be",
+  "pnl_30d_usd_gmgn": 23845.649827104757,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x662053fd75f1f7da7e524d884b96552a13d2800b",
+  "pnl_30d_usd_gmgn": 21488.572148132665,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0",
+  "pnl_30d_usd_gmgn": 20943.500160343177,
+  "labels_db": [],
+  "lists": [
+   "Whale"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x426035cb5cf51221d137c026e0eed5c6bb2484e0",
+  "pnl_30d_usd_gmgn": 19341.99414985275,
+  "labels_db": [],
+  "lists": [
+   "for yoyo"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x3d06315c94ac30b6061c91caf748fc2db04a89f4",
+  "pnl_30d_usd_gmgn": 18687.567430247615,
+  "labels_db": [],
+  "lists": [
+   "Begin. Alpha List TOP PNL"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xbd164e62834f3ba22b80f76d82bab8d20f8e3304",
+  "pnl_30d_usd_gmgn": 17061.349397511407,
+  "labels_db": [],
+  "lists": [
+   "Alphas"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x3bf4ec524a33e9b99cb5f08801763fcf4a9516b3",
+  "pnl_30d_usd_gmgn": 14899.615223761826,
+  "labels_db": [],
+  "lists": [
+   "Track RH"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x8ab8c0843d9738885d6273dfe3de86c56eea364c",
+  "pnl_30d_usd_gmgn": 12051.375395655055,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0x06de9c48b1e639ed5c13ec8fbd4080a38e39f2d1",
+  "pnl_30d_usd_gmgn": 11807.735045126128,
+  "labels_db": [],
+  "lists": [
+   "Robinhood KOLs Watchlist"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xbf004bff64725914ee36d03b87d6965b0ced4903",
+  "pnl_30d_usd_gmgn": 11627.341922332917,
+  "labels_db": [
+   "CT_ATTRIBUTED"
+  ],
+  "lists": [
+   "Begin. Alpha List TOP PNL"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ },
+ {
+  "address": "0xfc7af206e1a69f7886fb47ff8e1287fff4406d03",
+  "pnl_30d_usd_gmgn": 10853.734560115474,
+  "labels_db": [],
+  "lists": [
+   "Whales"
+  ],
+  "note": "PnL dari GMGN (eksternal, belum diverifikasi R1-R3 internal)"
+ }
+]

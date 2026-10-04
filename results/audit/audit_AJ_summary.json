@@ -1,0 +1,76 @@
+{
+ "updated_at": "2026-10-05T03:10:00Z",
+ "audit_AJ": {
+  "executors": "GLM-5.3-Flash (10 area paralel + konfirmator independen per temuan P0/P1)",
+  "verified_findings": 14,
+  "unconfirmed": 42,
+  "top_findings": [
+   {
+    "sev": "P0",
+    "area": "I",
+    "what": "gmgn_rank_social.json field address salah 347/352 (var addr stale)",
+    "status": "verified",
+    "fix": "gmgn_web_rank.py pakai s.address"
+   },
+   {
+    "sev": "P0",
+    "area": "G",
+    "what": "NOISE salah 52 FP (etherscan asc bukan desc) — wallet aktif dilabel idle",
+    "status": "verified",
+    "fix": "sort desc param + 46 FP dihapus (NOISE 98->52)"
+   },
+   {
+    "sev": "P1",
+    "area": "F",
+    "what": "561/681 POOL_CONTRACT = EIP-7702 delegated EOA (smart account), bukan kontrak — 480 INSIDER dkk ter-exclude",
+    "status": "verified",
+    "fix": "ef0100 designator dibedakan; POOL_CONTRACT 681->120"
+   },
+   {
+    "sev": "P1",
+    "area": "B",
+    "what": "dashboard topNet & tokens/tokAgg tanpa isExcluded",
+    "status": "verified",
+    "fix": "store.js S.all exclude + dashboard filter"
+   },
+   {
+    "sev": "P1",
+    "area": "C",
+    "what": "kol.js sort header mati, fokus search hilang, class tbl tanpa CSS, filter caller mati",
+    "status": "verified",
+    "fix": "delegasi th[data-sort], thead+table class, fokus restore, opsi caller dibuang"
+   },
+   {
+    "sev": "P1",
+    "area": "H",
+    "what": "15 CT legacy stale tak di-prune (394 vs 379)",
+    "status": "verified",
+    "fix": "prune conf-0.6 tanpa x_primary"
+   },
+   {
+    "sev": "P1",
+    "area": "J",
+    "what": "arkham harvest tanpa URL guard — 1 record homepage teracuni",
+    "status": "verified",
+    "fix": "URL guard + purge record"
+   }
+  ],
+  "vision_46v": [
+   {
+    "page": "Leaderboard",
+    "verdict": "PASS",
+    "detail": "top traders tanpa POOL_CONTRACT, tidak ada ratusan juta mencurigakan"
+   },
+   {
+    "page": "Address",
+    "verdict": "PASS",
+    "detail": "baris X (Twitter): @CryptoExpert101 ·gmgn berlink; halaman penuh data"
+   },
+   {
+    "page": "KOL & X",
+    "verdict": "FAIL(tool)",
+    "detail": "vision tool subagent gagal; render sudah terverifikasi CDP (51 baris)"
+   }
+  ]
+ }
+}

@@ -1382,3 +1382,45 @@ menyelamatkan banyak waktu — lakukan SEBELUM derive PnL.
 coverage pricing: track-ca/enrich token-token yang disentuh kandidat solid
 (0x49e96e dst) via VPS — masuk antrean volume_sweep; (3) verifier R1-R3 penuh
 via pipeline VPS utk kandidat revised 38.
+
+## SNAPSHOT S-50 — 2026-10-05: X-IDENTITY ENGINE + AUTologin EXTENSION
+
+**INSIDEN & FIX AKAR (feedback user keras, benar):**
+1. Semua background task DOBEL (2x orchestrator/monitor/rescan) karena relaunch
+   tanpa kill → dua orchestrator 1 browser = tabrakan. SEMUA dibersihkan.
+2. arkham_harvest pages[0] membajak tab lain → STICKY TAB arkm.com (S-50 patch).
+3. GMGN kemarin tak terbaca karena BELUM LOGIN (landing SEO). User connect
+   Rabby burn wallet → session persist; extension menjaga ke depannya.
+
+**PENEMUAN GAME-CHANGER:** OpenAPI wallet_stats SUDAH punya common.twitter_username
+(+twitter_fans_num, fund_from_address, created_token_count, tags, tag_rank).
+TIDAK PERLU scraping web GMGN utk X-handle. Rank web endpoint tanpa-login:
+/api/v1/rank/{chain}/wallets/{period}?tag= (100 wallet/call, fields lengkap)
++ /api/v1/notification/callout/rank (TopCallers).
+
+**HASIL:** wallet_social table (PK address+source): 769+ rows; 319 X handle;
+352 GMGN rank profil (197 X); 107 arkham X; DUAL=4, KONFLIK=1 (0xb5b731f3:
+gmgn=@3ethtomoon vs arkham=@ChinaMetaY — dual-scan policy menyimpan keduanya).
+
+**DUAL-X POLICY (mandat user):** gmgn & arkham WAJIB dua2nya discan; kedua
+handle disimpan (x_gmgn/x_arkham/x_primary/x_conflict); beda handle = flag,
+TIDAK dipilih diam-diam. merge_social_x.py.
+
+**EXTENSION (tools/autologin-extension/, MV3):** deteksi logout arkm/gmgn/
+cielo + autonomous login (WebCredential autofill / klik Connect→Rabby) +
+marker DOM (dataset.wiLogin) + event 'wi-login-now' utk CDP + popup simpan
+kredensial arkham (user isi SEKALI → otonom penuh selanjutnya).
+arkham_open.py kini --load-extension. GMGN & Cielo session OK; ARKHAM masih
+logged_out — menunggu user isi kredensial di popup / login manual sekali.
+
+**EXPLORER:** tab baru "KOL & X" (#/kol): filter sumber (gmgn/arkham/dual/
+konflik/caller), sort fans/PnL30d/winrate, kolom X ganda + ⚠ konflik.
+dataset.py +section social (738 profil). Server 8787 LIVE dgn data baru.
+
+**SCANNER X YANG ADA:** arkham harvester (+x_handle DOM href patch S-49d) —
+149 sisa antrean TERTUNDA menunggu login arkham.
+
+**NEXT:** (1) user login arkham sekali → restart orchestrator (149 todo);
+(2) rescan skala penuh [VPS] --all-swaps 20 (ribuan wallet, night loop);
+(3) rank grid chain lain (bsc/base/sol) utk cross-chain identity;
+(4) explorer: kolom X di halaman address + leaderboard.

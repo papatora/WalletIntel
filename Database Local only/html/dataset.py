@@ -306,6 +306,48 @@ def build() -> dict:
         known = {a.lower(): v for a, v in json.loads(reg_path.read_text(encoding="utf-8")).get("entities", {}).items()}
 
     checkpoints = {s: u for s, _c, u in con.execute("select stage,cursor,updated_at from pipeline_checkpoints")}
+
+    # ---- social / X handles (S-50: dual-source gmgn+arkham) ---------------
+    social: dict[str, dict] = {}
+    try:
+        for addr, src, tw, name, fans, tags, extra in con.execute(
+            "select address, source, twitter_username, twitter_name, "
+            "twitter_fans, tags, extra from wallet_social"
+        ):
+            e = social.setdefault(addr, {
+                "x_gmgn": "", "x_arkham": "", "x_primary": "",
+                "x_conflict": 0, "name": "", "fans": 0, "tags": [], "rank": {}})
+            if not e["name"] and name:
+                e["name"] = name
+            if fans:
+                e["fans"] = max(e["fans"], fans or 0)
+            if tw:
+                if src.startswith("gmgn"):
+                    e["x_gmgn"] = e["x_gmgn"] or tw
+                elif src == "arkham":
+                    e["x_arkham"] = e["x_arkham"] or tw
+            try:
+                tg = json.loads(tags or "[]")
+                for t in tg:
+                    if t not in e["tags"]:
+                        e["tags"].append(t)
+            except (ValueError, TypeError):
+                pass
+            try:
+                ex = json.loads(extra or "{}")
+                if src == "gmgn_rank":
+                    e["rank"] = {k: ex.get(k) for k in
+                                 ("pnl_30d", "winrate_30d", "realized_profit_30d",
+                                  "sources", "caller_avg_multiplier",
+                                  "caller_total_calls") if ex.get(k) is not None}
+            except (ValueError, TypeError):
+                pass
+        for e in social.values():
+            e["x_primary"] = e["x_gmgn"] or e["x_arkham"]
+            e["x_conflict"] = int(bool(e["x_gmgn"] and e["x_arkham"]
+                                       and e["x_gmgn"].lower() != e["x_arkham"].lower()))
+    except sqlite3.OperationalError:
+        social = {}
     con.close()
 
     # ---- lineage / "indukan": dari mana wallet insider dapat token ----------
@@ -374,6 +416,7 @@ def build() -> dict:
         "bundles": sorted(bundles.values(), key=lambda b: -len(b["members"])),
         "clusters": list(clusters.values()),
         "known": known,
+        "social": social,
     }
 
 

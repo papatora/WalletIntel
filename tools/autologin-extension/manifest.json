@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "WalletIntel AutoLogin",
+  "version": "1.0.0",
+  "description": "Autonomous session keeper for WalletIntel harvesters: detects logout on arkm.com / gmgn.ai / app.cielo.finance, restores login (saved-password autofill / wallet reconnect), reports state via DOM marker for CDP automation.",
+  "permissions": ["storage", "scripting", "tabs"],
+  "host_permissions": [
+    "https://arkm.com/*",
+    "https://gmgn.ai/*",
+    "https://app.cielo.finance/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://arkm.com/*"],
+      "js": ["common.js", "arkham.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://gmgn.ai/*"],
+      "js": ["common.js", "gmgn.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://app.cielo.finance/*"],
+      "js": ["common.js", "cielo.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": { "default_popup": "popup.html" }
+}

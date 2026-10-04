@@ -51,6 +51,7 @@ function init(d) {
   for (const k of Object.keys(S)) delete S[k];
   Object.assign(S, d);
   S.addrIndex = new Map(d.wallets.map((w, i) => [w[0], i]));
+  S.social = d.social || {};
   S.tokIndex = new Map(d.tokens.map((t, i) => [t[0], i]));
   S.active = Object.keys(d.swaps).map(Number);
   S.activeSet = new Set(S.active);

@@ -121,7 +121,15 @@ def main() -> int:
     with sync_playwright() as p:
         b = p.chromium.connect_over_cdp(CDP)
         ctx = b.contexts[0]
-        page = ctx.pages[0] if ctx.pages else ctx.new_page()
+        # S-50: STICKY TAB — selalu pakai tab arkm.com sendiri, JANGAN
+        # pages[0] (pernah membajak tab lain saat browser multi-task).
+        page = None
+        for pg in ctx.pages:
+            if "arkm.com" in pg.url:
+                page = pg
+                break
+        if page is None:
+            page = ctx.new_page()
 
         for i, addr in enumerate(todo, 1):
             try:

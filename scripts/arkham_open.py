@@ -75,6 +75,9 @@ def main() -> int:
 
     profile = spec["profile"]
     profile.mkdir(parents=True, exist_ok=True)
+    # S-50: WalletIntel AutoLogin extension (autonomous login arkham/gmgn/cielo)
+    ext = REPO / "tools" / "autologin-extension"
+    ext_args = [f"--load-extension={ext}"] if ext.exists() else []
     DETACHED = 0x00000008 | 0x00000200  # DETACHED_PROCESS | CREATE_NEW_PROCESS_GROUP
     subprocess.Popen(
         [exe,
@@ -82,6 +85,7 @@ def main() -> int:
          f"--remote-debugging-port={PORT}",
          "--no-first-run", "--no-default-browser-check",
          "--window-size=1500,950",
+         *ext_args,
          URL],
         creationflags=DETACHED,
         stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,

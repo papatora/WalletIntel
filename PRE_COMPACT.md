@@ -1424,3 +1424,45 @@ dataset.py +section social (738 profil). Server 8787 LIVE dgn data baru.
 (2) rescan skala penuh [VPS] --all-swaps 20 (ribuan wallet, night loop);
 (3) rank grid chain lain (bsc/base/sol) utk cross-chain identity;
 (4) explorer: kolom X di halaman address + leaderboard.
+
+## SNAPSHOT S-51 — 2026-10-05: AUDIT A-J (GLM 5.3 MAX JUDGE) + X-IDENTITY TUNTAS
+
+**X-IDENTITY (mandat user penuh):**
+- GMGN OpenAPI wallet_stats = sumber X utama (common.twitter_username).
+- GMGN web rank (no-login): /api/v1/rank/{chain}/wallets/{period}?tag= + callout rank.
+- Arkham: title @handle + DOM href (x_handle) — login OTONOM via extension
+  (kredensial arkham di chrome.storage; URL guard; 1 record teracuni dipurge).
+- dual-X: x_gmgn/x_arkham/x_primary/x_conflict; konflik nyata 0xb5b731f3.
+- apply_ct_attributed: X → CT_ATTRIBUTED (394 total label; 323 primary).
+
+**LEADERBOARD DIBERSIHKAN (dugaan user TERBUKTI):**
+- POOL_CONTRACT 681→**120** (561 = EIP-7702 delegated EOA 0xef0100/23B —
+  smart account, BUKAN pool; 120 kontrak asli dipertahankan).
+- NOISE 98→**52** (46 FP aktif dihapus; def: 1 swap + idle >30 hari on-chain desc).
+- Leaderboard/dashboard/tokens exclude keduanya; top-10 kini EOA murni.
+
+**AUDIT A-J (orchestrator judge GLM-5.3 MAX + eksekutor GLM-5.3-FLASH + vision 4.6v):**
+- 14 temuan terkonfirmasi, 42 unconfirmed (kebanyakan P2 laten).
+- P0/P1 terverifikasi & SEMUA sudah diperbaiki: gmgn rank addr stale (P0),
+  NOISE asc (P0), 7702 POOL (P1), dashboard/tokens exclude (P1), KOL sort/
+  fokus/tbl (P1), 15 CT stale (P1), arkham URL guard (P1), rescan error-dict guard (P1).
+- Vonis judge terakhir: **ADA_MASALAH → 3 P1 tuntas diperbaiki pasca-vonis**
+  (KOL listener keluar draw + toggle arah; labeler 7702/desc di akar;
+  gmgn_rank_social.json regenerasi — 350 profil, 0 field salah).
+
+**EXTENSION AutoLogin:** arkm/gmgn/cielo; kredensial arkham di storage; DOM
+command channel (wiCmd/wiCmdTs); perbaikan: detect visibility-based.
+
+**TOOLS BARU:** gmgn_web_rank.py, gmgn_social_rescan.py, cielo_scrape.py,
+cielo_harvest_wallets.py, cielo_verify.py, cielo_deepcheck.py, apply_ct_attributed.py,
+merge_social_x.py, fix_audit_labels.py, classify_contracts_noise.py,
+refresh_results_local.py, monitor_cielo_sweep.py, shutdown_watcher.py.
+
+**SHUTDOWN:** watcher aktif (scripts/shutdown_watcher.py, 6h cap) — PC mati
+otomatis setelah flag SHUTDOWN_READY (ditulis saat sesi ini selesai).
+
+**PELAJARAN S-51:** (1) task background WAJIB single-flight; (2) sticky-tab
+per-domain; (3) content script MV3 = isolated world — DOM dataset satu2nya jembatan;
+(4) etherscan asc/desc = hidup-mati deteksi "terbaru"; (5) listener di dalam
+draw() menumpuk — bind sekali per render; (6) audit adversarial + konfirmator
+independen membuktikan 2 bug P0 milik sendiri — teruskan pola ini.

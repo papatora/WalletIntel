@@ -380,3 +380,9 @@ per-stage/per-entry = kelaparan; kunci hanya di commit.
   berubah. JANGAN ulangi rabbit-hole probing tanpa petunjuk baru.
 - Rutin 4 Okt tetap jalan: delta DB lokal = VPS 1:1 (157.659 wallet),
   results refresh, GMGN verify OK.
+
+## S-50e/f/g (2026-10-05) — audit A-J vonis MAX + perbaikan tuntas
+- Exec flash A-J + konfirmator independen: 14 verified; judge MAX: ADA_MASALAH
+  → 3 P1 tuntas (KOL listener draw-scope, labeler 7702/desc akar, rank social regen).
+- Label final: POOL_CONTRACT=120 (asli), NOISE=52 (idle EOA), CT=379 (dual-X).
+- Detail penuh: PRE_COMPACT S-51.

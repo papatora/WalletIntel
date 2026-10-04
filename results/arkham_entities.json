@@ -5263,6 +5263,12 @@
   "checked_at": "2026-09-20T18:58:46.513693+00:00",
   "error": "something went wrong"
  },
+ "0xc1d4b5e64473fd90bf0390a1e0b61876064fd503": {
+  "checked_at": "2026-10-04T17:42:47.782911+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xC1D4b5e64473fd90bF0390A1E0b61876064fd503 | Arkham"
+ },
  "0xc1e42f862d202b4a0ed552c1145735ee088f6ccf": {
   "category": "",
   "checked_at": "2026-10-04T16:49:15.403886+00:00",
@@ -5281,6 +5287,13 @@
   "entity": "",
   "label": "",
   "raw_title": "0xC1ff53F2007fFc8B32cAf48e84d09a59bCE9252f | Arkham"
+ },
+ "0xc2ab80157e2f8d9a94452b03162258f46e602322": {
+  "category": "",
+  "checked_at": "2026-10-04T17:43:00.036783+00:00",
+  "entity": "\"WeakExcitedAsp\" on Fomo",
+  "label": "",
+  "raw_title": "\"WeakExcitedAsp\" on Fomo (0xc2a) | Arkham"
  },
  "0xc3450bfde53a6eec02e833432a8b55e3bcf0c278": {
   "checked_at": "2026-09-20T18:59:26.645065+00:00",
@@ -5500,6 +5513,14 @@
   "label": "",
   "raw_title": "Index Basket MEMESTOCK (IB-MEMESTOCK) (0xd1E) | Arkham"
  },
+ "0xd2b4aa3a2629ac53b6f9a44099cdecde19173ec6": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:43:09.748901+00:00",
+  "entity": "@leensx100",
+  "label": "\"leens\" on Fomo",
+  "raw_title": "@leensx100: \"leens\" on Fomo (0xD2b) | Arkham",
+  "x_handle": "leensx100"
+ },
  "0xd2e182d83998e44ef583c6fbb5b996334b889758": {
   "checked_at": "2026-09-20T19:08:00.341014+00:00",
   "entity": "",
@@ -5531,6 +5552,30 @@
   "label": "",
   "raw_title": "0xd3Fd948a296D076613B95c4f09dA03AC6EF61D0D | Arkham"
  },
+ "0xd43496b3426c4632b8a0d468869fd7225ddfbaab": {
+  "category": "",
+  "checked_at": "2026-10-04T17:43:21.712822+00:00",
+  "entity": "@ooohyeaaahhh",
+  "label": "\"ooohyeaaahhh\" on Fomo",
+  "raw_title": "@ooohyeaaahhh: \"ooohyeaaahhh\" on Fomo (0xd43) | Arkham",
+  "x_handle": "ooohyeaaahhh"
+ },
+ "0xd466984221277c929406ea61ee562c32f042a64a": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:43:31.454009+00:00",
+  "entity": "@gromwtf",
+  "label": "\"gromwtf\" on Fomo",
+  "raw_title": "@gromwtf: \"gromwtf\" on Fomo (0xd46) | Arkham",
+  "x_handle": "gromwtf"
+ },
+ "0xd73d6b8b9e875569c0f03c572a3806e619bcbec2": {
+  "category": "",
+  "checked_at": "2026-10-04T17:43:40.771850+00:00",
+  "entity": "@Samisa_btc",
+  "label": "\"Samisa_btc\" on Fomo",
+  "raw_title": "@Samisa_btc: \"Samisa_btc\" on Fomo (0xD73) | Arkham",
+  "x_handle": "Samisa_btc"
+ },
  "0xd765e135a5c99adf842cbd3f005d759221127ed3": {
   "checked_at": "2026-09-20T19:09:45.534658+00:00",
   "entity": "",
@@ -5543,6 +5588,14 @@
   "entity": "BeaconProxy",
   "label": "",
   "raw_title": "BeaconProxy (0xD78) | Arkham"
+ },
+ "0xd7bd8a718d3ff8b19b0b4df43adb0a07ae1ad425": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:43:51.411079+00:00",
+  "entity": "@lincolnbuidl",
+  "label": "\"guided\" on Fomo",
+  "raw_title": "@lincolnbuidl: \"guided\" on Fomo (0xd7B) | Arkham",
+  "x_handle": "lincolnbuidl"
  },
  "0xd874259110c6e086f1d2fee474b73e69b8f5dab0": {
   "category": "",
@@ -5562,6 +5615,14 @@
   "entity": "",
   "label": "",
   "raw_title": "0xD961aFa1CF20aD47D285E8DDC045EC3332C7Bf24 | Arkham"
+ },
+ "0xd996956eee524ed268abf2ba979086555812ec6e": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:44:00.650302+00:00",
+  "entity": "@flooroftests",
+  "label": "\"flooroftests\" on Fomo",
+  "raw_title": "@flooroftests: \"flooroftests\" on Fomo (0xd99) | Arkham",
+  "x_handle": "flooroftests"
  },
  "0xd9cd482143183429676a4592e46fa74dfc0bd9fd": {
   "checked_at": "2026-09-20T19:10:40.389590+00:00",
@@ -5618,6 +5679,14 @@
   "label": "",
   "raw_title": "0xDBC29C9Cb0cAAeF0bE38c8ce6D1B9e760542Abd4 | Arkham"
  },
+ "0xdbc4a38033e2c5b671caecfde9f4b7c5cd3e408e": {
+  "category": "",
+  "checked_at": "2026-10-04T17:44:10.155910+00:00",
+  "entity": "@Cellar1544720",
+  "label": "\"Cellar1544720\" on Fomo",
+  "raw_title": "@Cellar1544720: \"Cellar1544720\" on Fomo (0xdBc) | Arkham",
+  "x_handle": "Cellar1544720"
+ },
  "0xdbd47f66aa2f00b3db03397f260ce9728298c495": {
   "category": "",
   "checked_at": "2026-10-04T16:58:19.479905+00:00",
@@ -5649,6 +5718,12 @@
   "label": "",
   "raw_title": "0xDc99904B15226dCB94A58bC4514331F7808A89fd | Arkham"
  },
+ "0xdd8795475306152abe5f45f1ce97c017fd2f02e7": {
+  "checked_at": "2026-10-04T17:44:21.170532+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xdD8795475306152aBE5F45f1ce97c017FD2f02e7 | Arkham"
+ },
  "0xdd982df4c2326e40fe21ae9b0bbe50225bbe6a3b": {
   "checked_at": "2026-09-20T19:14:41.207618+00:00",
   "entity": "",
@@ -5674,6 +5749,14 @@
   "entity": "",
   "label": "",
   "raw_title": "0xdDb6B55692624Fdb9431BFB5099F0e32086C43E6 | Arkham"
+ },
+ "0xddec8241dc6c88ea1db528dd887be91aa2f06a37": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:44:33.735934+00:00",
+  "entity": "@riskanonymous",
+  "label": "\"riskanonymous\" on Fomo",
+  "raw_title": "@riskanonymous: \"riskanonymous\" on Fomo (0xdde) | Arkham",
+  "x_handle": "riskanonymous"
  },
  "0xde02381c288837b32fb013f1c19af97ebc4e1e28": {
   "category": "",
@@ -5707,6 +5790,14 @@
   "entity": "",
   "label": "",
   "raw_title": "0xDF2619a865E5033c66b07264F4f54288941d2984 | Arkham"
+ },
+ "0xdfbf57e58fc787513dcce09e868c523b2fb32f1a": {
+  "category": "",
+  "checked_at": "2026-10-04T17:44:43.451648+00:00",
+  "entity": "@Paco420_",
+  "label": "\"Paco420_\" on Fomo",
+  "raw_title": "@Paco420_: \"Paco420_\" on Fomo (0xdFb) | Arkham",
+  "x_handle": "Paco420_"
  },
  "0xdfee2d4f729723aed67eed4bfb7a998dbb4294c0": {
   "checked_at": "2026-10-04T16:59:42.987508+00:00",
@@ -5770,6 +5861,14 @@
   "label": "",
   "raw_title": "0xe2a9E4a631731f714AF3eefe5D70Ab4ce32947BE | Arkham"
  },
+ "0xe2aa5249955645acd0cdcfc2b3c22fb73666b473": {
+  "category": "",
+  "checked_at": "2026-10-04T17:44:53.818070+00:00",
+  "entity": "@tekkerrss",
+  "label": "\"Tekkerrss\" on Fomo",
+  "raw_title": "@tekkerrss: \"Tekkerrss\" on Fomo (0xE2A) | Arkham",
+  "x_handle": "tekkerrss"
+ },
  "0xe30a0cf28a7f947bed8374eaf71bd3796054822d": {
   "checked_at": "2026-09-20T19:18:05.635377+00:00",
   "entity": "",
@@ -5779,6 +5878,22 @@
  "0xe33c6468d879d9f80b746fa35b5ec872b94d206d": {
   "checked_at": "2026-09-20T19:18:25.474319+00:00",
   "error": "something went wrong"
+ },
+ "0xe342ad48330a8bd9967be6c4a9ae4665f7b44673": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:45:05.915463+00:00",
+  "entity": "@xfilesboy",
+  "label": "\"xfilesboy\" on Fomo",
+  "raw_title": "@xfilesboy: \"xfilesboy\" on Fomo (0xE34) | Arkham",
+  "x_handle": "xfilesboy"
+ },
+ "0xe3b95f920ec0452aad2aeaf83b01f2212fc82c9e": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:45:17.798393+00:00",
+  "entity": "@DegenToDisciple",
+  "label": "\"DegenToDisciple\" on Fomo",
+  "raw_title": "@DegenToDisciple: \"DegenToDisciple\" on Fomo (0xe3B) | Arkham",
+  "x_handle": "DegenToDisciple"
  },
  "0xe4389ef44851f1fa417c12ea089ecfbc3610c80f": {
   "checked_at": "2026-09-20T19:18:35.896377+00:00",

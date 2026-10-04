@@ -19,11 +19,23 @@
   }
 
   window.__wiSetState = setState;
-  window.addEventListener("wi-login-now", () => {
-    if (typeof window.__wiTryLogin === "function") {
-      window.__wiTryLogin();
+
+  // S-50b: COMMAND CHANNEL via DOM attribute (isolated world tidak melihat
+  // window/function main-world; dataset element = shared lintas world).
+  // CDP: document.documentElement.dataset.wiCmd = "login"; .dataset.wiCmdTs = Date.now()
+  let lastCmdTs = "0";
+  setInterval(() => {
+    const root2 = document.documentElement;
+    const ts = root2.dataset.wiCmdTs || "0";
+    if (ts !== lastCmdTs && root2.dataset.wiCmd === "login") {
+      lastCmdTs = ts;
+      root2.dataset.wiCmd = "";
+      root2.dataset.wiState = "working";
+      if (typeof window.__wiTryLogin === "function") {
+        try { window.__wiTryLogin(); } catch (e) { /* quiet */ }
+      }
     }
-  });
+  }, 1000);
 
   // polling ringan — SPA berubah-ubah tanpa reload
   setInterval(() => {

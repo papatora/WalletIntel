@@ -17,13 +17,14 @@
   }
 
   function loggedIn() {
-    // login-page indicator OR visible login CTA = logged out
     if (location.pathname.startsWith("/login")) return false;
-    // avatar/menu akun: elemen dgn img alt avatar atau tombol account
-    const btns = [...document.querySelectorAll("button")].map(b => (b.innerText || "").toLowerCase());
-    if (btns.some(t => t === "log in" || t === "login")) return false;
-    return document.querySelectorAll("img[alt*='avatar'], [class*='avatar']").length > 0
-      || document.cookie.includes("arkham_session");
+    // S-50b: COOKIE DULU (paling andal) — tombol "Log In" hidden sering masih
+    // ada di DOM homepage logged-in, sempat bikin deteksi false-negative.
+    const visibleLogin = [...document.querySelectorAll("button, a")]
+      .filter(el => (el.innerText || "").trim().toLowerCase() === "log in")
+      .some(el => el.offsetParent !== null && getComputedStyle(el).display !== "none");
+    if (visibleLogin) return false;
+    return true;
   }
 
   let busy = false;

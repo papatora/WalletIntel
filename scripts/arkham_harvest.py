@@ -184,6 +184,20 @@ def main() -> int:
                         time.sleep(6)
                         continue
                 err_streak = 0
+                # S-49d: ekstrak X/Twitter eksplisit dari DOM (ikon X di card
+                # entity). Title @handle sudah tertangkap sbg entity; href
+                # memberi handle resmi + jangkar utk atribusi Goal #3.
+                try:
+                    xh = page.evaluate(
+                        "() => { for (const a of document.querySelectorAll('a[href]')) "
+                        "{ const h = a.getAttribute('href') || ''; "
+                        "const m = h.match(/(?:twitter|x)[.]com[/]([A-Za-z0-9_]{2,15})/); "
+                        "if (m && !/intent|share|hashtag|search/i.test(m[1])) "
+                        "return m[1]; } return null; }")
+                    if xh:
+                        rec["x_handle"] = xh.lstrip("@")
+                except Exception:
+                    pass
                 if rec.get("entity"):
                     labeled += 1
                     body = page.inner_text("body")[:2500]

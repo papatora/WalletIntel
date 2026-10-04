@@ -1,8 +1,7 @@
 {
- "phase": "harvesting",
- "checked": 998,
+ "phase": "done",
+ "checked": 1101,
  "queue": 299,
- "updated_at": "2026-10-04T17:42:43.579738+00:00",
- "batch": 1,
- "todo": 103
+ "updated_at": "2026-10-04T18:01:17.455819+00:00",
+ "batch": 2
 }

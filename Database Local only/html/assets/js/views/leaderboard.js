@@ -26,10 +26,13 @@ const priceNote = () => {
   return 'USD estimated from pool price points · not verified PnL';
 };
 
+const EXCLUDED_TYPES = new Set(['POOL_CONTRACT', 'NOISE']);
+const isExcluded = ai => { const tn = S.types[S.wallets[ai][1]]; return tn === 'POOL_CONTRACT' || tn === 'NOISE'; };
+
 function traderRows() {
   const from = +st.win ? S.meta.swap_to - +st.win * 86400 : 0;
   let rows = [];
-  for (const ai of S.active) { const s = from ? stats(ai, from) : S.statsAll.get(ai); if (s.swaps) rows.push([ai, s]); }
+  for (const ai of S.active) { if (isExcluded(ai)) continue; const s = from ? stats(ai, from) : S.statsAll.get(ai); if (s.swaps) rows.push([ai, s]); }
   if (st.tag) rows = rows.filter(([ai]) => (S.wallets[ai][2] || []).some(li => { const n = S.labels[li]; return n === st.tag || n.startsWith(st.tag + ':'); }));
   const key = st.sort;
   rows.sort((a, b) => ((b[1][key] ?? -1e18) - (a[1][key] ?? -1e18)) * -st.dir);
@@ -45,6 +48,7 @@ function sniperRows() {
   for (const [key, e] of Object.entries(S.ev)) {
     const sn = e.SNIPER; if (!sn) continue;
     const i = +key;
+    if (isExcluded(i)) continue;
     if (!matchTag(i)) continue;
     const deltas = sn.snipes.map(s => s.delta_blocks);
     const sa = S.statsAll.get(i);

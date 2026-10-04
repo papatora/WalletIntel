@@ -23,6 +23,8 @@ export const LABEL = {
   SNIPER_BOT:      { c: 'var(--c-bot)', icon: 'bolt', desc: 'Bot that specializes in sniping MANY fresh tokens at the earliest blocks.' },
   WHALE:           { c: 'var(--c-whale)', icon: 'trophy', desc: 'Organic whale: est. net PnL >=$100K with NO airdrop/insider/cluster linkage.' },
   WHALE_SUS:       { c: 'var(--c-whalesus)', icon: 'eye', desc: 'High est. PnL but linked to airdrop/insider/cluster - wealth may come from allocations.' },
+  POOL_CONTRACT:   { c: 'var(--c-cluster)', icon: 'bundle', desc: 'Smart contract (pool/arb/router template) - excluded from trader rankings, on-chain eth_getCode verified.' },
+  NOISE:           { c: 'var(--c-generalist)', icon: 'wallet', desc: 'Exactly 1 swap and no on-chain activity since - one-shot noise, not a real trader.' },
 };
 export const labelMeta = n => LABEL[n?.startsWith('CLUSTER_MEMBER') ? 'CLUSTER' : n] || LABEL.GENERALIST;
 export const pretty = n => n?.startsWith('CLUSTER_MEMBER:') ? 'CLUSTER ' + n.split('_').pop() : String(n).replace(/_/g, ' ');

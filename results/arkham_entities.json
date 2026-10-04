@@ -1169,6 +1169,20 @@
   "label": "",
   "raw_title": "0x0206F575FD4157D1B998dD03d7152989DED9Ee10 | Arkham"
  },
+ "0x02361e9a88ea4addbb2ac8189605222c5aef7dc1": {
+  "category": "",
+  "checked_at": "2026-10-04T17:57:44.219929+00:00",
+  "entity": "@solzake",
+  "label": "\"Shabks04\" on OpenSea",
+  "raw_title": "@solzake: \"Shabks04\" on OpenSea (0x023) | Arkham",
+  "x_handle": "solzake"
+ },
+ "0x023d068f3d2fe0b2bfca389c96a7f2768ac0d931": {
+  "checked_at": "2026-10-04T17:57:53.978818+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x023D068F3D2Fe0b2BFcA389C96A7f2768aC0D931 | Arkham"
+ },
  "0x023dacc47e24a4b5c0fa4b40e3dc2d5cec06c0ca": {
   "checked_at": "2026-09-28T15:11:57.894685+00:00",
   "entity": "",
@@ -1380,6 +1394,12 @@
   "label": "",
   "raw_title": "0x0618dd61F8f0B2457876053c900191b7C4Bf1485 | Arkham"
  },
+ "0x0621bef3b8097d24f0faf48c8069daa1c32a8623": {
+  "checked_at": "2026-10-04T17:47:22.079382+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x0621Bef3b8097d24f0Faf48c8069daa1c32A8623 | Arkham"
+ },
  "0x063b3e644ec9a8ba3c262fb98041abd8afba4538": {
   "checked_at": "2026-09-28T15:15:05.315569+00:00",
   "entity": "",
@@ -1520,6 +1540,18 @@
   "entity": "benlio.eth",
   "label": "",
   "raw_title": "benlio.eth (0x089) | Arkham"
+ },
+ "0x08a16898f9b85308d1316984c1804abc663d86c6": {
+  "checked_at": "2026-10-04T17:55:54.538240+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x08a16898F9B85308d1316984C1804abC663d86C6 | Arkham"
+ },
+ "0x08ae4f745f707c276a6dff242ac6ca92ef816531": {
+  "checked_at": "2026-10-04T17:47:30.992856+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x08aE4f745F707c276A6Dff242AC6ca92eF816531 | Arkham"
  },
  "0x08fb42e0e1c7fa44baf6fb5cb6bcf47080e21006": {
   "checked_at": "2026-09-28T15:16:51.531327+00:00",
@@ -1733,6 +1765,14 @@
   "checked_at": "2026-09-28T15:22:50.386545+00:00",
   "error": "something went wrong"
  },
+ "0x0ca6cadb6a8ca4199788b9a060c3285fe7b897fd": {
+  "category": "",
+  "checked_at": "2026-10-04T17:52:42.985624+00:00",
+  "entity": "@armads_crypto",
+  "label": "armads.eth",
+  "raw_title": "@armads_crypto: armads.eth (0x0cA) | Arkham",
+  "x_handle": "armads_crypto"
+ },
  "0x0cbb693e0199cb7ad4f3c846f43045cb95247fc5": {
   "category": "",
   "checked_at": "2026-10-04T16:41:47.758001+00:00",
@@ -1806,6 +1846,12 @@
   "label": "",
   "raw_title": "0x0e0117e958C9E7BC106cF2d3A266d59bb1189D4F | Arkham"
  },
+ "0x0e17fc4e333958e7b259ab652f334b2f5bbdb27e": {
+  "checked_at": "2026-10-04T17:56:05.514331+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x0e17Fc4E333958E7b259aB652f334B2f5BBdB27E | Arkham"
+ },
  "0x0e3e54fe5280153c8de73ad931a484b7e34fe209": {
   "checked_at": "2026-10-02T16:50:47.942552+00:00",
   "entity": "",
@@ -1855,6 +1901,13 @@
   "entity": "@orangie",
   "label": "\"orangie\" on Fomo",
   "raw_title": "@orangie: \"orangie\" on Fomo (0x0Eb) | Arkham"
+ },
+ "0x0ebe4c9e737fae1eef7ba1163699b9c26ebae93c": {
+  "category": "",
+  "checked_at": "2026-10-04T17:58:02.975111+00:00",
+  "entity": "\"CNEEGA42069\" on OpenSea",
+  "label": "",
+  "raw_title": "\"CNEEGA42069\" on OpenSea (0x0Eb) | Arkham"
  },
  "0x0edeeb1c022614696b1e558872d2edd8b7f12414": {
   "checked_at": "2026-10-02T16:51:28.825868+00:00",
@@ -1965,6 +2018,13 @@
   "label": "",
   "raw_title": "0x10b50Fa9ff5b9A5c3Bbf3A596A020963A3443A11 | Arkham"
  },
+ "0x1112b8c161119d4f866e4c21bacf0eeb3a1c91d9": {
+  "category": "",
+  "checked_at": "2026-10-04T17:58:12.733062+00:00",
+  "entity": "\"angekimxr\" on OpenSea",
+  "label": "",
+  "raw_title": "\"angekimxr\" on OpenSea (0x111) | Arkham"
+ },
  "0x112fab7a1a12c10f559e7fe05351e044117fcb2b": {
   "checked_at": "2026-10-02T16:53:34.620541+00:00",
   "entity": "",
@@ -2038,6 +2098,12 @@
   "entity": "",
   "label": "",
   "raw_title": "0x127b1FBf9d62DC4975061d98D33aDe4ce6674fcf | Arkham"
+ },
+ "0x1287a9a82117c9702aab753cba8d5cabfa5d923a": {
+  "checked_at": "2026-10-04T17:47:41.786855+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x1287a9a82117c9702AaB753Cba8d5cabFa5D923A | Arkham"
  },
  "0x12af1f0a58a433cc626fe1cbcc8b339a9b4515ab": {
   "checked_at": "2026-10-02T16:54:44.560074+00:00",
@@ -2132,6 +2198,12 @@
   "entity": "@b1gbicep",
   "label": "\"b1gbicep\" on Fomo",
   "raw_title": "@b1gbicep: \"b1gbicep\" on Fomo (0x137) | Arkham"
+ },
+ "0x1379cd72f35c82719abd38c3ce759c44f8ffdd1c": {
+  "checked_at": "2026-10-04T17:47:52.583293+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x1379cd72F35C82719abD38c3ce759C44F8FFDD1C | Arkham"
  },
  "0x13b71d9b4477266092d5f3fef0ee30857390afc3": {
   "checked_at": "2026-10-02T16:56:09.175002+00:00",
@@ -2269,6 +2341,14 @@
   "label": "",
   "raw_title": "0x15a710DCd837deDE856BD48442666e5810D7E893 | Arkham"
  },
+ "0x1648c13a8ed3ffb194b2c033497a5e82e543cb82": {
+  "category": "",
+  "checked_at": "2026-10-04T17:48:04.082961+00:00",
+  "entity": "@SevaFTW",
+  "label": "\"seva19\" on Polymarket",
+  "raw_title": "@SevaFTW: \"seva19\" on Polymarket (0x164) | Arkham",
+  "x_handle": "SevaFTW"
+ },
  "0x164d113c50a59a7aaf6aba0611e2e314b92b5d5b": {
   "checked_at": "2026-10-02T16:59:04.161345+00:00",
   "entity": "",
@@ -2280,6 +2360,13 @@
   "entity": "",
   "label": "",
   "raw_title": "0x1657048560275D840a1b74b67d10A4eB239Ddeb7 | Arkham"
+ },
+ "0x16657de1a0faac319359d6dc15d31b355cb535c0": {
+  "category": "",
+  "checked_at": "2026-10-04T17:48:14.578902+00:00",
+  "entity": "\"wadobambam\" on OpenSea",
+  "label": "",
+  "raw_title": "\"wadobambam\" on OpenSea (0x166) | Arkham"
  },
  "0x166fa497f84de62671ad876d07cc11f69de69c61": {
   "checked_at": "2026-10-02T16:59:13.739019+00:00",
@@ -2485,6 +2572,13 @@
   "label": "",
   "raw_title": "0x1EECd54DDC408D247a8E16a0720005aB64B65C94 | Arkham"
  },
+ "0x1f5bbef0722b6188b87b29dff530d6cfb5a46967": {
+  "category": "",
+  "checked_at": "2026-10-04T17:48:25.019807+00:00",
+  "entity": "\"wfms\" on Polymarket",
+  "label": "",
+  "raw_title": "\"wfms\" on Polymarket (0x1f5) | Arkham"
+ },
  "0x1f8a8ac54244e4016a376152b2f92d467552fa7b": {
   "category": "Bridge",
   "checked_at": "2026-10-04T16:55:28.416739+00:00",
@@ -2586,6 +2680,13 @@
   "label": "",
   "raw_title": "Proxy (EIP-1967 Beacon) (0x236) | Arkham"
  },
+ "0x2385233abb910357e2b97a16d40e0443e53d0769": {
+  "category": "",
+  "checked_at": "2026-10-04T17:52:54.662143+00:00",
+  "entity": "alterac.eth",
+  "label": "",
+  "raw_title": "alterac.eth (0x238) | Arkham"
+ },
  "0x24062cfc20c59003e0c05da5e508885129a1f382": {
   "checked_at": "2026-09-20T17:55:30.143235+00:00",
   "entity": "",
@@ -2639,6 +2740,21 @@
   "entity": "@DipWheeler",
   "label": "\"DipWheeler\" on Fomo",
   "raw_title": "@DipWheeler: \"DipWheeler\" on Fomo (0x28A) | Arkham"
+ },
+ "0x28aa4f9ffe21365473b64c161b566c3cdead0108": {
+  "category": "",
+  "checked_at": "2026-10-04T17:53:04.165975+00:00",
+  "entity": "@dev_enjoys",
+  "label": "fbomb-mclb-maxi.eth",
+  "raw_title": "@dev_enjoys: fbomb-mclb-maxi.eth (0x28a) | Arkham",
+  "x_handle": "dev_enjoys"
+ },
+ "0x28d3bdece9a0c7f54687f734fa73fba04ecf5785": {
+  "category": "",
+  "checked_at": "2026-10-04T17:53:15.011740+00:00",
+  "entity": "yeomyung.eth",
+  "label": "",
+  "raw_title": "yeomyung.eth (0x28D) | Arkham"
  },
  "0x29909b9c97845d5eb998b4aa41664a46c5dc35c6": {
   "category": "DAO",
@@ -2762,6 +2878,12 @@
   "label": "",
   "raw_title": "0x2fD1887E5D99014Cb0B8884f06560ED20D65003d | Arkham"
  },
+ "0x3096d872e1fcc96e5e55f43411971d49bb137b9b": {
+  "checked_at": "2026-10-04T17:53:26.490596+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x3096D872E1FCc96e5E55F43411971d49bB137B9B | Arkham"
+ },
  "0x30df64b78b1823d5e6515c11d10d399d600886e4": {
   "category": "",
   "checked_at": "2026-10-04T17:04:21.455007+00:00",
@@ -2774,6 +2896,13 @@
   "entity": "",
   "label": "",
   "raw_title": "0x317Ec8363F73885b404a3a4f36d837869738dc90 | Arkham"
+ },
+ "0x3261408f59f5e5d0de752ee68c8dcaf1b51aa2ab": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:58:23.669996+00:00",
+  "entity": "\"qexqxeqxqxec12xqe\" on Polymarket",
+  "label": "",
+  "raw_title": "\"qexqxeqxqxec12xqe\" on Polymarket (0x326) | Arkham"
  },
  "0x32e69aa3ab56042830d358a80770bd7ed3e7d757": {
   "category": "Bridge",
@@ -2826,11 +2955,24 @@
   "label": "",
   "raw_title": "Kernel (0x365) | Arkham"
  },
+ "0x36fbd671e61e245fce9c7e88bfaa244e3ba2b9ee": {
+  "category": "",
+  "checked_at": "2026-10-04T17:48:36.366265+00:00",
+  "entity": "artplug.eth",
+  "label": "",
+  "raw_title": "artplug.eth (0x36f) | Arkham"
+ },
  "0x36ffaf904ec05b01978caafec6c057d5779afb03": {
   "checked_at": "2026-09-20T17:58:27.289816+00:00",
   "entity": "",
   "label": "",
   "raw_title": "0x36FFaF904eC05B01978CaAfEC6C057d5779Afb03 | Arkham"
+ },
+ "0x371903abb32f5f69b536b77495e92adedfea25da": {
+  "checked_at": "2026-10-04T17:58:35.390783+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x371903Abb32F5f69b536B77495E92ADEdFeA25da | Arkham"
  },
  "0x378b849d363b031ab42b7a72bd2e57e0c2486797": {
   "category": "Bridge",
@@ -2920,6 +3062,12 @@
   "label": "",
   "raw_title": "0x3b9a2Aefa16D37eD22dE786f3BBe0590fC0a8E2c | Arkham"
  },
+ "0x3bf4ec524a33e9b99cb5f08801763fcf4a9516b3": {
+  "checked_at": "2026-10-04T17:48:45.205138+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x3bF4ec524a33e9B99cB5f08801763FcF4a9516b3 | Arkham"
+ },
  "0x3c5083022114ea14fb3d8d06f5931c629c2bedd6": {
   "checked_at": "2026-10-04T16:53:45.035335+00:00",
   "entity": "",
@@ -3005,6 +3153,13 @@
   "label": "",
   "raw_title": "0x3Fc92025D988c84857f7a1F9Ab80BFc5C274b5D2 | Arkham"
  },
+ "0x3fcbad0dedbfe5154417473e2b24ac597bb1a451": {
+  "category": "",
+  "checked_at": "2026-10-04T17:58:44.794778+00:00",
+  "entity": "\"GIVEMEONEMORE\" on OpenSea",
+  "label": "",
+  "raw_title": "\"GIVEMEONEMORE\" on OpenSea (0x3Fc) | Arkham"
+ },
  "0x3fe894cc3f349fefccb578c1eb36ce1f68d9ee62": {
   "checked_at": "2026-09-20T18:05:38.300029+00:00",
   "entity": "",
@@ -3043,11 +3198,25 @@
   "label": "",
   "raw_title": "\"RuanJhonatanKil2\" on Polymarket (0x420) | Arkham"
  },
+ "0x421f26be890341fa59d4b1427a0b59245a66ae29": {
+  "category": "",
+  "checked_at": "2026-10-04T17:56:47.074379+00:00",
+  "entity": "\"AE29\" on OpenSea",
+  "label": "",
+  "raw_title": "\"AE29\" on OpenSea (0x421) | Arkham"
+ },
  "0x424c2b31519ef3f273dcd3b56b7c8b3b8c4759ee": {
   "checked_at": "2026-09-20T18:06:17.653120+00:00",
   "entity": "",
   "label": "",
   "raw_title": "0x424C2B31519eF3F273DCd3b56b7c8B3B8c4759eE | Arkham"
+ },
+ "0x426035cb5cf51221d137c026e0eed5c6bb2484e0": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:56:17.271315+00:00",
+  "entity": "\"capeo\" on Fomo",
+  "label": "",
+  "raw_title": "\"capeo\" on Fomo (0x426) | Arkham"
  },
  "0x42b19e5e3f28c4148c518444546f102f6ba87ab1": {
   "category": "Decentralized Exchange",
@@ -3087,6 +3256,12 @@
   "label": "",
   "raw_title": "0x447Eb3C9C2B8a19871A31d83AA2d85766020F714 | Arkham"
  },
+ "0x4490f012704942a70f3d00f27f8bbeff52c58b0c": {
+  "checked_at": "2026-10-04T17:48:57.876966+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x4490F012704942A70f3d00f27f8bBefF52C58B0c | Arkham"
+ },
  "0x44f2e3ae137c5413c34b2cb3151f6ef2d82f76c1": {
   "checked_at": "2026-09-20T18:07:11.063862+00:00",
   "entity": "",
@@ -3100,6 +3275,12 @@
   "label": "\"SolSwizzle\" on Fomo",
   "raw_title": "@SolSwizzle: \"SolSwizzle\" on Fomo (0x44F) | Arkham",
   "x_handle": "SolSwizzle"
+ },
+ "0x452dc198eb970456ff28ee91a3409c393577b6dd": {
+  "checked_at": "2026-10-04T17:49:08.322203+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x452dC198eb970456fF28eE91a3409C393577b6Dd | Arkham"
  },
  "0x458596e25809736dc787f985d48493c37c28eeb7": {
   "category": "",
@@ -3175,6 +3356,14 @@
   "entity": "",
   "label": "",
   "raw_title": "0x49d2E2F397D662a70e2c1278AA7E3B2D6E0042Cb | Arkham"
+ },
+ "0x49e96e255ba418d08e66c35b588e2f2f3766e1d0": {
+  "category": "",
+  "checked_at": "2026-10-04T17:53:37.025676+00:00",
+  "entity": "@Cbb0fe",
+  "label": "\"cbb\" on Markets.xyz",
+  "raw_title": "@Cbb0fe: \"cbb\" on Markets.xyz (0x49E) | Arkham",
+  "x_handle": "Cbb0fe"
  },
  "0x4a3bd5a10792744a8e505e202e9f9145b2d4d5d4": {
   "checked_at": "2026-10-04T16:50:36.112583+00:00",
@@ -3275,6 +3464,12 @@
   "label": "",
   "raw_title": "Uniswap (0x4EF) | Arkham"
  },
+ "0x4f0c3ba33a6eca7b646f1d28b8de970e39621995": {
+  "checked_at": "2026-10-04T17:49:20.473659+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x4F0c3bA33A6ECA7b646F1d28b8dE970e39621995 | Arkham"
+ },
  "0x4f619a6b70d7e3c17393509566d6941276fa761f": {
   "checked_at": "2026-09-20T18:09:33.068722+00:00",
   "entity": "",
@@ -3349,6 +3544,13 @@
   "label": "",
   "raw_title": "up (0x534) | Arkham"
  },
+ "0x5388a7f24e86c9c9d855a98c2f5a339afa6a3acc": {
+  "category": "",
+  "checked_at": "2026-10-04T17:53:46.713978+00:00",
+  "entity": "\"ethstable\" on DeBank",
+  "label": "",
+  "raw_title": "\"ethstable\" on DeBank (0x538) | Arkham"
+ },
  "0x539b04cf159e7f1a52f021b0c98aae8521666e7c": {
   "checked_at": "2026-09-20T18:11:33.299655+00:00",
   "entity": "",
@@ -3367,6 +3569,13 @@
   "entity": "@yeonwoo1102",
   "label": "\"LOLLOLOLOLOLOLOLOLOLOL\" on Polymarket",
   "raw_title": "@yeonwoo1102: \"LOLLOLOLOLOLOLOLOLOLOL\" on Polymarket (0x54d) | Arkham"
+ },
+ "0x5621526a055ef21d26a71d9f4d5af359bfb2b041": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:58:57.039086+00:00",
+  "entity": "\"Jeyb3s\" on OpenSea",
+  "label": "",
+  "raw_title": "\"Jeyb3s\" on OpenSea (0x562) | Arkham"
  },
  "0x5637ee5c292f1bbfe016a9869c883da3d6d6e0c4": {
   "checked_at": "2026-09-20T18:11:53.955134+00:00",
@@ -3393,6 +3602,14 @@
   "entity": "",
   "label": "",
   "raw_title": "0x568033d6207C0F4F935850968C1e923c43f0f629 | Arkham"
+ },
+ "0x5788858ed0ad70dea5056738b7ffd1810eacb84f": {
+  "category": "",
+  "checked_at": "2026-10-04T17:49:31.535993+00:00",
+  "entity": "@0xCobra",
+  "label": "\"Polette\" on Polymarket",
+  "raw_title": "@0xCobra: \"Polette\" on Polymarket (0x578) | Arkham",
+  "x_handle": "0xCobra"
  },
  "0x579b659288863879c1ce04f29457d1eb331bbaa3": {
   "checked_at": "2026-10-04T16:54:03.637177+00:00",
@@ -3484,6 +3701,14 @@
   "entity": "",
   "label": "",
   "raw_title": "0x5a84C93d1D2C8407a94b6F625252ad806d66C5eE | Arkham"
+ },
+ "0x5a98dbceeca053b7845fc4dd79124f66908ade50": {
+  "category": "",
+  "checked_at": "2026-10-04T17:53:56.636962+00:00",
+  "entity": "@GodiCap",
+  "label": "\"MossadAgent99\" on Polymarket",
+  "raw_title": "@GodiCap: \"MossadAgent99\" on Polymarket (0x5A9) | Arkham",
+  "x_handle": "GodiCap"
  },
  "0x5aa6f2d13b04eeef150dc029ab1e7567d31eb47f": {
   "category": "",
@@ -3593,6 +3818,12 @@
   "entity": "",
   "label": "",
   "raw_title": "0x5fdf8d25Fa56591Bfc1e86d953387202dC313e89 | Arkham"
+ },
+ "0x60753e8622a6cfea1df449a9625a9778bb922b72": {
+  "checked_at": "2026-10-04T17:54:08.883893+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x60753E8622a6CFEA1Df449A9625a9778BB922b72 | Arkham"
  },
  "0x60e66a1d50d2e44f36d0bb7f4c42f5af261b3638": {
   "checked_at": "2026-09-20T18:15:55.179925+00:00",
@@ -3724,6 +3955,14 @@
   "label": "",
   "raw_title": "0x6888e153CcF88D9e98dc24e1e9C3B99A58558faD | Arkham"
  },
+ "0x68e7e72938db36a5cbbca7b52c71dbbaadfb8264": {
+  "category": "",
+  "checked_at": "2026-10-04T17:54:19.604178+00:00",
+  "entity": "Midas",
+  "label": "\"Cecile_Griffin\" on Markets.xyz",
+  "raw_title": "Midas: \"Cecile_Griffin\" on Markets.xyz (0x68e) | Arkham",
+  "x_handle": "midasrwa"
+ },
  "0x69326e48f68500fb6cf3b3a7da640737b9cc347b": {
   "category": "DAO",
   "checked_at": "2026-10-04T17:07:43.614972+00:00",
@@ -3751,6 +3990,13 @@
   "label": "",
   "raw_title": "0x69B94c069A42A413b3DB6d6783B140f8AB35F946 | Arkham"
  },
+ "0x69c5fb51dd3668799a7a0f80d805a4700000dead": {
+  "category": "",
+  "checked_at": "2026-10-04T17:49:41.703444+00:00",
+  "entity": "\ud83d\udd95\ud83d\udc35\ud83d\udd95.eth",
+  "label": "",
+  "raw_title": "\ud83d\udd95\ud83d\udc35\ud83d\udd95.eth (0x69c) | Arkham"
+ },
  "0x6a02e2f7067894d07e323d2d41b7999c84cdf6b2": {
   "checked_at": "2026-09-24T16:17:47.943560+00:00",
   "entity": "",
@@ -3765,6 +4011,13 @@
   "raw_title": "@3DMax_Virtuals: \"3DMax_Virtuals\" on Fomo (0x6a3) | Arkham",
   "x_handle": "3DMax_Virtuals"
  },
+ "0x6a6536a9a883fc0f575fd0ee88957130f004dcd5": {
+  "category": "",
+  "checked_at": "2026-10-04T17:59:07.635488+00:00",
+  "entity": "\"4DCD5\" on OpenSea",
+  "label": "",
+  "raw_title": "\"4DCD5\" on OpenSea (0x6a6) | Arkham"
+ },
  "0x6ac31557234e5fe1582eb6f338c169315c433095": {
   "category": "Bridge",
   "checked_at": "2026-10-04T17:08:04.503677+00:00",
@@ -3772,6 +4025,12 @@
   "label": "\"AlphaCrew23\" on Fomo",
   "raw_title": "@AlphaCrew23: \"AlphaCrew23\" on Fomo (0x6AC) | Arkham",
   "x_handle": "AlphaCrew23"
+ },
+ "0x6af3f52369c39f6ca2d9a50799723feff7ff679e": {
+  "checked_at": "2026-10-04T17:52:21.846860+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x6aF3F52369C39F6ca2D9a50799723FefF7FF679E | Arkham"
  },
  "0x6b8c63edf0fe845bfd10c635f340e9c54218c7f5": {
   "category": "Bridge",
@@ -3829,6 +4088,12 @@
   "entity": "",
   "label": "",
   "raw_title": "0x6D42fdb9D3Ca7A243896cDDC3bC4Acae3a824428 | Arkham"
+ },
+ "0x6d8ac75d911bf7339fcf414ea79ae1edde18dabc": {
+  "checked_at": "2026-10-04T17:49:52.160204+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x6d8AC75D911BF7339FCf414eA79AE1EDde18Dabc | Arkham"
  },
  "0x6e2a900c02291096efbc9b9e5986e96cb1ed49e3": {
   "checked_at": "2026-09-24T16:17:23.670304+00:00",
@@ -4026,6 +4291,12 @@
   "label": "",
   "raw_title": "0x7aaC335F8489c5e45F93fA3e09171f0A6B9A5aE2 | Arkham"
  },
+ "0x7b3d8e939ee08b52d06ab5e6f85791a6007e8d61": {
+  "checked_at": "2026-10-04T17:50:03.845855+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x7b3D8E939EE08b52D06aB5E6f85791A6007e8D61 | Arkham"
+ },
  "0x7b47b1a7c53fb0f7d42cc6d515dc2a8edc63fba0": {
   "category": "Bridge",
   "checked_at": "2026-10-04T16:45:38.904331+00:00",
@@ -4077,6 +4348,18 @@
   "label": "",
   "raw_title": "0x7dc6218e692FE2fb3b073EA1215cbd84a464911D | Arkham"
  },
+ "0x7dcac0c1128ee764556e789975962aeee8f59e59": {
+  "checked_at": "2026-10-04T17:50:13.035576+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x7DCAC0c1128Ee764556E789975962AEEE8f59e59 | Arkham"
+ },
+ "0x7e3ba68c49561aae7c23c1d20fef0f1d7615a3ad": {
+  "checked_at": "2026-10-04T17:50:23.235413+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x7e3Ba68C49561AaE7c23C1d20fEF0F1D7615a3ad | Arkham"
+ },
  "0x7e852343bfb6fae0fde911db16c8fcdca3b43bfd": {
   "category": "",
   "checked_at": "2026-10-04T17:09:31.154715+00:00",
@@ -4115,6 +4398,13 @@
   "label": "",
   "raw_title": "0x7fBB0414424d2Ab2a9372e973008950d83b8267c | Arkham"
  },
+ "0x81231357a913ec6e1f3afbce8e662632c1c8eee5": {
+  "category": "",
+  "checked_at": "2026-10-04T17:54:32.130603+00:00",
+  "entity": "leter.eth",
+  "label": "",
+  "raw_title": "leter.eth (0x812) | Arkham"
+ },
  "0x81314e865a72bec602da2b348bec5a28ab6acc58": {
   "checked_at": "2026-09-20T18:28:03.799386+00:00",
   "entity": "",
@@ -4126,6 +4416,13 @@
   "entity": "",
   "label": "",
   "raw_title": "0x813c9b5999d58CD373a48145910DE20e5eb9A8B1 | Arkham"
+ },
+ "0x814a128c8b65e428dc9864cac3d3031b03e677bc": {
+  "category": "",
+  "checked_at": "2026-10-04T17:50:34.480191+00:00",
+  "entity": "\"orreguini\" on OpenSea",
+  "label": "",
+  "raw_title": "\"orreguini\" on OpenSea (0x814) | Arkham"
  },
  "0x814b25a8669b238721b0e6c2b5c5ae66509b4699": {
   "checked_at": "2026-09-20T18:28:37.170420+00:00",
@@ -4187,6 +4484,13 @@
   "label": "",
   "raw_title": "Proxy (EIP-1967 Beacon) (0x839) | Arkham"
  },
+ "0x83b340697f1323fd74068cc3f6822ea3dff5a1b9": {
+  "category": "",
+  "checked_at": "2026-10-04T17:59:17.039391+00:00",
+  "entity": "\"fawfqwfafq\" on Polymarket",
+  "label": "",
+  "raw_title": "\"fawfqwfafq\" on Polymarket (0x83B) | Arkham"
+ },
  "0x84159200079f3fbcc78da8e19126aaf19e026d73": {
   "category": "Bridge",
   "checked_at": "2026-10-04T17:09:49.886595+00:00",
@@ -4194,6 +4498,14 @@
   "label": "\"kdimes00\" on Fomo",
   "raw_title": "@kdimes00: \"kdimes00\" on Fomo (0x841) | Arkham",
   "x_handle": "kdimes00"
+ },
+ "0x84d0f74d21a89f86b67e9a38d8559d0b4e10f12d": {
+  "category": "",
+  "checked_at": "2026-10-04T17:54:42.952099+00:00",
+  "entity": "@keccakdog",
+  "label": "youlose.eth",
+  "raw_title": "@keccakdog: youlose.eth (0x84d) | Arkham",
+  "x_handle": "keccakdog"
  },
  "0x84e63b774416eaa7b95bb1d1367add3ea2cdffa4": {
   "category": "",
@@ -4312,6 +4624,12 @@
   "label": "serc.eth",
   "raw_title": "@serc1n: serc.eth (0x8a8) | Arkham"
  },
+ "0x8a9c6dbd526bbb8ca1f397db35d504a8cc941e82": {
+  "checked_at": "2026-10-04T17:59:25.765253+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x8A9C6dbd526Bbb8Ca1f397DB35d504a8cc941e82 | Arkham"
+ },
  "0x8ab8c0843d9738885d6273dfe3de86c56eea364c": {
   "category": "",
   "checked_at": "2026-10-04T17:10:31.581228+00:00",
@@ -4411,6 +4729,18 @@
   "label": "",
   "raw_title": "0x8f647C215da81BDcbec988d7CbC627d7FC084772 | Arkham"
  },
+ "0x903e74d99f279e4b24f1c3a7ab24dd6c70bb5043": {
+  "checked_at": "2026-10-04T17:59:36.684477+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x903E74d99f279e4B24f1C3A7Ab24DD6c70Bb5043 | Arkham"
+ },
+ "0x9071b9dd7045a9842a9953bf1195e8609013a5e6": {
+  "checked_at": "2026-10-04T17:50:45.203881+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x9071B9dD7045a9842A9953bf1195E8609013a5e6 | Arkham"
+ },
  "0x90a6ed36815c15b4d0af6312487f4af4cbb7463c": {
   "checked_at": "2026-09-20T18:36:05.523086+00:00",
   "entity": "",
@@ -4485,6 +4815,13 @@
   "label": "\"DineroDom0\" on Fomo",
   "raw_title": "@DineroDom0: \"DineroDom0\" on Fomo (0x950) | Arkham"
  },
+ "0x9595fc099174ee5669405d71a94a941252035a0d": {
+  "category": "",
+  "checked_at": "2026-10-04T17:59:47.272239+00:00",
+  "entity": "\"ImuGov\" on OpenSea",
+  "label": "",
+  "raw_title": "\"ImuGov\" on OpenSea (0x959) | Arkham"
+ },
  "0x95ea2fd7b90081468d1e9fccba6723c14a9ba66c": {
   "checked_at": "2026-09-20T18:37:39.732042+00:00",
   "entity": "",
@@ -4496,6 +4833,12 @@
   "entity": "",
   "label": "",
   "raw_title": "0x963CE0719f67beC752B02923902Ed93EF72eDbd6 | Arkham"
+ },
+ "0x9648263fa2ae4a72fec9027766be04f268b9705a": {
+  "checked_at": "2026-10-04T17:59:58.578842+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0x9648263Fa2ae4a72FeC9027766be04f268b9705A | Arkham"
  },
  "0x9681f7cf19ffd3cea7fac6e0beb8636ed3dc9eb1": {
   "category": "",
@@ -4579,6 +4922,13 @@
   "label": "",
   "raw_title": "up (0x99F) | Arkham"
  },
+ "0x9b140a3a7fe193f46121835fcdcabb957739b187": {
+  "category": "",
+  "checked_at": "2026-10-04T18:00:07.546798+00:00",
+  "entity": "\"sadsboy\" on OpenSea",
+  "label": "",
+  "raw_title": "\"sadsboy\" on OpenSea (0x9b1) | Arkham"
+ },
  "0x9b69e680184d817f3a32a766fd252bb2120ca2ae": {
   "checked_at": "2026-09-20T18:40:48.627237+00:00",
   "entity": "",
@@ -4642,6 +4992,13 @@
   "label": "",
   "raw_title": "up (0x9E0) | Arkham"
  },
+ "0x9e47fbb2a2a27b3b02e4a63b3ef5a3dc863c0223": {
+  "category": "",
+  "checked_at": "2026-10-04T17:54:52.549635+00:00",
+  "entity": "yam3t3.eth",
+  "label": "",
+  "raw_title": "yam3t3.eth (0x9e4) | Arkham"
+ },
  "0x9eead18cf127923f87d1caea33f28ea0469f48cf": {
   "category": "Decentralized Exchange",
   "checked_at": "2026-09-20T18:42:35.816201+00:00",
@@ -4687,6 +5044,13 @@
   "label": "Core (BCORE)",
   "raw_title": "Bucket: Core (BCORE) (0xa1E) | Arkham"
  },
+ "0xa2425918f30af40db42b7ed6197be7f7be43895f": {
+  "category": "",
+  "checked_at": "2026-10-04T17:55:01.752399+00:00",
+  "entity": "blueclarity.eth",
+  "label": "",
+  "raw_title": "blueclarity.eth (0xA24) | Arkham"
+ },
  "0xa26a9d7497cbdd444603bc4cb12b7357fd3d47cd": {
   "checked_at": "2026-09-20T18:43:58.516161+00:00",
   "entity": "",
@@ -4730,6 +5094,12 @@
   "entity": "up",
   "label": "",
   "raw_title": "up (0xa63) | Arkham"
+ },
+ "0xa75c9890caee194fb598cdf7b84c9610e6e21a12": {
+  "checked_at": "2026-10-04T17:50:56.765935+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xA75C9890cAee194fB598CDf7B84c9610E6e21A12 | Arkham"
  },
  "0xa83b73f5644cde337b61da79589f10ea15548811": {
   "checked_at": "2026-10-04T16:42:18.991729+00:00",
@@ -4873,6 +5243,12 @@
   "label": "",
   "raw_title": "0xB1CB3a9156f7a206F1B9f55d55caf5e91Fc4fDFA | Arkham"
  },
+ "0xb218cf732155003877092d595ef520b59fa64de4": {
+  "checked_at": "2026-10-04T18:00:16.662409+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xb218Cf732155003877092d595eF520b59fA64De4 | Arkham"
+ },
  "0xb2c13bc8a20aa362055cb26eaaabc65dfd4613b6": {
   "checked_at": "2026-09-20T18:49:03.024946+00:00",
   "entity": "",
@@ -4920,6 +5296,14 @@
   "label": "\"ghostonchain\" on Fomo",
   "raw_title": "@oasesport: \"ghostonchain\" on Fomo (0xB4c) | Arkham",
   "x_handle": "oasesport"
+ },
+ "0xb4fb31e7b1471a8e52dd1e962a281a732ead59c1": {
+  "category": "",
+  "checked_at": "2026-10-04T17:55:13.536381+00:00",
+  "entity": "@chud_eth",
+  "label": "chud.eth",
+  "raw_title": "@chud_eth: chud.eth (0xB4f) | Arkham",
+  "x_handle": "chud_eth"
  },
  "0xb55586f824a02b7c58c8586dbb2b157f46904172": {
   "category": "",
@@ -4980,6 +5364,12 @@
   "label": "gnomelabs.eth",
   "raw_title": "GnomeLabs: gnomelabs.eth (0xB81) | Arkham"
  },
+ "0xb86f49b6387386badc4d74a217faa3273ad36c03": {
+  "checked_at": "2026-10-04T17:56:27.524722+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xB86f49B6387386BaDc4D74a217faa3273aD36C03 | Arkham"
+ },
  "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f": {
   "category": "Bridge",
   "checked_at": "2026-09-17T19:10:47.612979+00:00",
@@ -5006,6 +5396,13 @@
   "entity": "",
   "label": "",
   "raw_title": "0xbAc453b9b7F53b35ac906b641925b2F5f2567a89 | Arkham"
+ },
+ "0xbb165400963d64db7e9d89758b4a21ccb2819b00": {
+  "category": "",
+  "checked_at": "2026-10-04T17:51:06.424375+00:00",
+  "entity": "\"cornrn\" on Polymarket",
+  "label": "",
+  "raw_title": "\"cornrn\" on Polymarket (0xbb1) | Arkham"
  },
  "0xbbbbea57e51de9a8b23becbc0d543cbfe2a6118b": {
   "checked_at": "2026-09-20T18:51:22.220237+00:00",
@@ -5063,6 +5460,14 @@
   "entity": "",
   "label": "",
   "raw_title": "0xBcf14EaAd80eE4f9fbcF0611874c362d669AB12e | Arkham"
+ },
+ "0xbd164e62834f3ba22b80f76d82bab8d20f8e3304": {
+  "category": "",
+  "checked_at": "2026-10-04T17:52:31.441493+00:00",
+  "entity": "@ika_xbt",
+  "label": "\"ika_xbt\" on Fomo",
+  "raw_title": "@ika_xbt: \"ika_xbt\" on Fomo (0xbD1) | Arkham",
+  "x_handle": "ika_xbt"
  },
  "0xbd40e13889cd75d8019cfbaa4f3c5562ba242279": {
   "checked_at": "2026-09-20T18:53:20.699924+00:00",
@@ -5317,6 +5722,12 @@
   "label": "",
   "raw_title": "0xC37faDF1FBAE06F349bb08D1afF27F370F5Aa08D | Arkham"
  },
+ "0xc38f2021b6b6349b8f662b7f207d84beb7bc8308": {
+  "checked_at": "2026-10-04T17:51:18.310647+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xc38F2021b6b6349b8f662B7f207D84Beb7bC8308 | Arkham"
+ },
  "0xc3d23b8759a896e8c53beb8b0184fed2a0064be1": {
   "checked_at": "2026-09-20T19:00:19.075344+00:00",
   "entity": "",
@@ -5329,6 +5740,13 @@
   "entity": "Proxy (EIP-1967 Beacon)",
   "label": "",
   "raw_title": "Proxy (EIP-1967 Beacon) (0xC40) | Arkham"
+ },
+ "0xc44fd102415ff62769a4e37c70dea27033a5291f": {
+  "category": "",
+  "checked_at": "2026-10-04T17:55:24.423111+00:00",
+  "entity": "\"senlinear\" on DeBank",
+  "label": "",
+  "raw_title": "\"senlinear\" on DeBank (0xC44) | Arkham"
  },
  "0xc45794465a9007256ab1be2bffd85ba1d4f82342": {
   "category": "",
@@ -5381,6 +5799,13 @@
   "label": "",
   "raw_title": "0xC71b3Db992592C5463833f1eeF88B3D5D54c2402 | Arkham"
  },
+ "0xc7a8c94c29fc6002102224fc8e7a53783ac31f77": {
+  "category": "",
+  "checked_at": "2026-10-04T17:56:58.690297+00:00",
+  "entity": "\"Callum_\" on OpenSea",
+  "label": "",
+  "raw_title": "\"Callum_\" on OpenSea (0xc7a) | Arkham"
+ },
  "0xc8d22098e3fcdd4488a8c75eda50f3a76ec5785a": {
   "checked_at": "2026-09-20T19:02:17.177253+00:00",
   "entity": "",
@@ -5412,6 +5837,12 @@
   "entity": "BeaconProxy",
   "label": "",
   "raw_title": "BeaconProxy (0xCaF) | Arkham"
+ },
+ "0xcb5ebee4654ce75db2f5c843ccb515988db52b77": {
+  "checked_at": "2026-10-04T17:57:10.568874+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xcb5EBeE4654cE75db2f5c843CcB515988db52b77 | Arkham"
  },
  "0xcb6e046a3a71583678a5ac5442481389b45f5e1e": {
   "category": "",
@@ -5527,6 +5958,14 @@
   "label": "",
   "raw_title": "0xD2E182d83998e44EF583C6fbB5b996334B889758 | Arkham"
  },
+ "0xd360ecb91406717ad13c4fae757b69b417e2af6b": {
+  "category": "",
+  "checked_at": "2026-10-04T17:55:36.017104+00:00",
+  "entity": "@phtevenstrong",
+  "label": "\"Stephen_DeFi_Dojo\" on OpenSea",
+  "raw_title": "@phtevenstrong: \"Stephen_DeFi_Dojo\" on OpenSea (0xD36) | Arkham",
+  "x_handle": "phtevenstrong"
+ },
  "0xd3a628dac966a5fc5a385c7aac7aae537cf6f7ba": {
   "checked_at": "2026-09-20T19:08:21.606370+00:00",
   "entity": "",
@@ -5568,6 +6007,26 @@
   "raw_title": "@gromwtf: \"gromwtf\" on Fomo (0xd46) | Arkham",
   "x_handle": "gromwtf"
  },
+ "0xd4cf04bc9d7c80b49c6c30a633f7b9bd5370b4d6": {
+  "checked_at": "2026-10-04T17:56:37.853018+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xd4Cf04bC9D7C80B49c6c30a633f7B9bD5370B4D6 | Arkham"
+ },
+ "0xd4e3f654c2a4b4bb778e712feb214e87d35b0f2d": {
+  "checked_at": "2026-10-04T17:51:28.120646+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xd4E3f654C2A4b4Bb778e712feB214e87D35B0f2D | Arkham"
+ },
+ "0xd5a9c4a92dde274e126f82b215fccb511147cd8e": {
+  "category": "",
+  "checked_at": "2026-10-04T17:57:21.730875+00:00",
+  "entity": "@0x541nt1",
+  "label": "0x541nt.eth",
+  "raw_title": "@0x541nt1: 0x541nt.eth (0xd5a) | Arkham",
+  "x_handle": "0x541nt1"
+ },
  "0xd73d6b8b9e875569c0f03c572a3806e619bcbec2": {
   "category": "",
   "checked_at": "2026-10-04T17:43:40.771850+00:00",
@@ -5603,6 +6062,12 @@
   "entity": "\"Binkieee\" on Fomo",
   "label": "",
   "raw_title": "\"Binkieee\" on Fomo (0xd87) | Arkham"
+ },
+ "0xd88c9e286aafbaff87ef56f3976e1d12e02528f3": {
+  "checked_at": "2026-10-04T17:51:39.478482+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xD88c9E286AaFBafF87eF56f3976E1D12e02528f3 | Arkham"
  },
  "0xd8c0581aa1ed5777a18c02a25e3175a5a52a7db2": {
   "checked_at": "2026-09-20T19:10:08.145205+00:00",
@@ -5718,6 +6183,12 @@
   "label": "",
   "raw_title": "0xDc99904B15226dCB94A58bC4514331F7808A89fd | Arkham"
  },
+ "0xdd35a714941a6777a835d21dc1b37fd474b59f4a": {
+  "checked_at": "2026-10-04T17:51:50.824457+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xdd35A714941a6777a835D21DC1b37fd474b59f4A | Arkham"
+ },
  "0xdd8795475306152abe5f45f1ce97c017fd2f02e7": {
   "checked_at": "2026-10-04T17:44:21.170532+00:00",
   "entity": "",
@@ -5770,6 +6241,13 @@
   "entity": "",
   "label": "",
   "raw_title": "0xDE13B74761273693dcb65dD44FB5f861bEc39Ca2 | Arkham"
+ },
+ "0xde6b2a06407575b98724818445178c1f5fd53361": {
+  "category": "",
+  "checked_at": "2026-10-04T17:55:45.802689+00:00",
+  "entity": "samurai.eth",
+  "label": "",
+  "raw_title": "samurai.eth (0xDe6) | Arkham"
  },
  "0xdea4c3aacc4aea718de30c8da840f874193c9803": {
   "category": "",
@@ -5829,6 +6307,12 @@
   "label": "",
   "raw_title": "0xe0809D34BfD417F6F9afE18f7549Ab6398F27402 | Arkham"
  },
+ "0xe09561c07c3c5b1b40b948ec557106e503d08701": {
+  "checked_at": "2026-10-04T18:00:27.969411+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xE09561C07C3c5B1B40B948eC557106E503d08701 | Arkham"
+ },
  "0xe09cf8f1cc9416869604b588a2c33fb62b90f67e": {
   "checked_at": "2026-10-04T16:50:57.106526+00:00",
   "entity": "",
@@ -5854,6 +6338,13 @@
   "entity": "",
   "label": "",
   "raw_title": "0xe27dF22f121f566fe3bEa33065267156995D9965 | Arkham"
+ },
+ "0xe28601398a5448d1147e6e8b0e0c6d686f0d216d": {
+  "category": "",
+  "checked_at": "2026-10-04T18:00:37.611086+00:00",
+  "entity": "\"0xneooo\" on OpenSea",
+  "label": "",
+  "raw_title": "\"0xneooo\" on OpenSea (0xe28) | Arkham"
  },
  "0xe2a9e4a631731f714af3eefe5d70ab4ce32947be": {
   "checked_at": "2026-09-20T19:17:43.108370+00:00",
@@ -5908,6 +6399,14 @@
   "label": "\"xbrazilzz\" on Fomo",
   "raw_title": "@xbrazilzz: \"xbrazilzz\" on Fomo (0xe44) | Arkham"
  },
+ "0xe46f99935c755a7fa835bb8c054d901705af18be": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:45:27.362584+00:00",
+  "entity": "@buffooning",
+  "label": "\"buffooning\" on Fomo",
+  "raw_title": "@buffooning: \"buffooning\" on Fomo (0xe46) | Arkham",
+  "x_handle": "buffooning"
+ },
  "0xe48080d4611ad2bd53f576ce9253f761aa4dfb92": {
   "category": "",
   "checked_at": "2026-09-20T19:18:46.568826+00:00",
@@ -5946,6 +6445,12 @@
   "label": "",
   "raw_title": "0xE51DeE3B9E9092e6260b3800123ccD63B5F03388 | Arkham"
  },
+ "0xe5d2753cecf751d724d1b80b97a545d7ffa70700": {
+  "checked_at": "2026-10-04T17:57:34.018580+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xE5D2753CecF751d724D1b80B97a545D7FfA70700 | Arkham"
+ },
  "0xe61bd7db5b9406859598ebb1fde8b0bfe51801ad": {
   "checked_at": "2026-09-20T19:20:25.533936+00:00",
   "entity": "",
@@ -5963,6 +6468,14 @@
   "entity": "",
   "label": "",
   "raw_title": "0xE624694fe2dC7580032cF706116342da06530d77 | Arkham"
+ },
+ "0xe6a5f7f6de90d5693fac766fca4d0d3214f95083": {
+  "category": "",
+  "checked_at": "2026-10-04T17:45:37.530021+00:00",
+  "entity": "@Thokani2",
+  "label": "\"Thokani\" on Fomo",
+  "raw_title": "@Thokani2: \"Thokani\" on Fomo (0xE6A) | Arkham",
+  "x_handle": "Thokani2"
  },
  "0xe6cb8468b8ac502513440e4ae60f061e9c55113f": {
   "category": "",
@@ -6010,6 +6523,14 @@
   "label": "",
   "raw_title": "0xea07F4270A378025427d131aCF0db9503284cD78 | Arkham"
  },
+ "0xeaba08d410edca0361a72ab259ec5fa14c449ea5": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:45:49.581327+00:00",
+  "entity": "@Sanda0x",
+  "label": "\"Sanda0x\" on Fomo",
+  "raw_title": "@Sanda0x: \"Sanda0x\" on Fomo (0xeaB) | Arkham",
+  "x_handle": "Sanda0x"
+ },
  "0xead0a1edc75ba6c304af43a0b7cb29cdd7f2bef7": {
   "checked_at": "2026-09-20T19:22:53.693272+00:00",
   "entity": "",
@@ -6027,6 +6548,14 @@
   "entity": "",
   "label": "",
   "raw_title": "0xeAe3dc43c7f659c82B2D15b31aC6ef49fEC70E0c | Arkham"
+ },
+ "0xeb0f432beecf10dcc828fc1e36a3386caf634637": {
+  "category": "",
+  "checked_at": "2026-10-04T17:46:00.896406+00:00",
+  "entity": "@0x_Leo_",
+  "label": "\"0xleo\" on Fomo",
+  "raw_title": "@0x_Leo_: \"0xleo\" on Fomo (0xeB0) | Arkham",
+  "x_handle": "0x_Leo_"
  },
  "0xeb2b89f1dea00d1120b39189f2a1e3744b647bb4": {
   "category": "",
@@ -6047,6 +6576,14 @@
   "label": "",
   "raw_title": "0xEB78b42B7c461B01e5e565cF595b7949fc80f046 | Arkham"
  },
+ "0xebf6391fff9d2745dcb8847e349d29a6cb1ba180": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:46:11.186451+00:00",
+  "entity": "@444worldeth",
+  "label": "\"444worldeth\" on Fomo",
+  "raw_title": "@444worldeth: \"444worldeth\" on Fomo (0xEBf) | Arkham",
+  "x_handle": "444worldeth"
+ },
  "0xeca445da159468aa1e14af66e99a429935d100f6": {
   "checked_at": "2026-09-20T19:23:50.572710+00:00",
   "entity": "",
@@ -6059,6 +6596,14 @@
   "entity": "@0xBreyn",
   "label": "\"halkoo\" on OpenSea",
   "raw_title": "@0xBreyn: \"halkoo\" on OpenSea (0xEcA) | Arkham"
+ },
+ "0xecae1b6f71a976412faba4ed0a4c373e0c98f7e3": {
+  "category": "",
+  "checked_at": "2026-10-04T17:46:20.593235+00:00",
+  "entity": "@lilbrogotmotion",
+  "label": "\"lilbro\" on Fomo",
+  "raw_title": "@lilbrogotmotion: \"lilbro\" on Fomo (0xEca) | Arkham",
+  "x_handle": "lilbrogotmotion"
  },
  "0xed090594a014208a177bb23fbb921aa3997eb1f9": {
   "category": "",
@@ -6092,6 +6637,12 @@
   "label": "",
   "raw_title": "0xEE5f5a9062C5061b3EAEcA20EaB546B5701038fB | Arkham"
  },
+ "0xeee29d1a6fa5873065ad8789c6e15231b48318a0": {
+  "checked_at": "2026-10-04T17:52:02.908941+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xeEE29d1a6fa5873065Ad8789C6e15231B48318a0 | Arkham"
+ },
  "0xef80c44d996ebac95aa62589986fb3fcdfe3f7d9": {
   "category": "",
   "checked_at": "2026-10-04T16:49:26.774251+00:00",
@@ -6111,11 +6662,33 @@
   "label": "",
   "raw_title": "0xF13176eCE4ed8d9aa4C335cD4f247458D4863FE4 | Arkham"
  },
+ "0xf21a5458a848282783c132cdc2d7308ff533b240": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:46:32.500267+00:00",
+  "entity": "@Stacco__",
+  "label": "\"Stacco\" on Fomo",
+  "raw_title": "@Stacco__: \"Stacco\" on Fomo (0xF21) | Arkham",
+  "x_handle": "Stacco__"
+ },
  "0xf23cf0a63e4dd7648f614c5543bf8d5fcaae9c87": {
   "checked_at": "2026-09-20T19:25:44.178096+00:00",
   "entity": "",
   "label": "",
   "raw_title": "0xf23Cf0a63e4dD7648f614C5543Bf8D5fCaae9c87 | Arkham"
+ },
+ "0xf2821338ef97dccdd1760bc22ac4389bc955ee6c": {
+  "category": "Bridge",
+  "checked_at": "2026-10-04T17:46:42.834074+00:00",
+  "entity": "@Crypt0WhaleX",
+  "label": "\"Crypt0WhaleX\" on Fomo",
+  "raw_title": "@Crypt0WhaleX: \"Crypt0WhaleX\" on Fomo (0xF28) | Arkham",
+  "x_handle": "Crypt0WhaleX"
+ },
+ "0xf29f0a86420399f662577b68c48137d510084d96": {
+  "checked_at": "2026-10-04T17:52:13.066520+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xF29f0A86420399F662577b68C48137D510084d96 | Arkham"
  },
  "0xf38ea4c357683be3ac04d6d0f69908b848bb2079": {
   "checked_at": "2026-09-20T19:26:07.399822+00:00",
@@ -6146,6 +6719,13 @@
   "entity": "",
   "label": "",
   "raw_title": "0xF5B79F2b5d04E0EE69dA15b3CE7E251BB97B6B46 | Arkham"
+ },
+ "0xf5e0735b343b2c4343902212bdb0d5c083ab58fb": {
+  "category": "",
+  "checked_at": "2026-10-04T17:46:53.211298+00:00",
+  "entity": "\"3figsto7figs\" on Fomo",
+  "label": "",
+  "raw_title": "\"3figsto7figs\" on Fomo (0xF5e) | Arkham"
  },
  "0xf6085c0170e282060eaaee3c6f1d8ae429c61a56": {
   "checked_at": "2026-09-20T19:27:42.735920+00:00",
@@ -6183,6 +6763,14 @@
   "entity": "Relay.link",
   "label": "Bridge Solver",
   "raw_title": "Relay.link: Bridge Solver (0xf70) | Arkham"
+ },
+ "0xf7c0d9aee226b632a25b1c096d8c285ed20d55b1": {
+  "category": "",
+  "checked_at": "2026-10-04T17:47:02.767629+00:00",
+  "entity": "@ResellCalendar",
+  "label": "\"ResellCalendar\" on Fomo",
+  "raw_title": "@ResellCalendar: \"ResellCalendar\" on Fomo (0xF7c) | Arkham",
+  "x_handle": "ResellCalendar"
  },
  "0xf7fc95b08510ccd175f8efae86455a0c80770946": {
   "category": "",
@@ -6235,6 +6823,12 @@
   "label": "",
   "raw_title": "Proxy (EIP-1967 Beacon) (0xfA7) | Arkham"
  },
+ "0xfa94ebdf91c62cd5f1790f2fc0159d52ed5dd7b6": {
+  "checked_at": "2026-10-04T18:00:50.415546+00:00",
+  "entity": "",
+  "label": "",
+  "raw_title": "0xfA94EbDf91c62cD5F1790f2fC0159D52eD5dD7B6 | Arkham"
+ },
  "0xfb4b45dc07a4dac8dd872f86a72885e33b53b48e": {
   "checked_at": "2026-09-20T19:30:18.905768+00:00",
   "entity": "",
@@ -6284,6 +6878,13 @@
   "entity": "",
   "label": "",
   "raw_title": "0xfc847231C6cebcA90Ad50605ef9738360CcFAB29 | Arkham"
+ },
+ "0xfd70ec56e9a0c7be48ba9962f322f6336d3cceeb": {
+  "category": "",
+  "checked_at": "2026-10-04T17:47:12.414223+00:00",
+  "entity": "dih67.eth",
+  "label": "",
+  "raw_title": "dih67.eth (0xFd7) | Arkham"
  },
  "0xfd7e55a555555c2f25053a38ec744de1afea4fa4": {
   "checked_at": "2026-10-04T16:39:59.290145+00:00",

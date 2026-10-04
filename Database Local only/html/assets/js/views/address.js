@@ -14,6 +14,7 @@ export function render(root, [addr]) {
   }
   if (st._i !== i) Object.assign(st, { _i: i, chart: 'cum', side: 'all', tok: 'all', minUsd: true });
   const w = S.wallets[i], s = S.statsAll.get(i), sw = S.swaps[i] || [], nm = walletName(i), ptype = S.types[w[1]];
+  const soc = (S.social || {})[(w[0] || '').toLowerCase()] || null;
   const ents = (S.memberOf.get(i) || []).map(ei => [S.entities[ei], ei]);
   const mates = [...new Set(ents.flatMap(([e]) => e.members))].filter(j => j !== i);
   const lm = labelMeta(ptype);
@@ -59,7 +60,12 @@ export function render(root, [addr]) {
               <div class="kv-row"><span>Swaps</span><span>${nf(sw.length)}</span></div>
               ${s?.unp ? `<div class="kv-row"><span>Unpriced swaps</span><span class="t2">${s.unp}</span></div>` : ''}
               ${s?.snap ? `<div class="kv-row"><span title="Priced at the token’s last snapshot price — no price series in the local DB">Snapshot-priced swaps ~</span><span class="t2">${s.snap}</span></div>` : ''}
-              <div class="kv-row"><span>Entities</span><span>${ents.length ? ents.map(([e, ei]) => `<a class="link" href="#/visualizer?entity=${ei}">${esc(e.title)}</a>`).join(', ') : '—'}</span></div>
+              <div class="kv-row"><span>Entities</span><span>${ents.length ? ents.map(([e, ei]) => `<a class="link" href="#/visualizer?entity=${ei}">${esc(e.title)}</a>`).join(', ') : (soc ? '—' : '—')}</span></div>
+              ${soc && (soc.x_gmgn || soc.x_arkham) ? `<div class="kv-row"><span>X (Twitter)</span><span>${[
+                soc.x_gmgn ? `<a class="link mono" href="https://x.com/${esc(soc.x_gmgn)}" target="_blank" rel="noopener">@${esc(soc.x_gmgn)}</a><span class="t2"> ·gmgn</span>` : '',
+                soc.x_arkham ? `<a class="link mono" href="https://x.com/${esc(soc.x_arkham)}" target="_blank" rel="noopener">@${esc(soc.x_arkham)}</a><span class="t2"> ·arkham</span>` : '',
+                soc.x_conflict ? '<span class="fchip is-off" title="GMGN vs Arkham melaporkan handle berbeda">⚠ beda handle</span>' : '',
+              ].filter(Boolean).join(' ')}</span></div>` : ''}
               ${S.ev[i]?._score?.realized != null ? `<div class="kv-row"><span>Realized PnL · verified</span><span class="${S.ev[i]._score.realized >= 0 ? 'pos' : 'neg'}">${usd(S.ev[i]._score.realized, true)}</span></div>` : ''}
             </div></div>
           </section>

@@ -369,3 +369,14 @@ per-stage/per-entry = kelaparan; kunci hanya di commit.
 - scripts/cielo_scrape.py / cielo_harvest_wallets.py / cielo_verify.py (baru)
 - 50 list, 905 wallet unik; 221 EVM aktif RH (robinscan/Etherscan V2); 79 di DB
 - known_entities +380 "*cielo" nametag; diamond_candidates.json 53 (GMGN, unverified)
+
+## S-49b (2026-10-04) — Cielo full-coverage: BLOCKED BY PLATFORM
+- followList API OK (kuota pulih) TAPI getListOfWallets?bundle_id balik 0 rows
+  walau poll 150s+ — padahal UI tracking merender walletnya ("17 wallets").
+  Endpoint yang dirender UI tidak konsisten diakses via replika API;
+  UI DOM tidak menautkan /profile/ di baris tracked. getWallets per-chain = 0.
+- Kesimpulan: fitur import wallet list = gated platform (plan basic). Script
+  cielo_follow_harvest.py v2 siap + teruji; rerun kalau nanti plan/endpoint
+  berubah. JANGAN ulangi rabbit-hole probing tanpa petunjuk baru.
+- Rutin 4 Okt tetap jalan: delta DB lokal = VPS 1:1 (157.659 wallet),
+  results refresh, GMGN verify OK.

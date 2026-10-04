@@ -60,7 +60,9 @@ function init(d) {
 
   // flat, time-sorted swap list: [walletIdx, tokenIdx, ts, side, usd, tx, snap]
   S.all = [];
-  for (const ai of S.active) for (const s of d.swaps[ai]) S.all.push([ai, s[0], s[1], s[2], s[3], s[4], s[5] || 0]);
+  const excludedT = new Set(['POOL_CONTRACT', 'NOISE']);
+  const isExcludedI = ai => excludedT.has(S.types[S.wallets[ai][1]]);
+  for (const ai of S.active) { if (isExcludedI(ai)) continue; for (const s of d.swaps[ai]) S.all.push([ai, s[0], s[1], s[2], s[3], s[4], s[5] || 0]) }
   S.all.sort((a, b) => a[2] - b[2]);
 
   // per-token trade aggregates

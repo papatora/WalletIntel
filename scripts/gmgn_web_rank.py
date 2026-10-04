@@ -116,7 +116,7 @@ def main() -> int:
                 # merge ke social map (list rank-meta per sumber)
                 for s in slim:
                     ent = social.setdefault(s["address"], {
-                        "address": addr,
+                        "address": s["address"],
                         "twitter_username": s["twitter_username"],
                         "twitter_name": s["twitter_name"],
                         "name": s["name"], "nickname": s["nickname"],
@@ -128,7 +128,7 @@ def main() -> int:
                     for t in s["tags"]:
                         if t not in ent["tags"]:
                             ent["tags"].append(t)
-                    ent["sources"].append(f"{tag}:{period}")
+                    if f"{tag}:{period}" not in ent["sources"]: ent["sources"].append(f"{tag}:{period}")
                     for k in ("pnl_30d", "winrate_30d", "realized_profit_30d",
                               "volume_30d", "txs_30d", "follow_count", "last_active"):
                         if s.get(k) is not None:

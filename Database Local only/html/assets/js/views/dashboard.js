@@ -13,7 +13,10 @@ export function render(root) {
   const typeRows = Object.entries(m.type_counts).sort((a, b) => b[1] - a[1]);
   const total = S.wallets.length;
 
-  const topNet = [...S.statsAll.entries()].sort((a, b) => b[1].net - a[1].net).slice(0, 8);
+  const excludedTypes = new Set(['POOL_CONTRACT', 'NOISE']);
+    const topNet = [...S.statsAll.entries()]
+      .filter(([ai]) => !excludedTypes.has(S.types[S.wallets[ai][1]]))
+      .sort((a, b) => b[1].net - a[1].net).slice(0, 8);
   const biggest = S.all.filter(r => r[4] >= 0).sort((a, b) => b[4] - a[4]).slice(0, 8);
   const hotTokens = [...S.tokAgg.entries()].sort((a, b) => b[1].wallets.size - a[1].wallets.size).slice(0, 8);
 

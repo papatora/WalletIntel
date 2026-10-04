@@ -27,7 +27,7 @@ const priceNote = () => {
 };
 
 const EXCLUDED_TYPES = new Set(['POOL_CONTRACT', 'NOISE']);
-const isExcluded = ai => { const tn = S.types[S.wallets[ai][1]]; return tn === 'POOL_CONTRACT' || tn === 'NOISE'; };
+const isExcluded = ai => EXCLUDED_TYPES.has(S.types[S.wallets[ai][1]]);
 
 function traderRows() {
   const from = +st.win ? S.meta.swap_to - +st.win * 86400 : 0;

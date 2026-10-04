@@ -220,15 +220,17 @@ class EtherscanV2Client:
                 break
         return items
 
-    async def address_transactions(self, wallet: str, max_pages: int) -> list[dict]:
-        """Tx native-ETH masuk/keluar (txlist + internal) — terlama dulu.
-        Untuk funding provenance: incoming pertama = funding pertama."""
+    async def address_transactions(self, wallet: str, max_pages: int,
+                                   sort: str = "asc") -> list[dict]:
+        """Tx native-ETH masuk/keluar. sort='asc' terlama dulu (funding
+        provenance); S-50e: sort='desc' TERBARU dulu — wajib utk deteksi
+        aktivitas terkini (audit G: asc + max_pages=1 salah label 52 NOISE)."""
         out: list[dict] = []
         for action, internal in (("txlist", False), ("txlistinternal", True)):
             for page in range(1, max_pages + 1):
                 params = {"module": "account", "action": action,
                           "address": wallet.lower(), "page": page,
-                          "offset": 200, "sort": "asc",
+                          "offset": 200, "sort": sort,
                           "startblock": 0, "endblock": 99999999}
                 data = await self._call(params)
                 if isinstance(data, dict):

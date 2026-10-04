@@ -2730,9 +2730,9 @@
  "0x28683f7ee8d4c0bc197bc6903f2657665134cc02": {
   "category": "",
   "checked_at": "2026-10-04T16:49:57.068918+00:00",
-  "entity": "\uc81c\ubc1c\ud55c\uc785\ub9cc.eth",
+  "entity": "제발한입만.eth",
   "label": "",
-  "raw_title": "\uc81c\ubc1c\ud55c\uc785\ub9cc.eth (0x286) | Arkham"
+  "raw_title": "제발한입만.eth (0x286) | Arkham"
  },
  "0x28a92ff139536c780b3d8b172e68bd2d32a666a6": {
   "category": "",
@@ -2985,8 +2985,8 @@
   "category": "DAO",
   "checked_at": "2026-10-04T16:50:07.134403+00:00",
   "entity": "@tobegosuman",
-  "label": "\ud83d\udc9b\ud83d\udc9b\ud83d\udc9b\ud83d\udc9b\ud83d\udc9b.eth",
-  "raw_title": "@tobegosuman: \ud83d\udc9b\ud83d\udc9b\ud83d\udc9b\ud83d\udc9b\ud83d\udc9b.eth (0x37a) | Arkham"
+  "label": "💛💛💛💛💛.eth",
+  "raw_title": "@tobegosuman: 💛💛💛💛💛.eth (0x37a) | Arkham"
  },
  "0x390f627c2dcd587a9f9714c622123bdcfdf732f1": {
   "checked_at": "2026-09-20T17:58:36.538556+00:00",
@@ -3469,13 +3469,6 @@
   "entity": "",
   "label": "",
   "raw_title": "0x4F0c3bA33A6ECA7b646F1d28b8dE970e39621995 | Arkham"
- },
- "0x4f619a6b70d7e3c17393509566d6941276fa761f": {
-  "checked_at": "2026-09-20T18:09:33.068722+00:00",
-  "entity": "",
-  "label": "",
-  "raw_title": "Arkham | The Source of Truth On-Chain",
-  "unknown": true
  },
  "0x4f833215d9ca865febb5ad2462624d2ff143fb2c": {
   "checked_at": "2026-09-20T18:09:51.126288+00:00",
@@ -3993,9 +3986,9 @@
  "0x69c5fb51dd3668799a7a0f80d805a4700000dead": {
   "category": "",
   "checked_at": "2026-10-04T17:49:41.703444+00:00",
-  "entity": "\ud83d\udd95\ud83d\udc35\ud83d\udd95.eth",
+  "entity": "🖕🐵🖕.eth",
   "label": "",
-  "raw_title": "\ud83d\udd95\ud83d\udc35\ud83d\udd95.eth (0x69c) | Arkham"
+  "raw_title": "🖕🐵🖕.eth (0x69c) | Arkham"
  },
  "0x6a02e2f7067894d07e323d2d41b7999c84cdf6b2": {
   "checked_at": "2026-09-24T16:17:47.943560+00:00",

@@ -14,7 +14,6 @@ const SRC_OPTIONS = [
   { v: 'arkham', l: 'Arkham' },
   { v: 'both', l: 'Dual-verified (keduanya)' },
   { v: 'conflict', l: '⚠ Konflik handle' },
-  { v: 'caller', l: 'TopCallers' },
 ];
 
 const COLS = [
@@ -41,7 +40,6 @@ function rows() {
   else if (st.src === 'arkham') list = list.filter(([, e]) => e.x_arkham);
   else if (st.src === 'both') list = list.filter(([, e]) => e.x_gmgn && e.x_arkham);
   else if (st.src === 'conflict') list = list.filter(([, e]) => e.x_conflict);
-  else if (st.src === 'caller') list = list.filter(([, e]) => (e.tags || []).includes('caller'));
   else list = list.filter(([, e]) => e.x_primary);
 
   const key = st.sort;
@@ -87,8 +85,8 @@ export function render(root) {
           <select id="kol-src" class="input">${SRC_OPTIONS.map(o => `<option value="${o.v}" ${st.src === o.v ? 'selected' : ''}>${o.l}</option>`).join('')}</select>
           <span class="t2">${nf(list.length)} profil · ${nf(nX)} punya X · ${nBoth} dual-verified · ${nConf} konflik</span>
         </div>
-        <div class="card"><table class="tbl">
-          ${thead(COLS, st, (k, dir) => { st.sort = k; st.dir = dir; st.page = 0; draw(); })}
+        <div class="card"><table class="table">
+          <thead>${thead(COLS, st)}</thead>
           <tbody>
           ${slice.length ? slice.map(([a, e], i) => `
             <tr>
@@ -99,7 +97,7 @@ export function render(root) {
               <td class="rt t2">${e.fans ? nf(e.fans) : '—'}</td>
               <td class="rt">${e.rank?.realized_profit_30d != null ? usd(parseFloat(e.rank.realized_profit_30d), true) : '<span class="t2">—</span>'}</td>
               <td class="rt">${e.rank?.winrate_30d != null ? (100 * parseFloat(e.rank.winrate_30d)).toFixed(0) + '%' : '<span class="t2">—</span>'}</td>
-              <td class="t2">${e.x_gmgn && e.x_arkham ? 'gmgn+arkham' : e.x_gmgn ? 'gmgn' : 'arkham'}</td>
+              <td class="t2">${e.x_gmgn && e.x_arkham ? 'gmgn+arkham' : e.x_gmgn ? 'gmgn' : e.x_arkham ? 'arkham' : '—'}</td>
             </tr>`).join('') : emptyRow(COLS.length, 'Tidak ada profil yang cocok — jalankan gmgn_web_rank.py / gmgn_social_rescan.py / merge_social_x.py lalu rebuild dataset.')}
           </tbody>
         </table></div>
@@ -110,7 +108,17 @@ export function render(root) {
         </div>` : ''}
       </div>`;
 
-    root.querySelector('#kol-q')?.addEventListener('input', ev => { st.q = ev.target.value; st.page = 0; draw(); });
+    root.addEventListener('click', ev => {
+      const th = ev.target.closest('th[data-sort]');
+      if (th) { st.sort = th.dataset.sort; st.dir = st.dir === -1 ? 1 : -1; st.page = 0; draw(); }
+    });
+    const q = root.querySelector('#kol-q');
+    q?.addEventListener('input', ev => {
+      const focusPos = ev.target.selectionStart;
+      st.q = ev.target.value; st.page = 0; draw();
+      const again = root.querySelector('#kol-q');
+      if (again) { again.focus(); try { again.setSelectionRange(focusPos, focusPos); } catch (_) {} }
+    });
     root.querySelector('#kol-src')?.addEventListener('change', ev => { st.src = ev.target.value; st.page = 0; draw(); });
     root.querySelector('#pg-prev')?.addEventListener('click', () => { st.page--; draw(); });
     root.querySelector('#pg-next')?.addEventListener('click', () => { st.page++; draw(); });

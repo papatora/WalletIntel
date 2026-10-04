@@ -137,6 +137,16 @@ def main() -> int:
                           timeout=40000)
                 page.wait_for_load_state("domcontentloaded", timeout=20000)
                 page.wait_for_timeout(2500 + random.random() * 1500)
+                # S-50f (audit J): guard URL — jangan parse title halaman salah
+                # (homepage dsb) dan jangan simpan sbg done permanen.
+                if f"/explorer/address/{addr.lower()}" not in page.url.lower():
+                    page.reload(timeout=40000)
+                    page.wait_for_load_state("domcontentloaded", timeout=20000)
+                    page.wait_for_timeout(4000)
+                    if f"/explorer/address/{addr.lower()}" not in page.url.lower():
+                        print(f"[{i}/{len(todo)}] {addr[:12]} URL guard — retry run berikutnya",
+                              flush=True)
+                        continue
                 rec = parse_title(page.title(), addr)
                 if rec.get("cf"):
                     # CF "just a moment" sering lolos sendiri — reload 1x

@@ -154,6 +154,10 @@ async def main_async(args) -> int:
             except Exception as e:
                 s = None
                 print(f"[{i}/{len(targets)}] {addr[:12]} ERR {str(e)[:60]}", flush=True)
+            if isinstance(s, dict) and (s.get("_http_status") or s.get("_http_error")):
+                # error HTTP GmgnClient balik sbg dict (bukan raise) — JANGAN
+                # upsert; biar wallet tidak terkunci dari rescan berikutnya
+                continue
             common = (s or {}).get("common") or {}
             tw = common.get("twitter_username") or ""
             row = {
@@ -179,7 +183,6 @@ async def main_async(args) -> int:
             if tw:
                 n_tw += 1
             if len(buf) >= BATCH_SAVE or i == len(targets):
-                conn.executemany  # noqa
                 upsert(conn, buf)
                 conn.commit()
                 buf = []

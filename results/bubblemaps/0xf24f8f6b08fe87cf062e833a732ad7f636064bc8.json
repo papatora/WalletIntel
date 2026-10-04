@@ -1,0 +1,5271 @@
+{
+ "token": "0xf24f8f6b08fe87cf062e833a732ad7f636064bc8",
+ "chain": "robinhood",
+ "url": "https://v2.bubblemaps.io/map?address=0xf24f8f6b08fe87cf062e833a732ad7f636064bc8&chain=robinhood",
+ "captured_at": "2026-10-04T16:33:57.696883+00:00",
+ "subgraph_len": 0,
+ "subgraph": null,
+ "top_holders": [
+  {
+   "address": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+   "address_details": {
+    "label": "Uniswap: PoolManager",
+    "degree": 481763400,
+    "is_supernode": true,
+    "is_contract": true,
+    "is_cex": false,
+    "is_dex": true,
+    "is_paid_label": false,
+    "entity_id": "uniswap",
+    "inward_relations": 212573239,
+    "outward_relations": 269190161,
+    "first_activity_date": "2026-05-22T21:15:34"
+   },
+   "holder_data": {
+    "amount": 88645691.35150857,
+    "rank": 1,
+    "share": 0.0886160940707134
+   }
+  },
+  {
+   "address": "0x000000000000000000000000000000000000dead",
+   "address_details": {
+    "label": "Dead Address",
+    "degree": 408284889,
+    "is_supernode": true,
+    "is_contract": true,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "burn_address",
+    "inward_relations": 378130756,
+    "outward_relations": 30154133,
+    "first_activity_date": "2016-09-15T11:11:32"
+   },
+   "holder_data": {
+    "amount": 36817814.22339197,
+    "rank": 2,
+    "share": 0.0368055213846852
+   }
+  },
+  {
+   "address": "0x7cc44e0880feb0f6934d26103458b3a158ea0280",
+   "address_details": {
+    "label": null,
+    "degree": 14,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 14,
+    "outward_relations": 0,
+    "first_activity_date": "2026-09-06T19:29:40"
+   },
+   "holder_data": {
+    "amount": 25839934.184937827,
+    "rank": 3,
+    "share": 0.025831306672690586
+   }
+  },
+  {
+   "address": "0x05091872e42636580057a91a2512bddda6f044e1",
+   "address_details": {
+    "label": null,
+    "degree": 45,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 28,
+    "outward_relations": 17,
+    "first_activity_date": "2026-07-27T22:15:39"
+   },
+   "holder_data": {
+    "amount": 25111336.913385827,
+    "rank": 4,
+    "share": 0.025102952667310965
+   }
+  },
+  {
+   "address": "0xde51ecd9193d934c1c9159ad0e22c63cdcf8b9f5",
+   "address_details": {
+    "label": null,
+    "degree": 51,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 27,
+    "outward_relations": 24,
+    "first_activity_date": "2026-07-28T14:16:59"
+   },
+   "holder_data": {
+    "amount": 22119083.168616697,
+    "rank": 5,
+    "share": 0.022111697984909605
+   }
+  },
+  {
+   "address": "0x464ebe267409f71d6839c52037cad8db3cccf0d2",
+   "address_details": {
+    "label": null,
+    "degree": 34,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 19,
+    "outward_relations": 15,
+    "first_activity_date": "2026-07-27T07:02:05"
+   },
+   "holder_data": {
+    "amount": 21831413.159121133,
+    "rank": 6,
+    "share": 0.02182412402351201
+   }
+  },
+  {
+   "address": "0x7c3625ecd5d47be53bf8f70bc7919c63f3fac89e",
+   "address_details": {
+    "label": null,
+    "degree": 51,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 28,
+    "outward_relations": 23,
+    "first_activity_date": "2026-07-27T09:09:05"
+   },
+   "holder_data": {
+    "amount": 21521431.325754903,
+    "rank": 7,
+    "share": 0.02151424568778028
+   }
+  },
+  {
+   "address": "0x358db4843ab0700ea6dc03f6195223952c5c52f3",
+   "address_details": {
+    "label": null,
+    "degree": 47,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 27,
+    "outward_relations": 20,
+    "first_activity_date": "2026-07-27T14:45:59"
+   },
+   "holder_data": {
+    "amount": 21466936.566399653,
+    "rank": 8,
+    "share": 0.021459769123293497
+   }
+  },
+  {
+   "address": "0x89eec7abac6f526e4a6181d3f7481a9fdb35ea05",
+   "address_details": {
+    "label": null,
+    "degree": 41,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 22,
+    "outward_relations": 19,
+    "first_activity_date": "2026-07-27T19:06:11"
+   },
+   "holder_data": {
+    "amount": 21454694.780678954,
+    "rank": 9,
+    "share": 0.021447531424895756
+   }
+  },
+  {
+   "address": "0xeaa4838ac5d1c26a13f9cbcca63b7bb4ad92867c",
+   "address_details": {
+    "label": null,
+    "degree": 48,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 24,
+    "outward_relations": 24,
+    "first_activity_date": "2026-07-27T23:33:01"
+   },
+   "holder_data": {
+    "amount": 21038026.079872154,
+    "rank": 10,
+    "share": 0.021031001842644503
+   }
+  },
+  {
+   "address": "0x0bdd3b00ca5202cc1e8022b02b84cf46377c9577",
+   "address_details": {
+    "label": null,
+    "degree": 42,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 24,
+    "outward_relations": 18,
+    "first_activity_date": "2026-07-29T01:54:19"
+   },
+   "holder_data": {
+    "amount": 20660075.230808266,
+    "rank": 11,
+    "share": 0.020653177184907414
+   }
+  },
+  {
+   "address": "0xa152756623b23ee6fb2020df9d91345ec833708e",
+   "address_details": {
+    "label": null,
+    "degree": 76,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 43,
+    "outward_relations": 33,
+    "first_activity_date": "2026-07-27T16:10:13"
+   },
+   "holder_data": {
+    "amount": 20588021.77371819,
+    "rank": 12,
+    "share": 0.020581147785234784
+   }
+  },
+  {
+   "address": "0x9fa71e1fce91e84010af4dd646db8f166c964d47",
+   "address_details": {
+    "label": null,
+    "degree": 54,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 29,
+    "outward_relations": 25,
+    "first_activity_date": "2026-07-28T13:23:35"
+   },
+   "holder_data": {
+    "amount": 20516605.919131864,
+    "rank": 13,
+    "share": 0.02050975577518133
+   }
+  },
+  {
+   "address": "0x77b6c9ea549ae430592e4e88805e7c31fa0a6aad",
+   "address_details": {
+    "label": null,
+    "degree": 47,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 27,
+    "outward_relations": 20,
+    "first_activity_date": "2026-07-28T13:42:31"
+   },
+   "holder_data": {
+    "amount": 20433867.8827186,
+    "rank": 14,
+    "share": 0.02042704536358388
+   }
+  },
+  {
+   "address": "0xd8fad9a0b4e432f623ce8a1f7d0164f911907664",
+   "address_details": {
+    "label": null,
+    "degree": 50,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 27,
+    "outward_relations": 23,
+    "first_activity_date": "2026-07-27T20:32:07"
+   },
+   "holder_data": {
+    "amount": 19532198.37445918,
+    "rank": 15,
+    "share": 0.019525676907357712
+   }
+  },
+  {
+   "address": "0x89e0df90671bb62754e73240396fad5dad847088",
+   "address_details": {
+    "label": null,
+    "degree": 38,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 21,
+    "outward_relations": 17,
+    "first_activity_date": "2026-07-28T14:14:05"
+   },
+   "holder_data": {
+    "amount": 19196291.361549746,
+    "rank": 16,
+    "share": 0.019189882048056994
+   }
+  },
+  {
+   "address": "0xa5e51fabd4cfbccfee389658b461a62efc68929e",
+   "address_details": {
+    "label": null,
+    "degree": 41,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 22,
+    "outward_relations": 19,
+    "first_activity_date": "2026-07-27T17:08:35"
+   },
+   "holder_data": {
+    "amount": 18602473.32003403,
+    "rank": 17,
+    "share": 0.018596262272233023
+   }
+  },
+  {
+   "address": "0x7cbc725d55d337e490c16560be9622481783c06e",
+   "address_details": {
+    "label": null,
+    "degree": 91,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 52,
+    "outward_relations": 39,
+    "first_activity_date": "2026-07-28T07:26:47"
+   },
+   "holder_data": {
+    "amount": 17813805.640430342,
+    "rank": 18,
+    "share": 0.017807857915283953
+   }
+  },
+  {
+   "address": "0xbe42965253303acf7f04a7a8e9ef137e31c040fb",
+   "address_details": {
+    "label": null,
+    "degree": 6,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 4,
+    "outward_relations": 2,
+    "first_activity_date": "2026-09-06T12:03:21"
+   },
+   "holder_data": {
+    "amount": 17768814.46179338,
+    "rank": 19,
+    "share": 0.017762881758432342
+   }
+  },
+  {
+   "address": "0xd3490bf30eef6f0ec230c6e14b4b3598b43c85ad",
+   "address_details": {
+    "label": null,
+    "degree": 13,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 7,
+    "outward_relations": 6,
+    "first_activity_date": "2026-09-06T12:48:39"
+   },
+   "holder_data": {
+    "amount": 17492835.371186864,
+    "rank": 20,
+    "share": 0.01748699481252585
+   }
+  },
+  {
+   "address": "0x838a336d19ae121a0ca754ebbdd57282de656dfa",
+   "address_details": {
+    "label": "@0xdetweiler \"0xdetweiler\" on Fomo",
+    "degree": 10891,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "0xdetweiler",
+    "inward_relations": 8562,
+    "outward_relations": 2329,
+    "first_activity_date": "2026-02-12T07:07:21"
+   },
+   "holder_data": {
+    "amount": 15640031.294586772,
+    "rank": 21,
+    "share": 0.015634809355530136
+   }
+  },
+  {
+   "address": "0xb70b1872feba505f9722db82a59ed94de0df5b37",
+   "address_details": {
+    "label": null,
+    "degree": 8,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 4,
+    "outward_relations": 4,
+    "first_activity_date": "2026-09-06T12:55:39"
+   },
+   "holder_data": {
+    "amount": 14947398.40181137,
+    "rank": 22,
+    "share": 0.014942407721035906
+   }
+  },
+  {
+   "address": "0x0c9f83a74ba2fa53a8786f5c3d292753958d42f3",
+   "address_details": {
+    "label": null,
+    "degree": 33,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 26,
+    "outward_relations": 7,
+    "first_activity_date": "2026-09-06T12:21:03"
+   },
+   "holder_data": {
+    "amount": 13154904.875598913,
+    "rank": 23,
+    "share": 0.01315051267776616
+   }
+  },
+  {
+   "address": "0x56e95b47a07210f1ea9fa418c7c5dc164c419ac0",
+   "address_details": {
+    "label": null,
+    "degree": 15101,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 14651,
+    "outward_relations": 450,
+    "first_activity_date": "2026-07-04T14:58:11"
+   },
+   "holder_data": {
+    "amount": 12030676.09335358,
+    "rank": 24,
+    "share": 0.012026659256290642
+   }
+  },
+  {
+   "address": "0x6b868e8710704dcb4387a3acb463df471ac392d1",
+   "address_details": {
+    "label": null,
+    "degree": 50,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 33,
+    "outward_relations": 17,
+    "first_activity_date": "2026-09-06T12:48:39"
+   },
+   "holder_data": {
+    "amount": 11507447.974352434,
+    "rank": 25,
+    "share": 0.011503605834212964
+   }
+  },
+  {
+   "address": "0xdea857e0896837a624b810e255f9b3848adc8efe",
+   "address_details": {
+    "label": null,
+    "degree": 41760,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 22297,
+    "outward_relations": 19463,
+    "first_activity_date": "2022-03-30T15:31:55"
+   },
+   "holder_data": {
+    "amount": 11376436.313039405,
+    "rank": 26,
+    "share": 0.011372637915453782
+   }
+  },
+  {
+   "address": "0x8dcdc4cb621cffae6dbb1c97f2cd89aa35cc273c",
+   "address_details": {
+    "label": null,
+    "degree": 145,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 112,
+    "outward_relations": 33,
+    "first_activity_date": "2026-08-24T19:08:51"
+   },
+   "holder_data": {
+    "amount": 10426517.173765367,
+    "rank": 27,
+    "share": 0.010423035937939884
+   }
+  },
+  {
+   "address": "0x4d9aa6d0577b26d9803a4d1ec2b4ebebe41291ca",
+   "address_details": {
+    "label": null,
+    "degree": 1315,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 981,
+    "outward_relations": 334,
+    "first_activity_date": "2026-05-19T10:18:11"
+   },
+   "holder_data": {
+    "amount": 10280497.960244419,
+    "rank": 28,
+    "share": 0.010277065477737888
+   }
+  },
+  {
+   "address": "0x158a1739fdec828b787c01bb5c169dfb0a99393f",
+   "address_details": {
+    "label": null,
+    "degree": 68,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 47,
+    "outward_relations": 21,
+    "first_activity_date": "2026-07-27T12:40:09"
+   },
+   "holder_data": {
+    "amount": 9300820.594162697,
+    "rank": 29,
+    "share": 0.009297715209179469
+   }
+  },
+  {
+   "address": "0xcb1386d0a8fb8be2db17fb2852f4fca18298c62b",
+   "address_details": {
+    "label": null,
+    "degree": 101,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 61,
+    "outward_relations": 40,
+    "first_activity_date": "2026-07-27T18:33:31"
+   },
+   "holder_data": {
+    "amount": 9060509.052042441,
+    "rank": 30,
+    "share": 0.009057483902974598
+   }
+  },
+  {
+   "address": "0x91bba21186c1f42917e61b031645c1440a82ed94",
+   "address_details": {
+    "label": null,
+    "degree": 102,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 54,
+    "outward_relations": 48,
+    "first_activity_date": "2026-07-27T10:21:09"
+   },
+   "holder_data": {
+    "amount": 8530778.486148138,
+    "rank": 31,
+    "share": 0.008527930205059611
+   }
+  },
+  {
+   "address": "0xd89dcd226f1f902d060b4f5897edc130d8a7b312",
+   "address_details": {
+    "label": null,
+    "degree": 19616,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 11962,
+    "outward_relations": 7654,
+    "first_activity_date": "2022-08-02T16:19:08"
+   },
+   "holder_data": {
+    "amount": 7776678.57666271,
+    "rank": 32,
+    "share": 0.007774082076641355
+   }
+  },
+  {
+   "address": "0xd68eaef5600398e13ae24e295e867c939749e3dc",
+   "address_details": {
+    "label": null,
+    "degree": 136,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 82,
+    "outward_relations": 54,
+    "first_activity_date": "2026-09-03T18:40:35"
+   },
+   "holder_data": {
+    "amount": 7179836.83030606,
+    "rank": 33,
+    "share": 0.0071774396055398
+   }
+  },
+  {
+   "address": "0xa2b16c27c0766a1df18892f7b0413b4f5806ee4d",
+   "address_details": {
+    "label": "@ponziscamman ponziscam.eth",
+    "degree": 70631,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "ponziscamman",
+    "inward_relations": 44712,
+    "outward_relations": 25919,
+    "first_activity_date": "2020-08-18T00:35:50"
+   },
+   "holder_data": {
+    "amount": 6960639.861472597,
+    "rank": 34,
+    "share": 0.00695831582282669
+   }
+  },
+  {
+   "address": "0x18ecb6ef20de36fc1e1cdf5dcd408bc00e6dcc6f",
+   "address_details": {
+    "label": null,
+    "degree": 977,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 731,
+    "outward_relations": 246,
+    "first_activity_date": "2026-08-13T23:21:16"
+   },
+   "holder_data": {
+    "amount": 6941971.900208949,
+    "rank": 35,
+    "share": 0.006939654094476148
+   }
+  },
+  {
+   "address": "0xec544c04d4416b4e49d330d42807d1ef3aa49ef7",
+   "address_details": {
+    "label": null,
+    "degree": 302,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 295,
+    "outward_relations": 7,
+    "first_activity_date": "2026-10-01T12:19:16"
+   },
+   "holder_data": {
+    "amount": 6915319.160645501,
+    "rank": 36,
+    "share": 0.006913010253806767
+   }
+  },
+  {
+   "address": "0xa8ab5a838b50c14cfc5c3e788c37c77140481c41",
+   "address_details": {
+    "label": null,
+    "degree": 2463,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1646,
+    "outward_relations": 817,
+    "first_activity_date": "2026-04-22T14:25:59"
+   },
+   "holder_data": {
+    "amount": 6884454.01859438,
+    "rank": 37,
+    "share": 0.006882155417098885
+   }
+  },
+  {
+   "address": "0x9da9d44476a544cf1dd8112308d324ac8e78edaf",
+   "address_details": {
+    "label": null,
+    "degree": 985,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 525,
+    "outward_relations": 460,
+    "first_activity_date": "2026-07-09T08:34:11"
+   },
+   "holder_data": {
+    "amount": 6500279.299191722,
+    "rank": 38,
+    "share": 0.006498108967066923
+   }
+  },
+  {
+   "address": "0x07bd3d024d68ff52021ead3341feb795d1cc7925",
+   "address_details": {
+    "label": null,
+    "degree": 107,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 65,
+    "outward_relations": 42,
+    "first_activity_date": "2026-07-27T08:24:47"
+   },
+   "holder_data": {
+    "amount": 6480065.593778347,
+    "rank": 39,
+    "share": 0.006477902010664198
+   }
+  },
+  {
+   "address": "0x8ef93db5ac778c21a507fdcfabfa4c5963d7664c",
+   "address_details": {
+    "label": null,
+    "degree": 977,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 785,
+    "outward_relations": 192,
+    "first_activity_date": "2026-09-04T09:09:10"
+   },
+   "holder_data": {
+    "amount": 6422121.323380861,
+    "rank": 40,
+    "share": 0.006419977086867944
+   }
+  },
+  {
+   "address": "0xeeface13b5b3e496fd21734730427854b43402ef",
+   "address_details": {
+    "label": null,
+    "degree": 107,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 60,
+    "outward_relations": 47,
+    "first_activity_date": "2026-07-27T11:17:43"
+   },
+   "holder_data": {
+    "amount": 6155047.87104722,
+    "rank": 41,
+    "share": 0.0061529928057939675
+   }
+  },
+  {
+   "address": "0x02096d0405e4a86fc0e0053a1677b044b0179bc4",
+   "address_details": {
+    "label": null,
+    "degree": 7078,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3811,
+    "outward_relations": 3267,
+    "first_activity_date": "2026-08-11T23:04:59"
+   },
+   "holder_data": {
+    "amount": 5912537.811527395,
+    "rank": 42,
+    "share": 0.0059105637162368985
+   }
+  },
+  {
+   "address": "0xf54605d6ccc16134aff9c807ccac2e261d1721d6",
+   "address_details": {
+    "label": null,
+    "degree": 2129,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1168,
+    "outward_relations": 961,
+    "first_activity_date": "2022-05-21T09:13:37"
+   },
+   "holder_data": {
+    "amount": 5795193.415562565,
+    "rank": 43,
+    "share": 0.005793258499559682
+   }
+  },
+  {
+   "address": "0x6a15f3f6e9a39cbd3cd3f2e81e627eaaf8de6e86",
+   "address_details": {
+    "label": null,
+    "degree": 272,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 229,
+    "outward_relations": 43,
+    "first_activity_date": "2026-08-25T15:54:05"
+   },
+   "holder_data": {
+    "amount": 5782966.619613262,
+    "rank": 44,
+    "share": 0.005781035785928508
+   }
+  },
+  {
+   "address": "0x97c7077a2c8702f7baf6586a61fbc57a2ab3cb66",
+   "address_details": {
+    "label": null,
+    "degree": 33,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 17,
+    "outward_relations": 16,
+    "first_activity_date": "2026-09-06T12:34:17"
+   },
+   "holder_data": {
+    "amount": 5778444.139880704,
+    "rank": 45,
+    "share": 0.005776514816174613
+   }
+  },
+  {
+   "address": "0xbe4a3b43cb5f1b7a2b9bed3ee5c0c9c93135286e",
+   "address_details": {
+    "label": "@seeksahib",
+    "degree": 6921,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "seeksahib",
+    "inward_relations": 4831,
+    "outward_relations": 2090,
+    "first_activity_date": "2021-10-04T08:32:50"
+   },
+   "holder_data": {
+    "amount": 5494062.369699427,
+    "rank": 46,
+    "share": 0.0054922279962044155
+   }
+  },
+  {
+   "address": "0x2c074c8879daf87ba6fe6874b5485fcd2b217d21",
+   "address_details": {
+    "label": null,
+    "degree": 6302,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2943,
+    "outward_relations": 3359,
+    "first_activity_date": "2024-03-08T22:38:11"
+   },
+   "holder_data": {
+    "amount": 5227291.048377283,
+    "rank": 47,
+    "share": 0.0052255457452655574
+   }
+  },
+  {
+   "address": "0xe59c9158dc000c3f7fbee7a1d98eef651aa0720f",
+   "address_details": {
+    "label": null,
+    "degree": 331,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 247,
+    "outward_relations": 84,
+    "first_activity_date": "2026-08-17T11:59:51"
+   },
+   "holder_data": {
+    "amount": 5006862.269370791,
+    "rank": 48,
+    "share": 0.005005190563659774
+   }
+  },
+  {
+   "address": "0x80a922a53228ef7c04b4130dbcb597f87ee1024a",
+   "address_details": {
+    "label": null,
+    "degree": 37883,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 33489,
+    "outward_relations": 4394,
+    "first_activity_date": "2025-09-16T12:24:05"
+   },
+   "holder_data": {
+    "amount": 4999041.205043885,
+    "rank": 49,
+    "share": 0.004997372110652533
+   }
+  },
+  {
+   "address": "0x8481af90ca42a64c4161b623634369d29c52d56b",
+   "address_details": {
+    "label": null,
+    "degree": 1252,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1034,
+    "outward_relations": 218,
+    "first_activity_date": "2026-08-30T08:11:47"
+   },
+   "holder_data": {
+    "amount": 4772919.755368606,
+    "rank": 50,
+    "share": 0.004771326159063375
+   }
+  },
+  {
+   "address": "0x0677099d8892b730deca6b0a96d47f0b3cb50762",
+   "address_details": {
+    "label": null,
+    "degree": 30,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 16,
+    "outward_relations": 14,
+    "first_activity_date": "2026-09-06T12:38:43"
+   },
+   "holder_data": {
+    "amount": 4459370.511173313,
+    "rank": 51,
+    "share": 0.004457881603600067
+   }
+  },
+  {
+   "address": "0x59951ef8b8951b1d3e44fb43c6d09a1a0d85f6e3",
+   "address_details": {
+    "label": null,
+    "degree": 8269,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 5810,
+    "outward_relations": 2459,
+    "first_activity_date": "2024-12-19T22:40:13"
+   },
+   "holder_data": {
+    "amount": 4360097.528042447,
+    "rank": 52,
+    "share": 0.00435864176602103
+   }
+  },
+  {
+   "address": "0x9c6bbf21517084af5a380ad0ed8fd0d51bc6e9d8",
+   "address_details": {
+    "label": null,
+    "degree": 2258,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1628,
+    "outward_relations": 630,
+    "first_activity_date": "2026-06-17T09:18:18"
+   },
+   "holder_data": {
+    "amount": 4127219.033313341,
+    "rank": 53,
+    "share": 0.0041258410254398645
+   }
+  },
+  {
+   "address": "0xec2592de866a3697c6ea049fcd974c4835840e6a",
+   "address_details": {
+    "label": null,
+    "degree": 4985,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3177,
+    "outward_relations": 1808,
+    "first_activity_date": "2025-09-24T16:02:16"
+   },
+   "holder_data": {
+    "amount": 4039843.4698527125,
+    "rank": 54,
+    "share": 0.004038494635186044
+   }
+  },
+  {
+   "address": "0x84a9165bbc73baaf09017a9f132630ced8723485",
+   "address_details": {
+    "label": "capperfi.eth",
+    "degree": 11229,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 5988,
+    "outward_relations": 5241,
+    "first_activity_date": "2021-08-10T17:50:38"
+   },
+   "holder_data": {
+    "amount": 3974757.027247078,
+    "rank": 55,
+    "share": 0.003973429923830833
+   }
+  },
+  {
+   "address": "0x59dc852f04acb0f6a5c226b3592a77ee3216e8a3",
+   "address_details": {
+    "label": null,
+    "degree": 3983,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2249,
+    "outward_relations": 1734,
+    "first_activity_date": "2026-07-11T12:07:18"
+   },
+   "holder_data": {
+    "amount": 3915617.8205669797,
+    "rank": 56,
+    "share": 0.003914310462720761
+   }
+  },
+  {
+   "address": "0xecd4abc81640d99f1b3d9fc254554cfbce9ff50d",
+   "address_details": {
+    "label": null,
+    "degree": 4867,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3998,
+    "outward_relations": 869,
+    "first_activity_date": "2022-01-07T15:31:25"
+   },
+   "holder_data": {
+    "amount": 3839637.3931851503,
+    "rank": 57,
+    "share": 0.003838355403904621
+   }
+  },
+  {
+   "address": "0x85470bcf068270e1eb9e3041d1fa9888628c4722",
+   "address_details": {
+    "label": "MON Airdrop \u2013 Top 11,161",
+    "degree": 16787,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 12749,
+    "outward_relations": 4038,
+    "first_activity_date": "2023-10-08T23:27:57"
+   },
+   "holder_data": {
+    "amount": 3591859.0972621567,
+    "rank": 58,
+    "share": 0.0035906598369184494
+   }
+  },
+  {
+   "address": "0xd6b3a1aac9b0d742f0322901588d0d5827968a51",
+   "address_details": {
+    "label": null,
+    "degree": 2355,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1697,
+    "outward_relations": 658,
+    "first_activity_date": "2026-07-14T11:48:15"
+   },
+   "holder_data": {
+    "amount": 3343191.4891351033,
+    "rank": 59,
+    "share": 0.003342075254654359
+   }
+  },
+  {
+   "address": "0x51ec23a5e7523e0770fbc3699b3647c336248266",
+   "address_details": {
+    "label": null,
+    "degree": 127,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 107,
+    "outward_relations": 20,
+    "first_activity_date": "2026-09-04T08:35:25"
+   },
+   "holder_data": {
+    "amount": 3092915.5064393957,
+    "rank": 60,
+    "share": 0.003091882834830385
+   }
+  },
+  {
+   "address": "0x377eab28adbc94027ee4005b72bcc77d6e8e8e2d",
+   "address_details": {
+    "label": null,
+    "degree": 212,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 154,
+    "outward_relations": 58,
+    "first_activity_date": "2026-09-10T08:28:35"
+   },
+   "holder_data": {
+    "amount": 3057663.362546327,
+    "rank": 61,
+    "share": 0.003056642461025468
+   }
+  },
+  {
+   "address": "0x71f14e9f65f1c93768bb81c38ff7021c10f8827b",
+   "address_details": {
+    "label": null,
+    "degree": 832,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 716,
+    "outward_relations": 116,
+    "first_activity_date": "2022-04-03T16:40:31"
+   },
+   "holder_data": {
+    "amount": 3023525.879446054,
+    "rank": 62,
+    "share": 0.0030225163758471644
+   }
+  },
+  {
+   "address": "0x22f1d8e414ef3c8eb426489498eeaef2488a44f9",
+   "address_details": {
+    "label": null,
+    "degree": 26084,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 24016,
+    "outward_relations": 2068,
+    "first_activity_date": "2025-06-26T06:52:17"
+   },
+   "holder_data": {
+    "amount": 2999999.548648283,
+    "rank": 63,
+    "share": 0.0029989979000890244
+   }
+  },
+  {
+   "address": "0xf4c40bf7070fdcf64ecf020bcb583738a6cc3bcd",
+   "address_details": {
+    "label": "@pears_eth mileidy.eth",
+    "degree": 48632,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "pears_eth",
+    "inward_relations": 29809,
+    "outward_relations": 18823,
+    "first_activity_date": "2021-04-18T22:03:47"
+   },
+   "holder_data": {
+    "amount": 2996544.1864700713,
+    "rank": 64,
+    "share": 0.002995543691597169
+   }
+  },
+  {
+   "address": "0x7d0fea979d2817a91679a79b65c732cbf228ea35",
+   "address_details": {
+    "label": null,
+    "degree": 896,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 772,
+    "outward_relations": 124,
+    "first_activity_date": "2026-08-24T02:22:48"
+   },
+   "holder_data": {
+    "amount": 2872541.8772192267,
+    "rank": 65,
+    "share": 0.002871582784597355
+   }
+  },
+  {
+   "address": "0xa899adb4b5ca84850c326aedf7dcba31f9fb1a2f",
+   "address_details": {
+    "label": null,
+    "degree": 72,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 58,
+    "outward_relations": 14,
+    "first_activity_date": "2026-09-26T12:55:47"
+   },
+   "holder_data": {
+    "amount": 2764936.703522626,
+    "rank": 66,
+    "share": 0.0027640135384285605
+   }
+  },
+  {
+   "address": "0x31c84f366e88c7ee0b63b5bbeafc2da025816988",
+   "address_details": {
+    "label": null,
+    "degree": 476,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 263,
+    "outward_relations": 213,
+    "first_activity_date": "2025-02-20T20:29:59"
+   },
+   "holder_data": {
+    "amount": 2759526.732661849,
+    "rank": 67,
+    "share": 0.002758605373864561
+   }
+  },
+  {
+   "address": "0x0a940cb2f5eeaebb1833a03d766c1c603a1eff26",
+   "address_details": {
+    "label": null,
+    "degree": 129,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 102,
+    "outward_relations": 27,
+    "first_activity_date": "2026-08-25T02:33:10"
+   },
+   "holder_data": {
+    "amount": 2749683.8997484343,
+    "rank": 68,
+    "share": 0.0027487658273047766
+   }
+  },
+  {
+   "address": "0x81dc6f15ee72f6e6d49cb6ca44c0bf8e63770027",
+   "address_details": {
+    "label": "\"endor\" on OpenSea",
+    "degree": 18016,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 12412,
+    "outward_relations": 5604,
+    "first_activity_date": "2017-11-01T06:02:10"
+   },
+   "holder_data": {
+    "amount": 2728066.04282368,
+    "rank": 69,
+    "share": 0.002727155188212856
+   }
+  },
+  {
+   "address": "0x8e6ed79c48944265fe5d004010c11cb28aa105b4",
+   "address_details": {
+    "label": "MON Airdrop \u2013 Top 4,153",
+    "degree": 38192,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 24365,
+    "outward_relations": 13827,
+    "first_activity_date": "2023-03-22T07:57:59"
+   },
+   "holder_data": {
+    "amount": 2659369.0746533936,
+    "rank": 70,
+    "share": 0.0026584811567857513
+   }
+  },
+  {
+   "address": "0xfc1a4cf6be46c553fae87ad3d2c00ba8da971308",
+   "address_details": {
+    "label": null,
+    "degree": 3165,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2219,
+    "outward_relations": 946,
+    "first_activity_date": "2025-10-04T19:32:15"
+   },
+   "holder_data": {
+    "amount": 2624736.7166680708,
+    "rank": 71,
+    "share": 0.0026238603619526614
+   }
+  },
+  {
+   "address": "0xb2e89a8f93cedcfae23304a3615a64feb0e02514",
+   "address_details": {
+    "label": null,
+    "degree": 8922,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 5150,
+    "outward_relations": 3772,
+    "first_activity_date": "2020-09-04T20:24:41"
+   },
+   "holder_data": {
+    "amount": 2620660.7023043414,
+    "rank": 72,
+    "share": 0.0026197857085004423
+   }
+  },
+  {
+   "address": "0x5f721f71796e10d0d6ab050ece6f45ac606691d5",
+   "address_details": {
+    "label": null,
+    "degree": 1071,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 912,
+    "outward_relations": 159,
+    "first_activity_date": "2026-07-09T19:25:59"
+   },
+   "holder_data": {
+    "amount": 2605293.183864348,
+    "rank": 73,
+    "share": 0.002604423321012122
+   }
+  },
+  {
+   "address": "0x0577b4249c3ea40ce0a3293ec2fa55a6352d69d3",
+   "address_details": {
+    "label": null,
+    "degree": 650,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 456,
+    "outward_relations": 194,
+    "first_activity_date": "2024-12-26T08:34:33"
+   },
+   "holder_data": {
+    "amount": 2520857.223617674,
+    "rank": 74,
+    "share": 0.0025200155524889994
+   }
+  },
+  {
+   "address": "0xc75eb8ff2de8b03dfec51dc065a64ee4655d3c53",
+   "address_details": {
+    "label": null,
+    "degree": 7027,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 5167,
+    "outward_relations": 1860,
+    "first_activity_date": "2021-07-01T16:35:18"
+   },
+   "holder_data": {
+    "amount": 2443363.6505265976,
+    "rank": 75,
+    "share": 0.002442547853177095
+   }
+  },
+  {
+   "address": "0x470c4462c67a3fab03901b81c0b96909f8330ca6",
+   "address_details": {
+    "label": "MON Airdrop \u2013 Top 12,710",
+    "degree": 11286,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "normanfuckinrockwell.eth",
+    "inward_relations": 6384,
+    "outward_relations": 4902,
+    "first_activity_date": "2020-09-29T13:01:20"
+   },
+   "holder_data": {
+    "amount": 2399300.2686518314,
+    "rank": 76,
+    "share": 0.0023984991833121997
+   }
+  },
+  {
+   "address": "0x7cf9f878942489b7a1725d628a9e59fb1b38ab27",
+   "address_details": {
+    "label": "jerrycheist.arb",
+    "degree": 28552,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 19806,
+    "outward_relations": 8746,
+    "first_activity_date": "2021-05-13T05:10:08"
+   },
+   "holder_data": {
+    "amount": 2362120.511509745,
+    "rank": 77,
+    "share": 0.0023613318398553722
+   }
+  },
+  {
+   "address": "0x807a2e2e469df84b299da5f90f15dda4380daca1",
+   "address_details": {
+    "label": "\"Corus\" on Galxe",
+    "degree": 10613,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 6439,
+    "outward_relations": 4174,
+    "first_activity_date": "2024-02-26T17:03:35"
+   },
+   "holder_data": {
+    "amount": 2346356.8719967753,
+    "rank": 78,
+    "share": 0.0023455734635521304
+   }
+  },
+  {
+   "address": "0x78377c8ba253d544d476aa7255ea1fb50bd65eaf",
+   "address_details": {
+    "label": null,
+    "degree": 45,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 35,
+    "outward_relations": 10,
+    "first_activity_date": "2026-09-13T10:59:34"
+   },
+   "holder_data": {
+    "amount": 2025908.8160035238,
+    "rank": 79,
+    "share": 0.002025232399686177
+   }
+  },
+  {
+   "address": "0xc59e0e26f8bae6d5cbd4b85038d908d0ff208acf",
+   "address_details": {
+    "label": null,
+    "degree": 2001,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1271,
+    "outward_relations": 730,
+    "first_activity_date": "2021-10-17T15:09:53"
+   },
+   "holder_data": {
+    "amount": 1941380.311160817,
+    "rank": 80,
+    "share": 0.0019407321174660804
+   }
+  },
+  {
+   "address": "0x81c69b03554e0982bc85d4ae0a5056177d4b989e",
+   "address_details": {
+    "label": null,
+    "degree": 243,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 163,
+    "outward_relations": 80,
+    "first_activity_date": "2026-09-06T10:43:31"
+   },
+   "holder_data": {
+    "amount": 1936988.4803015154,
+    "rank": 81,
+    "share": 0.001936341752964017
+   }
+  },
+  {
+   "address": "0x2f14e63c8c2cc22fbe71809723d8f4438bab51e0",
+   "address_details": {
+    "label": null,
+    "degree": 282,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 205,
+    "outward_relations": 77,
+    "first_activity_date": "2026-09-06T20:11:02"
+   },
+   "holder_data": {
+    "amount": 1923505.1624178137,
+    "rank": 82,
+    "share": 0.0019228629369296365
+   }
+  },
+  {
+   "address": "0xedc64dcc7d15364006d6ac3e387976cbc4735eeb",
+   "address_details": {
+    "label": null,
+    "degree": 92,
+    "is_supernode": false,
+    "is_contract": true,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 44,
+    "outward_relations": 48,
+    "first_activity_date": "2026-09-10T15:19:20"
+   },
+   "holder_data": {
+    "amount": 1906020.0000000002,
+    "rank": 83,
+    "share": 0.001905383612508616
+   }
+  },
+  {
+   "address": "0x1e28adce168dbe561820c61c520f907af07ede21",
+   "address_details": {
+    "label": null,
+    "degree": 208,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 141,
+    "outward_relations": 67,
+    "first_activity_date": "2026-09-18T20:13:03"
+   },
+   "holder_data": {
+    "amount": 1871742.5464957762,
+    "rank": 84,
+    "share": 0.0018711176036600864
+   }
+  },
+  {
+   "address": "0x9c16744049a65f0cb2f64922fccbde19d4bac018",
+   "address_details": {
+    "label": null,
+    "degree": 129,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 99,
+    "outward_relations": 30,
+    "first_activity_date": "2026-08-26T12:48:08"
+   },
+   "holder_data": {
+    "amount": 1861232.884375521,
+    "rank": 85,
+    "share": 0.001860611450536333
+   }
+  },
+  {
+   "address": "0x156a3e9f9b034b537667a468350530693f391a89",
+   "address_details": {
+    "label": null,
+    "degree": 3844,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2459,
+    "outward_relations": 1385,
+    "first_activity_date": "2026-08-28T05:38:21"
+   },
+   "holder_data": {
+    "amount": 1785208.0150295782,
+    "rank": 86,
+    "share": 0.0017846119645944917
+   }
+  },
+  {
+   "address": "0xed3b439ca1787c1cd1855151c799d520d319d80d",
+   "address_details": {
+    "label": "\"Schultz\" on OpenSea",
+    "degree": 3810,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2853,
+    "outward_relations": 957,
+    "first_activity_date": "2021-01-03T18:51:41"
+   },
+   "holder_data": {
+    "amount": 1693490.9899284088,
+    "rank": 87,
+    "share": 0.0016929255622399467
+   }
+  },
+  {
+   "address": "0x813728792c65e1bd3943ba6010ee8722a89b0e26",
+   "address_details": {
+    "label": "@cyborganism9",
+    "degree": 8220,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "cyborganism9",
+    "inward_relations": 5757,
+    "outward_relations": 2463,
+    "first_activity_date": "2021-01-05T17:32:45"
+   },
+   "holder_data": {
+    "amount": 1680502.7441586922,
+    "rank": 88,
+    "share": 0.0016799416530234369
+   }
+  },
+  {
+   "address": "0xf18db14a14d6d19e80d09b5d6326a7c3106b8117",
+   "address_details": {
+    "label": null,
+    "degree": 1562,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1002,
+    "outward_relations": 560,
+    "first_activity_date": "2025-06-26T22:55:47"
+   },
+   "holder_data": {
+    "amount": 1672401.2285454797,
+    "rank": 89,
+    "share": 0.0016718428423677786
+   }
+  },
+  {
+   "address": "0x1cc4adcd60048cf0241e021b481005ff1582a11e",
+   "address_details": {
+    "label": "MON Airdrop \u2013 Top 11,935",
+    "degree": 3826,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2912,
+    "outward_relations": 914,
+    "first_activity_date": "2024-12-11T00:59:25"
+   },
+   "holder_data": {
+    "amount": 1671896.363005307,
+    "rank": 90,
+    "share": 0.0016713381453935783
+   }
+  },
+  {
+   "address": "0x41e49a8760ca15830b860922a8e146d9a9673989",
+   "address_details": {
+    "label": null,
+    "degree": 329,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 235,
+    "outward_relations": 94,
+    "first_activity_date": "2026-08-23T13:37:21"
+   },
+   "holder_data": {
+    "amount": 1581203.9636657655,
+    "rank": 91,
+    "share": 0.001580676026695637
+   }
+  },
+  {
+   "address": "0x6b474b7b23c10143be5ab876bdcd84c13bbeaf53",
+   "address_details": {
+    "label": null,
+    "degree": 2485,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2124,
+    "outward_relations": 361,
+    "first_activity_date": "2026-02-09T17:48:33"
+   },
+   "holder_data": {
+    "amount": 1572601.0535160569,
+    "rank": 92,
+    "share": 0.0015720759889105464
+   }
+  },
+  {
+   "address": "0xb4ebe654f8606472e00dfa92e66b5aad0b6f457d",
+   "address_details": {
+    "label": null,
+    "degree": 982,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 378,
+    "outward_relations": 604,
+    "first_activity_date": "2026-09-06T12:42:35"
+   },
+   "holder_data": {
+    "amount": 1555334.935149099,
+    "rank": 93,
+    "share": 0.001554815635405318
+   }
+  },
+  {
+   "address": "0x287dcd51d7cc4b0747b7b634a85b154551db6b77",
+   "address_details": {
+    "label": null,
+    "degree": 138,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 78,
+    "outward_relations": 60,
+    "first_activity_date": "2026-07-28T10:06:49"
+   },
+   "holder_data": {
+    "amount": 1552291.943515094,
+    "rank": 94,
+    "share": 0.0015517736597741943
+   }
+  },
+  {
+   "address": "0x464b384b327d57cb7985f12532a4135617127317",
+   "address_details": {
+    "label": null,
+    "degree": 1857,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 800,
+    "outward_relations": 1057,
+    "first_activity_date": "2026-06-09T15:38:45"
+   },
+   "holder_data": {
+    "amount": 1526677.2024582333,
+    "rank": 95,
+    "share": 0.0015261674710414456
+   }
+  },
+  {
+   "address": "0xd5c919aa92dd28f91b71f8302f404d5cd961b953",
+   "address_details": {
+    "label": null,
+    "degree": 38,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 34,
+    "outward_relations": 4,
+    "first_activity_date": "2026-09-17T00:47:52"
+   },
+   "holder_data": {
+    "amount": 1524008.2010676651,
+    "rank": 96,
+    "share": 0.0015234993607848107
+   }
+  },
+  {
+   "address": "0x8112d46ab53adafb2af715198980c25c47181924",
+   "address_details": {
+    "label": null,
+    "degree": 2253,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1554,
+    "outward_relations": 699,
+    "first_activity_date": "2025-10-27T14:59:03"
+   },
+   "holder_data": {
+    "amount": 1478614.9421280387,
+    "rank": 97,
+    "share": 0.00147812125787827
+   }
+  },
+  {
+   "address": "0x1f5bbef0722b6188b87b29dff530d6cfb5a46967",
+   "address_details": {
+    "label": "MON Airdrop \u2013 Top 12,711",
+    "degree": 51825,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 43330,
+    "outward_relations": 8495,
+    "first_activity_date": "2021-12-20T04:58:59"
+   },
+   "holder_data": {
+    "amount": 1459735.7263735437,
+    "rank": 98,
+    "share": 0.0014592483455711438
+   }
+  },
+  {
+   "address": "0xf527ca5bcc81fe33277c659a8c4e31473cfff325",
+   "address_details": {
+    "label": null,
+    "degree": 3528,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2694,
+    "outward_relations": 834,
+    "first_activity_date": "2026-08-25T11:16:48"
+   },
+   "holder_data": {
+    "amount": 1424224.0497867553,
+    "rank": 99,
+    "share": 0.0014237485257260357
+   }
+  },
+  {
+   "address": "0xcdf005548f0e36b85e422a09e0ddbd1e4054e2bd",
+   "address_details": {
+    "label": null,
+    "degree": 521,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 369,
+    "outward_relations": 152,
+    "first_activity_date": "2026-08-05T16:03:41"
+   },
+   "holder_data": {
+    "amount": 1409962.1877702656,
+    "rank": 100,
+    "share": 0.0014094914255014428
+   }
+  },
+  {
+   "address": "0x415ab894ca990e8a6fc6e66255261110d738b9e1",
+   "address_details": {
+    "label": null,
+    "degree": 358,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 200,
+    "outward_relations": 158,
+    "first_activity_date": "2026-07-28T19:55:43"
+   },
+   "holder_data": {
+    "amount": 1396687.2146590862,
+    "rank": 101,
+    "share": 0.0013962208846768273
+   }
+  },
+  {
+   "address": "0xe7005721b9a915ece51f9992ea60487b9b9471b7",
+   "address_details": {
+    "label": null,
+    "degree": 256,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 136,
+    "outward_relations": 120,
+    "first_activity_date": "2026-09-07T12:28:23"
+   },
+   "holder_data": {
+    "amount": 1396670.7226052256,
+    "rank": 102,
+    "share": 0.0013962043981293815
+   }
+  },
+  {
+   "address": "0x6152df0a124f53950b3162b20c192c9ff03e2239",
+   "address_details": {
+    "label": null,
+    "degree": 3827,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3019,
+    "outward_relations": 808,
+    "first_activity_date": "2025-03-06T15:43:47"
+   },
+   "holder_data": {
+    "amount": 1396259.136509759,
+    "rank": 103,
+    "share": 0.0013957929494554753
+   }
+  },
+  {
+   "address": "0xb37e1cb7c9b0bb898c63985dc9bf8fccc6147a27",
+   "address_details": {
+    "label": null,
+    "degree": 100,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 73,
+    "outward_relations": 27,
+    "first_activity_date": "2026-09-18T09:29:23"
+   },
+   "holder_data": {
+    "amount": 1379878.5529925853,
+    "rank": 104,
+    "share": 0.0013794178351350843
+   }
+  },
+  {
+   "address": "0x67b9c7afe83d99b0467acd5f2f030ab429564bc9",
+   "address_details": {
+    "label": null,
+    "degree": 226,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 112,
+    "outward_relations": 114,
+    "first_activity_date": "2026-09-05T14:27:45"
+   },
+   "holder_data": {
+    "amount": 1376020.8194549808,
+    "rank": 105,
+    "share": 0.0013755613896287537
+   }
+  },
+  {
+   "address": "0xe98ea264ad3a70d2e8c7d6d77e490e264883338b",
+   "address_details": {
+    "label": null,
+    "degree": 465,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 389,
+    "outward_relations": 76,
+    "first_activity_date": "2026-09-16T11:00:22"
+   },
+   "holder_data": {
+    "amount": 1289310.7665532911,
+    "rank": 106,
+    "share": 0.0012888802877312738
+   }
+  },
+  {
+   "address": "0xed48fcc70ba8638bdf0aba55b64f04c63cdd224c",
+   "address_details": {
+    "label": null,
+    "degree": 1562,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1037,
+    "outward_relations": 525,
+    "first_activity_date": "2022-05-19T00:20:59"
+   },
+   "holder_data": {
+    "amount": 1251604.146872995,
+    "rank": 107,
+    "share": 0.0012511862576466309
+   }
+  },
+  {
+   "address": "0x0baeaacd3dcaef4adae9c93837cade73be1ce791",
+   "address_details": {
+    "label": null,
+    "degree": 133,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 111,
+    "outward_relations": 22,
+    "first_activity_date": "2026-09-04T15:58:23"
+   },
+   "holder_data": {
+    "amount": 1229712.5606867506,
+    "rank": 108,
+    "share": 0.0012293019806867407
+   }
+  },
+  {
+   "address": "0xa6f4fa9840aa6825446c820af6d5eccf9f78ba05",
+   "address_details": {
+    "label": "@FedKassad fedkassad.eth",
+    "degree": 34102,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "fedkassad",
+    "inward_relations": 25605,
+    "outward_relations": 8497,
+    "first_activity_date": "2018-08-27T11:38:13"
+   },
+   "holder_data": {
+    "amount": 1206399.6522548278,
+    "rank": 109,
+    "share": 0.00120599685603637
+   }
+  },
+  {
+   "address": "0xf6e0b11f4fcbce85504fd04dd9adc6a8a02ad90d",
+   "address_details": {
+    "label": null,
+    "degree": 2052,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1593,
+    "outward_relations": 459,
+    "first_activity_date": "2024-12-04T19:34:57"
+   },
+   "holder_data": {
+    "amount": 1206220.3323203595,
+    "rank": 110,
+    "share": 0.0012058175959737617
+   }
+  },
+  {
+   "address": "0x2ea4d62849f1ae60356d6748b4847282136db4c6",
+   "address_details": {
+    "label": null,
+    "degree": 200,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 129,
+    "outward_relations": 71,
+    "first_activity_date": "2024-02-19T19:04:35"
+   },
+   "holder_data": {
+    "amount": 1200784.5959991454,
+    "rank": 111,
+    "share": 0.0012003836745519724
+   }
+  },
+  {
+   "address": "0x7d06ed8ca4a0f53c33e350646031db8d323040e1",
+   "address_details": {
+    "label": null,
+    "degree": 422,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 319,
+    "outward_relations": 103,
+    "first_activity_date": "2026-09-05T10:20:05"
+   },
+   "holder_data": {
+    "amount": 1193660.5321466299,
+    "rank": 112,
+    "share": 0.0011932619893025795
+   }
+  },
+  {
+   "address": "0x8e045120052c2bfde810d400beae8757f68af06d",
+   "address_details": {
+    "label": null,
+    "degree": 7902,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 4539,
+    "outward_relations": 3363,
+    "first_activity_date": "2026-07-11T15:07:07"
+   },
+   "holder_data": {
+    "amount": 1189549.6384452085,
+    "rank": 113,
+    "share": 0.0011891524681582823
+   }
+  },
+  {
+   "address": "0x5d433b73ed2898e00e129ee87621af184bc00259",
+   "address_details": {
+    "label": "gkol.eth",
+    "degree": 6089,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "gkol.eth",
+    "inward_relations": 3778,
+    "outward_relations": 2311,
+    "first_activity_date": "2020-03-05T22:24:01"
+   },
+   "holder_data": {
+    "amount": 1158397.441791104,
+    "rank": 114,
+    "share": 0.0011580106726900414
+   }
+  },
+  {
+   "address": "0xc509f5a92f47555171a3114d3a9bcd638026f648",
+   "address_details": {
+    "label": null,
+    "degree": 620,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 388,
+    "outward_relations": 232,
+    "first_activity_date": "2026-09-03T14:32:01"
+   },
+   "holder_data": {
+    "amount": 1151489.7280603054,
+    "rank": 115,
+    "share": 0.0011511052653267585
+   }
+  },
+  {
+   "address": "0x138e9367c95f4d10fa27707bc21be3ee2df21d33",
+   "address_details": {
+    "label": null,
+    "degree": 3897,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2775,
+    "outward_relations": 1122,
+    "first_activity_date": "2025-02-03T15:57:29"
+   },
+   "holder_data": {
+    "amount": 1143214.9502006252,
+    "rank": 116,
+    "share": 0.0011428332502739344
+   }
+  },
+  {
+   "address": "0x2c19200f4c0d1fb156eb3327e5d2b7b5c8b23a74",
+   "address_details": {
+    "label": "@choonkyrat",
+    "degree": 839,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "choonkyrat",
+    "inward_relations": 707,
+    "outward_relations": 132,
+    "first_activity_date": "2025-10-27T07:34:20"
+   },
+   "holder_data": {
+    "amount": 1139788.8646684447,
+    "rank": 117,
+    "share": 0.0011394083086531384
+   }
+  },
+  {
+   "address": "0xf060f6fae0c1cc09361a5ced6ba862ade4567c73",
+   "address_details": {
+    "label": null,
+    "degree": 1004,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 788,
+    "outward_relations": 216,
+    "first_activity_date": "2026-07-24T09:13:43"
+   },
+   "holder_data": {
+    "amount": 1115826.7060601006,
+    "rank": 118,
+    "share": 0.0011154541505998803
+   }
+  },
+  {
+   "address": "0xe69f04eb35fdab6bc7a8f36f92a9f3a470965215",
+   "address_details": {
+    "label": null,
+    "degree": 1551,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1125,
+    "outward_relations": 426,
+    "first_activity_date": "2025-05-09T19:54:40"
+   },
+   "holder_data": {
+    "amount": 1110817.6048052798,
+    "rank": 119,
+    "share": 0.0011104467217983296
+   }
+  },
+  {
+   "address": "0x484d437f287823ed4ecbdc51f7d2eb8c61509fb0",
+   "address_details": {
+    "label": null,
+    "degree": 390,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 293,
+    "outward_relations": 97,
+    "first_activity_date": "2026-09-08T20:27:19"
+   },
+   "holder_data": {
+    "amount": 1057899.6414037165,
+    "rank": 120,
+    "share": 0.0010575464268000245
+   }
+  },
+  {
+   "address": "0xfaf578af29c81d47d921ced9359fd4fd5a983c27",
+   "address_details": {
+    "label": null,
+    "degree": 278,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 225,
+    "outward_relations": 53,
+    "first_activity_date": "2026-09-01T18:36:23"
+   },
+   "holder_data": {
+    "amount": 1040324.6564018141,
+    "rank": 121,
+    "share": 0.0010399773097851401
+   }
+  },
+  {
+   "address": "0xbe0871d4a7abc35f894c118a5160749ed0212c77",
+   "address_details": {
+    "label": null,
+    "degree": 2016,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1529,
+    "outward_relations": 487,
+    "first_activity_date": "2026-08-28T03:06:11"
+   },
+   "holder_data": {
+    "amount": 1034880.1194658361,
+    "rank": 122,
+    "share": 0.0010345345906869617
+   }
+  },
+  {
+   "address": "0x41bc739c679d6b4dda94786470bac40a2295fe9c",
+   "address_details": {
+    "label": null,
+    "degree": 3010,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1907,
+    "outward_relations": 1103,
+    "first_activity_date": "2025-11-11T03:41:21"
+   },
+   "holder_data": {
+    "amount": 1027259.2866998711,
+    "rank": 123,
+    "share": 0.0010269163023867661
+   }
+  },
+  {
+   "address": "0x4fbcd1b6d9abf350a36fe735c625ba1cab721bda",
+   "address_details": {
+    "label": null,
+    "degree": 219,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 190,
+    "outward_relations": 29,
+    "first_activity_date": "2026-08-09T23:57:01"
+   },
+   "holder_data": {
+    "amount": 1017682.0,
+    "rank": 124,
+    "share": 0.0010173422133791844
+   }
+  },
+  {
+   "address": "0x5be86f28191eefd6ca9d952549eb1a019671d488",
+   "address_details": {
+    "label": null,
+    "degree": 580,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 441,
+    "outward_relations": 139,
+    "first_activity_date": "2026-08-28T04:03:24"
+   },
+   "holder_data": {
+    "amount": 1016996.281911138,
+    "rank": 125,
+    "share": 0.0010166567242398687
+   }
+  },
+  {
+   "address": "0x02aa8366b169d017f3e7deaeae63372ba78eb4e7",
+   "address_details": {
+    "label": null,
+    "degree": 1855,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1530,
+    "outward_relations": 325,
+    "first_activity_date": "2026-04-16T11:41:27"
+   },
+   "holder_data": {
+    "amount": 1015708.403679196,
+    "rank": 126,
+    "share": 0.0010153692760084502
+   }
+  },
+  {
+   "address": "0x4123ffc81579e38dfff74b75d8bdf21c41e62237",
+   "address_details": {
+    "label": null,
+    "degree": 173350,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 133356,
+    "outward_relations": 39994,
+    "first_activity_date": "2022-12-21T09:43:35"
+   },
+   "holder_data": {
+    "amount": 1000000.0,
+    "rank": 127,
+    "share": 0.0009996661170966808
+   }
+  },
+  {
+   "address": "0xccd9bf7158c098274514ccd58ae518161cacaafd",
+   "address_details": {
+    "label": null,
+    "degree": 1236,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 943,
+    "outward_relations": 293,
+    "first_activity_date": "2026-05-15T20:23:47"
+   },
+   "holder_data": {
+    "amount": 999255.537065019,
+    "rank": 128,
+    "share": 0.0009989219027251462
+   }
+  },
+  {
+   "address": "0x0d0671cd01ae9e8922fc3b7e767a3863b88c5961",
+   "address_details": {
+    "label": null,
+    "degree": 112,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 70,
+    "outward_relations": 42,
+    "first_activity_date": "2026-07-28T10:06:07"
+   },
+   "holder_data": {
+    "amount": 998378.1985564007,
+    "rank": 129,
+    "share": 0.0009980448571448562
+   }
+  },
+  {
+   "address": "0xd51fb02b6c5eb023290d60542cb4d7064dc240a8",
+   "address_details": {
+    "label": null,
+    "degree": 24512,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 12868,
+    "outward_relations": 11644,
+    "first_activity_date": "2023-05-03T21:48:47"
+   },
+   "holder_data": {
+    "amount": 987004.5488548018,
+    "rank": 130,
+    "share": 0.000986675004910441
+   }
+  },
+  {
+   "address": "0xd11cb43e179e640bb590799cff9188f4e081b18e",
+   "address_details": {
+    "label": null,
+    "degree": 241,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 154,
+    "outward_relations": 87,
+    "first_activity_date": "2026-08-23T18:32:47"
+   },
+   "holder_data": {
+    "amount": 971165.8819237285,
+    "rank": 131,
+    "share": 0.0009708416262394674
+   }
+  },
+  {
+   "address": "0xbbe8a7d06d2a8653f3d48ede00f3dee6eea81c29",
+   "address_details": {
+    "label": null,
+    "degree": 1145,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 890,
+    "outward_relations": 255,
+    "first_activity_date": "2026-08-26T20:57:41"
+   },
+   "holder_data": {
+    "amount": 955468.8059212741,
+    "rank": 132,
+    "share": 0.0009551497912223223
+   }
+  },
+  {
+   "address": "0x30f29ca88311f4cc1a1314bc1c45752982d7fd67",
+   "address_details": {
+    "label": "\"eziopd\" on Galxe",
+    "degree": 6065,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3895,
+    "outward_relations": 2170,
+    "first_activity_date": "2023-12-15T13:01:59"
+   },
+   "holder_data": {
+    "amount": 953401.9378787216,
+    "rank": 133,
+    "share": 0.0009530836132716727
+   }
+  },
+  {
+   "address": "0x4e7ba051ade0d7c2f710dd0558da78ad3b043dbd",
+   "address_details": {
+    "label": null,
+    "degree": 2448,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2021,
+    "outward_relations": 427,
+    "first_activity_date": "2025-10-15T04:20:55"
+   },
+   "holder_data": {
+    "amount": 952253.5272725192,
+    "rank": 134,
+    "share": 0.0009519355861001376
+   }
+  },
+  {
+   "address": "0xccaa6765c3e52d8c4ea25e0d19b5d6512f92a3dd",
+   "address_details": {
+    "label": null,
+    "degree": 246,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 132,
+    "outward_relations": 114,
+    "first_activity_date": "2026-01-10T19:51:34"
+   },
+   "holder_data": {
+    "amount": 946708.4340179956,
+    "rank": 135,
+    "share": 0.000946392344257449
+   }
+  },
+  {
+   "address": "0x2b91b4f5223a0a1f5c7e1d139dddd6b5b57c7a51",
+   "address_details": {
+    "label": "MON Airdrop \u2013 Top 7,211",
+    "degree": 21788,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 14534,
+    "outward_relations": 7254,
+    "first_activity_date": "2020-06-30T20:41:27"
+   },
+   "holder_data": {
+    "amount": 886932.1478477932,
+    "rank": 136,
+    "share": 0.0008866360163672228
+   }
+  },
+  {
+   "address": "0xa7dca8aac2fa5fe9aeef39df63119779ae8166c1",
+   "address_details": {
+    "label": null,
+    "degree": 4048,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2533,
+    "outward_relations": 1515,
+    "first_activity_date": "2023-11-27T06:12:23"
+   },
+   "holder_data": {
+    "amount": 875507.1203432594,
+    "rank": 137,
+    "share": 0.0008752148034840428
+   }
+  },
+  {
+   "address": "0x78a170e86f1f09d50af24b6464dac28d23e41096",
+   "address_details": {
+    "label": null,
+    "degree": 7672,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 5981,
+    "outward_relations": 1691,
+    "first_activity_date": "2026-07-10T02:56:31"
+   },
+   "holder_data": {
+    "amount": 874263.6353389707,
+    "rank": 138,
+    "share": 0.0008739717336581374
+   }
+  },
+  {
+   "address": "0x837723343fbff3894d4ed3c86f8c1d3310007593",
+   "address_details": {
+    "label": null,
+    "degree": 203,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 160,
+    "outward_relations": 43,
+    "first_activity_date": "2026-08-27T15:30:37"
+   },
+   "holder_data": {
+    "amount": 860816.7758755186,
+    "rank": 139,
+    "share": 0.0008605293638711634
+   }
+  },
+  {
+   "address": "0xc6d79e09f5cd8e0dd68f100b5b53b729cbdd26b0",
+   "address_details": {
+    "label": "@HazemEth",
+    "degree": 18285,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 11867,
+    "outward_relations": 6418,
+    "first_activity_date": "2022-09-25T14:25:47"
+   },
+   "holder_data": {
+    "amount": 859698.5912174752,
+    "rank": 140,
+    "share": 0.0008594115525558603
+   }
+  },
+  {
+   "address": "0x7f8ea06a8b5bf859f48ed94166daf5ae26dd989e",
+   "address_details": {
+    "label": null,
+    "degree": 429,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 273,
+    "outward_relations": 156,
+    "first_activity_date": "2024-12-23T11:40:44"
+   },
+   "holder_data": {
+    "amount": 855366.3266500235,
+    "rank": 141,
+    "share": 0.0008550807344574802
+   }
+  },
+  {
+   "address": "0x1de3ae8db547340765ca726de019ab6923bf9548",
+   "address_details": {
+    "label": null,
+    "degree": 2086,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1198,
+    "outward_relations": 888,
+    "first_activity_date": "2026-09-06T16:49:41"
+   },
+   "holder_data": {
+    "amount": 847920.1722191083,
+    "rank": 142,
+    "share": 0.0008476370661702249
+   }
+  },
+  {
+   "address": "0x750791d49a96cec64284247181f71f67f6f918b9",
+   "address_details": {
+    "label": null,
+    "degree": 4298,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2924,
+    "outward_relations": 1374,
+    "first_activity_date": "2026-06-29T14:50:17"
+   },
+   "holder_data": {
+    "amount": 837446.1889411708,
+    "rank": 143,
+    "share": 0.0008371665799762336
+   }
+  },
+  {
+   "address": "0x89e3cc24540ef42eaf3c09ec31a1c5961d5caf8d",
+   "address_details": {
+    "label": null,
+    "degree": 1478,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1110,
+    "outward_relations": 368,
+    "first_activity_date": "2024-10-20T22:28:35"
+   },
+   "holder_data": {
+    "amount": 830923.1996474409,
+    "rank": 144,
+    "share": 0.0008306457685971075
+   }
+  },
+  {
+   "address": "0x4c2cbb38678292007bf7c576056667b2eb0a0fb3",
+   "address_details": {
+    "label": "quocnhat7.eth",
+    "degree": 3426,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "quocnhat7.eth",
+    "inward_relations": 2158,
+    "outward_relations": 1268,
+    "first_activity_date": "2018-02-13T22:08:43"
+   },
+   "holder_data": {
+    "amount": 829797.6333632019,
+    "rank": 145,
+    "share": 0.0008295205781202072
+   }
+  },
+  {
+   "address": "0xd3ac6de0786ed40b1c87ceccb0ad40076632a8f2",
+   "address_details": {
+    "label": null,
+    "degree": 54,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 28,
+    "outward_relations": 26,
+    "first_activity_date": "2026-08-27T12:22:12"
+   },
+   "holder_data": {
+    "amount": 819430.6817090203,
+    "rank": 146,
+    "share": 0.0008191570878139426
+   }
+  },
+  {
+   "address": "0xdd1242ab52e88aee9d5446ad39ae2bfb042c2b87",
+   "address_details": {
+    "label": null,
+    "degree": 1735,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 831,
+    "outward_relations": 904,
+    "first_activity_date": "2026-09-04T08:57:19"
+   },
+   "holder_data": {
+    "amount": 801070.8265556222,
+    "rank": 147,
+    "share": 0.0008008033627022876
+   }
+  },
+  {
+   "address": "0x3448d210aedc8dad5650ea9900a91be2dbcc6745",
+   "address_details": {
+    "label": "@ChonkyNaks",
+    "degree": 400,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "chonkynaks",
+    "inward_relations": 262,
+    "outward_relations": 138,
+    "first_activity_date": "2026-01-31T07:34:17"
+   },
+   "holder_data": {
+    "amount": 788930.7131720887,
+    "rank": 148,
+    "share": 0.0007886673026950572
+   }
+  },
+  {
+   "address": "0xc309573c56a2feb6afb8dca2f34aee0ac4b44879",
+   "address_details": {
+    "label": "leinzo",
+    "degree": 6016,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3798,
+    "outward_relations": 2218,
+    "first_activity_date": "2021-02-19T09:32:47"
+   },
+   "holder_data": {
+    "amount": 785473.2695563426,
+    "rank": 149,
+    "share": 0.0007852110134606236
+   }
+  },
+  {
+   "address": "0xa227c41904856252b08de63b904d951ef620dcad",
+   "address_details": {
+    "label": null,
+    "degree": 2891,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2075,
+    "outward_relations": 816,
+    "first_activity_date": "2026-08-14T18:24:48"
+   },
+   "holder_data": {
+    "amount": 773038.3099182814,
+    "rank": 150,
+    "share": 0.000772780205642989
+   }
+  },
+  {
+   "address": "0xae6bff792a7eb2fbc4397d9a10e139534ffc5aeb",
+   "address_details": {
+    "label": null,
+    "degree": 1181,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 857,
+    "outward_relations": 324,
+    "first_activity_date": "2024-01-14T12:55:22"
+   },
+   "holder_data": {
+    "amount": 758961.4632979148,
+    "rank": 151,
+    "share": 0.0007587080590410416
+   }
+  },
+  {
+   "address": "0x5ed73a6f7b09f2982c313c0c2e3bd30c706ce560",
+   "address_details": {
+    "label": "lesliezico.base.eth",
+    "degree": 1836,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1569,
+    "outward_relations": 267,
+    "first_activity_date": "2019-08-07T17:23:55"
+   },
+   "holder_data": {
+    "amount": 755678.65559838,
+    "rank": 152,
+    "share": 0.0007554263474148726
+   }
+  },
+  {
+   "address": "0x9f613b140c429a4881b15ab7253e1092ffa4e802",
+   "address_details": {
+    "label": "MON Airdrop \u2013 Top 12,772",
+    "degree": 872,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 542,
+    "outward_relations": 330,
+    "first_activity_date": "2022-09-16T21:10:46"
+   },
+   "holder_data": {
+    "amount": 726719.0299131596,
+    "rank": 153,
+    "share": 0.000726476390853555
+   }
+  },
+  {
+   "address": "0x1a6201cb005ffd124710420137ce61b89a320c59",
+   "address_details": {
+    "label": null,
+    "degree": 147,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 88,
+    "outward_relations": 59,
+    "first_activity_date": "2026-09-01T21:47:11"
+   },
+   "holder_data": {
+    "amount": 696746.981087805,
+    "rank": 154,
+    "share": 0.0006965143491828806
+   }
+  },
+  {
+   "address": "0xef85438f84e39eea483fe18c03827c400b9ac5c4",
+   "address_details": {
+    "label": null,
+    "degree": 4177,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3121,
+    "outward_relations": 1056,
+    "first_activity_date": "2026-08-04T20:17:02"
+   },
+   "holder_data": {
+    "amount": 693600.0956366493,
+    "rank": 155,
+    "share": 0.0006933685144229758
+   }
+  },
+  {
+   "address": "0xc4cded47baefe92dac55e34a98c5663298c56f49",
+   "address_details": {
+    "label": null,
+    "degree": 982,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 874,
+    "outward_relations": 108,
+    "first_activity_date": "2026-07-21T21:53:54"
+   },
+   "holder_data": {
+    "amount": 693204.8938378771,
+    "rank": 156,
+    "share": 0.0006929734445753274
+   }
+  },
+  {
+   "address": "0xb06eef22e3fa5152fbccffe6099299dba1455938",
+   "address_details": {
+    "label": "@ats_nft",
+    "degree": 2572,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1779,
+    "outward_relations": 793,
+    "first_activity_date": "2022-06-19T14:57:41"
+   },
+   "holder_data": {
+    "amount": 691144.6720076058,
+    "rank": 157,
+    "share": 0.0006909139106179024
+   }
+  },
+  {
+   "address": "0x0769b6b6835e3a8c72f05db4b6e7442baea4a59e",
+   "address_details": {
+    "label": null,
+    "degree": 192,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 165,
+    "outward_relations": 27,
+    "first_activity_date": "2026-08-25T20:18:11"
+   },
+   "holder_data": {
+    "amount": 686299.2206344976,
+    "rank": 158,
+    "share": 0.0006860700770581665
+   }
+  },
+  {
+   "address": "0x4f10e3f8679209dbab2654e15cbc1e0bbba66718",
+   "address_details": {
+    "label": null,
+    "degree": 1632,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1100,
+    "outward_relations": 532,
+    "first_activity_date": "2026-07-30T22:45:54"
+   },
+   "holder_data": {
+    "amount": 681529.8297871642,
+    "rank": 159,
+    "share": 0.0006813022786288964
+   }
+  },
+  {
+   "address": "0x4c9589ae33cdd1feb8a1ce6d6414aeb59163e058",
+   "address_details": {
+    "label": null,
+    "degree": 158,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 129,
+    "outward_relations": 29,
+    "first_activity_date": "2026-09-23T22:53:16"
+   },
+   "holder_data": {
+    "amount": 670567.3150270723,
+    "rank": 160,
+    "share": 0.0006703434240650602
+   }
+  },
+  {
+   "address": "0x90abcf1598ed3077861bcfb3b11efcd1d7277223",
+   "address_details": {
+    "label": "\"DeFiAdvocate\" on OpenSea",
+    "degree": 29869,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 19200,
+    "outward_relations": 10669,
+    "first_activity_date": "2020-07-31T05:22:33"
+   },
+   "holder_data": {
+    "amount": 670388.5009898626,
+    "rank": 161,
+    "share": 0.0006701646697308004
+   }
+  },
+  {
+   "address": "0xa15182c766316cbbbff5b18878a319d297a502e8",
+   "address_details": {
+    "label": null,
+    "degree": 477,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 393,
+    "outward_relations": 84,
+    "first_activity_date": "2022-12-27T19:13:35"
+   },
+   "holder_data": {
+    "amount": 662940.5544926461,
+    "rank": 162,
+    "share": 0.0006627192099755842
+   }
+  },
+  {
+   "address": "0xb1ce3b8cf673f4b5c318d7222aa0dc1308ed41af",
+   "address_details": {
+    "label": "MON Airdrop \u2013 Top 12,730",
+    "degree": 18247,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 10942,
+    "outward_relations": 7305,
+    "first_activity_date": "2017-12-13T19:39:45"
+   },
+   "holder_data": {
+    "amount": 662873.6260025533,
+    "rank": 163,
+    "share": 0.00066265230383177
+   }
+  },
+  {
+   "address": "0x986dd0a5ed6d962b47e2d5053749d6c890e83af6",
+   "address_details": {
+    "label": null,
+    "degree": 260,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 206,
+    "outward_relations": 54,
+    "first_activity_date": "2026-09-03T16:49:58"
+   },
+   "holder_data": {
+    "amount": 655306.9336486314,
+    "rank": 164,
+    "share": 0.0006550881378670597
+   }
+  },
+  {
+   "address": "0xf0da8ad28964782ad94601a1270a547bdfe52d12",
+   "address_details": {
+    "label": null,
+    "degree": 270,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 207,
+    "outward_relations": 63,
+    "first_activity_date": "2026-07-03T13:03:43"
+   },
+   "holder_data": {
+    "amount": 644847.7525938122,
+    "rank": 165,
+    "share": 0.0006446324489539774
+   }
+  },
+  {
+   "address": "0xc8da3e74a68c27d185138625445dd0817ea6209d",
+   "address_details": {
+    "label": null,
+    "degree": 409,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 303,
+    "outward_relations": 106,
+    "first_activity_date": "2017-12-28T01:13:57"
+   },
+   "holder_data": {
+    "amount": 639380.5546117437,
+    "rank": 166,
+    "share": 0.0006391670763758441
+   }
+  },
+  {
+   "address": "0x9981ddf46dc1ceabfbee32ef1a79b6b97366c7d0",
+   "address_details": {
+    "label": null,
+    "degree": 260,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 160,
+    "outward_relations": 100,
+    "first_activity_date": "2026-08-07T20:43:11"
+   },
+   "holder_data": {
+    "amount": 635578.2353780563,
+    "rank": 167,
+    "share": 0.0006353660266715419
+   }
+  },
+  {
+   "address": "0x5035d8ac201d57c3e96bcc329b6f34af4765e691",
+   "address_details": {
+    "label": null,
+    "degree": 1537,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1245,
+    "outward_relations": 292,
+    "first_activity_date": "2026-06-09T20:33:59"
+   },
+   "holder_data": {
+    "amount": 630513.5808187746,
+    "rank": 168,
+    "share": 0.0006303030631138288
+   }
+  },
+  {
+   "address": "0x0d11a409e4215512f67fa1c5e47731b763a534d3",
+   "address_details": {
+    "label": null,
+    "degree": 1718,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1313,
+    "outward_relations": 405,
+    "first_activity_date": "2026-08-23T17:52:11"
+   },
+   "holder_data": {
+    "amount": 625906.7826078375,
+    "rank": 169,
+    "share": 0.0006256978030340532
+   }
+  },
+  {
+   "address": "0x2a012ef1e0a35de12da214005b7421bfd9bdfbce",
+   "address_details": {
+    "label": null,
+    "degree": 1535,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 844,
+    "outward_relations": 691,
+    "first_activity_date": "2026-09-11T19:54:56"
+   },
+   "holder_data": {
+    "amount": 617020.1281967072,
+    "rank": 170,
+    "share": 0.0006168141157248987
+   }
+  },
+  {
+   "address": "0x748875c7d8b0039a67753cc18fa20c546fc0b75b",
+   "address_details": {
+    "label": null,
+    "degree": 219,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 210,
+    "outward_relations": 9,
+    "first_activity_date": "2026-09-18T16:51:19"
+   },
+   "holder_data": {
+    "amount": 616445.9476691365,
+    "rank": 171,
+    "share": 0.0006162401269063895
+   }
+  },
+  {
+   "address": "0x505962332655ad7f132ec1e8add0e37097c31a16",
+   "address_details": {
+    "label": null,
+    "degree": 779,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 511,
+    "outward_relations": 268,
+    "first_activity_date": "2026-08-29T03:53:51"
+   },
+   "holder_data": {
+    "amount": 613836.6505538762,
+    "rank": 172,
+    "share": 0.0006136317009908256
+   }
+  },
+  {
+   "address": "0xb1f8808f2fcd0a45f371b2e4c496e502b99022a5",
+   "address_details": {
+    "label": null,
+    "degree": 1242,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 697,
+    "outward_relations": 545,
+    "first_activity_date": "2025-03-21T15:58:59"
+   },
+   "holder_data": {
+    "amount": 613160.0108080606,
+    "rank": 173,
+    "share": 0.0006129552871634528
+   }
+  },
+  {
+   "address": "0x7240e55aa12adce6b67ba8ea236f4fb6f457c387",
+   "address_details": {
+    "label": null,
+    "degree": 450,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 301,
+    "outward_relations": 149,
+    "first_activity_date": "2026-08-27T09:01:19"
+   },
+   "holder_data": {
+    "amount": 584197.4849013153,
+    "rank": 174,
+    "share": 0.0005840024313489448
+   }
+  },
+  {
+   "address": "0xc0b151af9646241eaacf2dfba6eda5a50c80199b",
+   "address_details": {
+    "label": "\"cryptogeek9\" on OpenSea",
+    "degree": 9782,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 6880,
+    "outward_relations": 2902,
+    "first_activity_date": "2021-02-08T14:53:00"
+   },
+   "holder_data": {
+    "amount": 580956.3590416831,
+    "rank": 175,
+    "share": 0.0005807623876458246
+   }
+  },
+  {
+   "address": "0x5c24b7308637513f593b6e5005135186c85e9c11",
+   "address_details": {
+    "label": "@smokebox00 fuckdatbitch.eth",
+    "degree": 24400,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "smokebox00",
+    "inward_relations": 15450,
+    "outward_relations": 8950,
+    "first_activity_date": "2021-03-14T21:59:05"
+   },
+   "holder_data": {
+    "amount": 580374.3087234201,
+    "rank": 176,
+    "share": 0.0005801805316642118
+   }
+  },
+  {
+   "address": "0x759af254b0f331929854927af331e11c38b2710e",
+   "address_details": {
+    "label": null,
+    "degree": 443,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 314,
+    "outward_relations": 129,
+    "first_activity_date": "2026-08-31T19:23:23"
+   },
+   "holder_data": {
+    "amount": 573167.448069849,
+    "rank": 177,
+    "share": 0.0005729760772581995
+   }
+  },
+  {
+   "address": "0x6b73c3f8782ac9f6746b0a9805b73b2ac2c59a89",
+   "address_details": {
+    "label": null,
+    "degree": 1032,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 833,
+    "outward_relations": 199,
+    "first_activity_date": "2026-08-18T12:44:03"
+   },
+   "holder_data": {
+    "amount": 559733.4516155367,
+    "rank": 178,
+    "share": 0.0005595465661856264
+   }
+  },
+  {
+   "address": "0x5d55a8c50da01aeb23d8aaa7314f5bbebc3b16a5",
+   "address_details": {
+    "label": null,
+    "degree": 45,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 35,
+    "outward_relations": 10,
+    "first_activity_date": "2026-09-26T19:29:36"
+   },
+   "holder_data": {
+    "amount": 551368.2987796438,
+    "rank": 179,
+    "share": 0.0005511842063312491
+   }
+  },
+  {
+   "address": "0x3a9f4298c3f9ffb125a13599000ce2ebc09f30c9",
+   "address_details": {
+    "label": null,
+    "degree": 346,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 273,
+    "outward_relations": 73,
+    "first_activity_date": "2026-08-31T05:21:38"
+   },
+   "holder_data": {
+    "amount": 545907.881159231,
+    "rank": 180,
+    "share": 0.0005457256118509247
+   }
+  },
+  {
+   "address": "0x1f027deff21f8f2a15e02a9695d8e28697204e38",
+   "address_details": {
+    "label": null,
+    "degree": 237,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 153,
+    "outward_relations": 84,
+    "first_activity_date": "2026-09-06T02:58:42"
+   },
+   "holder_data": {
+    "amount": 541370.1558888815,
+    "rank": 181,
+    "share": 0.000541189401649463
+   }
+  },
+  {
+   "address": "0x5f8b4bc7a5013ea7dcec6fd7f71acdad1ea52bb1",
+   "address_details": {
+    "label": null,
+    "degree": 3867,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3702,
+    "outward_relations": 165,
+    "first_activity_date": "2026-08-24T03:18:53"
+   },
+   "holder_data": {
+    "amount": 531596.7928907148,
+    "rank": 182,
+    "share": 0.0005314193018101093
+   }
+  },
+  {
+   "address": "0x43a99ee399d603511c074f85f52d9e91f3ca95f1",
+   "address_details": {
+    "label": null,
+    "degree": 696,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 477,
+    "outward_relations": 219,
+    "first_activity_date": "2022-07-06T10:54:35"
+   },
+   "holder_data": {
+    "amount": 528109.1143817675,
+    "rank": 183,
+    "share": 0.0005279327877773884
+   }
+  },
+  {
+   "address": "0xbccda22f7352df5c1964db5ce2c7121c70d8ccf0",
+   "address_details": {
+    "label": null,
+    "degree": 64,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 55,
+    "outward_relations": 9,
+    "first_activity_date": "2026-09-12T18:01:40"
+   },
+   "holder_data": {
+    "amount": 526730.4084103903,
+    "rank": 184,
+    "share": 0.0005265545421323638
+   }
+  },
+  {
+   "address": "0x6a5d35e3f9c9e121c75a89c62b995a4a641bed05",
+   "address_details": {
+    "label": null,
+    "degree": 2461,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2301,
+    "outward_relations": 160,
+    "first_activity_date": "2026-01-06T08:04:23"
+   },
+   "holder_data": {
+    "amount": 523600.4654210224,
+    "rank": 185,
+    "share": 0.0005234256441774484
+   }
+  },
+  {
+   "address": "0xf1a1d9ea61323bcf42eba9140287e044ece0cd76",
+   "address_details": {
+    "label": null,
+    "degree": 326,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 186,
+    "outward_relations": 140,
+    "first_activity_date": "2026-08-30T08:48:45"
+   },
+   "holder_data": {
+    "amount": 521067.5303834279,
+    "rank": 186,
+    "share": 0.0005208935548435583
+   }
+  },
+  {
+   "address": "0x859bc5fe903dfe749fe3331512ff7297d2e924f3",
+   "address_details": {
+    "label": null,
+    "degree": 35383,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 23398,
+    "outward_relations": 11985,
+    "first_activity_date": "2022-08-20T11:47:01"
+   },
+   "holder_data": {
+    "amount": 508363.6258825979,
+    "rank": 187,
+    "share": 0.0005081938919592464
+   }
+  },
+  {
+   "address": "0x2975256a638cc96a3eca36bdb0a82a6c9f645751",
+   "address_details": {
+    "label": null,
+    "degree": 93,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 77,
+    "outward_relations": 16,
+    "first_activity_date": "2026-09-16T11:49:22"
+   },
+   "holder_data": {
+    "amount": 503952.1568526913,
+    "rank": 188,
+    "share": 0.0005037838958434275
+   }
+  },
+  {
+   "address": "0x59a6fee2649f6462613bf3505671baba678c53fb",
+   "address_details": {
+    "label": null,
+    "degree": 13168,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 12649,
+    "outward_relations": 519,
+    "first_activity_date": "2026-07-27T14:09:55"
+   },
+   "holder_data": {
+    "amount": 495818.6461748569,
+    "rank": 189,
+    "share": 0.0004956531008057524
+   }
+  },
+  {
+   "address": "0xb793eec5e392f5426eecc459ef602daabe519d4e",
+   "address_details": {
+    "label": null,
+    "degree": 99,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 88,
+    "outward_relations": 11,
+    "first_activity_date": "2026-08-20T04:45:33"
+   },
+   "holder_data": {
+    "amount": 489923.822556782,
+    "rank": 190,
+    "share": 0.0004897602453685016
+   }
+  },
+  {
+   "address": "0x63845c69521dc9bbaf9c6529b593f8fb51dd448b",
+   "address_details": {
+    "label": null,
+    "degree": 216,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 135,
+    "outward_relations": 81,
+    "first_activity_date": "2026-08-22T07:00:03"
+   },
+   "holder_data": {
+    "amount": 485293.8116380917,
+    "rank": 191,
+    "share": 0.00048513178033129917
+   }
+  },
+  {
+   "address": "0x86f0259e817e61b080f8a39d60e8d6799d14e6bb",
+   "address_details": {
+    "label": null,
+    "degree": 197,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 95,
+    "outward_relations": 102,
+    "first_activity_date": "2026-07-23T19:44:11"
+   },
+   "holder_data": {
+    "amount": 480363.4090556387,
+    "rank": 192,
+    "share": 0.0004802030239259749
+   }
+  },
+  {
+   "address": "0xf105356bd8e5aac00727a69477500de5f2c43783",
+   "address_details": {
+    "label": null,
+    "degree": 1050,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 663,
+    "outward_relations": 387,
+    "first_activity_date": "2026-07-10T19:50:18"
+   },
+   "holder_data": {
+    "amount": 478632.3804783492,
+    "rank": 193,
+    "share": 0.00047847257330953263
+   }
+  },
+  {
+   "address": "0x2ae13e539677a2d4b028f225dc432fa29b48e293",
+   "address_details": {
+    "label": null,
+    "degree": 3434,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2466,
+    "outward_relations": 968,
+    "first_activity_date": "2023-04-20T20:33:11"
+   },
+   "holder_data": {
+    "amount": 473100.1956586475,
+    "rank": 194,
+    "share": 0.0004729422355917602
+   }
+  },
+  {
+   "address": "0xb5ff47462097a88c9617ac705603889113278ff9",
+   "address_details": {
+    "label": null,
+    "degree": 15147,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 12876,
+    "outward_relations": 2271,
+    "first_activity_date": "2025-10-08T12:19:19"
+   },
+   "holder_data": {
+    "amount": 471166.3063971037,
+    "rank": 195,
+    "share": 0.0004710089920227777
+   }
+  },
+  {
+   "address": "0x494c3bf1e49d2320a5a05e085b1e251fdaa7cdf1",
+   "address_details": {
+    "label": null,
+    "degree": 191,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 126,
+    "outward_relations": 65,
+    "first_activity_date": "2026-08-27T08:59:57"
+   },
+   "holder_data": {
+    "amount": 465795.01544412295,
+    "rank": 196,
+    "share": 0.00046563949445201493
+   }
+  },
+  {
+   "address": "0x416c4c9eaef536bfa021f2459d3a801c6130fec9",
+   "address_details": {
+    "label": "tesra.eth",
+    "degree": 5782,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3757,
+    "outward_relations": 2025,
+    "first_activity_date": "2021-08-22T01:51:30"
+   },
+   "holder_data": {
+    "amount": 464456.6557514391,
+    "rank": 197,
+    "share": 0.00046430158161475096
+   }
+  },
+  {
+   "address": "0x2b177fdb87a9bab54b55f1eff89b0cf785513403",
+   "address_details": {
+    "label": "\"degendoggodiamondpaws\" on OpenSea",
+    "degree": 4950,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3352,
+    "outward_relations": 1598,
+    "first_activity_date": "2021-01-20T14:19:39"
+   },
+   "holder_data": {
+    "amount": 454395.4320639413,
+    "rank": 198,
+    "share": 0.00045424371719782886
+   }
+  },
+  {
+   "address": "0x14a1fd5b4e2c97b299620be7cd30606a0bae9341",
+   "address_details": {
+    "label": null,
+    "degree": 630,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 310,
+    "outward_relations": 320,
+    "first_activity_date": "2026-09-01T17:35:23"
+   },
+   "holder_data": {
+    "amount": 453039.8950889139,
+    "rank": 199,
+    "share": 0.00045288863281342225
+   }
+  },
+  {
+   "address": "0x964bf6bfe2aa45d145ca4476b64294d6b390369f",
+   "address_details": {
+    "label": null,
+    "degree": 7482,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 4225,
+    "outward_relations": 3257,
+    "first_activity_date": "2026-07-01T16:00:53"
+   },
+   "holder_data": {
+    "amount": 449999.99643412227,
+    "rank": 200,
+    "share": 0.00044984974912881925
+   }
+  },
+  {
+   "address": "0xa467893bc5231e950051b776fd00f58fea02a17d",
+   "address_details": {
+    "label": null,
+    "degree": 151,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 83,
+    "outward_relations": 68,
+    "first_activity_date": "2026-08-13T17:10:08"
+   },
+   "holder_data": {
+    "amount": 429089.61760680797,
+    "rank": 201,
+    "share": 0.0004289463519194973
+   }
+  },
+  {
+   "address": "0x6d4622caf5d1298d13d925f65e83e1fd1c6b36c2",
+   "address_details": {
+    "label": null,
+    "degree": 2950,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2938,
+    "outward_relations": 12,
+    "first_activity_date": "2026-08-06T10:45:47"
+   },
+   "holder_data": {
+    "amount": 428422.83531752473,
+    "rank": 202,
+    "share": 0.00042827979225742074
+   }
+  },
+  {
+   "address": "0x510ba8a19bcd5e5729aad6f683044341f356b8b3",
+   "address_details": {
+    "label": "@BLXWilson \"BLXWilson\" on OpenSea",
+    "degree": 2164,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "blxwilson",
+    "inward_relations": 1749,
+    "outward_relations": 415,
+    "first_activity_date": "2022-03-08T14:30:27"
+   },
+   "holder_data": {
+    "amount": 425692.73438869696,
+    "rank": 203,
+    "share": 0.00042555060286261743
+   }
+  },
+  {
+   "address": "0x81aaaa7a47c02ef92a2adc249a9c183052e28b7c",
+   "address_details": {
+    "label": null,
+    "degree": 70,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 58,
+    "outward_relations": 12,
+    "first_activity_date": "2026-09-08T12:13:41"
+   },
+   "holder_data": {
+    "amount": 423297.2100440687,
+    "rank": 204,
+    "share": 0.00042315587834261233
+   }
+  },
+  {
+   "address": "0x1651af560ded55ab685c03315e24020cf68e70eb",
+   "address_details": {
+    "label": null,
+    "degree": 4249,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3576,
+    "outward_relations": 673,
+    "first_activity_date": "2018-01-25T19:08:55"
+   },
+   "holder_data": {
+    "amount": 422555.03217457765,
+    "rank": 205,
+    "share": 0.0004224139482736231
+   }
+  },
+  {
+   "address": "0x7f90799abbff9a8914f0656f922430899cfbd28a",
+   "address_details": {
+    "label": null,
+    "degree": 637,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 351,
+    "outward_relations": 286,
+    "first_activity_date": "2026-07-03T02:07:26"
+   },
+   "holder_data": {
+    "amount": 421521.8111984498,
+    "rank": 206,
+    "share": 0.00042138107227231457
+   }
+  },
+  {
+   "address": "0x40783cd241561e2ed70ddba8d1d16a842613c828",
+   "address_details": {
+    "label": null,
+    "degree": 14,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 14,
+    "outward_relations": 0,
+    "first_activity_date": "2026-09-22T03:02:56"
+   },
+   "holder_data": {
+    "amount": 420312.125293345,
+    "rank": 207,
+    "share": 0.0004201717902606519
+   }
+  },
+  {
+   "address": "0xb9875c9906bfc3af83d7c9b8cd859e7e7a1aa1c7",
+   "address_details": {
+    "label": null,
+    "degree": 119,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 65,
+    "outward_relations": 54,
+    "first_activity_date": "2026-09-04T07:18:52"
+   },
+   "holder_data": {
+    "amount": 417221.90748101077,
+    "rank": 208,
+    "share": 0.0004170826042192127
+   }
+  },
+  {
+   "address": "0x403c6371bc54dca7a5d3e877ca6d067f433678f2",
+   "address_details": {
+    "label": null,
+    "degree": 207,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 133,
+    "outward_relations": 74,
+    "first_activity_date": "2026-07-25T15:18:23"
+   },
+   "holder_data": {
+    "amount": 416657.42690372263,
+    "rank": 209,
+    "share": 0.0004165183121123386
+   }
+  },
+  {
+   "address": "0x12b2b0d0ab64112d06c11a8fa4a3ab25faa190e3",
+   "address_details": {
+    "label": null,
+    "degree": 100,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 94,
+    "outward_relations": 6,
+    "first_activity_date": "2026-09-06T10:37:52"
+   },
+   "holder_data": {
+    "amount": 414640.5324251367,
+    "rank": 210,
+    "share": 0.00041450209104033686
+   }
+  },
+  {
+   "address": "0x1d21a17ab724202a46a26fb2d12b614615a60ade",
+   "address_details": {
+    "label": null,
+    "degree": 523,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 449,
+    "outward_relations": 74,
+    "first_activity_date": "2026-09-04T08:53:59"
+   },
+   "holder_data": {
+    "amount": 413137.7702308674,
+    "rank": 211,
+    "share": 0.0004129998305926719
+   }
+  },
+  {
+   "address": "0xd51c0cbfcdfaadbc22facebec61c95d95cf987af",
+   "address_details": {
+    "label": null,
+    "degree": 4,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3,
+    "outward_relations": 1,
+    "first_activity_date": "2026-09-28T10:02:11"
+   },
+   "holder_data": {
+    "amount": 407942.1196056486,
+    "rank": 212,
+    "share": 0.00040780591470636855
+   }
+  },
+  {
+   "address": "0x774544a6607812d2707971fafc0589a350863c8c",
+   "address_details": {
+    "label": null,
+    "degree": 392,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 259,
+    "outward_relations": 133,
+    "first_activity_date": "2026-09-03T15:19:13"
+   },
+   "holder_data": {
+    "amount": 405632.1043368235,
+    "rank": 213,
+    "share": 0.00040549667071214813
+   }
+  },
+  {
+   "address": "0x6a6f1305d515234f351dd2a100fc4062c74f49a5",
+   "address_details": {
+    "label": null,
+    "degree": 18,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 11,
+    "outward_relations": 7,
+    "first_activity_date": "2026-09-20T02:54:23"
+   },
+   "holder_data": {
+    "amount": 403612.7176452529,
+    "rank": 214,
+    "share": 0.000403477958259269
+   }
+  },
+  {
+   "address": "0xd589bccda76913db6f3025edffa3bf8f0076dd4f",
+   "address_details": {
+    "label": null,
+    "degree": 57,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 42,
+    "outward_relations": 15,
+    "first_activity_date": "2026-08-27T05:39:46"
+   },
+   "holder_data": {
+    "amount": 402214.5618683748,
+    "rank": 215,
+    "share": 0.000402080269302701
+   }
+  },
+  {
+   "address": "0x7c0d738d564ecff483e3dc242ef67b1004f67ca4",
+   "address_details": {
+    "label": null,
+    "degree": 6926,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 4526,
+    "outward_relations": 2400,
+    "first_activity_date": "2021-08-16T17:40:57"
+   },
+   "holder_data": {
+    "amount": 400796.42478219944,
+    "rank": 216,
+    "share": 0.00040066260570825323
+   }
+  },
+  {
+   "address": "0xdb58dcd14be42f282c9afaa3c766eab1d11edba9",
+   "address_details": {
+    "label": null,
+    "degree": 1346,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1198,
+    "outward_relations": 148,
+    "first_activity_date": "2026-08-22T14:14:00"
+   },
+   "holder_data": {
+    "amount": 388065.17557279405,
+    "rank": 217,
+    "share": 0.0003879356072452968
+   }
+  },
+  {
+   "address": "0xd6c63e49994db77061b023d18bac291e9963cee4",
+   "address_details": {
+    "label": "somethingHot",
+    "degree": 5288,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 3525,
+    "outward_relations": 1763,
+    "first_activity_date": "2024-06-11T21:48:59"
+   },
+   "holder_data": {
+    "amount": 384920.1251894506,
+    "rank": 218,
+    "share": 0.0003847916069405064
+   }
+  },
+  {
+   "address": "0x2dc29398f5d1dc263246c0a37b702893bdf5d311",
+   "address_details": {
+    "label": null,
+    "degree": 2160,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1308,
+    "outward_relations": 852,
+    "first_activity_date": "2024-03-13T04:00:59"
+   },
+   "holder_data": {
+    "amount": 376911.0835014681,
+    "rank": 219,
+    "share": 0.00037678523933461547
+   }
+  },
+  {
+   "address": "0xe56eae2ba366cfc5f56628e4daa6db54145f82af",
+   "address_details": {
+    "label": null,
+    "degree": 275,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 263,
+    "outward_relations": 12,
+    "first_activity_date": "2025-07-21T09:31:35"
+   },
+   "holder_data": {
+    "amount": 375508.10805924254,
+    "rank": 220,
+    "share": 0.00037538273232190386
+   }
+  },
+  {
+   "address": "0xc538fa9ab84eae69a83d7fe08c549b57761f2a22",
+   "address_details": {
+    "label": "iamvirgin.eth",
+    "degree": 1676,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1295,
+    "outward_relations": 381,
+    "first_activity_date": "2024-02-17T00:55:11"
+   },
+   "holder_data": {
+    "amount": 373561.63070229837,
+    "rank": 221,
+    "share": 0.0003734369048604709
+   }
+  },
+  {
+   "address": "0xcbdf240fd07fea726fd2b1693db3f97566f6252e",
+   "address_details": {
+    "label": "\"Shaikhy\" on Galxe",
+    "degree": 46069,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 43025,
+    "outward_relations": 3044,
+    "first_activity_date": "2021-04-26T22:35:56"
+   },
+   "holder_data": {
+    "amount": 368187.93500340986,
+    "rank": 222,
+    "share": 0.0003680650033467039
+   }
+  },
+  {
+   "address": "0xa884cbb47743270abe973fbf63d4c38d53a27df1",
+   "address_details": {
+    "label": null,
+    "degree": 300,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 253,
+    "outward_relations": 47,
+    "first_activity_date": "2024-12-01T13:14:23"
+   },
+   "holder_data": {
+    "amount": 364704.99909486476,
+    "rank": 223,
+    "share": 0.000364583230330912
+   }
+  },
+  {
+   "address": "0x28675e482ddaa4e32674a2a70a502720fb5da699",
+   "address_details": {
+    "label": null,
+    "degree": 368,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 190,
+    "outward_relations": 178,
+    "first_activity_date": "2026-09-02T06:22:44"
+   },
+   "holder_data": {
+    "amount": 356727.9301697769,
+    "rank": 224,
+    "share": 0.0003566088248127568
+   }
+  },
+  {
+   "address": "0xb2440f4bcc6645570a6cff44a4483e81542f6b23",
+   "address_details": {
+    "label": null,
+    "degree": 3117,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 2991,
+    "outward_relations": 126,
+    "first_activity_date": "2026-09-03T11:41:18"
+   },
+   "holder_data": {
+    "amount": 348293.9206952251,
+    "rank": 225,
+    "share": 0.00034817763130977504
+   }
+  },
+  {
+   "address": "0xb09a7c1a42cd4d3a2f5b88c15bde35bc73798099",
+   "address_details": {
+    "label": null,
+    "degree": 45,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 33,
+    "outward_relations": 12,
+    "first_activity_date": "2026-09-13T16:18:59"
+   },
+   "holder_data": {
+    "amount": 346643.9146723977,
+    "rank": 226,
+    "share": 0.000346528176195749
+   }
+  },
+  {
+   "address": "0x52f2296562af8c76d9635188679222cb20d4d1bc",
+   "address_details": {
+    "label": null,
+    "degree": 622,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 325,
+    "outward_relations": 297,
+    "first_activity_date": "2026-09-05T13:28:35"
+   },
+   "holder_data": {
+    "amount": 345442.38209321134,
+    "rank": 227,
+    "share": 0.0003453270447877486
+   }
+  },
+  {
+   "address": "0xecb2b0f30f63eba68bf532c92e68d33541ac8abf",
+   "address_details": {
+    "label": "MON Airdrop \u2013 Top 7,073",
+    "degree": 2232,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1407,
+    "outward_relations": 825,
+    "first_activity_date": "2023-07-26T19:53:03"
+   },
+   "holder_data": {
+    "amount": 344372.39025597717,
+    "rank": 228,
+    "share": 0.0003442574102024956
+   }
+  },
+  {
+   "address": "0x5d7fce8a6b12776bc39bb3e2b425810441a8db5e",
+   "address_details": {
+    "label": null,
+    "degree": 78355,
+    "is_supernode": true,
+    "is_contract": true,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 48865,
+    "outward_relations": 29490,
+    "first_activity_date": "2026-07-09T05:01:43"
+   },
+   "holder_data": {
+    "amount": 343417.4749433929,
+    "rank": 229,
+    "share": 0.0003433028137198083
+   }
+  },
+  {
+   "address": "0x1595657b39738fe5b455ffe16c7cf0f6709c5bf6",
+   "address_details": {
+    "label": null,
+    "degree": 138,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 112,
+    "outward_relations": 26,
+    "first_activity_date": "2026-09-02T14:56:12"
+   },
+   "holder_data": {
+    "amount": 339039.5977163613,
+    "rank": 230,
+    "share": 0.0003389263981911356
+   }
+  },
+  {
+   "address": "0x1717e14a2b661541a5f4bce0562f77ec40198cc3",
+   "address_details": {
+    "label": null,
+    "degree": 663,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 438,
+    "outward_relations": 225,
+    "first_activity_date": "2026-08-14T12:33:26"
+   },
+   "holder_data": {
+    "amount": 330151.52908912615,
+    "rank": 231,
+    "share": 0.0003300412971380586
+   }
+  },
+  {
+   "address": "0x808cd4eacb341e3d18e385f0859ea6ad47443a62",
+   "address_details": {
+    "label": null,
+    "degree": 783,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 568,
+    "outward_relations": 215,
+    "first_activity_date": "2020-08-15T09:28:40"
+   },
+   "holder_data": {
+    "amount": 327948.56905990833,
+    "rank": 232,
+    "share": 0.0003278390726395313
+   }
+  },
+  {
+   "address": "0x0ca0dae538bb788bbc735c6f581e322d1e52181c",
+   "address_details": {
+    "label": "laitsky.base.eth",
+    "degree": 7077,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 4152,
+    "outward_relations": 2925,
+    "first_activity_date": "2021-02-21T00:22:17"
+   },
+   "holder_data": {
+    "amount": 324080.09651852836,
+    "rank": 233,
+    "share": 0.00032397189171499486
+   }
+  },
+  {
+   "address": "0xae36b8deafa4aa523a8eb66edfa4f92b84cb10bc",
+   "address_details": {
+    "label": null,
+    "degree": 469,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 336,
+    "outward_relations": 133,
+    "first_activity_date": "2024-07-10T11:09:23"
+   },
+   "holder_data": {
+    "amount": 323234.307922002,
+    "rank": 234,
+    "share": 0.00032312638551282064
+   }
+  },
+  {
+   "address": "0x050c1c3d2e802dd6208acee28806cc65f35f9327",
+   "address_details": {
+    "label": "@nevnft nevwa.eth",
+    "degree": 13619,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": "nevnft",
+    "inward_relations": 8383,
+    "outward_relations": 5236,
+    "first_activity_date": "2021-10-13T11:54:24"
+   },
+   "holder_data": {
+    "amount": 322183.3533453364,
+    "rank": 235,
+    "share": 0.0003220757818319204
+   }
+  },
+  {
+   "address": "0xca61930b40ef9877d1b48426e8047226a7a51e9d",
+   "address_details": {
+    "label": null,
+    "degree": 1451,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 1084,
+    "outward_relations": 367,
+    "first_activity_date": "2023-11-23T17:05:01"
+   },
+   "holder_data": {
+    "amount": 315844.5240657167,
+    "rank": 236,
+    "share": 0.0003157390689790242
+   }
+  },
+  {
+   "address": "0xae3e45ff013deb6229c455e17444b6ded296bcbb",
+   "address_details": {
+    "label": null,
+    "degree": 111,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 82,
+    "outward_relations": 29,
+    "first_activity_date": "2026-09-01T13:45:22"
+   },
+   "holder_data": {
+    "amount": 314926.47263577324,
+    "rank": 237,
+    "share": 0.0003148213240707576
+   }
+  },
+  {
+   "address": "0x3401e79beb95b2d842f53c82b93be59d11c7ba99",
+   "address_details": {
+    "label": null,
+    "degree": 126,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 88,
+    "outward_relations": 38,
+    "first_activity_date": "2026-09-05T05:45:25"
+   },
+   "holder_data": {
+    "amount": 312400.5317517514,
+    "rank": 238,
+    "share": 0.00031229622655521165
+   }
+  },
+  {
+   "address": "0xbcb8a9ed61a01e96635eb0f6d147de4e6cfd0815",
+   "address_details": {
+    "label": null,
+    "degree": 88,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 53,
+    "outward_relations": 35,
+    "first_activity_date": "2026-09-03T12:42:07"
+   },
+   "holder_data": {
+    "amount": 308368.0341800781,
+    "rank": 239,
+    "share": 0.0003082650753655352
+   }
+  },
+  {
+   "address": "0x1d0fb41d755ec45803d9d93a10f43af874291e76",
+   "address_details": {
+    "label": null,
+    "degree": 418,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 295,
+    "outward_relations": 123,
+    "first_activity_date": "2026-09-12T09:15:59"
+   },
+   "holder_data": {
+    "amount": 307235.4135976257,
+    "rank": 240,
+    "share": 0.00030713283294573127
+   }
+  },
+  {
+   "address": "0x9461c9fc62cd916af61eb4d68952f156a8059556",
+   "address_details": {
+    "label": null,
+    "degree": 30,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 26,
+    "outward_relations": 4,
+    "first_activity_date": "2026-10-03T16:05:56"
+   },
+   "holder_data": {
+    "amount": 306000.00969458825,
+    "rank": 241,
+    "share": 0.00030589784152293577
+   }
+  },
+  {
+   "address": "0xe55db6072ff0433aa22caadcf435a3a3659fcce1",
+   "address_details": {
+    "label": null,
+    "degree": 755,
+    "is_supernode": false,
+    "is_contract": true,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 411,
+    "outward_relations": 344,
+    "first_activity_date": "2026-08-15T20:19:09"
+   },
+   "holder_data": {
+    "amount": 305798.8808430247,
+    "rank": 242,
+    "share": 0.0003056967798248571
+   }
+  },
+  {
+   "address": "0xbc5623f191b80ca6b1221f9194c99e0774874a05",
+   "address_details": {
+    "label": null,
+    "degree": 109,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 89,
+    "outward_relations": 20,
+    "first_activity_date": "2026-09-17T14:54:39"
+   },
+   "holder_data": {
+    "amount": 304753.67258591304,
+    "rank": 243,
+    "share": 0.00030465192054491294
+   }
+  },
+  {
+   "address": "0xc733715ae74921d3e743496575dead17b89dee21",
+   "address_details": {
+    "label": null,
+    "degree": 70,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 55,
+    "outward_relations": 15,
+    "first_activity_date": "2026-08-27T09:34:59"
+   },
+   "holder_data": {
+    "amount": 302299.25151584623,
+    "rank": 244,
+    "share": 0.00030219831896407894
+   }
+  },
+  {
+   "address": "0xe5d5f8dc608a9cf95ba983f6ba2962fec24c5432",
+   "address_details": {
+    "label": null,
+    "degree": 219,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 204,
+    "outward_relations": 15,
+    "first_activity_date": "2026-09-05T08:51:29"
+   },
+   "holder_data": {
+    "amount": 297106.1978926966,
+    "rank": 245,
+    "share": 0.00029700699921275013
+   }
+  },
+  {
+   "address": "0xac0017d67043c1d7733f309b8117ec37eb01eca6",
+   "address_details": {
+    "label": null,
+    "degree": 288,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 204,
+    "outward_relations": 84,
+    "first_activity_date": "2026-08-31T04:13:45"
+   },
+   "holder_data": {
+    "amount": 295444.3609115676,
+    "rank": 246,
+    "share": 0.0002953457170905772
+   }
+  },
+  {
+   "address": "0xe9e5b3bd46874e6b0d4d9a1f0180544ae1b874bd",
+   "address_details": {
+    "label": null,
+    "degree": 151,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 108,
+    "outward_relations": 43,
+    "first_activity_date": "2026-09-01T10:24:55"
+   },
+   "holder_data": {
+    "amount": 293033.6886204007,
+    "rank": 247,
+    "share": 0.0002929358496816738
+   }
+  },
+  {
+   "address": "0xc2a89e092f1ab1dd6b3b3edc922f4950dbd8446c",
+   "address_details": {
+    "label": "techyshotta",
+    "degree": 11243,
+    "is_supernode": true,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 6779,
+    "outward_relations": 4464,
+    "first_activity_date": "2024-09-24T00:04:15"
+   },
+   "holder_data": {
+    "amount": 286828.7620522328,
+    "rank": 248,
+    "share": 0.0002867329948324034
+   }
+  },
+  {
+   "address": "0x41e16a854fa335fb9806a6f63b5aa229f8a93288",
+   "address_details": {
+    "label": null,
+    "degree": 979,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 575,
+    "outward_relations": 404,
+    "first_activity_date": "2024-07-03T17:33:03"
+   },
+   "holder_data": {
+    "amount": 281140.74289439834,
+    "rank": 249,
+    "share": 0.00028104687480691947
+   }
+  },
+  {
+   "address": "0x332eb6f96bc1d888384fb6bb130760ba3f6e2490",
+   "address_details": {
+    "label": "\"Starter2\" on Fomo",
+    "degree": 754,
+    "is_supernode": false,
+    "is_contract": false,
+    "is_cex": false,
+    "is_dex": false,
+    "is_paid_label": false,
+    "entity_id": null,
+    "inward_relations": 628,
+    "outward_relations": 126,
+    "first_activity_date": "2026-01-31T08:26:09"
+   },
+   "holder_data": {
+    "amount": 280754.99807732715,
+    "rank": 250,
+    "share": 0.00028066125878344777
+   }
+  }
+ ],
+ "api_calls": {
+  "https://api.bubblemaps.io/tokens/hot?chain=aptos&chain=arbitrum&chain=arc&chain=avalanche&chain=base&chain=bsc&chain=eth&chain=hyperevm&chain=monad&chain=polygon&chain=robinhood&chain=solana&chain=sonic&chain=ton&chain=tron": 7313,
+  "https://api.bubblemaps.io/tokens/details": 580,
+  "https://api.bubblemaps.io/session/credentials": 509,
+  "https://api.bubblemaps.io/tokens/from-list": 1261,
+  "https://api.bubblemaps.io/tokens/market/prices": 180,
+  "https://api.bubblemaps.io/tokens/market/details/robinhood/0xf24f8f6b08fe87cf062e833a732ad7f636064bc8": 538,
+  "https://api.bubblemaps.io/addresses/token-top-holders?count=250&nocache=false": 97876
+ },
+ "panel_clusters": [],
+ "panel_holders": []
+}

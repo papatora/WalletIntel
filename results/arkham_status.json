@@ -1,7 +1,9 @@
 {
- "phase": "done",
+ "phase": "cf-backoff",
  "checked": 802,
- "queue": 150,
- "updated_at": "2026-10-02T17:01:42.614068+00:00",
- "batch": 2
+ "queue": 299,
+ "updated_at": "2026-10-04T16:33:51.032131+00:00",
+ "batch": 1,
+ "attempt": 1,
+ "wait_s": 300
 }

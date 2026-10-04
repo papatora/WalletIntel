@@ -1,10 +1,10 @@
 ---
 title: "WalletIntel — Consumer Export Contract"
 status: current
-tags: [project/WalletIntel, ai/integration]
+tags: [project/WalletIntel]
 ---
 
-# Consumer Export Contract
+# WalletIntel — Consumer Export Contract
 
 WalletIntel's documented APIs/exports expose ranked metrics and verification evidence. Their existing payload shapes are not automatically the proposed TokenSniper envelope; an explicit versioned mapping is needed before interoperability can be claimed.
 
@@ -12,10 +12,8 @@ The consumer proposal carries chain/mint, producer, observation time, evidence I
 
 Freshness, unit conversion, error/unknown states and compatibility version must be stated at the boundary. A linked knowledge graph proves conceptual connection, not an active data feed. The producer's API examples remain examples rather than current measured wallet values.
 
-## Related topics
+## Navigation
 
-[[WalletIntel/Producer Pipeline]] · [[WalletIntel/PnL Verification]] · [[WalletIntel/Scoring and Eligibility]] · [[Shared/DATA_CONTRACTS]] · [[TokenSniper/WalletIntel Contract]]
+[[WalletIntel/WalletIntel|WalletIntel]] · [[WalletIntel/Producer Pipeline]] · [[WalletIntel/PnL Verification]]
 
-## Provenance
-
-[[WalletIntel/SOURCE_INDEX#^W03|W03]] · [[WalletIntel/SOURCE_INDEX#^W04|W04]] · [[WalletIntel/SOURCE_INDEX#^W05|W05]] · [[WalletIntel/SOURCE_INDEX#^W10|W10]]. Source ledger records hashes and read scope; documented behavior is not a freshly verified live service.
+Shared boundary: [[Shared/WalletIntel Contract]].

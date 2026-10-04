@@ -1,10 +1,10 @@
 ---
 title: "WalletIntel — Data Quality Lessons"
 status: historical
-tags: [project/WalletIntel, ai/history]
+tags: [project/WalletIntel]
 ---
 
-# Data Quality Lessons
+# WalletIntel — Data Quality Lessons
 
 The documented landmines include wrong price orientation, wrong event topic shape, per-leg trade undercount, zero/noisy quote marks and database concurrency. Some errors produced plausible but incorrect results rather than explicit exceptions, so import success cannot certify economic correctness.
 
@@ -12,10 +12,6 @@ The fixed-ledger chronology records an API envelope/list mismatch that silently 
 
 Later corrections supersede isolated earlier success statements. A fresh source hash identifies which record supports a lesson; it does not prove every historical performance figure in the document. Exports must preserve incomplete coverage, stale prices and verification status so consumers cannot mistake repaired infrastructure for validated alpha.
 
-## Related topics
+## Navigation
 
-[[WalletIntel/Price and Unit Integrity]] · [[WalletIntel/Transaction Accounting]] · [[WalletIntel/PnL Verification]] · [[WalletIntel/Security and Operational Boundaries]] · [[TokenSniper/Mistakes and Lessons]]
-
-## Provenance
-
-[[WalletIntel/SOURCE_INDEX#^W06|W06]] · [[WalletIntel/SOURCE_INDEX#^W09|W09]] · [[WalletIntel/SOURCE_INDEX#^W12|W12]]. Source ledger records hashes and read scope; documented behavior is not a freshly verified live service.
+[[WalletIntel/WalletIntel|WalletIntel]] · [[WalletIntel/Price and Unit Integrity]] · [[WalletIntel/Transaction Accounting]]

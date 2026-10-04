@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-04T16:59:47.798789+00:00",
+ "updated_at": "2026-10-04T20:17:16.358600+00:00",
  "endpoint": "/api/v1/rank/robinhood/wallets/30d?tag=smart_degen",
  "count": 100,
  "rank": [
@@ -24,8 +24,8 @@
    "buy_30d": 3995,
    "sell_30d": 3074,
    "txs_30d": 7069,
-   "follow_count": 1965,
-   "last_active": 1791125360
+   "follow_count": 1967,
+   "last_active": 1791134626
   },
   {
    "address": "0x38db7c10d5a96976a4fe4a15982c26fa05e122c5",
@@ -49,7 +49,7 @@
    "buy_30d": 162,
    "sell_30d": 171,
    "txs_30d": 333,
-   "follow_count": 674,
+   "follow_count": 675,
    "last_active": 1790738195
   },
   {
@@ -63,18 +63,18 @@
     "fomo",
     "gmgn"
    ],
-   "pnl_7d": "0.1883929673197762",
-   "pnl_30d": "0.0663425000141497",
-   "winrate_7d": 0.41353383458646614,
-   "winrate_30d": 0.43481848184818483,
-   "realized_profit_7d": "17437.43196618454869681148",
-   "realized_profit_30d": "72017.12972757791581258908",
-   "volume_30d": "2167106.94000919515325098864",
-   "buy_30d": 4742,
-   "sell_30d": 2341,
-   "txs_30d": 7083,
-   "follow_count": 13256,
-   "last_active": 1791058913
+   "pnl_7d": "0.1532170562433319",
+   "pnl_30d": "0.063779331567859",
+   "winrate_7d": 0.4233576642335766,
+   "winrate_30d": 0.43585526315789475,
+   "realized_profit_7d": "14992.63250053835394469433",
+   "realized_profit_30d": "69572.33026193172106047193",
+   "volume_30d": "2174952.82158458466191773435",
+   "buy_30d": 4770,
+   "sell_30d": 2347,
+   "txs_30d": 7117,
+   "follow_count": 13262,
+   "last_active": 1791139699
   },
   {
    "address": "0xa98a29c75fd9acf4cfe358cd0b659d922c9b165f",
@@ -98,7 +98,7 @@
    "sell_30d": 169,
    "txs_30d": 268,
    "follow_count": 1702,
-   "last_active": 1791125458
+   "last_active": 1791134802
   },
   {
    "address": "0xe28601398a5448d1147e6e8b0e0c6d686f0d216d",
@@ -123,7 +123,7 @@
    "buy_30d": 1676,
    "sell_30d": 1836,
    "txs_30d": 3512,
-   "follow_count": 109481,
+   "follow_count": 109488,
    "last_active": 1791016597
   },
   {
@@ -148,8 +148,8 @@
    "buy_30d": 1240,
    "sell_30d": 906,
    "txs_30d": 2146,
-   "follow_count": 2812,
-   "last_active": 1791125360
+   "follow_count": 2815,
+   "last_active": 1791134626
   },
   {
    "address": "0x444c7091c98e38187f87b025c330b5d2f27fc40d",
@@ -173,7 +173,7 @@
    "sell_30d": 297,
    "txs_30d": 677,
    "follow_count": 1686,
-   "last_active": 1791125396
+   "last_active": 1791134690
   },
   {
    "address": "0x150952108f28dcaf4e4542090e67cd2696563944",
@@ -187,18 +187,18 @@
     "fomo",
     "gmgn"
    ],
-   "pnl_7d": "0.060217982199649",
-   "pnl_30d": "0.2742934854247169",
-   "winrate_7d": 0.40476190476190477,
-   "winrate_30d": 0.4934210526315789,
-   "realized_profit_7d": "881.79419423564289413707",
-   "realized_profit_30d": "48346.0669113735467151835",
-   "volume_30d": "345689.62735098152936983131",
-   "buy_30d": 1205,
-   "sell_30d": 1235,
-   "txs_30d": 2440,
-   "follow_count": 1688,
-   "last_active": 1791128544
+   "pnl_7d": "0.040297547085187",
+   "pnl_30d": "0.271112335714214",
+   "winrate_7d": 0.4015748031496063,
+   "winrate_30d": 0.4928806133625411,
+   "realized_profit_7d": "637.0555475892784507595",
+   "realized_profit_30d": "48101.32826472718227180593",
+   "volume_30d": "346839.48130479473547704693",
+   "buy_30d": 1208,
+   "sell_30d": 1238,
+   "txs_30d": 2446,
+   "follow_count": 1693,
+   "last_active": 1791140843
   },
   {
    "address": "0xc77b5585ca3cd4beec6051cca89921a2f01d9a5c",
@@ -214,7 +214,7 @@
    "pnl_7d": "0.0267596470515223",
    "pnl_30d": "0.1076429720480166",
    "winrate_7d": 0.28846153846153844,
-   "winrate_30d": 0.33567134268537074,
+   "winrate_30d": 0.33634538152610444,
    "realized_profit_7d": "2587.34626587909578078738",
    "realized_profit_30d": "46501.08781866394628480781",
    "volume_30d": "892683.37756056742529073604",
@@ -222,7 +222,7 @@
    "sell_30d": 1549,
    "txs_30d": 2934,
    "follow_count": 852,
-   "last_active": 1791127701
+   "last_active": 1791134654
   },
   {
    "address": "0x11ca9701430f3ef4f79c4aba3f722f6d3d115754",
@@ -269,8 +269,8 @@
    "buy_30d": 478,
    "sell_30d": 499,
    "txs_30d": 977,
-   "follow_count": 1407,
-   "last_active": 1791125502
+   "follow_count": 1408,
+   "last_active": 1791134875
   },
   {
    "address": "0xdc311b398f2e329f433fa45d2fddbc31fd7aa727",
@@ -283,18 +283,18 @@
     "launchpad_smart",
     "gmgn"
    ],
-   "pnl_7d": "0.1618849032293878",
-   "pnl_30d": "0.1600737852148987",
-   "winrate_7d": 0.5222929936305732,
-   "winrate_30d": 0.5272479564032697,
-   "realized_profit_7d": "8040.80694600148087708052",
-   "realized_profit_30d": "41452.78844660016700668771",
-   "volume_30d": "445170.85230805923490353226",
-   "buy_30d": 8177,
-   "sell_30d": 1206,
-   "txs_30d": 9383,
-   "follow_count": 400,
-   "last_active": 1791128610
+   "pnl_7d": "0.1674196785382659",
+   "pnl_30d": "0.1612172944044571",
+   "winrate_7d": 0.5301204819277109,
+   "winrate_30d": 0.5289367429340511,
+   "realized_profit_7d": "8888.28936693385351794842",
+   "realized_profit_30d": "42300.27086753253964755561",
+   "volume_30d": "450975.03127921548855009365",
+   "buy_30d": 8299,
+   "sell_30d": 1221,
+   "txs_30d": 9520,
+   "follow_count": 403,
+   "last_active": 1791141676
   },
   {
    "address": "0xd5afbbb5cd64865a22da2c6c308e8ea4de09d6ab",
@@ -317,7 +317,7 @@
    "sell_30d": 211,
    "txs_30d": 394,
    "follow_count": 1444,
-   "last_active": 1791125380
+   "last_active": 1791134654
   },
   {
    "address": "0xb2977c20298e016cc34aa3b9406c81e02daa4057",
@@ -341,7 +341,7 @@
    "sell_30d": 1114,
    "txs_30d": 1914,
    "follow_count": 399,
-   "last_active": 1791125423
+   "last_active": 1791134739
   },
   {
    "address": "0xc84248de43b69297e56366a26c812146628aca16",
@@ -353,18 +353,18 @@
     "smart_degen",
     "gmgn"
    ],
-   "pnl_7d": "0.0333862243758507",
-   "pnl_30d": "0.0436756612956141",
-   "winrate_7d": 0.5686274509803921,
-   "winrate_30d": 0.5345911949685535,
-   "realized_profit_7d": "2713.54168097063702760306",
-   "realized_profit_30d": "38435.1703426124447693657",
-   "volume_30d": "1736310.07578824683032914683",
-   "buy_30d": 1748,
-   "sell_30d": 2306,
-   "txs_30d": 4054,
-   "follow_count": 1857,
-   "last_active": 1791127879
+   "pnl_7d": "0.0326203748881681",
+   "pnl_30d": "0.0435897276854549",
+   "winrate_7d": 0.5769230769230769,
+   "winrate_30d": 0.5355648535564853,
+   "realized_profit_7d": "2691.07440053734841579445",
+   "realized_profit_30d": "38412.70306217915615755709",
+   "volume_30d": "1738666.71358054046714449799",
+   "buy_30d": 1751,
+   "sell_30d": 2310,
+   "txs_30d": 4061,
+   "follow_count": 1858,
+   "last_active": 1791137803
   },
   {
    "address": "0xec87a7e48c23d1ce6b5c169cec41329429d7fa71",
@@ -389,7 +389,7 @@
    "sell_30d": 1813,
    "txs_30d": 3817,
    "follow_count": 926,
-   "last_active": 1791125396
+   "last_active": 1791134690
   },
   {
    "address": "0xce1d7f8c2588a87d29fa1743ac9f8096c29598ef",
@@ -413,7 +413,7 @@
    "sell_30d": 769,
    "txs_30d": 1477,
    "follow_count": 330,
-   "last_active": 1791128310
+   "last_active": 1791130279
   },
   {
    "address": "0xd04dd0194eb5b7246d83be5fc5d7464d5fabacb2",
@@ -461,8 +461,8 @@
    "buy_30d": 788,
    "sell_30d": 1182,
    "txs_30d": 1970,
-   "follow_count": 753,
-   "last_active": 1791125486
+   "follow_count": 755,
+   "last_active": 1791134854
   },
   {
    "address": "0x7ac08f3916eba322972e2d460231553a68847250",
@@ -486,7 +486,7 @@
    "sell_30d": 1032,
    "txs_30d": 1827,
    "follow_count": 322,
-   "last_active": 1791125443
+   "last_active": 1791134765
   },
   {
    "address": "0x8b4012382de14bc10743588480c8ba4890890505",
@@ -499,18 +499,18 @@
     "fomo",
     "gmgn"
    ],
-   "pnl_7d": "0.0497398417499354",
-   "pnl_30d": "0.1147613805040318",
-   "winrate_7d": 0.21739130434782608,
-   "winrate_30d": 0.3089080459770115,
-   "realized_profit_7d": "543.58411599072796018679",
-   "realized_profit_30d": "31331.34564953932601919588",
-   "volume_30d": "525580.28524058276616173757",
-   "buy_30d": 3026,
-   "sell_30d": 1843,
-   "txs_30d": 4869,
+   "pnl_7d": "0.0532500032410325",
+   "pnl_30d": "0.1148699405955822",
+   "winrate_7d": 0.25,
+   "winrate_30d": 0.3098995695839311,
+   "realized_profit_7d": "589.48290987538458995644",
+   "realized_profit_30d": "31377.24444342398264896553",
+   "volume_30d": "525905.97568393039218067899",
+   "buy_30d": 3028,
+   "sell_30d": 1845,
+   "txs_30d": 4873,
    "follow_count": 659,
-   "last_active": 1791125360
+   "last_active": 1791134626
   },
   {
    "address": "0xa9f7d92a72428c55f093f6051c43db29f38bf34b",
@@ -534,8 +534,8 @@
    "buy_30d": 353,
    "sell_30d": 416,
    "txs_30d": 769,
-   "follow_count": 2125,
-   "last_active": 1791125502
+   "follow_count": 2131,
+   "last_active": 1791134875
   },
   {
    "address": "0xd6b4047a5767aec0cb7737a75bba8202dc21e999",
@@ -558,7 +558,7 @@
    "buy_30d": 231,
    "sell_30d": 388,
    "txs_30d": 619,
-   "follow_count": 1532,
+   "follow_count": 1533,
    "last_active": 1791105106
   },
   {
@@ -628,7 +628,7 @@
    "buy_30d": 152,
    "sell_30d": 235,
    "txs_30d": 387,
-   "follow_count": 2378,
+   "follow_count": 2377,
    "last_active": 0
   },
   {
@@ -667,18 +667,18 @@
     "gmgn",
     "launchpad_smart"
    ],
-   "pnl_7d": "0.4544828600309593",
-   "pnl_30d": "0.4222301200435263",
-   "winrate_7d": 0.71875,
-   "winrate_30d": 0.6675824175824175,
-   "realized_profit_7d": "3957.35765253952969100188",
-   "realized_profit_30d": "24303.23332210431597217992",
-   "volume_30d": "135113.9910843129753081428",
-   "buy_30d": 396,
-   "sell_30d": 631,
-   "txs_30d": 1027,
-   "follow_count": 314,
-   "last_active": 1791116944
+   "pnl_7d": "0.4429364373487493",
+   "pnl_30d": "0.4205905420244727",
+   "winrate_7d": 0.7352941176470589,
+   "winrate_30d": 0.6693989071038251,
+   "realized_profit_7d": "3979.04657249838603838209",
+   "realized_profit_30d": "24324.92224206317231956013",
+   "volume_30d": "135670.57566817882996204051",
+   "buy_30d": 398,
+   "sell_30d": 633,
+   "txs_30d": 1031,
+   "follow_count": 316,
+   "last_active": 1791140714
   },
   {
    "address": "0x38880f3f251863c39923352d74ab4a9571104d66",
@@ -706,31 +706,6 @@
    "last_active": 1790909522
   },
   {
-   "address": "0x1ad2cdd2537236b54710a616eb3955cf8c3a8151",
-   "twitter_username": "",
-   "twitter_name": "",
-   "name": "",
-   "nickname": "",
-   "tags": [
-    "smart_degen",
-    "fomo",
-    "gmgn",
-    "launchpad_smart"
-   ],
-   "pnl_7d": "0.0522980713126824",
-   "pnl_30d": "0.0730445550325044",
-   "winrate_7d": 0.3333333333333333,
-   "winrate_30d": 0.3091076356945722,
-   "realized_profit_7d": "1520.26216346205980846044",
-   "realized_profit_30d": "22982.18295616174387677583",
-   "volume_30d": "629286.97261335355593822724",
-   "buy_30d": 2265,
-   "sell_30d": 2918,
-   "txs_30d": 5183,
-   "follow_count": 436,
-   "last_active": 1791054800
-  },
-  {
    "address": "0xa68e1b36a1c2babbfd90f88e606656eb024fce75",
    "twitter_username": "",
    "twitter_name": "",
@@ -752,7 +727,32 @@
    "sell_30d": 130,
    "txs_30d": 254,
    "follow_count": 236,
-   "last_active": 1791125360
+   "last_active": 1791134626
+  },
+  {
+   "address": "0x1ad2cdd2537236b54710a616eb3955cf8c3a8151",
+   "twitter_username": "",
+   "twitter_name": "",
+   "name": "",
+   "nickname": "",
+   "tags": [
+    "smart_degen",
+    "fomo",
+    "launchpad_smart",
+    "gmgn"
+   ],
+   "pnl_7d": "0.051522771408169",
+   "pnl_30d": "0.0729624620515027",
+   "winrate_7d": 0.3333333333333333,
+   "winrate_30d": 0.30904059040590404,
+   "realized_profit_7d": "1505.63545913184352300584",
+   "realized_profit_30d": "22967.55625183152759132123",
+   "volume_30d": "629567.99604006894838291616",
+   "buy_30d": 2266,
+   "sell_30d": 2919,
+   "txs_30d": 5185,
+   "follow_count": 436,
+   "last_active": 1791137964
   },
   {
    "address": "0xd2bf587a280a15e4fad7643551335e6dbce37320",
@@ -799,8 +799,8 @@
    "buy_30d": 1222,
    "sell_30d": 821,
    "txs_30d": 2043,
-   "follow_count": 1265,
-   "last_active": 1791125423
+   "follow_count": 1268,
+   "last_active": 1791134739
   },
   {
    "address": "0xe957a99f5134e7129c30ff87c173b536a38188f2",
@@ -823,7 +823,7 @@
    "buy_30d": 410,
    "sell_30d": 706,
    "txs_30d": 1116,
-   "follow_count": 526,
+   "follow_count": 527,
    "last_active": 1791105694
   },
   {
@@ -848,8 +848,8 @@
    "buy_30d": 261,
    "sell_30d": 492,
    "txs_30d": 753,
-   "follow_count": 1052,
-   "last_active": 1791125486
+   "follow_count": 1053,
+   "last_active": 1791134854
   },
   {
    "address": "0xd0a6cde8a3e6ff97243a47b52a861619480d050c",
@@ -911,18 +911,18 @@
     "gmgn",
     "fomo"
    ],
-   "pnl_7d": "0.0431750538725939",
-   "pnl_30d": "0.0751018559163423",
-   "winrate_7d": 0.496,
-   "winrate_30d": 0.44666666666666666,
-   "realized_profit_7d": "2906.82192161234666040814",
-   "realized_profit_30d": "20383.69290754902811790931",
-   "volume_30d": "552616.73938088003725092852",
-   "buy_30d": 907,
-   "sell_30d": 1436,
-   "txs_30d": 2343,
+   "pnl_7d": "0.0432008625965657",
+   "pnl_30d": "0.0750755738511059",
+   "winrate_7d": 0.5,
+   "winrate_30d": 0.4475873544093178,
+   "realized_profit_7d": "2920.582597178601734209",
+   "realized_profit_30d": "20397.45358311528319171017",
+   "volume_30d": "553382.42573200854529106381",
+   "buy_30d": 909,
+   "sell_30d": 1437,
+   "txs_30d": 2346,
    "follow_count": 443,
-   "last_active": 1791125519
+   "last_active": 1791141666
   },
   {
    "address": "0xa7c0dad598bbdb3163c081926afc5cbb11f4e619",
@@ -971,7 +971,7 @@
    "buy_30d": 340,
    "sell_30d": 398,
    "txs_30d": 738,
-   "follow_count": 312,
+   "follow_count": 313,
    "last_active": 1791106896
   },
   {
@@ -1020,8 +1020,8 @@
    "buy_30d": 126,
    "sell_30d": 224,
    "txs_30d": 350,
-   "follow_count": 10137,
-   "last_active": 1791125409
+   "follow_count": 10142,
+   "last_active": 1791134712
   },
   {
    "address": "0x29fde8d32398c0fd7aad1e20b655846666666666",
@@ -1059,7 +1059,7 @@
    "pnl_7d": "0",
    "pnl_30d": "0.2590478814969186",
    "winrate_7d": 0,
-   "winrate_30d": 0.5210084033613446,
+   "winrate_30d": 0.5581395348837209,
    "realized_profit_7d": "0",
    "realized_profit_30d": "16869.68542476298275570862",
    "volume_30d": "143903.5921961158988885783",
@@ -1091,7 +1091,7 @@
    "sell_30d": 344,
    "txs_30d": 686,
    "follow_count": 1794,
-   "last_active": 1791125458
+   "last_active": 1791134802
   },
   {
    "address": "0x66eb8af30805718fef8190bac5c5c66b6505c69a",
@@ -1104,18 +1104,18 @@
     "gmgn_go",
     "fomo"
    ],
-   "pnl_7d": "-0.0070205138566504",
-   "pnl_30d": "0.0283879206951914",
-   "winrate_7d": 0.3865546218487395,
-   "winrate_30d": 0.5100574712643678,
-   "realized_profit_7d": "-461.25560878964323294944",
-   "realized_profit_30d": "15902.9233543151095430685",
-   "volume_30d": "1114951.84587470885357400656",
-   "buy_30d": 1967,
-   "sell_30d": 1744,
-   "txs_30d": 3711,
-   "follow_count": 256,
-   "last_active": 1791070140
+   "pnl_7d": "-0.0066623007639609",
+   "pnl_30d": "0.0283743324603817",
+   "winrate_7d": 0.39166666666666666,
+   "winrate_30d": 0.5107604017216643,
+   "realized_profit_7d": "-443.64331132507047693159",
+   "realized_profit_30d": "15920.53565177968229908635",
+   "volume_30d": "1116737.87157187751838912713",
+   "buy_30d": 1972,
+   "sell_30d": 1749,
+   "txs_30d": 3721,
+   "follow_count": 257,
+   "last_active": 1791140027
   },
   {
    "address": "0xd523aaca0da819f24f08bd93591c1a99cbcbb150",
@@ -1140,7 +1140,7 @@
    "sell_30d": 2293,
    "txs_30d": 4719,
    "follow_count": 213,
-   "last_active": 1791128560
+   "last_active": 1791134901
   },
   {
    "address": "0xfe63af46b2b1ed710a6766d136a0337cc824ee77",
@@ -1187,7 +1187,7 @@
    "sell_30d": 250,
    "txs_30d": 419,
    "follow_count": 721,
-   "last_active": 1791125486
+   "last_active": 1791134854
   },
   {
    "address": "0xcf7607ff3164df3e1e285d2d798724a929bede0d",
@@ -1209,7 +1209,7 @@
    "buy_30d": 428,
    "sell_30d": 628,
    "txs_30d": 1056,
-   "follow_count": 9420,
+   "follow_count": 9422,
    "last_active": 0
   },
   {
@@ -1258,7 +1258,7 @@
    "sell_30d": 340,
    "txs_30d": 676,
    "follow_count": 2535,
-   "last_active": 1791125470
+   "last_active": 1791134823
   },
   {
    "address": "0x77016c16d79a8fb9f83b36dc112a6b7498776e5e",
@@ -1298,8 +1298,8 @@
    ],
    "pnl_7d": "0.1745851372133822",
    "pnl_30d": "0.0886101052814307",
-   "winrate_7d": 0.47368421052631576,
-   "winrate_30d": 0.3917525773195876,
+   "winrate_7d": 0.5,
+   "winrate_30d": 0.39487179487179486,
    "realized_profit_7d": "2183.25690748923329216728",
    "realized_profit_30d": "14237.77080827740073573379",
    "volume_30d": "325788.75851927068048458067",
@@ -1343,18 +1343,42 @@
     "fomo",
     "gmgn"
    ],
-   "pnl_7d": "-0.1432074418047458",
-   "pnl_30d": "0.1758070701267933",
+   "pnl_7d": "-0.1440859509967651",
+   "pnl_30d": "0.1742107085007542",
    "winrate_7d": 0.6842105263157895,
    "winrate_30d": 0.3953488372093023,
-   "realized_profit_7d": "-1974.6089828577278738113",
-   "realized_profit_30d": "13523.89901006481588584284",
-   "volume_30d": "136915.39281312894179150362",
-   "buy_30d": 111,
-   "sell_30d": 100,
-   "txs_30d": 211,
+   "realized_profit_7d": "-2036.82753384644757661918",
+   "realized_profit_30d": "13461.68045907609618303496",
+   "volume_30d": "137462.91592617185886873888",
+   "buy_30d": 112,
+   "sell_30d": 101,
+   "txs_30d": 213,
    "follow_count": 111,
-   "last_active": 1791125380
+   "last_active": 1791134654
+  },
+  {
+   "address": "0xdcbeaefdb4f0a06f6f31e00c585f6188a7815df0",
+   "twitter_username": "",
+   "twitter_name": "",
+   "name": "",
+   "nickname": "",
+   "tags": [
+    "smart_degen",
+    "fomo",
+    "gmgn"
+   ],
+   "pnl_7d": "0.0905210316976762",
+   "pnl_30d": "0.1154978506213049",
+   "winrate_7d": 0.3626373626373626,
+   "winrate_30d": 0.3488943488943489,
+   "realized_profit_7d": "1038.10267503107037520828",
+   "realized_profit_30d": "13415.9201109681261402522",
+   "volume_30d": "236512.74725925429447312734",
+   "buy_30d": 1453,
+   "sell_30d": 1417,
+   "txs_30d": 2870,
+   "follow_count": 112,
+   "last_active": 1791140861
   },
   {
    "address": "0x3106b05fd1c62cfbe84705e25ac0da83e4100d4a",
@@ -1402,32 +1426,8 @@
    "buy_30d": 178,
    "sell_30d": 220,
    "txs_30d": 398,
-   "follow_count": 292,
-   "last_active": 1791123998
-  },
-  {
-   "address": "0xdcbeaefdb4f0a06f6f31e00c585f6188a7815df0",
-   "twitter_username": "",
-   "twitter_name": "",
-   "name": "",
-   "nickname": "",
-   "tags": [
-    "smart_degen",
-    "fomo",
-    "gmgn"
-   ],
-   "pnl_7d": "0.0610023675115957",
-   "pnl_30d": "0.1127159367505803",
-   "winrate_7d": 0.35555555555555557,
-   "winrate_30d": 0.34809348093480935,
-   "realized_profit_7d": "681.43428835720779527954",
-   "realized_profit_30d": "13059.25172429426356032346",
-   "volume_30d": "235699.23979055300248002265",
-   "buy_30d": 1450,
-   "sell_30d": 1407,
-   "txs_30d": 2857,
-   "follow_count": 112,
-   "last_active": 1791125470
+   "follow_count": 294,
+   "last_active": 1791138664
   },
   {
    "address": "0x9a9eb62606e07102dc315af505aa6da6f74701f8",
@@ -1452,7 +1452,7 @@
    "sell_30d": 728,
    "txs_30d": 2025,
    "follow_count": 115,
-   "last_active": 1791125519
+   "last_active": 1791134901
   },
   {
    "address": "0x4793e9798569a71dea73bd807c78f2e7a0e3cf63",
@@ -1545,7 +1545,7 @@
    "buy_30d": 124,
    "sell_30d": 270,
    "txs_30d": 394,
-   "follow_count": 2168,
+   "follow_count": 2169,
    "last_active": 1791031276
   },
   {
@@ -1595,31 +1595,7 @@
    "sell_30d": 784,
    "txs_30d": 1883,
    "follow_count": 2194,
-   "last_active": 1791071999
-  },
-  {
-   "address": "0x918518d85b17084842b018a6d05e220150f1cea5",
-   "twitter_username": "",
-   "twitter_name": "",
-   "name": "",
-   "nickname": "",
-   "tags": [
-    "smart_degen",
-    "fomo",
-    "gmgn"
-   ],
-   "pnl_7d": "-0.1280384931811742",
-   "pnl_30d": "0.0768843880414699",
-   "winrate_7d": 0.23684210526315788,
-   "winrate_30d": 0.2875,
-   "realized_profit_7d": "-5062.46940075553609361455",
-   "realized_profit_30d": "10373.42690336215148610713",
-   "volume_30d": "252462.54181794183731817991",
-   "buy_30d": 229,
-   "sell_30d": 248,
-   "txs_30d": 477,
-   "follow_count": 234,
-   "last_active": 1791125380
+   "last_active": 1791138664
   },
   {
    "address": "0xb78a7eb0704ab9b026e11dedad36df72f6d1178d",
@@ -1671,6 +1647,30 @@
    "last_active": 1791117443
   },
   {
+   "address": "0x918518d85b17084842b018a6d05e220150f1cea5",
+   "twitter_username": "",
+   "twitter_name": "",
+   "name": "",
+   "nickname": "",
+   "tags": [
+    "smart_degen",
+    "fomo",
+    "gmgn"
+   ],
+   "pnl_7d": "-0.1375941772795271",
+   "pnl_30d": "0.0729488902717037",
+   "winrate_7d": 0.23684210526315788,
+   "winrate_30d": 0.2875,
+   "realized_profit_7d": "-5540.38665511038074643419",
+   "realized_profit_30d": "9895.50964900730683328749",
+   "volume_30d": "253246.46281979832449879972",
+   "buy_30d": 230,
+   "sell_30d": 249,
+   "txs_30d": 479,
+   "follow_count": 238,
+   "last_active": 1791139660
+  },
+  {
    "address": "0x301168707b4740585ec80232ef020486f198cbf0",
    "twitter_username": "Bandman_eth",
    "twitter_name": "bands",
@@ -1703,18 +1703,18 @@
    "tags": [
     "smart_degen"
    ],
-   "pnl_7d": "0.0001073461914751",
-   "pnl_30d": "0.0212117166603709",
+   "pnl_7d": "0.0073258847699712",
+   "pnl_30d": "0.0217024318190671",
    "winrate_7d": 1,
    "winrate_30d": 0.84,
-   "realized_profit_7d": "4.18406935425741459423",
-   "realized_profit_30d": "9032.81935592009851883856",
-   "volume_30d": "862501.08860978046126133309",
-   "buy_30d": 558,
-   "sell_30d": 427,
-   "txs_30d": 985,
-   "follow_count": 283,
-   "last_active": 1791105991
+   "realized_profit_7d": "322.43286680637369841246",
+   "realized_profit_30d": "9351.06815337221480265679",
+   "volume_30d": "872823.78713357970639380883",
+   "buy_30d": 566,
+   "sell_30d": 435,
+   "txs_30d": 1001,
+   "follow_count": 284,
+   "last_active": 1791137645
   },
   {
    "address": "0x79e54f9e8d73465ef17c0f0847e2ad79d1dfced4",
@@ -1730,7 +1730,7 @@
    "pnl_7d": "0",
    "pnl_30d": "0.0886964930965379",
    "winrate_7d": 0,
-   "winrate_30d": 0.5553047404063205,
+   "winrate_30d": 0.5422740524781341,
    "realized_profit_7d": "0",
    "realized_profit_30d": "8684.84958381139584805865",
    "volume_30d": "198377.2511900496264008705",
@@ -1785,7 +1785,7 @@
    "sell_30d": 784,
    "txs_30d": 1884,
    "follow_count": 1640,
-   "last_active": 1791071999
+   "last_active": 1791138664
   },
   {
    "address": "0xa6089753ae64cae3690cade5e0b59586d54947ed",
@@ -1797,18 +1797,18 @@
     "smart_degen",
     "gmgn"
    ],
-   "pnl_7d": "0.6583221831858785",
-   "pnl_30d": "0.1585073591012182",
+   "pnl_7d": "0.6457990701433728",
+   "pnl_30d": "0.1579046335780663",
    "winrate_7d": 0.21875,
    "winrate_30d": 0.28735632183908044,
-   "realized_profit_7d": "3951.88278581135733634691",
-   "realized_profit_30d": "8497.31770648787821146183",
-   "volume_30d": "112516.53976508073500962228",
-   "buy_30d": 951,
-   "sell_30d": 762,
-   "txs_30d": 1713,
-   "follow_count": 229,
-   "last_active": 1791106118
+   "realized_profit_7d": "3933.4445981296231203782",
+   "realized_profit_30d": "8478.87951880614399549312",
+   "volume_30d": "112669.11325977284668125001",
+   "buy_30d": 954,
+   "sell_30d": 763,
+   "txs_30d": 1717,
+   "follow_count": 230,
+   "last_active": 1791139989
   },
   {
    "address": "0xf8ca7d499b1c2b003b9b503cd0b050ec5d98783c",
@@ -1823,18 +1823,18 @@
     "fomo",
     "launchpad_smart"
    ],
-   "pnl_7d": "0.0222334174599313",
-   "pnl_30d": "0.0496352902656518",
-   "winrate_7d": 0.2803738317757009,
-   "winrate_30d": 0.30424799081515497,
-   "realized_profit_7d": "407.06421986881183854792",
-   "realized_profit_30d": "8369.00258725085738105286",
-   "volume_30d": "335628.19095858174219885054",
-   "buy_30d": 4071,
-   "sell_30d": 3352,
-   "txs_30d": 7423,
+   "pnl_7d": "0.023671758869734",
+   "pnl_30d": "0.049779025796413",
+   "winrate_7d": 0.2837209302325581,
+   "winrate_30d": 0.3037974683544304,
+   "realized_profit_7d": "435.30140741580127303232",
+   "realized_profit_30d": "8397.23977479784681553726",
+   "volume_30d": "335811.45203846253004487815",
+   "buy_30d": 4074,
+   "sell_30d": 3355,
+   "txs_30d": 7429,
    "follow_count": 77,
-   "last_active": 1791125470
+   "last_active": 1791139877
   },
   {
    "address": "0xecf04a64c7feb06aaf1ecfc50cac8830306f31a2",
@@ -1853,12 +1853,12 @@
    "winrate_30d": 0.4577777777777778,
    "realized_profit_7d": "612.76984036095592512631",
    "realized_profit_30d": "8186.62237656262308450747",
-   "volume_30d": "123513.1732752827209435048",
-   "buy_30d": 276,
+   "volume_30d": "123707.7341365577209435048",
+   "buy_30d": 277,
    "sell_30d": 402,
-   "txs_30d": 678,
+   "txs_30d": 679,
    "follow_count": 684,
-   "last_active": 1790869632
+   "last_active": 1791137069
   },
   {
    "address": "0x40985581da12d55f2b4aafe65606572a0817b4f8",
@@ -1875,12 +1875,12 @@
    "winrate_30d": 0.48148148148148145,
    "realized_profit_7d": "1287.44001707435909145406",
    "realized_profit_30d": "8034.72065970583459482602",
-   "volume_30d": "79511.3977233960162346656",
-   "buy_30d": 103,
+   "volume_30d": "79776.1244437806372346656",
+   "buy_30d": 104,
    "sell_30d": 85,
-   "txs_30d": 188,
+   "txs_30d": 189,
    "follow_count": 86,
-   "last_active": 1791105904
+   "last_active": 1791131595
   },
   {
    "address": "0xac2722ab173142eaf33adeb78e79cb31db0e2a96",
@@ -1931,7 +1931,7 @@
    "buy_30d": 1816,
    "sell_30d": 1140,
    "txs_30d": 2956,
-   "follow_count": 7919,
+   "follow_count": 7925,
    "last_active": 1790820181
   },
   {
@@ -1979,7 +1979,7 @@
    "buy_30d": 41,
    "sell_30d": 115,
    "txs_30d": 156,
-   "follow_count": 1157,
+   "follow_count": 1158,
    "last_active": 1790947911
   },
   {
@@ -2074,7 +2074,7 @@
    "sell_30d": 1098,
    "txs_30d": 2124,
    "follow_count": 466,
-   "last_active": 1791128510
+   "last_active": 1791131363
   },
   {
    "address": "0x8146201acece798327c6514d22aa9282f0efca2e",
@@ -2097,7 +2097,7 @@
    "buy_30d": 823,
    "sell_30d": 359,
    "txs_30d": 1182,
-   "follow_count": 674,
+   "follow_count": 673,
    "last_active": 1790740145
   },
   {
@@ -2334,7 +2334,7 @@
    "buy_30d": 195,
    "sell_30d": 220,
    "txs_30d": 415,
-   "follow_count": 166,
+   "follow_count": 168,
    "last_active": 1790887656
   },
   {
@@ -2358,7 +2358,7 @@
    "buy_30d": 54,
    "sell_30d": 110,
    "txs_30d": 164,
-   "follow_count": 480,
+   "follow_count": 482,
    "last_active": 1790947911
   },
   {

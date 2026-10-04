@@ -50,7 +50,8 @@ def main() -> int:
     social: dict[str, dict] = {}
     social_path = OUT / "gmgn_rank_social.json"
     if social_path.exists():
-        social = json.loads(social_path.read_text(encoding="utf-8"))
+        _doc = json.loads(social_path.read_text(encoding="utf-8"))
+        social = _doc.get("profiles", {}) if isinstance(_doc, dict) else {}
 
     with sync_playwright() as p:
         b = p.chromium.connect_over_cdp(CDP)

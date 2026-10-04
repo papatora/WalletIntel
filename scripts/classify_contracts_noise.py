@@ -74,10 +74,16 @@ async def pool_contracts(conn, top_n: int) -> int:
                 continue
             for a, code in zip(chunk, res):
                 code = code if isinstance(code, str) else None
-                if code and code != "0x":
-                    upsert_label(conn, a, "POOL_CONTRACT", 0.98,
-                                 {"code_len": len(code) - 2}, now)
-                    n_contract += 1
+                if not code or code == "0x":
+                    continue
+                # S-50e audit F: EIP-7702 delegated EOA (0xef0100 + 20-byte
+                # impl = 23 byte) adalah SMART ACCOUNT, bukan kontrak pool —
+                # jangan dilabel (re-run dulu menghasilkan 561 FP).
+                if code.startswith("0xef0100") and len(code) == 46:
+                    continue
+                upsert_label(conn, a, "POOL_CONTRACT", 0.98,
+                             {"code_len_bytes": (len(code) - 2) // 2}, now)
+                n_contract += 1
             conn.commit()
             print(f"  [{i + len(chunk)}/{len(candidates)}] contracts so far: {n_contract}",
                   flush=True)
@@ -111,7 +117,9 @@ async def noise(conn, limit: int, idle_days: int) -> int:
     try:
         for i, (addr, blk, _n) in enumerate(cand, 1):
             try:
-                txs = await cli.address_transactions(addr, max_pages=1)
+                # S-50e audit G: WAJIB sort desc — asc (default lama) mengambil
+                # tx TERLAMA sehingga wallet aktif salah dilabel NOISE.
+                txs = await cli.address_transactions(addr, max_pages=1, sort="desc")
                 last_blk = max((int(t.get("block_number") or 0) for t in txs or []),
                                default=0)
                 if last_blk and last_blk < cutoff_block:

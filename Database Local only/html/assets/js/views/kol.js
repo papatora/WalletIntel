@@ -108,10 +108,6 @@ export function render(root) {
         </div>` : ''}
       </div>`;
 
-    root.addEventListener('click', ev => {
-      const th = ev.target.closest('th[data-sort]');
-      if (th) { st.sort = th.dataset.sort; st.dir = st.dir === -1 ? 1 : -1; st.page = 0; draw(); }
-    });
     const q = root.querySelector('#kol-q');
     q?.addEventListener('input', ev => {
       const focusPos = ev.target.selectionStart;
@@ -124,4 +120,20 @@ export function render(root) {
     root.querySelector('#pg-next')?.addEventListener('click', () => { st.page++; draw(); });
   };
   draw();
+  // S-50e2: bind SEKALI per render — listener di dalam draw() menumpuk
+  // eksponensial (audit judge P1) dan toggle arah macet.
+  root.addEventListener('click', ev => {
+    const th = ev.target.closest('th[data-sort]');
+    if (!th) return;
+    const k = th.dataset.sort;
+    if (st.sort === k) { st.dir = -st.dir; } else { st.sort = k; st.dir = -1; }
+    st.page = 0; draw();
+  });
+  const q0 = root.querySelector('#kol-q');
+  q0?.addEventListener('input', ev => {
+    const focusPos = ev.target.selectionStart;
+    st.q = ev.target.value; st.page = 0; draw();
+    const again = root.querySelector('#kol-q');
+    if (again) { again.focus(); try { again.setSelectionRange(focusPos, focusPos); } catch (_) {} }
+  });
 }

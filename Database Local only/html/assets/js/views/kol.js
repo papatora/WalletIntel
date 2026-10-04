@@ -1,6 +1,6 @@
-import { S, walletName } from '../lib/store.js';
-import { esc, nf, usd } from '../lib/fmt.js';
-import { icon, thead, emptyRow, walletHref } from '../lib/ui.js';
+import { S } from '../lib/store.js';
+import { esc, nf, usd, short } from '../lib/fmt.js';
+import { icon, thead, emptyRow } from '../lib/ui.js';
 
 // KOL & X — wallet ber-identitas sosial (GMGN rank + Arkham, dual-scan).
 // Sumber: dataset.social (tabel wallet_social). Konflik X gmgn-vs-arkham
@@ -93,7 +93,7 @@ export function render(root) {
           ${slice.length ? slice.map(([a, e], i) => `
             <tr>
               <td class="t2">${st.page * st.per + i + 1}</td>
-              <td>${walletHref(a, walletName(a))}</td>
+              <td><a class="link mono" href="#/address/${a}">${short(a)}</a></td>
               <td>${xCell(e)}${e.name ? `<div class="t2">${esc(e.name)}</div>` : ''}</td>
               <td>${(e.tags || []).slice(0, 4).map(t => `<span class="fchip">${esc(t)}</span>`).join(' ') || '<span class="t2">—</span>'}</td>
               <td class="rt t2">${e.fans ? nf(e.fans) : '—'}</td>

@@ -1466,3 +1466,33 @@ per-domain; (3) content script MV3 = isolated world — DOM dataset satu2nya jem
 (4) etherscan asc/desc = hidup-mati deteksi "terbaru"; (5) listener di dalam
 draw() menumpuk — bind sekali per render; (6) audit adversarial + konfirmator
 independen membuktikan 2 bug P0 milik sendiri — teruskan pola ini.
+
+## SNAPSHOT S-51b — 2026-10-05: DAILY CYCLE + RELABEL GENERALIST + LB REAL-USERS
+
+**DAILY:** delta 161.056 wallet / 1.189.054 swap / max_ts 05 Okt 13:28 UTC / scores 63.
+
+**LB REAL-USERS (permintaan user):** leaderboard default menyembunyikan
+INSIDER/SNIPER/BOT/SNIPER_BOT/MEV_BOT/BUNDLER/AIRDROP/DEV/DEV_SERIAL_RUGGER/
+WHALE_SUS/PHISHING/COVERAGE_GAP (checkbox "Tampilkan label tersembunyi" +
+dropdown Min swaps >=5/10/25/50). Kontrak/7702 tetap hard-excluded.
+
+**RELABEL GENERALIST (dedupe_generalist.py, jalankan SETELAH night_delta):**
+- GENERALIST hanya utk wallet TANPA label lain (33.376 duplikat dihapus;
+  CT+GEN & INSIDER+GEN duplikat = 0).
+- Bucket baru: ACTIVE_MIN 32.918 (>=3 swap, aktif <=30d, tanpa label khusus)
+  + DORMANT 451 (1-2 swap idle >30d). MASUK PRIMARY_PRIORITY.
+
+**KRITIS DITEMUKAN+DIPERBAIKI:** delta rebuild MENIMPA DB lokal → tabel
+lokal-only (wallet_social, label POOL/NOISE/ACTIVE_MIN/DORMANT) MUSNAH.
+Sekarang kanonik di JSON: results/social/wallet_social.json + results/
+labels_local.json (dikomit) — re-apply pasca-delta: classify contracts+
+noise → apply_ct → dedupe → ekspor ulang JSON → refresh → rebuild.
+(Watchout: fix_audit_labels membaca wallet_social — jalankan SETELAH restore.)
+
+**KOL & X:** kolom Net flow est. + Swaps dari dataset lokal (semua wallet
+ber-index; 110 sosial di luar dataset tampil '—'); PnL 30d GMGN tetap
+kolom terpisah. Live-verified: 50 rows, sort net berfungsi, 0 error.
+
+**LABEL FINAL:** ACTIVE_MIN 32.917 · GENERALIST 23.986 (murni) · INSIDER
+6.884 · POOL_CONTRACT 120 (asli; 561 7702-EOA dibebaskan) · CT 323 primary/
+397 label · DORMANT 420 · SNIPER 223 · MEV 210 · NOISE 45 · DEV 95.

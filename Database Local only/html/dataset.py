@@ -297,8 +297,12 @@ def build() -> dict:
 
     # S-51d: WHALE / WHALE_SUS derived menang sbg primary type di atas
     # bucket ACTIVE_MIN/DORMANT (podium jujur menampilkan identitas kuat).
-    whale_ti = t_i.get("WHALE"); whale_sus_ti = t_i.get("WHALE_SUS")
-    if whale_ti is not None or whale_sus_ti is not None:
+    if "WHALE" not in t_i:
+        t_i["WHALE"] = len(types); types.append("WHALE")
+    if "WHALE_SUS" not in t_i:
+        t_i["WHALE_SUS"] = len(types); types.append("WHALE_SUS")
+    whale_ti = t_i["WHALE"]; whale_sus_ti = t_i["WHALE_SUS"]
+    if True:
         for wi, labs in derived.items():
             if not ("WHALE" in labs or "WHALE_SUS" in labs):
                 continue

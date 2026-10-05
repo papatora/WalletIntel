@@ -57,9 +57,30 @@ class Handler(SimpleHTTPRequestHandler):
         super().end_headers()
 
     def do_GET(self):
+        if self.path.split("?")[0] == "/api/status":
+            with _lock:
+                built = float(_cache.get("built") or 0)
+            payload = {"building": built == 0.0, "ready": built > 0}
+            body = json.dumps(payload).encode()
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+            return
         if self.path.split("?")[0] == "/api/dataset":
             with _lock:
                 body = _cache["gz"]
+            if not body:
+                # S-51: dataset sedang dibangun di background — server SUDAH hidup
+                payload = {"building": True, "note": "dataset sedang dibangun dari DB lokal; halaman akan otomatis reload"}
+                body = json.dumps(payload).encode()
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json")
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+                return
             self.send_response(200)
             self.send_header("Content-Type", "application/json")
             self.send_header("Content-Encoding", "gzip")
@@ -107,10 +128,13 @@ def main() -> None:
     ap.add_argument("--port", type=int, default=8787)
     ap.add_argument("--open", action="store_true", help="open the browser after start")
     args = ap.parse_args()
-    rebuild()
+    # S-51: bind port DULU (launcher/browser langsung tahu server hidup),
+    # dataset dibangun di background thread — dulu rebuild()sinkron di depan
+    # membuat launcher mengira server mati selama 1-3 menit build.
     srv = ThreadingHTTPServer(("127.0.0.1", args.port), partial(Handler, directory=str(ROOT)))
     url = f"http://127.0.0.1:{args.port}/"
-    print(f"[server] WalletIntel explorer running at {url}  (Ctrl+C to stop)")
+    print(f"[server] listening at {url} — building dataset in background...", flush=True)
+    threading.Thread(target=rebuild, name="dataset-build", daemon=True).start()
     if args.open:
         webbrowser.open(url)
     try:

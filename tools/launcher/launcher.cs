@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,6 +17,8 @@ static class Program
     static TextBox logBox;
     static Label dot, stxt, ssub;
     static Button bStart, bStop, bForce;
+    static bool starting;
+    static int buildingSecs = -1;
 
     static string Repo = FindRepo();
 
@@ -215,9 +218,18 @@ static class Program
 
     static string StartServer()
     {
+        if (starting) return "Start sedang berjalan — tunggu status dot berubah…";
+        starting = true;
+        try { return StartServerInner(); }
+        finally { starting = false; }
+    }
+
+    static string StartServerInner()
+    {
         int? owner = PortOwnerPid();
         if (owner != null) return "Port " + PORT + " sudah dipakai (PID " + owner + ") — Stop-paksa dulu";
-        if (serverProc != null && !serverProc.HasExited) return "Server sudah jalan (PID " + serverProc.Id + ")";
+        if (serverProc != null && !serverProc.HasExited)
+            return "Server sudah start (PID " + serverProc.Id + ") — menyiapkan dataset, lihat status dot";
         var py = FindPython();
         if (py == null) return "Python tidak ketemu — set \"python\" di data/launcher.json";
         var dir = ServerDir();
@@ -259,30 +271,64 @@ static class Program
         return force ? "Tidak ada proses di port " + PORT : "Server stop";
     }
 
+    // S-51: health via /api/status (HTTP) — netstat saja membuat server yang
+    // sedang build dataset (1-3 menit, port belum bind) dianggap "mati".
+    class ProbeResult { public bool Ok; public bool Building; }
+    static ProbeResult ProbeStatus()
+    {
+        try
+        {
+            var req = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(
+                "http://127.0.0.1:" + PORT + "/api/status");
+            req.Timeout = 1500; req.ReadWriteTimeout = 1500;
+            using (var resp = req.GetResponse())
+            using (var sr = new System.IO.StreamReader(resp.GetResponseStream()))
+            {
+                var body = sr.ReadToEnd();
+                bool building = body.Contains("\"building\": true") || body.Contains("\"building\":true");
+                return new ProbeResult { Ok = true, Building = building };
+            }
+        }
+        catch { return new ProbeResult { Ok = false }; }
+    }
+
     static string RefreshStatus()
     {
         int? owner = PortOwnerPid();
         bool mine = serverProc != null && !serverProc.HasExited;
+        var http = ProbeStatus();
+        bool up = http.Ok, building = http.Ok && http.Building;
+
+        if (up && !building) buildingSecs = -1;
+        else if (up && building) buildingSecs = buildingSecs < 0 ? 0 : buildingSecs + 2;
+
         Action upd = () =>
         {
-            if (owner == null)
+            if (up && building)
+            {
+                dot.BackColor = Color.FromArgb(242, 183, 74);
+                stxt.Text = "Menyiapkan dataset… " + buildingSecs + "s";
+                ssub.Text = "server hidup — dataset dibangun dari DB (1-3 menit pertama kali). Jangan spam Mulai.";
+            }
+            else if (up)
+            {
+                dot.BackColor = Color.FromArgb(47, 211, 138);
+                stxt.Text = "Server jalan ✓";
+                ssub.Text = "127.0.0.1:8787 · siap — buka Website";
+            }
+            else if (owner != null)
+            {
+                dot.BackColor = Color.FromArgb(242, 183, 74);
+                stxt.Text = "Proses hidup tapi tidak merespons";
+                ssub.Text = "PID " + owner + " — biasanya build lama macet. Stop-paksa lalu Mulai lagi.";
+            }
+            else
             {
                 dot.BackColor = Color.FromArgb(90, 98, 132);
                 stxt.Text = "Server mati";
                 ssub.Text = "127.0.0.1:8787 · bebas";
             }
-            else if (mine)
-            {
-                dot.BackColor = Color.FromArgb(47, 211, 138);
-                stxt.Text = "Server jalan (milik launcher)";
-                ssub.Text = "127.0.0.1:8787 · PID " + owner;
-            }
-            else
-            {
-                dot.BackColor = Color.FromArgb(242, 183, 74);
-                stxt.Text = "Port dipakai proses eksternal";
-                ssub.Text = "127.0.0.1:8787 · PID " + owner + " — Stop-paksa untuk mematikan";
-            }
+            bStart.Enabled = !up;
         };
         if (dot.InvokeRequired) dot.BeginInvoke(upd); else upd();
         return null;

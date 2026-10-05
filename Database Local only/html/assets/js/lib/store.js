@@ -4,9 +4,20 @@ import { short } from './fmt.js';
 export const S = {};
 
 export async function load() {
-  const res = await fetch('/api/dataset', { cache: 'no-store' });
-  if (!res.ok) throw new Error(`Dataset request failed (${res.status}). Is server.py running?`);
-  init(await res.json());
+  // S-51: server bind-first — saat dataset dibangun, /api/dataset balik
+  // {building:true}; auto-retry tiap 5 detik sampai siap (max ~5 menit).
+  for (let attempt = 0; attempt < 60; attempt++) {
+    const res = await fetch('/api/dataset', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`Dataset request failed (${res.status}). Is server.py running?`);
+    const data = await res.json();
+    if (data && data.building) {
+      await new Promise(r => setTimeout(r, 5000));
+      continue;
+    }
+    init(data);
+    return;
+  }
+  throw new Error('Dataset belum selesai dibangun setelah ~5 menit. Cek log server (dataset build lambat/error).');
 }
 
 export const tokName = k => S.tokens[k][1] || short(S.tokens[k][0]);

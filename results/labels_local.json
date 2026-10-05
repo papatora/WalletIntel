@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-05T15:19:46.248952+00:00",
+ "updated_at": "2026-10-05T16:52:52.532526+00:00",
  "labels": [
   {
    "address": "0x023ab8e20a4682d315daef4c91db96bd77934d66",
@@ -3806,12 +3806,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x00fbfab3a2941a0a6450a731c5f90e3ac8d48265",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x00fd2564fa7e3c8383b3c6e32437fa327607e9cd",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -3993,12 +3987,6 @@
   },
   {
    "address": "0x01303ab11cbaa6634f1a10475212c0ce3424b2b7",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x01316d81e8aab2500df4fa90b2ebf555f9520c2b",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -4221,12 +4209,6 @@
   },
   {
    "address": "0x018f1354984f36563802bcf2a118c1ebc46fe6f5",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x018f7c9613cac1ec9ebec4232cd466414c628dea",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -6477,12 +6459,6 @@
   },
   {
    "address": "0x042cc1a1e2a3081937b3c196f7d2955831a020cf",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x04310397d27fe98d11acfaa1cc696e6cd7a458d7",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -14516,12 +14492,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x0d21cbda93abd1f12443e44bef7ba6220a5a9eaa",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x0d21d1a97bf07c7bfbabe4d64c7c83215f6761ab",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -15141,12 +15111,6 @@
   },
   {
    "address": "0x0dd7b1607689f43af4d2b1318dc2ffe0d4012686",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x0dd911e71260bd6b720adfb8fe2ccbd05c23c742",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -20516,12 +20480,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x148f986b670becd8535e8f7005ddd94907f89134",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x148fa8c7fa147e2e247a7322696a573c317267a8",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -21783,12 +21741,6 @@
   },
   {
    "address": "0x162097cdd34c4d0c01564035bb9e459c86c2d8ca",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x1621ff781cf7cc44e9a53052a75691488e748550",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -25461,12 +25413,6 @@
   },
   {
    "address": "0x1afce33bbaa98af0a6127397af6a1cb1c502b00a",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x1afcfc1fec4c89e69238622d19ce53874a23a495",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -29337,12 +29283,6 @@
   },
   {
    "address": "0x1fb22061fac34e7bf458436b40f0a0cc9aa870b4",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x1fb3e7395e2ca9dfd2c89cbca2a4399e1f72aa6d",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -36578,12 +36518,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x289542e0c5d8213245cacc2fedc0407606940094",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x2898ade5719b84428a9746a1fc8ca05ffde82b26",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -36621,12 +36555,6 @@
   },
   {
    "address": "0x28ab43aa523f17d4e88063e50937484c51922ad3",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x28ab9b5f50bbff7a5fd84ef61d31f62655c3ee96",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -39585,12 +39513,6 @@
   },
   {
    "address": "0x2bfbafd3ec8d6f14cbc58d4a836f86ed873e8c91",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x2bfc3b280bdac0e3df49183d7318905a2f426540",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -56882,12 +56804,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x41c87cb6584be617809023aa22e63df2c9650bed",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x41c9435ef82a81d08b81877fb731f553906165a9",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -64755,12 +64671,6 @@
   },
   {
    "address": "0x4c3754d36a1f28139df6d20e4ee2b2553fac6c42",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x4c3b961976e68ecfae208357206a84d6a8b7a722",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -72962,12 +72872,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x56a00fbd60b78c3cdd9e665b200c4e7f74c34686",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x56a2b7581abb55b500732871b77f4198d5f9ae58",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -76880,12 +76784,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x5beed0516cbf1857183c9fe25179eb3b3c2fdf43",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x5bef17109f9f894f88b9973d95088455b5e76965",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -79628,12 +79526,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x5f4a2f682e386f5ca5d48f4dd2f55bc30cf951c7",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x5f4c55f09b4724270f1790e56eb4744d3528e558",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -81908,12 +81800,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x62a8ebc09bd831fe8a3edf6660ec49d4619ebcc9",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x62aa7d091bfd2636b71f781545da457cad16e6fd",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -82041,12 +81927,6 @@
   },
   {
    "address": "0x62d80ecb86e3d66f0e90aa8ec578d301268b45eb",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x62d839fc4cb52842c9ebccfa7fd3e35893b239e6",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -83277,12 +83157,6 @@
   },
   {
    "address": "0x6479dcad8287ce59c4db6226f14b95cc021ec180",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x647ca3370eaf544ec16e1b0a9a1a42d2a86159e1",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -92912,12 +92786,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x70b9978acb99a1613653051046d32fc2d62a470a",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x70bb1fbbee1f50a774281d103287b7dc5811e81a",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -97707,12 +97575,6 @@
   },
   {
    "address": "0x7680bf569c61d3742ecd382531e233a9dc166793",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x768263481c4703c22144558112d931b683492b52",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -113108,12 +112970,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x8aa002b1573f5b0aa494e524b70cc9b5ebdc8ee5",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x8aa7d78c9d7b7250849972172f3707a77f660372",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -113127,12 +112983,6 @@
   },
   {
    "address": "0x8aa91038be9e93c628a2e6267d40d774c8765be6",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x8aac8e60fc0889b8d307ea2a9c21b99e96713463",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -115803,12 +115653,6 @@
   },
   {
    "address": "0x8e55640a1025828546c3ffd5e4db72655b504c2e",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x8e57960b4ea75c78ab0ddc2ff669c54b59749af8",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -120273,12 +120117,6 @@
   },
   {
    "address": "0x946d644cd814fb156e153a248d45525ce431d64d",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x946ee13a657c5c521708f7ef4b000e948974e824",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -124809,12 +124647,6 @@
   },
   {
    "address": "0x9a63d348a106b38d33292b814aee32159d60f29b",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x9a6b97ef8e588f9e9c0ba723aa8dc4baaf226fa5",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -132350,12 +132182,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0xa461cf57a1519ad2e0527e3c968080be5bcaaf46",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0xa46459665e811e1c7fd3769132d2010724ee2c7f",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -133683,12 +133509,6 @@
   },
   {
    "address": "0xa633ceec211a0b919c2b06c5ba550217e85d3ef4",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xa635592405b43dd06c8e801e61310ba64287856a",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -149390,12 +149210,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0xbb47795e52d502e25b398eda4f0b5eb40b217da5",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0xbb49fbb9e64379a2900e598a1113b59fdb70cf41",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -151634,12 +151448,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0xbe423ca1f6a8baa24bf9dd9aa9688c1ba7f0d0c3",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0xbe45c7c0c12d338676580aa1aa7da94fc1a065ad",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -151725,12 +151533,6 @@
   },
   {
    "address": "0xbe63e06ed627a8c1c5affc23f66243b3103d9bd0",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xbe66d573274a7d4803e5ee3639212f0185c9dae5",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -151953,12 +151755,6 @@
   },
   {
    "address": "0xbebb898ca6d2229df8e5e75307abbb20c5184b06",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xbebc813bd1625951fb196210c6b231b7c9ca9d0e",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -153051,12 +152847,6 @@
   },
   {
    "address": "0xc004510d93f5aa4c76ec36f47ad20ea6de04410c",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xc0049969580d1f28ffc222481f7e8e6130df4c5e",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -155013,12 +154803,6 @@
   },
   {
    "address": "0xc2ad1f40bd9525944487e57b40db1f47b08332da",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xc2af9bf9a22962fb26c0c6f01508eae4f57764ac",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -157197,12 +156981,6 @@
   },
   {
    "address": "0xc5d41f598b8918c1649496888d72b97328ca0ab6",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xc5dba4e3f2919fad0607adda866799f2aeda482f",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -163065,12 +162843,6 @@
   },
   {
    "address": "0xcda9a813618c261c3d86c97128f13c8537d966fe",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xcdabb132e33d32d7d2d0b3c0ae283cdd608ed5f6",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -170750,12 +170522,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0xd7dc9a6f36a023bd34326a5de0bf87e093a51699",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0xd7ddca55236fba42ae4e1ccd46bafca2f6b9f6f3",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -175058,12 +174824,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0xddb25ad78e23f8d050257b8b47e6af56c430bb00",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0xddb2670dd7aa9e31a21c2217c326e6471c7eb50d",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -176691,12 +176451,6 @@
   },
   {
    "address": "0xe00aabc6a9ab515db8ceff10201ae4605b9a2427",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xe00d7c51dec3958abe81060b34f6144bc7379c56",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -180626,12 +180380,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0xe5239c5bcdb8e9bf55322dae843c72d46f60b66c",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0xe5245a62989a6650db91a65b5b2a196ced125099",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -182925,12 +182673,6 @@
   },
   {
    "address": "0xe82c44734d6eb16f366d319ca56f73d72999e54e",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xe830d23c2b4a05bbd7524db0330505d3b9a81bc7",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -186302,12 +186044,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0xeca434448880dcc61bf2d81605a5a6e3bb6ba313",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0xeca896f2a83fc2f901435fd5bb370e24dc6cb1da",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -189063,12 +188799,6 @@
   },
   {
    "address": "0xf0613593b8b887ce612ef12997273da7f1ea1156",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xf061e759846c50ea81e4e832fcebf6b3e20cd0ae",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -196988,12 +196718,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0xfb0d8b94027c5109ae89c5f08b025cc598cf6f49",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0xfb0e8c111e0b529b9f0dcf1278d5abb511c413ed",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -197187,12 +196911,6 @@
   },
   {
    "address": "0xfb50639e8300c6312fc83f6dd847b7ce3c3bcaf6",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xfb50d53a9cd7bbaa598cbf88fdc621d37468d0cb",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -198381,12 +198099,6 @@
   },
   {
    "address": "0xfd1bb7d070578b74e71bbb3f0106d3c4053a729b",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xfd1bc875e2b8307b934edbff1c8601e60af6c1e9",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -200331,12 +200043,6 @@
   },
   {
    "address": "0xffd613dc7686be665da0a17d9b52bebeb087c470",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xffd8d56ee1f80a32c52e473c90e9a635bc3a3879",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"

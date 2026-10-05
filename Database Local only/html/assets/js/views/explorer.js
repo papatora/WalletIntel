@@ -40,6 +40,26 @@ function rows() {
   return out;
 }
 
+
+// S-51g: badge "sudah lolos klasifikasi penuh" — cakupan & confidence dihitung
+// live dari dataset (bukan angka mati), hijau saat cakupan penuh.
+function clsBadge() {
+  let active = 0, labeled = 0, confSum = 0, confN = 0;
+  for (let i = 0; i < S.wallets.length; i++) {
+    const w = S.wallets[i];
+    if (!S.activeSet.has(i)) continue;
+    active++;
+    const labs = w[2] || [];
+    if (labs.length) {
+      labeled++;
+      for (const c of (w[3] || [])) { if (c > 0) { confSum += c; confN++; } }
+    }
+  }
+  const cov = active ? Math.round(100 * labeled / active) : 0;
+  const conf = confN ? Math.round(100 * confSum / confN) : 0;
+  return `${cov >= 99 ? '✓' : '⏳'} ${cov}% wallet aktif terklasifikasi · confidence rata² ${conf}%`;
+}
+
 export function render(root, _params, query) {
   if (query.has('label')) Object.assign(st, { label: query.get('label'), type: null, token: null, tab: 'wallets', page: 0 });
   if (query.has('type')) Object.assign(st, { type: query.get('type'), label: null, token: null, tab: 'wallets', page: 0 });
@@ -74,7 +94,7 @@ export function render(root, _params, query) {
         <div class="ex-tabs">
           <button class="ex-tab ${st.tab === 'wallets' ? 'is-active' : ''}" data-tab="wallets">WALLETS</button>
           <button class="ex-tab ${st.tab === 'labels' ? 'is-active' : ''}" data-tab="labels">LABELS</button>
-          <div class="end"><span class="micro">${st.tab === 'wallets' ? `${nf(list.length)} of ${nf(S.wallets.length)}` : `${S.labels.length} labels`}</span></div>
+          <div class="end"><span class="fchip" id="cls-badge" title="Setiap wallet aktif sudah melewati pipeline klasifikasi penuh (detektor insider/sniper/bundler/airdrop/mev/dev/cluster). Persen = cakupan wallet aktif berlabel × rata-rata confidence label." style="cursor:default">${clsBadge()}</span><span class="micro">${st.tab === 'wallets' ? `${nf(list.length)} of ${nf(S.wallets.length)}` : `${S.labels.length} labels`}</span></div>
         </div>
         ${st.tab === 'labels' ? `<div class="label-cards">${Object.entries(m.label_counts).sort((a, b) => b[1] - a[1]).map(([l, n]) => { const lm = labelMeta(l);
           return `<button class="lcard" data-open-label="${esc(l)}" style="--c:${lm.c}"><span class="avatar is-lg">${icon(lm.icon)}</span><span><div class="lcard-t">${esc(pretty(l))}</div><div class="lcard-s micro">${nf(n)} wallets · ${icon('chevron-right', 'i-sm').replace('class="i', 'style="display:inline;vertical-align:-2px" class="i')}</div><div class="lcard-d">${esc(lm.desc)}</div></span></button>`; }).join('')}</div>`

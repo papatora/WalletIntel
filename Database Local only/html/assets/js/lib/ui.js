@@ -15,7 +15,7 @@ export const LABEL = {
   MEV_BOT:         { c: 'var(--c-mev)', icon: 'bot', desc: 'Median hold ≤10 min across 30+ round trips.' },
   SMART_TRACKER:   { c: 'var(--c-smart)', icon: 'star', desc: 'Passed verifier R1–R3 and the consistency bar.' },
   CLUSTER:         { c: 'var(--c-cluster)', icon: 'cluster', desc: 'Shares a first-funding source with 3+ other wallets.' },
-  GENERALIST:      { c: 'var(--c-generalist)', icon: 'wallet', desc: 'No taxonomy signal matched.' },
+  GENERALIST:      { c: 'var(--c-generalist)', icon: 'wallet', desc: 'Sudah melewati klasifikasi penuh — tidak ada sinyal taksonomi yang cocok.' },
   DUST:            { c: 'var(--c-generalist)', icon: 'wallet', desc: '1-2 swaps with no measurable $10k+ notional (audit P2 union gate) - one-shot noise, not a real trader.' },
   PHISHING_TARGET: { c: 'var(--c-phishing)', icon: 'gift', desc: 'Received tokens from a mass-spreader (>=20 wallets / <=100 blocks) - airdrop/scam campaign target.' },
   TRADER_COVERAGE_GAP: { c: 'var(--c-gap)', icon: 'refresh', desc: 'Former insider label overturned on-chain - the wallet really bought; awaiting re-enrichment.' },
@@ -25,7 +25,7 @@ export const LABEL = {
   WHALE_SUS:       { c: 'var(--c-whalesus)', icon: 'eye', desc: 'High est. PnL but linked to airdrop/insider/cluster - wealth may come from allocations.' },
   POOL_CONTRACT:   { c: 'var(--c-cluster)', icon: 'bundle', desc: 'Smart contract (pool/arb/router template) - excluded from trader rankings, on-chain eth_getCode verified.' },
   NOISE:           { c: 'var(--c-generalist)', icon: 'wallet', desc: 'Exactly 1 swap and no on-chain activity since - one-shot noise, not a real trader.' },
-  ACTIVE_MIN:      { c: '#3ddc97', icon: 'tx', desc: 'Trader aktif kecil: ≥3 swap dalam 30 hari terakhir, belum lolos klasifikasi khusus (insider/sniper/dst).' },
+  ACTIVE_MIN:      { c: '#3ddc97', icon: 'tx', desc: 'Trader aktif kecil: ≥3 swap dalam 30 hari terakhir. Sudah melewati klasifikasi penuh — tidak ada pola khusus (insider/sniper/bot/dst) yang cocok.' },
   DORMANT:         { c: '#7a8bb5', icon: 'clock', desc: '1–2 swap lalu tidur ≥30 hari — tidak ada aktivitas on-chain terkini.' },
 };
 export const labelMeta = n => LABEL[n?.startsWith('CLUSTER_MEMBER') ? 'CLUSTER' : n] || LABEL.GENERALIST;

@@ -79,8 +79,8 @@ async def pool_contracts(conn, top_n: int) -> int:
                 # S-50e audit F: EIP-7702 delegated EOA (0xef0100 + 20-byte
                 # impl = 23 byte) adalah SMART ACCOUNT, bukan kontrak pool —
                 # jangan dilabel (re-run dulu menghasilkan 561 FP).
-                if code.startswith("0xef0100") and len(code) == 46:
-                    continue
+                if code.startswith("0xef0100") and len(code) == 48:
+                    continue  # S-51h: 0x + 6 hex + 40 hex = 48 chars (audit F/P0)
                 upsert_label(conn, a, "POOL_CONTRACT", 0.98,
                              {"code_len_bytes": (len(code) - 2) // 2}, now)
                 n_contract += 1

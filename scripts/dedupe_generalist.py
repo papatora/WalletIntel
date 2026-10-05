@@ -41,6 +41,21 @@ def main() -> int:
         [(a,) for a in multi])
     print(f"GENERALIST duplikat dihapus: {len(multi)} wallet")
 
+    # S-51h (audit): bucket sisa (ACTIVE_MIN/DORMANT) juga TIDAK BOLEH menempel
+    # di wallet yang punya label khusus (21 kasus CT+ACTIVE_MIN ditemukan audit).
+    for bucket in ("ACTIVE_MIN", "DORMANT"):
+        multi2 = [r[0] for r in conn.execute("""
+            select wallet_address from wallet_labels
+            group by wallet_address
+            having sum(case when label = ? then 1 else 0 end) > 0
+               and sum(case when label not in (?, 'GENERALIST') then 1 else 0 end) > 0
+        """, (bucket, bucket))]
+        conn.executemany(
+            "delete from wallet_labels where wallet_address=? and label=?",
+            [(a, bucket) for a in multi2])
+        if multi2:
+            print(f"{bucket} duplikat dgn label khusus dihapus: {len(multi2)}")
+
     # ---- 2. bucket GENERALIST: DORMANT / ACTIVE_MIN ---------------------
     cur_block = 80_200_000  # aproksimasi; dipertajam di bawah
     try:

@@ -82,6 +82,14 @@ def main() -> int:
           f"scores={scores} -> {'OK' if ok else 'VALIDASI GAGAL'}", flush=True)
 
     if ok:
+        # S-51h (audit P1): rebuild MENIMPA DB — pulihkan label lokal &
+        # wallet_social, jalankan ulang klasifikasi, sebelum commit/push.
+        try:
+            run_step([sys.executable, "scripts/post_delta_reapply.py"], 60 * 60)
+        except Exception as e:
+            st["reapply_status"] = f"error: {str(e)[:120]}"
+            save_state(st)
+
         tok = ""
         for line in (REPO / ".env").read_text(encoding="utf-8", errors="replace").splitlines():
             if line.startswith("GITHUB_TOKEN="):

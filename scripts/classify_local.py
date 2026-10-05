@@ -93,7 +93,12 @@ def main() -> int:
     sig_airdrop = _airdrop_signal(by_wallet)
     sig_serial, sig_dev = _dev_signals(by_wallet, token_first, funding)
     sig_mev = _mev_signal(by_wallet)
-    sig_cluster = _cluster_signal(set(by_wallet), funding, clusters_file, {})
+    # S-51h audit: score_cluster dari wallet_scores (parity dgn jalur VPS)
+    _sc = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+    score_cluster = dict(_sc.execute(
+        "select lower(wallet_address), cluster_id from wallet_scores where cluster_id is not null"))
+    _sc.close()
+    sig_cluster = _cluster_signal(set(by_wallet), funding, clusters_file, score_cluster)
 
     # --- susun label per wallet (logika identik dgn classify_all_wallets) ---
     now = datetime.now(timezone.utc).isoformat()

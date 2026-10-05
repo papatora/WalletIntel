@@ -1496,3 +1496,37 @@ kolom terpisah. Live-verified: 50 rows, sort net berfungsi, 0 error.
 **LABEL FINAL:** ACTIVE_MIN 32.917 · GENERALIST 23.986 (murni) · INSIDER
 6.884 · POOL_CONTRACT 120 (asli; 561 7702-EOA dibebaskan) · CT 323 primary/
 397 label · DORMANT 420 · SNIPER 223 · MEV 210 · NOISE 45 · DEV 95.
+
+## SNAPSHOT S-51h — 2026-10-06: AUDIT ROUND-ROBIN VONIS + KOREKSI PENUH
+
+**AUDIT S-51f** (10 eksekutor Flash + konfirmator independen + vision 4.6v + Judge Max):
+verdict awal ADA_MASALAH (3 P0 + 3 P1 terverifikasi) — **SEMUA SUDAH DIPERBAIKI**:
+1. P0 kol.js:56 `val([,e])` tak bind `a` → sort NET/SWAPS mati (ReferenceError).
+   FIX: `val([a,e])`. Live-verified: klik1 ubah urutan, klik2 toggle, 0 error.
+   ⚠️ Klaim lama "sort net berfungsi 0 error" (S-51b) SALAH — jangan dipercaya.
+2. P0 guard 7702 salah hitung: len(code)==46 padahal valid = 48 char. Akibat
+   589/709 POOL_CONTRACT = EIP-7702 EOA salah label. FIX: len==48; 589 label
+   palsu dihapus; POOL_CONTRACT final = **120 kontrak asli**.
+3. P0 PRE_COMPACT "LABEL FINAL" S-51b salah 6+/10 angka (ditulis sebelum
+   classify_local + re-apply; jadikan angka DB sumber). Koreksi bawah.
+4. P1 night_delta tak pernah re-apply label lokal → **post_delta_reapply.py**
+   dibuat + di-hook otomatis di night_delta (restore social+labels →
+   classify_local → contracts/noise → apply_ct → dedupe → export).
+5. P1 classify_local score_cluster={} → 35 CLUSTER_MEMBER hilang. FIX: dimuat
+   dr wallet_scores; cluster baru terdeteksi (be41/c6fc4bb7/87ebedb8/5741d25d).
+6. P1 invarian bucket: 21 ACTIVE_MIN+CT & 31 DORMANT+khusus — dedupe diperkuat.
+
+**LABEL DIST FINAL (sqlite, 6 Okt)**: ACTIVE_MIN 32.846 · GENERALIST 23.986 ·
+INSIDER 7.950 · AIRDROP 6.373 · SNIPER 1.407 · BUNDLER 1.084 · POOL_CONTRACT
+120 (asli) · DORMANT 420 · MEV 441 · CT 397 · DEV 105 · NOISE 45 ·
+DEV_SERIAL_RUGGER 32 · CLUSTER_MEMBER 42+. Podium LB: WHALE menang primary.
+
+**ACTIVE_MIN = "sudah dicek 9 detektor penuh, tak ada yang cocok"** — audit
+B membuktikan 0/32.869 match detektor mana pun atas universe penuh. Bukan
+"belum diverifikasi". Badge explorer: "✓ 100% wallet aktif terklasifikasi ·
+confidence rata² 74%" (dihitung live).
+
+**PELAJARAN S-51h:** fix audit sendiri harus di-verify ulang (guard 7702-ku
+sendiri salah hitung dan lolos 2 commit); docs "LABEL FINAL" hanya boleh
+ditulis SETELAH angka di-query dari DB; jangan klaim live-verified tanpa
+bukti CDP tersimpan.

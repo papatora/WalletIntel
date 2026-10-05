@@ -53,7 +53,7 @@ function rows() {
   else list = list.filter(([, e]) => e.x_primary);
 
   const key = st.sort;
-  const val = ([, e]) => {
+  const val = ([a, e]) => {
     if (key === 'fans') return e.fans || 0;
     if (key === 'pnl') {
       const v = parseFloat(e.rank?.realized_profit_30d); return isNaN(v) ? -1e18 : v;

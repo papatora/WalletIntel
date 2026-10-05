@@ -1,4 +1,4 @@
-import { S } from '../lib/store.js';
+import { S, stats } from '../lib/store.js';
 import { esc, nf, usd, short } from '../lib/fmt.js';
 import { icon, thead, emptyRow } from '../lib/ui.js';
 
@@ -88,17 +88,21 @@ export function render(root) {
         <div class="card"><table class="table">
           <thead>${thead(COLS, st)}</thead>
           <tbody>
-          ${slice.length ? slice.map(([a, e], i) => `
+          ${slice.length ? slice.map(([a, e], i) => {
+            const ls = localStats(a);
+            return `
             <tr>
               <td class="t2">${st.page * st.per + i + 1}</td>
-              <td><a class="link mono" href="#/address/${a}">${short(a)}</a></td>
-              <td>${xCell(e)}${e.name ? `<div class="t2">${esc(e.name)}</div>` : ''}</td>
-              <td>${(e.tags || []).slice(0, 4).map(t => `<span class="fchip">${esc(t)}</span>`).join(' ') || '<span class="t2">—</span>'}</td>
-              <td class="rt t2">${e.fans ? nf(e.fans) : '—'}</td>
+              <td><a class="link mono" href="#/address/${a}">${esc(e.name || short(a))}</a></td>
+              <td>${xCell(e)}</td>
+              <td class="rt">${ls ? `<span class="${ls.net >= 0 ? 'pos' : 'neg'}">${usd(ls.net, true)}</span>` : '<span class="t2">—</span>'}</td>
+              <td class="rt t2">${ls ? nf(ls.swaps) : '—'}</td>
               <td class="rt">${e.rank?.realized_profit_30d != null ? usd(parseFloat(e.rank.realized_profit_30d), true) : '<span class="t2">—</span>'}</td>
               <td class="rt">${e.rank?.winrate_30d != null ? (100 * parseFloat(e.rank.winrate_30d)).toFixed(0) + '%' : '<span class="t2">—</span>'}</td>
+              <td>${(e.tags || []).slice(0, 4).map(t => `<span class="fchip">${esc(t)}</span>`).join(' ') || '<span class="t2">—</span>'}</td>
+              <td class="rt t2">${e.fans ? nf(e.fans) : '—'}</td>
               <td class="t2">${e.x_gmgn && e.x_arkham ? 'gmgn+arkham' : e.x_gmgn ? 'gmgn' : e.x_arkham ? 'arkham' : '—'}</td>
-            </tr>`).join('') : emptyRow(COLS.length, 'Tidak ada profil yang cocok — jalankan gmgn_web_rank.py / gmgn_social_rescan.py / merge_social_x.py lalu rebuild dataset.')}
+            </tr>`;}).join('') : emptyRow(COLS.length, 'Tidak ada profil yang cocok — jalankan gmgn_web_rank.py / gmgn_social_rescan.py / merge_social_x.py lalu rebuild dataset.')}
           </tbody>
         </table></div>
         ${pages > 1 ? `<div class="pager" style="display:flex;gap:6px;margin-top:10px">

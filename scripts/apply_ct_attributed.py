@@ -30,7 +30,8 @@ def main() -> int:
     conn.execute("pragma busy_timeout=60000")
     rows = conn.execute("""
         select address, coalesce(x_gmgn,''), coalesce(x_arkham,''),
-               coalesce(x_primary,''), coalesce(x_conflict,0)
+               coalesce(x_primary,''),
+               case when coalesce(x_conflict,'0') in ('1','true','True') then 1 else 0 end
         from wallet_social
         where coalesce(x_primary,'') != ''
         group by address

@@ -2,7 +2,11 @@ import { S, stats, walletName, tokName } from '../lib/store.js';
 import { esc, nf, usd, dur, date } from '../lib/fmt.js';
 import { icon, chip, tokStack, rank, hexBadge, thead, pager, dropdown, emptyRow, walletHref, whoCell, snapMark } from '../lib/ui.js';
 
-const st = { tab: 'traders', metric: 'net', win: '0', sort: 'net', dir: -1, page: 0, per: 50, tag: '' };
+const st = { tab: 'traders', metric: 'net', win: '0', sort: 'net', dir: -1, page: 0, per: 50, tag: '', showHidden: false, minSwaps: 0 };
+// S-51: real-user default — insider/sniper/bot/dll tersembunyi sampai dicentang.
+const HIDDEN_BY_DEFAULT = new Set(['INSIDER', 'SNIPER', 'MEV_BOT', 'BOT', 'SNIPER_BOT',
+  'BUNDLER_SUSPECT', 'AIRDROP_FARMER', 'DEV', 'DEV_SERIAL_RUGGER', 'WHALE_SUS',
+  'PHISHING_TARGET', 'TRADER_COVERAGE_GAP']);
 const TAG_OPTIONS = () => [{ v: '', l: 'All tags' }].concat(S.labels.filter(l => !l.startsWith('CLUSTER_MEMBER')).map(l => ({ v: l, l })));
 const METRICS = [{ v: 'net', l: 'Net flow' }, { v: 'vol', l: 'Volume' }, { v: 'swaps', l: 'Swaps' }];
 const WINDOWS = [{ v: '1', l: '1D' }, { v: '7', l: '7D' }, { v: '30', l: '30D' }, { v: '0', l: 'All' }];
@@ -32,7 +36,12 @@ const isExcluded = ai => EXCLUDED_TYPES.has(S.types[S.wallets[ai][1]]);
 function traderRows() {
   const from = +st.win ? S.meta.swap_to - +st.win * 86400 : 0;
   let rows = [];
-  for (const ai of S.active) { if (isExcluded(ai)) continue; const s = from ? stats(ai, from) : S.statsAll.get(ai); if (s.swaps) rows.push([ai, s]); }
+  for (const ai of S.active) {
+    if (isExcluded(ai)) continue;
+    if (!st.showHidden && HIDDEN_BY_DEFAULT.has(S.types[S.wallets[ai][1]])) continue;
+    const s = from ? stats(ai, from) : S.statsAll.get(ai);
+    if (s.swaps >= st.minSwaps) rows.push([ai, s]);
+  }
   if (st.tag) rows = rows.filter(([ai]) => (S.wallets[ai][2] || []).some(li => { const n = S.labels[li]; return n === st.tag || n.startsWith(st.tag + ':'); }));
   const key = st.sort;
   rows.sort((a, b) => ((b[1][key] ?? -1e18) - (a[1][key] ?? -1e18)) * -st.dir);
@@ -77,7 +86,7 @@ export function render(root) {
       <div class="page-head">
         <h1 class="page-title">Leaderboard</h1>
         <div class="seg" data-tabs><button class="seg-btn ${traders ? 'is-active' : ''}" data-tab="traders">Top traders</button><button class="seg-btn ${!traders ? 'is-active' : ''}" data-tab="snipers">Snipers</button></div>
-        <div class="end">${traders ? dropdown('metric', 'trophy', METRICS, st.metric) + dropdown('win', 'clock', WINDOWS, st.win) + dropdown('tag', 'filter', TAG_OPTIONS(), st.tag) : ''}</div>
+        <div class="end">${traders ? dropdown('metric', 'trophy', METRICS, st.metric) + dropdown('win', 'clock', WINDOWS, st.win) + dropdown('tag', 'filter', TAG_OPTIONS(), st.tag) + dropdown('minswaps', 'bolt', [{ v: '0', l: 'Semua tx' }, { v: '5', l: '≥5 swaps' }, { v: '10', l: '≥10 swaps' }, { v: '25', l: '≥25 swaps' }, { v: '50', l: '≥50 swaps' }], String(st.minSwaps)) + `<label class="fchip" style="cursor:pointer" title="Insider/sniper/bot/dll disembunyikan default — centang untuk menampilkan"><input type="checkbox" id="lb-hidden" ${st.showHidden ? 'checked' : ''} style="vertical-align:-2px"> Tampilkan label tersembunyi</label>` : ''}</div>
       </div>
       <div class="page-sub"><span>${icon('wallet')}${nf(rows.length)} ${traders ? 'active wallets' : 'sniper wallets'}</span>${traders ? `<span>${icon('clock')}${winTxt}</span><span>${icon('info')}${priceNote()}</span>` : `<span>${icon('bolt')}First buy within 10 blocks of a pool’s first swap</span><span>${icon('info')}${priceNote()}</span>`}</div>
 
@@ -129,6 +138,10 @@ export function render(root) {
     if (id === 'metric') { st.metric = value; st.sort = value; st.dir = -1; }
     if (id === 'win') st.win = value;
     if (id === 'tag') st.tag = value;
+    if (id === 'minswaps') { st.minSwaps = +value; st.page = 0; return draw(); }
     st.page = 0; draw();
+  });
+  root.querySelector('#lb-hidden')?.addEventListener('change', ev => {
+    st.showHidden = ev.target.checked; st.page = 0; draw();
   });
 }

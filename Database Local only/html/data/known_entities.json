@@ -407,7 +407,8 @@
    "type": "OTHER",
    "source": "arkham",
    "verified_at": "2026-09-20T19:37:37.688735+00:00",
-   "x": "hotgirlsmovie"
+   "x": "hotgirlsmovie",
+   "x_conflict": true
   },
   "0x0076357dd31209873aac09bb13a3fa40f906123f": {
    "name": "\"NeverAtOdds\" on Polymarket",
@@ -444,7 +445,8 @@
    "type": "OTHER",
    "source": "arkham",
    "verified_at": "2026-09-20T19:58:42.790623+00:00",
-   "x": "Fr33man_Sev"
+   "x": "Fr33man_Sev",
+   "x_conflict": true
   },
   "0xed090594a014208a177bb23fbb921aa3997eb1f9": {
    "name": "Proxy",
@@ -661,7 +663,8 @@
    "type": "OTHER",
    "source": "arkham",
    "verified_at": "2026-10-02T16:58:03.939160+00:00",
-   "x": "_PPMan_"
+   "x": "_PPMan_",
+   "x_conflict": true
   },
   "0xa4b366ad22fc0d06f1e934ff468e8922431a87b8": {
    "name": "Polymarket Tradoors (*cielo)",
@@ -676,7 +679,8 @@
    "source": "cielo:Begin. Alpha List TOP PN",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 383.2435525089238,
-   "x": "s1mple_s1mple"
+   "x": "s1mple_s1mple",
+   "x_conflict": true
   },
   "0x0f84d2da979180394fbf9c4499febd0f602a6767": {
    "name": "Begin. Alpha List TOP PNL (*cielo)",
@@ -687,7 +691,8 @@
    "deepcheck_verdict": "DEV",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "",
-   "x": "CupseyV"
+   "x": "CupseyV",
+   "x_conflict": true
   },
   "0x3d06315c94ac30b6061c91caf748fc2db04a89f4": {
    "name": "Begin. Alpha List TOP PNL (*cielo)",
@@ -698,7 +703,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "technoviking46"
+   "x": "technoviking46",
+   "x_conflict": true
   },
   "0x7a2363a401b2340c7941dd2eeff0196a5078d2e6": {
    "name": "Begin. Alpha List TOP PNL / bsc7 (*cielo)",
@@ -709,7 +715,8 @@
    "deepcheck_verdict": "INSIDER_FLAG_DB",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "",
-   "x": "HunterOnlyETH"
+   "x": "HunterOnlyETH",
+   "x_conflict": true
   },
   "0x9debaf794213659d12b289653588f1339c11e209": {
    "name": "Begin. Alpha List TOP PNL (*cielo)",
@@ -720,7 +727,8 @@
    "deepcheck_verdict": "DEV",
    "deepcheck_est_realized_usd": 422.44,
    "deepcheck_note": "",
-   "x": "GucciArchives"
+   "x": "GucciArchives",
+   "x_conflict": true
   },
   "0xbf004bff64725914ee36d03b87d6965b0ced4903": {
    "name": "Begin. Alpha List TOP PNL (*cielo)",
@@ -731,7 +739,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "aa_AFeng"
+   "x": "aa_AFeng",
+   "x_conflict": true
   },
   "0xfd7e55a555555c2f25053a38ec744de1afea4fa4": {
    "name": "Begin. Alpha List TOP PNL / R IMPORT (*cielo)",
@@ -829,7 +838,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "0xIT4I"
+   "x": "0xIT4I",
+   "x_conflict": true
   },
   "0x0cbb693e0199cb7ad4f3c846f43045cb95247fc5": {
    "name": "z (*cielo)",
@@ -861,7 +871,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "rob02643673_rob"
+   "x": "rob02643673_rob",
+   "x_conflict": true
   },
   "0xa83b73f5644cde337b61da79589f10ea15548811": {
    "name": "bsc7 (*cielo)",
@@ -872,7 +883,8 @@
    "deepcheck_verdict": "DEV",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "",
-   "x": "antpositions"
+   "x": "antpositions",
+   "x_conflict": true
   },
   "0x0121525f755c9e7bbc525bba6672716ab46ced57": {
    "name": "Fomo app top traders / Hashim (*cielo)",
@@ -880,7 +892,8 @@
    "source": "cielo:Fomo app top traders/Hashim",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -36969.74899026491,
-   "x": "Quanterty"
+   "x": "Quanterty",
+   "x_conflict": true
   },
   "0x0a6ebed0155edb4b21d92ad02897a626cd90119e": {
    "name": "Fomo app top traders / for yoyo (*cielo)",
@@ -888,7 +901,8 @@
    "source": "cielo:Fomo app top traders/for yoyo",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -98858.17024947311,
-   "x": "theunipcs"
+   "x": "theunipcs",
+   "x_conflict": true
   },
   "0x2fbd041a069bb3d7099d55179169091cfeec4221": {
    "name": "Fomo app top traders / Robinhood KOLs Watchlist (*cielo)",
@@ -896,7 +910,8 @@
    "source": "cielo:Fomo app top traders/Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -139978.80102313674,
-   "x": "rasmr_eth"
+   "x": "rasmr_eth",
+   "x_conflict": true
   },
   "0x3f6c9c7df12ae7497b2327b549d90f189217652c": {
    "name": "Fomo app top traders (*cielo)",
@@ -911,7 +926,8 @@
    "source": "cielo:Fomo app top traders/🏷 FomoMaster",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 670.2135256239734,
-   "x": "frankdegods"
+   "x": "frankdegods",
+   "x_conflict": true
   },
   "0x7d33ff5cc473d0cec8c9a37dcfb448828a89e82c": {
    "name": "Fomo app top traders (*cielo)",
@@ -919,7 +935,8 @@
    "source": "cielo:Fomo app top traders",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -15655.582949833952,
-   "x": "BasedShillBH"
+   "x": "BasedShillBH",
+   "x_conflict": true
   },
   "0x8f62a08537cede87d511aca6436274ab4ca080a3": {
    "name": "Fomo app top traders / for yoyo (*cielo)",
@@ -934,7 +951,8 @@
    "source": "cielo:Fomo app top traders",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 0.0,
-   "x": "DineroDom0"
+   "x": "DineroDom0",
+   "x_conflict": true
   },
   "0x0aa10e4cdf73d93aeb3c260a6731f011c982204c": {
    "name": "🏷 FomoMaster (*cielo)",
@@ -949,7 +967,8 @@
    "source": "cielo:🏷 FomoMaster",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -16004.933588626334,
-   "x": "orangie"
+   "x": "orangie",
+   "x_conflict": true
   },
   "0x1377a50e4d096e575b21c5d61db1028b50fd14ba": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -957,7 +976,8 @@
    "source": "cielo:🏷 FomoMaster/Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": 9291.844807692087,
-   "x": "b1gbicep"
+   "x": "b1gbicep",
+   "x_conflict": true
   },
   "0x1ccc73e7b8fa5db02040aec0049d42cee4661cc5": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -965,7 +985,8 @@
    "source": "cielo:🏷 FomoMaster/Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 51.85527285846811,
-   "x": "wwayfboss"
+   "x": "wwayfboss",
+   "x_conflict": true
   },
   "0x2325477424f68143b7495b449a51fff3d735e111": {
    "name": "🏷 FomoMaster (*cielo)",
@@ -990,7 +1011,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "teepanddestroy"
+   "x": "teepanddestroy",
+   "x_conflict": true
   },
   "0x302d86e24d7474f0408a53e26a1111c041a94093": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -1012,7 +1034,8 @@
    "source": "cielo:🏷 FomoMaster/Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 9324.085187997629,
-   "x": "BokLocks"
+   "x": "BokLocks",
+   "x_conflict": true
   },
   "0x3908f1b7d129fd25f9c7755c1b0ee0d63e5317a8": {
    "name": "🏷 FomoMaster (*cielo)",
@@ -1027,7 +1050,8 @@
    "source": "cielo:🏷 FomoMaster",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -550.013746750428,
-   "x": "antfex"
+   "x": "antfex",
+   "x_conflict": true
   },
   "0x4424e78f9ab4438a9b6c17fc2319ffa1c887863d": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -1035,7 +1059,8 @@
    "source": "cielo:🏷 FomoMaster/Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -298.7143589609939,
-   "x": "nex_100x"
+   "x": "nex_100x",
+   "x_conflict": true
   },
   "0x445e7d1e97a8fe176d5d27c9e8bf777ad621ccd7": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -1050,7 +1075,8 @@
    "source": "cielo:🏷 FomoMaster",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -894.5384785444269,
-   "x": "xmediumrare"
+   "x": "xmediumrare",
+   "x_conflict": true
   },
   "0x647ff5f9c1ed0669dd467ae37c68ec832a8b2fe9": {
    "name": "🏷 FomoMaster (*cielo)",
@@ -1061,7 +1087,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": -23.98,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "imposterDiary"
+   "x": "imposterDiary",
+   "x_conflict": true
   },
   "0x6c309ed33fdf16a9a26e175860cbab48bb17a0b6": {
    "name": "🏷 FomoMaster (*cielo)",
@@ -1076,7 +1103,8 @@
    "source": "cielo:🏷 FomoMaster/Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 4273.162904753507,
-   "x": "ovoimballin"
+   "x": "ovoimballin",
+   "x_conflict": true
   },
   "0x82410ffaacaeb91c1dccc5d31c1155885cd010fc": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -1084,7 +1112,8 @@
    "source": "cielo:🏷 FomoMaster/Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": 3983.974484318701,
-   "x": "BigSlimeBoi"
+   "x": "BigSlimeBoi",
+   "x_conflict": true
   },
   "0x8e2e8b410f468b67e976c5819285acfbd4b3fff3": {
    "name": "🏷 FomoMaster (*cielo)",
@@ -1127,7 +1156,8 @@
    "source": "cielo:🏷 FomoMaster/Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 9832.344399876518,
-   "x": "alphaxquant"
+   "x": "alphaxquant",
+   "x_conflict": true
   },
   "0xaf53f2aa39806eb5a4e13f7b0549d9aa0341b75b": {
    "name": "🏷 FomoMaster (*cielo)",
@@ -1135,7 +1165,8 @@
    "source": "cielo:🏷 FomoMaster",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -831.5381631125725,
-   "x": "0xArtofWar"
+   "x": "0xArtofWar",
+   "x_conflict": true
   },
   "0xb1764e627a568b344bc2fa25ca7fd44364105ac0": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -1150,7 +1181,8 @@
    "source": "cielo:🏷 FomoMaster/Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -53528.88516332476,
-   "x": "ckp3910"
+   "x": "ckp3910",
+   "x_conflict": true
   },
   "0xc16840a627035b8085f50843e28ba16176fe7757": {
    "name": "🏷 FomoMaster (*cielo)",
@@ -1158,7 +1190,8 @@
    "source": "cielo:🏷 FomoMaster",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -11509.651695698414,
-   "x": "memeticpower"
+   "x": "memeticpower",
+   "x_conflict": true
   },
   "0xd874259110c6e086f1d2fee474b73e69b8f5dab0": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -1176,7 +1209,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "xbrazilzz"
+   "x": "xbrazilzz",
+   "x_conflict": true
   },
   "0xfc1a4cf6be46c553fae87ad3d2c00ba8da971308": {
    "name": "🏷 FomoMaster / Robinhood KOLs Watchlist (*cielo)",
@@ -1219,7 +1253,8 @@
    "source": "cielo:qpqpqp",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 0.0,
-   "x": "bizyugo"
+   "x": "bizyugo",
+   "x_conflict": true
   },
   "0x215462dc79523ac795216e1baa27586840fa9382": {
    "name": "qpqpqp (*cielo)",
@@ -1248,7 +1283,8 @@
    "source": "cielo:qpqpqp/basic_list",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -7651.2696774610795,
-   "x": "delucinator"
+   "x": "delucinator",
+   "x_conflict": true
   },
   "0x4cd6b970f42b41ee58c2e4b7ab99863d5ae52a23": {
    "name": "qpqpqp (*cielo)",
@@ -1270,7 +1306,8 @@
    "source": "cielo:qpqpqp",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 137.96918898502122,
-   "x": "orang336462045"
+   "x": "orang336462045",
+   "x_conflict": true
   },
   "0x614d98a57a5d879d717152de0690ed2b04562ade": {
    "name": "qpqpqp / 8 (*cielo)",
@@ -1292,7 +1329,8 @@
    "source": "cielo:qpqpqp/8",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 0.0,
-   "x": "kirbyongeo"
+   "x": "kirbyongeo",
+   "x_conflict": true
   },
   "0x7ac34681f6aaeb691e150c43ee494177c0e2c183": {
    "name": "qpqpqp (*cielo)",
@@ -1359,7 +1397,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "bizyugo"
+   "x": "bizyugo",
+   "x_conflict": true
   },
   "0xc1e42f862d202b4a0ed552c1145735ee088f6ccf": {
    "name": "qpqpqp (*cielo)",
@@ -1367,7 +1406,8 @@
    "source": "cielo:qpqpqp",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 0.0,
-   "x": "sir_pog"
+   "x": "sir_pog",
+   "x_conflict": true
   },
   "0xef80c44d996ebac95aa62589986fb3fcdfe3f7d9": {
    "name": "qpqpqp (*cielo)",
@@ -1438,7 +1478,8 @@
    "source": "cielo:basic_list/8",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -4867.329431431528,
-   "x": "tobegosuman"
+   "x": "tobegosuman",
+   "x_conflict": true
   },
   "0x3e57efef507b4db7acfa2ee79ceca6b19e18d106": {
    "name": "basic_list (*cielo)",
@@ -1446,7 +1487,8 @@
    "source": "cielo:basic_list",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 0.0,
-   "x": "0xSunNFT"
+   "x": "0xSunNFT",
+   "x_conflict": true
   },
   "0x416bf0c000935bfeb47348ed0e697098c9376730": {
    "name": "basic_list (*cielo)",
@@ -1659,7 +1701,8 @@
    "deepcheck_verdict": "DEV",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "",
-   "x": "The_Pitch_Man"
+   "x": "The_Pitch_Man",
+   "x_conflict": true
   },
   "0x3c5083022114ea14fb3d8d06f5931c629c2bedd6": {
    "name": "Wallets (*cielo)",
@@ -1708,7 +1751,8 @@
    "source": "cielo:Wallets",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": 334.86625729844997,
-   "x": "CookerFlips"
+   "x": "CookerFlips",
+   "x_conflict": true
   },
   "0xf703fd64093b50797abdc9e450632240fa2ba5d4": {
    "name": "Wallets (*cielo)",
@@ -1730,7 +1774,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -1233.9823390919048,
-   "x": "0xdogacan"
+   "x": "0xdogacan",
+   "x_conflict": true
   },
   "0x089786580b66e76131d8ef9f7d165d1525338143": {
    "name": "Whales (*cielo)",
@@ -1752,7 +1797,8 @@
    "source": "cielo:Whales",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -25.364208630735952,
-   "x": "shariq911"
+   "x": "shariq911",
+   "x_conflict": true
   },
   "0x270b43c8e8f1082f9784e9046d4db50d55d64eeb": {
    "name": "Whales (*cielo)",
@@ -1760,7 +1806,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 13.11170472145738,
-   "x": "lfuzzywuzzyl"
+   "x": "lfuzzywuzzyl",
+   "x_conflict": true
   },
   "0x2820930e1f7bbf5af46602b37941ee51a31e6cd9": {
    "name": "Whales (*cielo)",
@@ -1768,7 +1815,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -5.165871391880489,
-   "x": "CrypSaf"
+   "x": "CrypSaf",
+   "x_conflict": true
   },
   "0x39cc9c86e67baf2129b80fe3414c397492ea8026": {
    "name": "Whales (*cielo)",
@@ -1797,7 +1845,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -16.115117261071116,
-   "x": "0xvaidhik"
+   "x": "0xvaidhik",
+   "x_conflict": true
   },
   "0x57e766997ed89ec496fdf3fa315d12bc2ae87e63": {
    "name": "Whales (*cielo)",
@@ -1833,7 +1882,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -0.6782865775450087,
-   "x": "mikesnft"
+   "x": "mikesnft",
+   "x_conflict": true
   },
   "0x71d13056cb985d985ae0f1877818b91d9c4cbd05": {
    "name": "Whales (*cielo)",
@@ -1848,7 +1898,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 1331.9265743857743,
-   "x": "BR4ted"
+   "x": "BR4ted",
+   "x_conflict": true
   },
   "0x82dcba7a8bf3aa462040038ecb3d5d90901676e8": {
    "name": "Whales (*cielo)",
@@ -1856,7 +1907,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 756.3065466458941,
-   "x": "0itsali0"
+   "x": "0itsali0",
+   "x_conflict": true
   },
   "0x88f556c6911d57c3970b4f9ad2a8a14263b6fffa": {
    "name": "Whales (*cielo)",
@@ -1871,7 +1923,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -912.4760497270856,
-   "x": "serc1n"
+   "x": "serc1n",
+   "x_conflict": true
   },
   "0x8acfe17a5fe62966a27e579e28c10e936de614f2": {
    "name": "Whales (*cielo)",
@@ -1879,7 +1932,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -1866.579731532142,
-   "x": "HollanderAdam"
+   "x": "HollanderAdam",
+   "x_conflict": true
   },
   "0x8e2ad92d1986c37d4cc9618c13ae9950f4d3192b": {
    "name": "Whales (*cielo)",
@@ -1908,7 +1962,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 2829.679322955392,
-   "x": "Tma_420"
+   "x": "Tma_420",
+   "x_conflict": true
   },
   "0xeca85146092c3be0ae36d36f39b3d6fe5a7e4b69": {
    "name": "Whales (*cielo)",
@@ -1916,7 +1971,8 @@
    "source": "cielo:Whales",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -15.894018093508834,
-   "x": "0xBreyn"
+   "x": "0xBreyn",
+   "x_conflict": true
   },
   "0xfc7af206e1a69f7886fb47ff8e1287fff4406d03": {
    "name": "Whales (*cielo)",
@@ -1927,7 +1983,8 @@
    "deepcheck_verdict": "POSITIVE_BUT_BELOW_CLAIM",
    "deepcheck_est_realized_usd": 764.18,
    "deepcheck_note": "",
-   "x": "celtarebaixado_"
+   "x": "celtarebaixado_",
+   "x_conflict": true
   },
   "0x92bff72e6c943a1348aedf15d68e758e811dec64": {
    "name": "Fomo Top Traders (*cielo)",
@@ -1938,7 +1995,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": -0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "changefomo"
+   "x": "changefomo",
+   "x_conflict": true
   },
   "0x477d7e84de6b16551481217b3d177a3bbdb5828c": {
    "name": "Whale (*cielo)",
@@ -1946,7 +2004,8 @@
    "source": "cielo:Whale",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -776.4706757754458,
-   "x": "BarlMarx"
+   "x": "BarlMarx",
+   "x_conflict": true
   },
   "0x5b7ab4b4b4768923cddef657084223528c807963": {
    "name": "Whale (*cielo)",
@@ -2081,7 +2140,8 @@
    "source": "cielo:Robinhood Top Traders/Track RH",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -4427.509328982171,
-   "x": "yeonwoo1102"
+   "x": "yeonwoo1102",
+   "x_conflict": true
   },
   "0x5b0051e4ea8eaf6ec523ab2aa76fe0149e68b040": {
    "name": "Robinhood Top Traders / Track RH (*cielo)",
@@ -2113,7 +2173,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -36745.08399432602,
-   "x": "monkotbe"
+   "x": "monkotbe",
+   "x_conflict": true
   },
   "0x06de9c48b1e639ed5c13ec8fbd4080a38e39f2d1": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2124,7 +2185,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "AvgJoesCrypto"
+   "x": "AvgJoesCrypto",
+   "x_conflict": true
   },
   "0x07a70a89a82b377b366d9371ff1524a5606ea064": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2139,7 +2201,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 538.2679717818851,
-   "x": "cutepanda"
+   "x": "cutepanda",
+   "x_conflict": true
   },
   "0x0ea656b6c008b67795edfd68ca7888d7ec77de9e": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2154,7 +2217,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 6761.13392316248,
-   "x": "Trizanator"
+   "x": "Trizanator",
+   "x_conflict": true
   },
   "0x12eb410d6d447f726fe4be3cf978e2e1f7e59786": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2162,7 +2226,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 0.0,
-   "x": "WileyRaeDermott"
+   "x": "WileyRaeDermott",
+   "x_conflict": true
   },
   "0x12ff752b5d155af696a914008f91fa763df85a8a": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2170,7 +2235,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 7430.123387898593,
-   "x": "PinkyndTheGainz"
+   "x": "PinkyndTheGainz",
+   "x_conflict": true
   },
   "0x149cf4fc89cff29be4706e43b94da176b79e7a84": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2178,7 +2244,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 301.3880649823079,
-   "x": "Kilpat12388"
+   "x": "Kilpat12388",
+   "x_conflict": true
   },
   "0x15c0a9ccb2ddad86cb4abfdde5e4f8052257a034": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2193,7 +2260,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -11923.188041369523,
-   "x": "RuneCrypto_"
+   "x": "RuneCrypto_",
+   "x_conflict": true
   },
   "0x194db29f5bebacf3201abc9dbdda452116a3ff23": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2204,7 +2272,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "smol_intern"
+   "x": "smol_intern",
+   "x_conflict": true
   },
   "0x20113ecb4c087bcb2c54378b6f45560db05be469": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2219,7 +2288,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -7692.010968284022,
-   "x": "DipWheeler"
+   "x": "DipWheeler",
+   "x_conflict": true
   },
   "0x2a8f874417159f163611455f78b7ec079c19f085": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2227,7 +2297,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -52074.02642957294,
-   "x": "cryptojuggler3"
+   "x": "cryptojuggler3",
+   "x_conflict": true
   },
   "0x2e798a0521f368f470a59a8025d1a2909908d93b": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2235,7 +2306,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 8902.845605548686,
-   "x": "nounslyfe"
+   "x": "nounslyfe",
+   "x_conflict": true
   },
   "0x2fc93d79b86fb4484cf304d77a1dc7d9a8453702": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2257,7 +2329,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 15.352159553789544,
-   "x": "Deg_phrank"
+   "x": "Deg_phrank",
+   "x_conflict": true
   },
   "0x3443aa206607217d2a435995bf1bfa23940c97fd": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2265,7 +2338,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -6289.92805114705,
-   "x": "scalpsxbt"
+   "x": "scalpsxbt",
+   "x_conflict": true
   },
   "0x3d75a12619b2dbc2a1e15e9ad09c19cbcc09e17d": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2273,7 +2347,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 1536.0427693881306,
-   "x": "Laos163"
+   "x": "Laos163",
+   "x_conflict": true
   },
   "0x3ebb557872fa16b3982b49019412481b99ab2680": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2288,7 +2363,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -49932.49473165222,
-   "x": "andy8052"
+   "x": "andy8052",
+   "x_conflict": true
   },
   "0x442fce56aaa4fcbc862e285043faabf9b89c82c2": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2303,7 +2379,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -36253.394359073005,
-   "x": "SolSwizzle"
+   "x": "SolSwizzle",
+   "x_conflict": true
   },
   "0x48646495c5c9a575a1dbbaee4bcf0fe684936c05": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2321,7 +2398,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "OinkersRUs"
+   "x": "OinkersRUs",
+   "x_conflict": true
   },
   "0x4959ad9145030d5a2f3cce66ca4da8b3d35dbe1d": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2332,7 +2410,8 @@
    "deepcheck_verdict": "POSITIVE_BUT_BELOW_CLAIM",
    "deepcheck_est_realized_usd": 10195.97,
    "deepcheck_note": "",
-   "x": "AusafNFT"
+   "x": "AusafNFT",
+   "x_conflict": true
   },
   "0x4a662531ac19eb5f74c09a9118d5dbc19021a9ef": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2340,7 +2419,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 0.0,
-   "x": "xijiji11"
+   "x": "xijiji11",
+   "x_conflict": true
   },
   "0x4a89f08a964b372cdef121f050b2a894dd49d829": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2358,7 +2438,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "intoodeeppp"
+   "x": "intoodeeppp",
+   "x_conflict": true
   },
   "0x56647f61fd15a8eb8c2c5638a165e40f278dedf9": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2373,7 +2454,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -5061.692421322957,
-   "x": "erichsu_eth"
+   "x": "erichsu_eth",
+   "x_conflict": true
   },
   "0x5be7b8b7b156cabf62e11d2e1bd791edc181ffe8": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2395,7 +2477,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -484.8622026159299,
-   "x": "serdalton"
+   "x": "serdalton",
+   "x_conflict": true
   },
   "0x662053fd75f1f7da7e524d884b96552a13d2800b": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2406,7 +2489,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "stigstigstig_"
+   "x": "stigstigstig_",
+   "x_conflict": true
   },
   "0x69326e48f68500fb6cf3b3a7da640737b9cc347b": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2414,7 +2498,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -8188.421435102194,
-   "x": "0xvantaa"
+   "x": "0xvantaa",
+   "x_conflict": true
   },
   "0x6a310d73aea2ec587cd53794316b5eb570f2d7a7": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2422,7 +2507,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -2902.542966337743,
-   "x": "3DMax_Virtuals"
+   "x": "3DMax_Virtuals",
+   "x_conflict": true
   },
   "0x6ac31557234e5fe1582eb6f338c169315c433095": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2430,7 +2516,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -63.67164125826715,
-   "x": "AlphaCrew23"
+   "x": "AlphaCrew23",
+   "x_conflict": true
   },
   "0x6b8c63edf0fe845bfd10c635f340e9c54218c7f5": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2438,7 +2525,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -75.33203938600602,
-   "x": "AchillesXBT"
+   "x": "AchillesXBT",
+   "x_conflict": true
   },
   "0x6ed3b31b6062679868c1036d3667c44afad44d56": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2453,7 +2541,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 137.18151834366648,
-   "x": "hotlneblng_"
+   "x": "hotlneblng_",
+   "x_conflict": true
   },
   "0x75a9323514561dc2e876fe5ac293ce6253de4fd6": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2464,7 +2553,8 @@
    "deepcheck_verdict": "POSITIVE_BUT_BELOW_CLAIM",
    "deepcheck_est_realized_usd": 10189.1,
    "deepcheck_note": "",
-   "x": "sighduck"
+   "x": "sighduck",
+   "x_conflict": true
   },
   "0x76711d3f71d6829a13ecd3475cd4c16fa1b46c59": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2479,7 +2569,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -1044.8020467672814,
-   "x": "stealthlauncher"
+   "x": "stealthlauncher",
+   "x_conflict": true
   },
   "0x7a7c6aab33e9c41428c82411ef8e8b22ebac8cac": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2515,7 +2606,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -39039.38535769627,
-   "x": "airtightfish"
+   "x": "airtightfish",
+   "x_conflict": true
   },
   "0x81bbe314acdd93d25eeed3db5903e0fcd059fcc6": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2530,7 +2622,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -49761.2135051267,
-   "x": "sonder_crypto"
+   "x": "sonder_crypto",
+   "x_conflict": true
   },
   "0x84159200079f3fbcc78da8e19126aaf19e026d73": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2538,7 +2631,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -1051.004916148911,
-   "x": "kdimes00"
+   "x": "kdimes00",
+   "x_conflict": true
   },
   "0x84e63b774416eaa7b95bb1d1367add3ea2cdffa4": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2546,7 +2640,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 394.93512333939464,
-   "x": "wilc_eth"
+   "x": "wilc_eth",
+   "x_conflict": true
   },
   "0x86b0952d05a174ce6129966bb36297410d5edcc3": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2554,7 +2649,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -2496.2583304517552,
-   "x": "drews888"
+   "x": "drews888",
+   "x_conflict": true
   },
   "0x87e667966e5e5bb682c61a8d5490e0056d306f58": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2562,7 +2658,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -45779.85465987199,
-   "x": "elderleee"
+   "x": "elderleee",
+   "x_conflict": true
   },
   "0x8a59f7ff60b2c26dcd70ec54c4cbec5c88f74324": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2580,7 +2677,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "remusofmars"
+   "x": "remusofmars",
+   "x_conflict": true
   },
   "0x8ba3bbd70000940e1c46530fd63819ab1e0ba0a6": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2588,7 +2686,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -9344.351193184673,
-   "x": "leweegi"
+   "x": "leweegi",
+   "x_conflict": true
   },
   "0x93c006f2051cb72168cf8c27cafe0fb2d71682c8": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2599,7 +2698,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "insentos"
+   "x": "insentos",
+   "x_conflict": true
   },
   "0x961c19a6edd923fe3c8536c3c589a92e66659b4c": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2614,7 +2714,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -238.94597301793704,
-   "x": "sumfattytuna"
+   "x": "sumfattytuna",
+   "x_conflict": true
   },
   "0x9bc850760fc80157a43354d1d387ff820263cba3": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2622,7 +2723,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -1820.1489527231215,
-   "x": "maxwin"
+   "x": "maxwin",
+   "x_conflict": true
   },
   "0x9c2660a1ce0b20d821690d0743435d4f1c809f56": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2661,7 +2763,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -183.02605716819738,
-   "x": "merlinth3great"
+   "x": "merlinth3great",
+   "x_conflict": true
   },
   "0xab23e72f4c1cc3b0d48b2a1acd496f3b135b4aa5": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2669,7 +2772,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -21541.734287555286,
-   "x": "defifranz"
+   "x": "defifranz",
+   "x_conflict": true
   },
   "0xac5e65e0fe4bf85af99e7f02e061e4aed05bba0c": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2684,7 +2788,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 627.6807446924748,
-   "x": "0xmisterb"
+   "x": "0xmisterb",
+   "x_conflict": true
   },
   "0xb4c86f29795693157f5d90b3ddfd383637b55f01": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2692,7 +2797,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -11715.066992897424,
-   "x": "oasesport"
+   "x": "oasesport",
+   "x_conflict": true
   },
   "0xb7cb0bf23de1c323be6a385a940b55fe66609f3c": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2700,7 +2806,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": 3696.006922652205,
-   "x": "cryptojohnnyfap"
+   "x": "cryptojohnnyfap",
+   "x_conflict": true
   },
   "0xb988681d5aeab116ee3d3dae2319e3bc4dd5a0b0": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2708,7 +2815,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 3027.0230864364557,
-   "x": "0xjumpman"
+   "x": "0xjumpman",
+   "x_conflict": true
   },
   "0xbcabfa4e684a9fa5be4993ccc89e9bceb306cf4c": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2723,7 +2831,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -6408.367491015371,
-   "x": "ferbsol"
+   "x": "ferbsol",
+   "x_conflict": true
   },
   "0xbe1eaa605d3694639988dd4fcd7cee7ab8b1d74d": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2731,7 +2840,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -22492.640315179746,
-   "x": "DNS_ERR"
+   "x": "DNS_ERR",
+   "x_conflict": true
   },
   "0xbe38d196d1378f8388c94c3ed73c3c11632eea7e": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2739,7 +2849,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -6763.307750135386,
-   "x": "traderpow"
+   "x": "traderpow",
+   "x_conflict": true
   },
   "0xbf1c2724a07365cb7f2946acebe160eef8948db4": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2747,7 +2858,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -1271.3830480283261,
-   "x": "akki_deathlord"
+   "x": "akki_deathlord",
+   "x_conflict": true
   },
   "0xbf6c6f756033faab8a5b2ee8da8835e0d9e0651b": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2755,7 +2867,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -6956.675948671164,
-   "x": "koyla_sol"
+   "x": "koyla_sol",
+   "x_conflict": true
   },
   "0xc1d4b5e64473fd90bf0390a1e0b61876064fd503": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2777,7 +2890,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -235.82733185571595,
-   "x": "leensx100"
+   "x": "leensx100",
+   "x_conflict": true
   },
   "0xd43496b3426c4632b8a0d468869fd7225ddfbaab": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2785,7 +2899,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 28.365865213210913,
-   "x": "ooohyeaaahhh"
+   "x": "ooohyeaaahhh",
+   "x_conflict": true
   },
   "0xd466984221277c929406ea61ee562c32f042a64a": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2793,7 +2908,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 1427.237223551678,
-   "x": "gromwtf"
+   "x": "gromwtf",
+   "x_conflict": true
   },
   "0xd73d6b8b9e875569c0f03c572a3806e619bcbec2": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2801,7 +2917,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -334.51624353292414,
-   "x": "Samisa_btc"
+   "x": "Samisa_btc",
+   "x_conflict": true
   },
   "0xd7bd8a718d3ff8b19b0b4df43adb0a07ae1ad425": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2809,7 +2926,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -2246.534497094451,
-   "x": "lincolnbuidl"
+   "x": "lincolnbuidl",
+   "x_conflict": true
   },
   "0xd996956eee524ed268abf2ba979086555812ec6e": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2817,7 +2935,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -121.01626720163796,
-   "x": "flooroftests"
+   "x": "flooroftests",
+   "x_conflict": true
   },
   "0xdbc4a38033e2c5b671caecfde9f4b7c5cd3e408e": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2825,7 +2944,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -51368.87885380762,
-   "x": "Cellar1544720"
+   "x": "Cellar1544720",
+   "x_conflict": true
   },
   "0xdd29a525f0ef9e89e5cdfbbc047b6f4d52adad84": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2847,7 +2967,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -1818.4926023963608,
-   "x": "riskanonymous"
+   "x": "riskanonymous",
+   "x_conflict": true
   },
   "0xdfa705fa2db5044e672d597e5eddcc11a9f2815c": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2865,7 +2986,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": -948.89,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "Paco420_"
+   "x": "Paco420_",
+   "x_conflict": true
   },
   "0xe2aa5249955645acd0cdcfc2b3c22fb73666b473": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2876,7 +2998,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "tekkerrss"
+   "x": "tekkerrss",
+   "x_conflict": true
   },
   "0xe342ad48330a8bd9967be6c4a9ae4665f7b44673": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2884,7 +3007,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -21002.627308436953,
-   "x": "xfilesboy"
+   "x": "xfilesboy",
+   "x_conflict": true
   },
   "0xe3b95f920ec0452aad2aeaf83b01f2212fc82c9e": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2892,7 +3016,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 7203.719660924896,
-   "x": "DegenToDisciple"
+   "x": "DegenToDisciple",
+   "x_conflict": true
   },
   "0xe46f99935c755a7fa835bb8c054d901705af18be": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2903,7 +3028,8 @@
    "deepcheck_verdict": "NOT_CONFIRMED",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "internal coverage 3% events priced — NOT_CONFIRMED=belum terukur, bukan terbukti halu",
-   "x": "buffooning"
+   "x": "buffooning",
+   "x_conflict": true
   },
   "0xe6a5f7f6de90d5693fac766fca4d0d3214f95083": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2911,7 +3037,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 0.0,
-   "x": "Thokani2"
+   "x": "Thokani2",
+   "x_conflict": true
   },
   "0xeaba08d410edca0361a72ab259ec5fa14c449ea5": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2919,7 +3046,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -2980.775301146233,
-   "x": "Sanda0x"
+   "x": "Sanda0x",
+   "x_conflict": true
   },
   "0xeb0f432beecf10dcc828fc1e36a3386caf634637": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2927,7 +3055,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -100958.00356876601,
-   "x": "0x_Leo_"
+   "x": "0x_Leo_",
+   "x_conflict": true
   },
   "0xebf6391fff9d2745dcb8847e349d29a6cb1ba180": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2935,7 +3064,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -4004.4281554495183,
-   "x": "444worldeth"
+   "x": "444worldeth",
+   "x_conflict": true
   },
   "0xecae1b6f71a976412faba4ed0a4c373e0c98f7e3": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2943,7 +3073,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 1480.822209825633,
-   "x": "lilbrogotmotion"
+   "x": "lilbrogotmotion",
+   "x_conflict": true
   },
   "0xf21a5458a848282783c132cdc2d7308ff533b240": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2951,7 +3082,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 4947.444284101994,
-   "x": "Stacco__"
+   "x": "Stacco__",
+   "x_conflict": true
   },
   "0xf2821338ef97dccdd1760bc22ac4389bc955ee6c": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2959,7 +3091,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -6494.890851038938,
-   "x": "Crypt0WhaleX"
+   "x": "Crypt0WhaleX",
+   "x_conflict": true
   },
   "0xf5e0735b343b2c4343902212bdb0d5c083ab58fb": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -2974,7 +3107,8 @@
    "source": "cielo:Robinhood KOLs Watchlist",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -15557.9639600935,
-   "x": "ResellCalendar"
+   "x": "ResellCalendar",
+   "x_conflict": true
   },
   "0xfd70ec56e9a0c7be48ba9962f322f6336d3cceeb": {
    "name": "Robinhood KOLs Watchlist (*cielo)",
@@ -3020,7 +3154,8 @@
    "source": "cielo:Track RH",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -218.66797720568175,
-   "x": "SevaFTW"
+   "x": "SevaFTW",
+   "x_conflict": true
   },
   "0x16657de1a0faac319359d6dc15d31b355cb535c0": {
    "name": "Track RH (*cielo)",
@@ -3083,7 +3218,8 @@
    "source": "cielo:Track RH",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": 599.5418937928231,
-   "x": "0xCobra"
+   "x": "0xCobra",
+   "x_conflict": true
   },
   "0x69c5fb51dd3668799a7a0f80d805a4700000dead": {
    "name": "Track RH (*cielo)",
@@ -3108,7 +3244,8 @@
    "deepcheck_verdict": "DEV",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "",
-   "x": "casino847"
+   "x": "casino847",
+   "x_conflict": true
   },
   "0x7dcac0c1128ee764556e789975962aeee8f59e59": {
    "name": "Track RH (*cielo)",
@@ -3219,7 +3356,8 @@
    "deepcheck_verdict": "POSITIVE_BUT_BELOW_CLAIM",
    "deepcheck_est_realized_usd": 86.89,
    "deepcheck_note": "",
-   "x": "ika_xbt"
+   "x": "ika_xbt",
+   "x_conflict": true
   },
   "0x0a53765848ecb8ccd820781fc47c9c95bfcf3c36": {
    "name": "8 (*cielo)",
@@ -3234,7 +3372,8 @@
    "source": "cielo:8",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -3287.2374351085928,
-   "x": "armads_crypto"
+   "x": "armads_crypto",
+   "x_conflict": true
   },
   "0x2385233abb910357e2b97a16d40e0443e53d0769": {
    "name": "8 (*cielo)",
@@ -3249,7 +3388,8 @@
    "source": "cielo:8",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -10481.364402463561,
-   "x": "dev_enjoys"
+   "x": "dev_enjoys",
+   "x_conflict": true
   },
   "0x28d3bdece9a0c7f54687f734fa73fba04ecf5785": {
    "name": "8 (*cielo)",
@@ -3274,7 +3414,8 @@
    "deepcheck_verdict": "CONFIRMED_BY_ESTIMATE",
    "deepcheck_est_realized_usd": 97917.6,
    "deepcheck_note": "",
-   "x": "Cbb0fe"
+   "x": "Cbb0fe",
+   "x_conflict": true
   },
   "0x5388a7f24e86c9c9d855a98c2f5a339afa6a3acc": {
    "name": "8 (*cielo)",
@@ -3296,7 +3437,8 @@
    "source": "cielo:8",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": 16.4997677847266,
-   "x": "GodiCap"
+   "x": "GodiCap",
+   "x_conflict": true
   },
   "0x60753e8622a6cfea1df449a9625a9778bb922b72": {
    "name": "8 (*cielo)",
@@ -3311,7 +3453,8 @@
    "source": "cielo:8",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 0.0,
-   "x": "midasrwa"
+   "x": "midasrwa",
+   "x_conflict": true
   },
   "0x6cd66dbdfe289ab83d7311b668ada83a12447e21": {
    "name": "8 (*cielo)",
@@ -3333,7 +3476,8 @@
    "source": "cielo:8",
    "verdict": "KNOWN_IN_DB",
    "pnl_30d_usd_gmgn": -679.1633364672581,
-   "x": "keccakdog"
+   "x": "keccakdog",
+   "x_conflict": true
   },
   "0x8ce17ff2c7376e9adfe9c63c47a801097fa6c525": {
    "name": "8 (*cielo)",
@@ -3362,7 +3506,8 @@
    "source": "cielo:8",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": 0.0,
-   "x": "chud_eth"
+   "x": "chud_eth",
+   "x_conflict": true
   },
   "0xc44fd102415ff62769a4e37c70dea27033a5291f": {
    "name": "8 (*cielo)",
@@ -3384,7 +3529,8 @@
    "source": "cielo:8",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -3.3098567119128495,
-   "x": "phtevenstrong"
+   "x": "phtevenstrong",
+   "x_conflict": true
   },
   "0xde6b2a06407575b98724818445178c1f5fd53361": {
    "name": "8 (*cielo)",
@@ -3471,7 +3617,8 @@
    "source": "cielo:👛FWAIRpfp",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -6208.255963812281,
-   "x": "0x541nt1"
+   "x": "0x541nt1",
+   "x_conflict": true
   },
   "0xe5d2753cecf751d724d1b80b97a545d7ffa70700": {
    "name": "Robinhood list (*cielo)",
@@ -3489,7 +3636,8 @@
    "source": "cielo:Hashcats early minters",
    "verdict": "ROBINHOOD_ACTIVE",
    "pnl_30d_usd_gmgn": -1.4152556756751549,
-   "x": "solzake"
+   "x": "solzake",
+   "x_conflict": true
   },
   "0x023d068f3d2fe0b2bfca389c96a7f2768ac0d931": {
    "name": "Hashcats early minters (*cielo)",
@@ -3528,7 +3676,8 @@
    "deepcheck_verdict": "DEV",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "",
-   "x": "yodacalls"
+   "x": "yodacalls",
+   "x_conflict": true
   },
   "0x3fcbad0dedbfe5154417473e2b24ac597bb1a451": {
    "name": "Hashcats early minters (*cielo)",
@@ -3619,7 +3768,8 @@
    "deepcheck_verdict": "DEV",
    "deepcheck_est_realized_usd": 0.0,
    "deepcheck_note": "",
-   "x": "NeoCallss"
+   "x": "NeoCallss",
+   "x_conflict": true
   },
   "0xfa94ebdf91c62cd5f1790f2fc0159d52ed5dd7b6": {
    "name": "Hashcats early minters (*cielo)",
@@ -3632,1369 +3782,1615 @@
    "name": "@0xblanker",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xblanker"
+   "x": "0xblanker",
+   "x_conflict": true
   },
   "0x034543d1c475f1cfabc8e37f87bb60cf0ea943d5": {
    "name": "@SergeantCrodie",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "SergeantCrodie"
+   "x": "SergeantCrodie",
+   "x_conflict": true
   },
   "0x05c17ffad91bbd8e07bb896c15b792e073686183": {
    "name": "@Beautrj",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Beautrj"
+   "x": "Beautrj",
+   "x_conflict": true
   },
   "0x07591d902e68503c113ac4beca8abb3e3f6b0ab3": {
    "name": "@driz1x_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "driz1x_"
+   "x": "driz1x_",
+   "x_conflict": true
   },
   "0x077b9981bc8a2ca417cea41861111da63266988b": {
    "name": "@clukz",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "clukz"
+   "x": "clukz",
+   "x_conflict": true
   },
   "0x07cdaf0140c60a0c34681065abf49bb8d85b8cbe": {
    "name": "@ohzarke",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ohzarke"
+   "x": "ohzarke",
+   "x_conflict": true
   },
   "0x07e1a6b52085b99fd955988c18f205130afb53ea": {
    "name": "@JMchemax",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "JMchemax"
+   "x": "JMchemax",
+   "x_conflict": true
   },
   "0x07e6bcbc8d5343c10fa810568f4b7a8169584988": {
    "name": "@just_krypt_sol",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "just_krypt_sol"
+   "x": "just_krypt_sol",
+   "x_conflict": true
   },
   "0x07e8db253624b1cafaf576c54e84ceea2c50fa4a": {
    "name": "@ignHail",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ignHail"
+   "x": "ignHail",
+   "x_conflict": true
   },
   "0x09b8211af3d9ab946d8e4e65e1133457e86fb1a2": {
    "name": "@Jesennnm",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Jesennnm"
+   "x": "Jesennnm",
+   "x_conflict": true
   },
   "0x0b03c38c4db0d48d97e5fd991fce1828eb46d244": {
    "name": "@belizardd",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "belizardd"
+   "x": "belizardd",
+   "x_conflict": true
   },
   "0x0b3edd0d0bf7c6281a7f8ae5a5630defb94ae78e": {
    "name": "@frostyyy",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "frostyyy"
+   "x": "frostyyy",
+   "x_conflict": true
   },
   "0x0b6b9915dfc908c47fae2fd065717e3dd5dedabd": {
    "name": "@0qwertx",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0qwertx"
+   "x": "0qwertx",
+   "x_conflict": true
   },
   "0x0cd4d1a9c67a0c7677dcacb37791dadb38ea5666": {
    "name": "@insidecalls",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "insidecalls"
+   "x": "insidecalls",
+   "x_conflict": true
   },
   "0x1247620ae3681c4038efedb17d4517e889860ced": {
    "name": "@silenth0dler",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "silenth0dler"
+   "x": "silenth0dler",
+   "x_conflict": true
   },
   "0x127e8d8c3bbcde01987051a79debddb64ef77978": {
    "name": "@ratwell",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ratwell"
+   "x": "ratwell",
+   "x_conflict": true
   },
   "0x13267f77e7241db36f9ee3418dd3069bbc91f2b2": {
    "name": "@Jack_eth_nft",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Jack_eth_nft"
+   "x": "Jack_eth_nft",
+   "x_conflict": true
   },
   "0x150952108f28dcaf4e4542090e67cd2696563944": {
    "name": "@ShinraHQ_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ShinraHQ_"
+   "x": "ShinraHQ_",
+   "x_conflict": true
   },
   "0x15ad62a925d767310716b94ff4b9430dd7a5aa67": {
    "name": "@notdecu",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "notdecu"
+   "x": "notdecu",
+   "x_conflict": true
   },
   "0x16ad81285cc81f046005891f250fc39580397946": {
    "name": "@LgDoucet",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "LgDoucet"
+   "x": "LgDoucet",
+   "x_conflict": true
   },
   "0x199776730d88cfa1aa54e7f41df386b80ac150c5": {
    "name": "@pxj888",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "pxj888"
+   "x": "pxj888",
+   "x_conflict": true
   },
   "0x1b30f0a3e7fb54211ab31741a2dc58725157b039": {
    "name": "@_zeldr1ss",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "_zeldr1ss"
+   "x": "_zeldr1ss",
+   "x_conflict": true
   },
   "0x1c66ae54d5e4ee86980c90edbc55ddb29161b4ea": {
    "name": "@CryptoExpert101",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "CryptoExpert101"
+   "x": "CryptoExpert101",
+   "x_conflict": true
   },
   "0x1c67667c0dc15e07d8e075db61fc3974480cb9ef": {
    "name": "@ONEMINNFT",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ONEMINNFT"
+   "x": "ONEMINNFT",
+   "x_conflict": true
   },
   "0x2056c718e295537df3460bd0aa7f0282ff2f59d1": {
    "name": "@hubzify",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "hubzify"
+   "x": "hubzify",
+   "x_conflict": true
   },
   "0x20e5d405062f4ce0311e83cbd54144ca5b59b520": {
    "name": "@larperinho",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "larperinho"
+   "x": "larperinho",
+   "x_conflict": true
   },
   "0x29ad5545bf54fe1ec232b065db191a989f2f6ecf": {
    "name": "@baolingD",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "baolingD"
+   "x": "baolingD",
+   "x_conflict": true
   },
   "0x2a2619e81d61c09aa9206535bac1b7a5921ea050": {
    "name": "@CryptoZeinab",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "CryptoZeinab"
+   "x": "CryptoZeinab",
+   "x_conflict": true
   },
   "0x2cf1e7137efae14caa26b9bd60cf16fd52d5157e": {
    "name": "@nftboi_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "nftboi_"
+   "x": "nftboi_",
+   "x_conflict": true
   },
   "0x2f32c70ecdbb198fc1b13db1db3375c3392cc063": {
    "name": "@Rahim_mahtab",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Rahim_mahtab"
+   "x": "Rahim_mahtab",
+   "x_conflict": true
   },
   "0x2f84ebb2f7f8edcf8e83a75a12f32bd8d99de3e0": {
    "name": "@redarvian",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "redarvian"
+   "x": "redarvian",
+   "x_conflict": true
   },
   "0x301168707b4740585ec80232ef020486f198cbf0": {
    "name": "@Bandman_eth",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Bandman_eth"
+   "x": "Bandman_eth",
+   "x_conflict": true
   },
   "0x31903817736130538a8805ff9dcdea22a6c7ef79": {
    "name": "@OrangeSBS",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "OrangeSBS"
+   "x": "OrangeSBS",
+   "x_conflict": true
   },
   "0x326ef9fa575a92090d8dea0b1f053afca64fb19b": {
    "name": "@Herr0x",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Herr0x"
+   "x": "Herr0x",
+   "x_conflict": true
   },
   "0x3472ccf6209925204b9cf352171ee150904fda7e": {
    "name": "@XIGUA0903",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "XIGUA0903"
+   "x": "XIGUA0903",
+   "x_conflict": true
   },
   "0x3475831749ea6c9992e638d01427453b9cc83a12": {
    "name": "@Cupseyy",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Cupseyy"
+   "x": "Cupseyy",
+   "x_conflict": true
   },
   "0x347ffc6db9acc54ac2019795173b9599e8b82bd9": {
    "name": "@pe___lu",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "pe___lu"
+   "x": "pe___lu",
+   "x_conflict": true
   },
   "0x3a8f9f86b0a23185853d70472b0068220d9b44db": {
    "name": "@zhupi_eth",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "zhupi_eth"
+   "x": "zhupi_eth",
+   "x_conflict": true
   },
   "0x3b3b9c3012759c7210e1b22e5d55912c8101cb40": {
    "name": "@jusCarl0s",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "jusCarl0s"
+   "x": "jusCarl0s",
+   "x_conflict": true
   },
   "0x3ddb3571e81e123dbc74c1f790c33576cd66403d": {
    "name": "@MarkusW1zz",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "MarkusW1zz"
+   "x": "MarkusW1zz",
+   "x_conflict": true
   },
   "0x3e6c71f64376bdcb463a2637d1b5ccaeda171ec9": {
    "name": "@cakaldevs",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "cakaldevs"
+   "x": "cakaldevs",
+   "x_conflict": true
   },
   "0x40e569e9b5458c89b4910f3ecfade0f650e92a40": {
    "name": "@277422149x",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "277422149x"
+   "x": "277422149x",
+   "x_conflict": true
   },
   "0x42756ec8febdf07248211b6aa6376a66502878da": {
    "name": "@lanyihou",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "lanyihou"
+   "x": "lanyihou",
+   "x_conflict": true
   },
   "0x42910a69effb47b8f8f2cb726fd964a654914131": {
    "name": "@J777Crypto",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "J777Crypto"
+   "x": "J777Crypto",
+   "x_conflict": true
   },
   "0x4346169036c8d32c422df027e5f46e55b489d2ee": {
    "name": "@ape6743",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ape6743"
+   "x": "ape6743",
+   "x_conflict": true
   },
   "0x44342998b9cd3b45ff992875b93c61c71dcabcf2": {
    "name": "@sneav_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "sneav_"
+   "x": "sneav_",
+   "x_conflict": true
   },
   "0x492cba689a5560e98008c4d032a139f5c0d1ff6e": {
    "name": "@Esee06257",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Esee06257"
+   "x": "Esee06257",
+   "x_conflict": true
   },
   "0x4a30496554ef401e4b687189f7df6efe4b3e0249": {
    "name": "@pheromones_sol",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "pheromones_sol"
+   "x": "pheromones_sol",
+   "x_conflict": true
   },
   "0x4b10707123c79f6e99be486dcd95d60323988d76": {
    "name": "@Giann2K",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Giann2K"
+   "x": "Giann2K",
+   "x_conflict": true
   },
   "0x4b4e140d1f131fdad6fb59c13af796fd194e4135": {
    "name": "@Uniswap",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Uniswap"
+   "x": "Uniswap",
+   "x_conflict": true
   },
   "0x4d345d690e95f64d58fe4f35fdda98ca8bdec695": {
    "name": "@jinmu9",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "jinmu9"
+   "x": "jinmu9",
+   "x_conflict": true
   },
   "0x4d68d0ebc52ce41f2ed057f926960df89b0455f9": {
    "name": "@judthedev",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "judthedev"
+   "x": "judthedev",
+   "x_conflict": true
   },
   "0x4d9644d05fe2123b4eafa8d7fd31b0ea430726f3": {
    "name": "@run1ooooo1",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "run1ooooo1"
+   "x": "run1ooooo1",
+   "x_conflict": true
   },
   "0x5250dbcf6ac11c4c2cbd8dcaf5a6d019f3268ea8": {
    "name": "@CoCoCookerr",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "CoCoCookerr"
+   "x": "CoCoCookerr",
+   "x_conflict": true
   },
   "0x53c218ee4b05f817fab41afd2c66fd92550a8888": {
    "name": "@lsp8940",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "lsp8940"
+   "x": "lsp8940",
+   "x_conflict": true
   },
   "0x55043bb22ad9d7074a2eb6f6c6732331d9fdd171": {
    "name": "@thetannernft",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "thetannernft"
+   "x": "thetannernft",
+   "x_conflict": true
   },
   "0x55906f38ff30e606908f575eefb634e7a5c22b7a": {
    "name": "@steez1x_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "steez1x_"
+   "x": "steez1x_",
+   "x_conflict": true
   },
   "0x56dae1a8e6a61979c0e8c4bf246c940b8d88cfd5": {
    "name": "@MazeCCC",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "MazeCCC"
+   "x": "MazeCCC",
+   "x_conflict": true
   },
   "0x5764864fabd0749869c333fb9fc2b0997b1ca2c3": {
    "name": "@unixpickIe",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "unixpickIe"
+   "x": "unixpickIe",
+   "x_conflict": true
   },
   "0x5906656a46bf014e0bc52df9870a10236899923f": {
    "name": "@SolTwencher",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "SolTwencher"
+   "x": "SolTwencher",
+   "x_conflict": true
   },
   "0x5b990c664ae7e759763acfec76e11c289c53be77": {
    "name": "@ambergroup_io",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ambergroup_io"
+   "x": "ambergroup_io",
+   "x_conflict": true
   },
   "0x5fa57fcaf86e137cb8185c4cb2c01ea7b5b14cfb": {
    "name": "@VeloceSVJ",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "VeloceSVJ"
+   "x": "VeloceSVJ",
+   "x_conflict": true
   },
   "0x6078ee8a93697c6d67863fcbff77141d9ab358b2": {
    "name": "@inquixit",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "inquixit"
+   "x": "inquixit",
+   "x_conflict": true
   },
   "0x609f2c912175f8cd4438c1882f291fa6a4b4c735": {
    "name": "@whashywash",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "whashywash"
+   "x": "whashywash",
+   "x_conflict": true
   },
   "0x60ae9123642f9387e4c6d4ef07ebe086bcfb0aa5": {
    "name": "@mr_petisui",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "mr_petisui"
+   "x": "mr_petisui",
+   "x_conflict": true
   },
   "0x61fd0d043d519f5a2bd05785000f30db96809429": {
    "name": "@Unipioneer",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Unipioneer"
+   "x": "Unipioneer",
+   "x_conflict": true
   },
   "0x621f2a5ef987e064e76da1eb378e7193cefc0baa": {
    "name": "@chatwithcharles",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "chatwithcharles"
+   "x": "chatwithcharles",
+   "x_conflict": true
   },
   "0x62e5332dcb286f1753d245707c91a38821bb5645": {
    "name": "@0xleet",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xleet"
+   "x": "0xleet",
+   "x_conflict": true
   },
   "0x664d6645a04be9e27a8b33088f85025f29d45dc1": {
    "name": "@TurtleTavernTV",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "TurtleTavernTV"
+   "x": "TurtleTavernTV",
+   "x_conflict": true
   },
   "0x66eb8af30805718fef8190bac5c5c66b6505c69a": {
    "name": "@Mr_Kenpachi_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Mr_Kenpachi_"
+   "x": "Mr_Kenpachi_",
+   "x_conflict": true
   },
   "0x683035da6b84ce48421534c1d3d160a8487cb9bb": {
    "name": "@technoviking46",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "technoviking46"
+   "x": "technoviking46",
+   "x_conflict": true
   },
   "0x6aa2f5b4eb4bda2a415899941446e9e00a58b928": {
    "name": "@kawencake",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "kawencake"
+   "x": "kawencake",
+   "x_conflict": true
   },
   "0x6afb06fc5a0dae2a86b96088338236d02f999999": {
    "name": "@LuxkyVN",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "LuxkyVN"
+   "x": "LuxkyVN",
+   "x_conflict": true
   },
   "0x6baaaf2082816d59c712b7061ec2209f337cecba": {
    "name": "@rxraras",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "rxraras"
+   "x": "rxraras",
+   "x_conflict": true
   },
   "0x6e6a61634dcd1ed7d8c7d1cf52c9cb83e54eea45": {
    "name": "@blockhiro",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "blockhiro"
+   "x": "blockhiro",
+   "x_conflict": true
   },
   "0x6f20ab4899817c8d9228b0978d4fdbebb8ceaeec": {
    "name": "@cladzsol",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "cladzsol"
+   "x": "cladzsol",
+   "x_conflict": true
   },
   "0x70ad955d5f34991e81dad7ce2bbe418f8d5edc07": {
    "name": "@jurbo_eth",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "jurbo_eth"
+   "x": "jurbo_eth",
+   "x_conflict": true
   },
   "0x7551fd7a88afd941ddcc0a4f1cb62cf85afdae61": {
    "name": "@kreo444",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "kreo444"
+   "x": "kreo444",
+   "x_conflict": true
   },
   "0x76ea831e2a1e4116406509f3c1f403b7bf935849": {
    "name": "@ashtoshii",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ashtoshii"
+   "x": "ashtoshii",
+   "x_conflict": true
   },
   "0x77a692e79fff538aa4c4101aefdbc8f724b4f54f": {
    "name": "@Euris_x",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Euris_x"
+   "x": "Euris_x",
+   "x_conflict": true
   },
   "0x77e5efcf4d14f6136242dc2f5618d1854761deef": {
    "name": "@shenshou888",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "shenshou888"
+   "x": "shenshou888",
+   "x_conflict": true
   },
   "0x78f210557fcd6663f162c75ed0d96108e42e4f9c": {
    "name": "@New100xGems",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "New100xGems"
+   "x": "New100xGems",
+   "x_conflict": true
   },
   "0x7b90ced5a1d1af0879a08fd570e73068786cca27": {
    "name": "@zhou1364144",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "zhou1364144"
+   "x": "zhou1364144",
+   "x_conflict": true
   },
   "0x7b9761145ef55f33dfcd514f1e20f5313da978af": {
    "name": "@Kevsznx",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Kevsznx"
+   "x": "Kevsznx",
+   "x_conflict": true
   },
   "0x7db1a182cddee6ea0483aead72efe945e11cc873": {
    "name": "@Cady_btc",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Cady_btc"
+   "x": "Cady_btc",
+   "x_conflict": true
   },
   "0x7f7cfb554704357395ed3a9fd6a7fdee4cd89457": {
    "name": "@michelMX65",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "michelMX65"
+   "x": "michelMX65",
+   "x_conflict": true
   },
   "0x8146201acece798327c6514d22aa9282f0efca2e": {
    "name": "@KYRAN7dc",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "KYRAN7dc"
+   "x": "KYRAN7dc",
+   "x_conflict": true
   },
   "0x8300f444462e55d11dba5823a1584badfc293fd9": {
    "name": "@timtung_eth",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "timtung_eth"
+   "x": "timtung_eth",
+   "x_conflict": true
   },
   "0x8670a54764108f7b215cc64eed143edccc8cdc90": {
    "name": "@Megga",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Megga"
+   "x": "Megga",
+   "x_conflict": true
   },
   "0x86b9ad8fc7bec77c85913b0f80f69c2cfa129c3e": {
    "name": "@onlyzhynx",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "onlyzhynx"
+   "x": "onlyzhynx",
+   "x_conflict": true
   },
   "0x877af245c61289b24f0c619a4346cdbc68f1aaac": {
    "name": "@hzjxhcyy",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "hzjxhcyy"
+   "x": "hzjxhcyy",
+   "x_conflict": true
   },
   "0x8888888888e9997e64793849389a8faf5e8e547c": {
    "name": "@jaggedsoft",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "jaggedsoft"
+   "x": "jaggedsoft",
+   "x_conflict": true
   },
   "0x88bf5a2e82510847e5dcbf33f44a9f611f1c1df5": {
    "name": "@GMX_Intern",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "GMX_Intern"
+   "x": "GMX_Intern",
+   "x_conflict": true
   },
   "0x8ae497630ad9dd3e7f5dafa2bb4f3ff19f64d379": {
    "name": "@Avin_lucia",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Avin_lucia"
+   "x": "Avin_lucia",
+   "x_conflict": true
   },
   "0x8c154b4b8f5d45f2795e9346d7ddb33929be0a95": {
    "name": "@cyrotrading",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "cyrotrading"
+   "x": "cyrotrading",
+   "x_conflict": true
   },
   "0x8d2e74c749fdd371dd04781b8fe9310da29ac31a": {
    "name": "@Bluntz_Capital",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Bluntz_Capital"
+   "x": "Bluntz_Capital",
+   "x_conflict": true
   },
   "0x8d5624fa29526c879a1ca7560961e4c5a08089ae": {
    "name": "@0xAA_Science",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xAA_Science"
+   "x": "0xAA_Science",
+   "x_conflict": true
   },
   "0x8d7bbfa0506ea95c73d864310818acc3e5fa05d9": {
    "name": "@Oxxyy13",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Oxxyy13"
+   "x": "Oxxyy13",
+   "x_conflict": true
   },
   "0x9060bcbac00321f1cb70617db186d63cde514926": {
    "name": "@CryptoG00F",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "CryptoG00F"
+   "x": "CryptoG00F",
+   "x_conflict": true
   },
   "0x91e9e0f8675c1517551f2e7fb54c20159396a146": {
    "name": "@wichyszn",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "wichyszn"
+   "x": "wichyszn",
+   "x_conflict": true
   },
   "0x92662d5f5d0dbc25cce7ceba5a4160084c9e05ab": {
    "name": "@mstzera",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "mstzera"
+   "x": "mstzera",
+   "x_conflict": true
   },
   "0x933aeeb11ac3c3a72bc3ff5a3aa571ac23372b48": {
    "name": "@JasonNguye31789",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "JasonNguye31789"
+   "x": "JasonNguye31789",
+   "x_conflict": true
   },
   "0x93585d7f5f15d8bc67f41a12d2b3e3966a1ee6a0": {
    "name": "@xlxl114",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "xlxl114"
+   "x": "xlxl114",
+   "x_conflict": true
   },
   "0x94878116844aec4c73a08f295a54c76744402742": {
    "name": "@RAF_BTC",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "RAF_BTC"
+   "x": "RAF_BTC",
+   "x_conflict": true
   },
   "0x95688dde7519d36016e60c236aaf31894f6d08c4": {
    "name": "@Lxymmmmm",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Lxymmmmm"
+   "x": "Lxymmmmm",
+   "x_conflict": true
   },
   "0x9631335762e3603d2a7507d84838aa3236d52745": {
    "name": "@Saint_pablo123",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Saint_pablo123"
+   "x": "Saint_pablo123",
+   "x_conflict": true
   },
   "0x9782d08d2d8657b154e00e8d43bc0150ee5febaa": {
    "name": "@100xDan",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "100xDan"
+   "x": "100xDan",
+   "x_conflict": true
   },
   "0x9897b49174dc565730ef1d116d80081574ccb3ec": {
    "name": "@Gs97z",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Gs97z"
+   "x": "Gs97z",
+   "x_conflict": true
   },
   "0x996a8f421435cf1f4e20f593facc87b18f1b95bd": {
    "name": "@poopshakes",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "poopshakes"
+   "x": "poopshakes",
+   "x_conflict": true
   },
   "0x9ba457f105bffac35d67138fecb32a86428c02a2": {
    "name": "@0xFelix",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xFelix"
+   "x": "0xFelix",
+   "x_conflict": true
   },
   "0x9c5083dd4838e120dbeac44c052179692aa5dac5": {
    "name": "@Tetranode",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Tetranode"
+   "x": "Tetranode",
+   "x_conflict": true
   },
   "0x9d7451dd30a9d264865acf3ca8c4741d97761d9f": {
    "name": "@Drumttop",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Drumttop"
+   "x": "Drumttop",
+   "x_conflict": true
   },
   "0x9dbfded199ee3a6b291c223e65f97d387156aada": {
    "name": "@Zemrics",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Zemrics"
+   "x": "Zemrics",
+   "x_conflict": true
   },
   "0x9f6ae0370d74f0e591c64cec4a8ae0d627817014": {
    "name": "@Ars0nic",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Ars0nic"
+   "x": "Ars0nic",
+   "x_conflict": true
   },
   "0x9fd239e40d5a5735b1b18a5da74fb4f9ab571ced": {
    "name": "@tetebmg",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "tetebmg"
+   "x": "tetebmg",
+   "x_conflict": true
   },
   "0xa05ec35f7d1eba823cff2ed26aeaed419683742f": {
    "name": "@0xyukaz",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xyukaz"
+   "x": "0xyukaz",
+   "x_conflict": true
   },
   "0xa11e739adf417ffe34e1eba75df2031499192b66": {
    "name": "@yztc123",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "yztc123"
+   "x": "yztc123",
+   "x_conflict": true
   },
   "0xa3d3fed954a332992cfec8c606eeb2a25fbb3864": {
    "name": "@bagufps",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "bagufps"
+   "x": "bagufps",
+   "x_conflict": true
   },
   "0xa6c88571d0028f47adba983a7240bf12af94633e": {
    "name": "@dtrain22k",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "dtrain22k"
+   "x": "dtrain22k",
+   "x_conflict": true
   },
   "0xa7dcc417c63f24f9073b667a5d7149bd38463d0f": {
    "name": "@zepump",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "zepump"
+   "x": "zepump",
+   "x_conflict": true
   },
   "0xa906e7b6c916af437fb81ca312390e9850c3e27a": {
    "name": "@shibaxiaogege",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "shibaxiaogege"
+   "x": "shibaxiaogege",
+   "x_conflict": true
   },
   "0xa946c445bf7f1675309fcd3a968da4da4e3a107a": {
    "name": "@Cryptomed6",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Cryptomed6"
+   "x": "Cryptomed6",
+   "x_conflict": true
   },
   "0xa9f7d92a72428c55f093f6051c43db29f38bf34b": {
    "name": "@SKXonSol",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "SKXonSol"
+   "x": "SKXonSol",
+   "x_conflict": true
   },
   "0xaa3b0775a852986c365c2016ec192b1477af2898": {
    "name": "@stan200106",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "stan200106"
+   "x": "stan200106",
+   "x_conflict": true
   },
   "0xac2722ab173142eaf33adeb78e79cb31db0e2a96": {
    "name": "@JGrerg_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "JGrerg_"
+   "x": "JGrerg_",
+   "x_conflict": true
   },
   "0xac954808387bdbcfe9e1ee18b94d8e02d95ad51b": {
    "name": "@jenniekusu",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "jenniekusu"
+   "x": "jenniekusu",
+   "x_conflict": true
   },
   "0xacd0cea3607626a6198bbb50718eb84ee7e5799d": {
    "name": "@0xblackchip",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xblackchip"
+   "x": "0xblackchip",
+   "x_conflict": true
   },
   "0xadb7d3336a81b54cc650d3edcd0af3906f3bcbe5": {
    "name": "@0xadb7",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xadb7"
+   "x": "0xadb7",
+   "x_conflict": true
   },
   "0xb1c141b6266fb7ce459943d857fa61a00e5714bc": {
    "name": "@Salman_Miqdad",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Salman_Miqdad"
+   "x": "Salman_Miqdad",
+   "x_conflict": true
   },
   "0xb1e65ccc2f5d68e447bf321ba9bfba35a94f5ad5": {
    "name": "@dong7da7",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "dong7da7"
+   "x": "dong7da7",
+   "x_conflict": true
   },
   "0xb2d1af0746c410e146272e804b1741f07f83b851": {
    "name": "@ZephyrTrading",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ZephyrTrading"
+   "x": "ZephyrTrading",
+   "x_conflict": true
   },
   "0xb5d26158102181dc4ceee75f260a60debd752e45": {
    "name": "@Ace_da_Book",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Ace_da_Book"
+   "x": "Ace_da_Book",
+   "x_conflict": true
   },
   "0xb78a7eb0704ab9b026e11dedad36df72f6d1178d": {
    "name": "@itsmqcca",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "itsmqcca"
+   "x": "itsmqcca",
+   "x_conflict": true
   },
   "0xb7d517fab6efec8c689d3c9db5cff50d3f947ba1": {
    "name": "@0xyukaz",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xyukaz"
+   "x": "0xyukaz",
+   "x_conflict": true
   },
   "0xb811aa5f447916e680e8c38ffc1128f4db465500": {
    "name": "@yooo_pumpfun",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "yooo_pumpfun"
+   "x": "yooo_pumpfun",
+   "x_conflict": true
   },
   "0xb90d9ea599c2634069ae4d5eecc5ab7234a81a05": {
    "name": "@cryptomoon520",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "cryptomoon520"
+   "x": "cryptomoon520",
+   "x_conflict": true
   },
   "0xbc2255fb3746403cf1858a69cdabd2e9be77c538": {
    "name": "@vibed333",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "vibed333"
+   "x": "vibed333",
+   "x_conflict": true
   },
   "0xbdb0dd845e95d2e24b77d9bef54d4df82baf8335": {
    "name": "@pixelord",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "pixelord"
+   "x": "pixelord",
+   "x_conflict": true
   },
   "0xbe053615f67b836a4fded86076faf425b4c6a8f2": {
    "name": "@Mat1t_x",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Mat1t_x"
+   "x": "Mat1t_x",
+   "x_conflict": true
   },
   "0xc2c6acd377458010713e733e1b21dd6f670d091c": {
    "name": "@Ed_x0101",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Ed_x0101"
+   "x": "Ed_x0101",
+   "x_conflict": true
   },
   "0xc381c44f2a5db043269f6859e21be927372548c3": {
    "name": "@ThinTallTosin",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ThinTallTosin"
+   "x": "ThinTallTosin",
+   "x_conflict": true
   },
   "0xc58686fedf9504576fc06199ebca62cee00750b3": {
    "name": "@sweet919268",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "sweet919268"
+   "x": "sweet919268",
+   "x_conflict": true
   },
   "0xc65354826df5e164692abde035dd3769ca9e8b9f": {
    "name": "@0xmarcolino",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xmarcolino"
+   "x": "0xmarcolino",
+   "x_conflict": true
   },
   "0xc6792e3b1277d37cb2108e0de9c4603c211cc7e2": {
    "name": "@Amool16448184",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Amool16448184"
+   "x": "Amool16448184",
+   "x_conflict": true
   },
   "0xc77b5585ca3cd4beec6051cca89921a2f01d9a5c": {
    "name": "@bai_su72011",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "bai_su72011"
+   "x": "bai_su72011",
+   "x_conflict": true
   },
   "0xc93765534c4d4f1c20608677182be7c55e43afd0": {
    "name": "@Stackeronsol",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Stackeronsol"
+   "x": "Stackeronsol",
+   "x_conflict": true
   },
   "0xc9d46b11f3b1bbc85ebedfffca09707f8f28dca1": {
    "name": "@Smol_crypto_pp",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Smol_crypto_pp"
+   "x": "Smol_crypto_pp",
+   "x_conflict": true
   },
   "0xca1a2fb7f3179d887504966b25d1606978adcd42": {
    "name": "@Aomake70",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Aomake70"
+   "x": "Aomake70",
+   "x_conflict": true
   },
   "0xcaecd42e2c19d0ebac5958bed8316107c7001224": {
    "name": "@waytoodrill",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "waytoodrill"
+   "x": "waytoodrill",
+   "x_conflict": true
   },
   "0xcbdcb14d4963a045d6517a89aab07a097230c9bc": {
    "name": "@verygud_o",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "verygud_o"
+   "x": "verygud_o",
+   "x_conflict": true
   },
   "0xcc291dcd83bd9f2600cca4d65ae3b724eaf4f5a9": {
    "name": "@CryptoCharming",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "CryptoCharming"
+   "x": "CryptoCharming",
+   "x_conflict": true
   },
   "0xcc5ecdfc4f4b81e3363e6417031a4e3e3186a2f5": {
    "name": "@collet9094",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "collet9094"
+   "x": "collet9094",
+   "x_conflict": true
   },
   "0xd1d0675d425d33d429c1de0ac10a9b3b30b34168": {
    "name": "@greenhandwe",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "greenhandwe"
+   "x": "greenhandwe",
+   "x_conflict": true
   },
   "0xd41feaa24dede516a501862cf1f376defb811772": {
    "name": "@fnmilito",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "fnmilito"
+   "x": "fnmilito",
+   "x_conflict": true
   },
   "0xd4229d8166dbaa45689589d59fa968abc840b20f": {
    "name": "@ottabag",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ottabag"
+   "x": "ottabag",
+   "x_conflict": true
   },
   "0xd4e297af7e7a60889a4c44e408e5bc73432165f3": {
    "name": "@coasty_sol",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "coasty_sol"
+   "x": "coasty_sol",
+   "x_conflict": true
   },
   "0xd611a3350321558bda7d15da88e4b74eaf4c8986": {
    "name": "@OGDfarmer",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "OGDfarmer"
+   "x": "OGDfarmer",
+   "x_conflict": true
   },
   "0xd7b83366b001dbdb90de5108f0f291e24d475d31": {
    "name": "@codus_trencher",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "codus_trencher"
+   "x": "codus_trencher",
+   "x_conflict": true
   },
   "0xda8cf65ce026b961ee178ca1596639d1e7adb99a": {
    "name": "@Favezy_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Favezy_"
+   "x": "Favezy_",
+   "x_conflict": true
   },
   "0xdbedf43480d45c1917a1ef0849a8bf7607bfc81e": {
    "name": "@iceywashed",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "iceywashed"
+   "x": "iceywashed",
+   "x_conflict": true
   },
   "0xdd6f338b91f40e5a02c468b7cb49cccc569a3134": {
    "name": "@Stigman__",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Stigman__"
+   "x": "Stigman__",
+   "x_conflict": true
   },
   "0xddd5bdfd0aee7af6b2a2f54a056facf63f892751": {
    "name": "@Killahh24",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Killahh24"
+   "x": "Killahh24",
+   "x_conflict": true
   },
   "0xdf1e3abb229d42a182ad61ce8a63355a8a3eb0f8": {
    "name": "@MarkyMarkETH",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "MarkyMarkETH"
+   "x": "MarkyMarkETH",
+   "x_conflict": true
   },
   "0xe0101284a5a7a0cd535bbc95f9f2a9ba77971e5b": {
    "name": "@Dwen_Exchange",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Dwen_Exchange"
+   "x": "Dwen_Exchange",
+   "x_conflict": true
   },
   "0xe35e3cb17a2a39ef82ff6ed564642782d58dc64b": {
    "name": "@gigiz_eth",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "gigiz_eth"
+   "x": "gigiz_eth",
+   "x_conflict": true
   },
   "0xe465f5fe06e79bdc4e0add8546eca2368d1a0fd0": {
    "name": "@stinkypoofart_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "stinkypoofart_"
+   "x": "stinkypoofart_",
+   "x_conflict": true
   },
   "0xe475cd3f0d0a77ec581bb6540abef60b0f3f0d57": {
    "name": "@Brian_Degens",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Brian_Degens"
+   "x": "Brian_Degens",
+   "x_conflict": true
   },
   "0xe5ec32301cfc03f2bd9a92d227ec56826fbcfbdd": {
    "name": "@outissmm",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "outissmm"
+   "x": "outissmm",
+   "x_conflict": true
   },
   "0xeb9c1a1443f3d4a2c5a62bcffd62ced486d4f7a3": {
    "name": "@Amool16448184",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Amool16448184"
+   "x": "Amool16448184",
+   "x_conflict": true
   },
   "0xec87a7e48c23d1ce6b5c169cec41329429d7fa71": {
    "name": "@req1017",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "req1017"
+   "x": "req1017",
+   "x_conflict": true
   },
   "0xec8b6b6ee8dc5c6631747bdc6b1400aff08829fd": {
    "name": "@0xLuo",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xLuo"
+   "x": "0xLuo",
+   "x_conflict": true
   },
   "0xecb7208b4eba833001e0766f036fe5e8e7657039": {
    "name": "@MageArez",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "MageArez"
+   "x": "MageArez",
+   "x_conflict": true
   },
   "0xecf04a64c7feb06aaf1ecfc50cac8830306f31a2": {
    "name": "@l_green99",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "l_green99"
+   "x": "l_green99",
+   "x_conflict": true
   },
   "0xedc7c552077bbe04f61a52c9d17bce85154f1fc4": {
    "name": "@Corey_Ape",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Corey_Ape"
+   "x": "Corey_Ape",
+   "x_conflict": true
   },
   "0xeeefff8ce2710fa490e0fcb794235e873c252d2e": {
    "name": "@shenron__1",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "shenron__1"
+   "x": "shenron__1",
+   "x_conflict": true
   },
   "0xf10ba5ab6d29818d387b5af3faf8e10502754988": {
    "name": "@snackyfn",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "snackyfn"
+   "x": "snackyfn",
+   "x_conflict": true
   },
   "0xf38ce55fe4e517e77e1056a54e64f22d43d88c3a": {
    "name": "@0xossalivan",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xossalivan"
+   "x": "0xossalivan",
+   "x_conflict": true
   },
   "0xf41e3186861afb9840ea3c87f00366440a648320": {
    "name": "@NachSOL",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "NachSOL"
+   "x": "NachSOL",
+   "x_conflict": true
   },
   "0xf50f0c707df28cbe8dfa22f127c57a2aab1ea3db": {
    "name": "@ShrekCrypto_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ShrekCrypto_"
+   "x": "ShrekCrypto_",
+   "x_conflict": true
   },
   "0xf54e4edfc788a6362a2c3354682be473036249cd": {
    "name": "@0xaerzy",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xaerzy"
+   "x": "0xaerzy",
+   "x_conflict": true
   },
   "0xf78310ed6641e6c4e221e9d676440ac8645d3afe": {
    "name": "@izebel_eth",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "izebel_eth"
+   "x": "izebel_eth",
+   "x_conflict": true
   },
   "0xf78b066050e00fdb9b980e265aa9f317ef4b947c": {
    "name": "@kurtzxx",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "kurtzxx"
+   "x": "kurtzxx",
+   "x_conflict": true
   },
   "0xf8456bca2358a904d95b498f3b3c26ecaffb6553": {
    "name": "@izukki",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "izukki"
+   "x": "izukki",
+   "x_conflict": true
   },
   "0xf8a171376339833f8b3544cca226ac3c1954c567": {
    "name": "@j4drasol",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "j4drasol"
+   "x": "j4drasol",
+   "x_conflict": true
   },
   "0xfc9f1fe24861614a3c8e8a5b1cad118d085eae75": {
    "name": "@earlTrades",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "earlTrades"
+   "x": "earlTrades",
+   "x_conflict": true
   },
   "0xfe277aa25a4f65a182c0ec135854794eb7131e79": {
    "name": "@vali_eth",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "vali_eth"
+   "x": "vali_eth",
+   "x_conflict": true
   },
   "0x1043e290260b7d9e00958e75f4a2e65b328a2a39": {
    "name": "@huangqi91285549",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "huangqi91285549"
+   "x": "huangqi91285549",
+   "x_conflict": true
   },
   "0x218d0bc869a0dbe8978a985de25d5c5e71f084ac": {
    "name": "@bureen__",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "bureen__"
+   "x": "bureen__",
+   "x_conflict": true
   },
   "0x326916a5afe90db50583148f232a1ebbdfaa7680": {
    "name": "@Moguood",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Moguood"
+   "x": "Moguood",
+   "x_conflict": true
   },
   "0x3875cf68c36c223bbe9046eb60dd97376d90d498": {
    "name": "@Swipzz06",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Swipzz06"
+   "x": "Swipzz06",
+   "x_conflict": true
   },
   "0x396bade845dc6418848bb3f0a0b960ad8771f603": {
    "name": "@Samperxir",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Samperxir"
+   "x": "Samperxir",
+   "x_conflict": true
   },
   "0x3f3adc5e0e6177e8cadbc2d9985cbddf3590c5fd": {
    "name": "@Punk2587",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Punk2587"
+   "x": "Punk2587",
+   "x_conflict": true
   },
   "0x4f667c7f5da1b0bafa914441518bb664e59921ee": {
    "name": "@0xwill7998",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xwill7998"
+   "x": "0xwill7998",
+   "x_conflict": true
   },
   "0x4f79dd35aa49a87e55b7af3ed0bb9d3c09e0febc": {
    "name": "@RDR2AM_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "RDR2AM_"
+   "x": "RDR2AM_",
+   "x_conflict": true
   },
   "0x5496ae68ae0ea3643c5590ac660536713184cec5": {
    "name": "@DEGEN_JESS",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "DEGEN_JESS"
+   "x": "DEGEN_JESS",
+   "x_conflict": true
   },
   "0x677f868548e788078ea96951d9392d5b0dbde392": {
    "name": "@mthego4t",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "mthego4t"
+   "x": "mthego4t",
+   "x_conflict": true
   },
   "0x68866e27c63462ad1cca4b494ba7af40b7963ac7": {
    "name": "@PCProtocol_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "PCProtocol_"
+   "x": "PCProtocol_",
+   "x_conflict": true
   },
   "0x70907e83989f3dbc5b9ec85aa4a4fe83ff127d2c": {
    "name": "@just_t2p",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "just_t2p"
+   "x": "just_t2p",
+   "x_conflict": true
   },
   "0x790a6b34c2f0cb4aab0098ecc448a3eb9ab3138c": {
    "name": "@jacksneth",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "jacksneth"
+   "x": "jacksneth",
+   "x_conflict": true
   },
   "0x7a0dcaeb47c660d983be32c00a1b9c9164557d87": {
    "name": "@samsrepx",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "samsrepx"
+   "x": "samsrepx",
+   "x_conflict": true
   },
   "0x7a9fa555dddc3ef62f3c2774b50cf56bafbac66d": {
    "name": "@_zeldr1ss",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "_zeldr1ss"
+   "x": "_zeldr1ss",
+   "x_conflict": true
   },
   "0x8026bd2f4968d205eb82d71833fab2ef1fc50c62": {
    "name": "@Skro_Trade",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Skro_Trade"
+   "x": "Skro_Trade",
+   "x_conflict": true
   },
   "0x8a2a3d6fcefd9427ac46b07c91d21207aaa0e168": {
    "name": "@Sawrex69",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Sawrex69"
+   "x": "Sawrex69",
+   "x_conflict": true
   },
   "0x8b59a9d2efe3c2036d38cb4df25e26a88175b68c": {
    "name": "@Wifgogg",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Wifgogg"
+   "x": "Wifgogg",
+   "x_conflict": true
   },
   "0x90924c7d483cb1e1060c8de34acdf72aa54c738b": {
    "name": "@KickZillaOG",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "KickZillaOG"
+   "x": "KickZillaOG",
+   "x_conflict": true
   },
   "0x98feae3174b130f06cad43e7d5d9d3e146f4dd14": {
    "name": "@cokeainex",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "cokeainex"
+   "x": "cokeainex",
+   "x_conflict": true
   },
   "0xa0ed47a5dc1017db87d3807ecd95750b3ea0ff85": {
    "name": "@therisenapple",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "therisenapple"
+   "x": "therisenapple",
+   "x_conflict": true
   },
   "0xa25a25fa63031014e45bd3819bae3d099c89bdab": {
    "name": "@ANiu77777",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ANiu77777"
+   "x": "ANiu77777",
+   "x_conflict": true
   },
   "0xa450f6dbf9737495c9b723ec11a269f9cdf700bb": {
    "name": "@Cryptt_001",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Cryptt_001"
+   "x": "Cryptt_001",
+   "x_conflict": true
   },
   "0xa99416605785b6ccea16ef2730d7f83f73cf1587": {
    "name": "@newcoin80",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "newcoin80"
+   "x": "newcoin80",
+   "x_conflict": true
   },
   "0xac1cf197766bbf43c6dbe884629b4bc29e245475": {
    "name": "@McTriii",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "McTriii"
+   "x": "McTriii",
+   "x_conflict": true
   },
   "0xb3136d98619479d2a90ca87de23d47140172fd0a": {
    "name": "@kingofgoldendog",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "kingofgoldendog"
+   "x": "kingofgoldendog",
+   "x_conflict": true
   },
   "0xb5de07c35473758a1055ead6e3fd77ee1289ca4e": {
    "name": "@ErIlansk",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "ErIlansk"
+   "x": "ErIlansk",
+   "x_conflict": true
   },
   "0xbf530f1bfb23bf332d1f1e41be026a5895fcced4": {
    "name": "@i0ybz0",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "i0ybz0"
+   "x": "i0ybz0",
+   "x_conflict": true
   },
   "0xc5606cde16fb8c39cc68d1d97700883ae951ff56": {
    "name": "@0xAdamsCrypto",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "0xAdamsCrypto"
+   "x": "0xAdamsCrypto",
+   "x_conflict": true
   },
   "0xc7f1dce49db860c865ce34e4eb65dbef625919ef": {
    "name": "@Prinsesacrypto",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Prinsesacrypto"
+   "x": "Prinsesacrypto",
+   "x_conflict": true
   },
   "0xcb9579b296f4008106b468e1093fd0a76952668c": {
    "name": "@needamiracle777",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "needamiracle777"
+   "x": "needamiracle777",
+   "x_conflict": true
   },
   "0xd4f681b21f3a783f4037c511e93fa235fd29fa04": {
    "name": "@cockper_",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "cockper_"
+   "x": "cockper_",
+   "x_conflict": true
   },
   "0xd56e05dc1c8daba9fd9f13610c4fa0624f96f93e": {
    "name": "@Tornado986",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Tornado986"
+   "x": "Tornado986",
+   "x_conflict": true
   },
   "0xd96304e38e6c71b7fb82d1ce47f6e4a804149f6a": {
    "name": "@samsrepx",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "samsrepx"
+   "x": "samsrepx",
+   "x_conflict": true
   },
   "0xdf2ff163cfc1811bcc3ac468a309dd7650a7ad54": {
    "name": "@Dmz0007",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Dmz0007"
+   "x": "Dmz0007",
+   "x_conflict": true
   },
   "0xdf48383ed60bd6ea38aaf16051eccd83d07c23af": {
    "name": "@rbh100x",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "rbh100x"
+   "x": "rbh100x",
+   "x_conflict": true
   },
   "0xdfbbd4d45c1cac8e437d74dcbb71545839c83951": {
    "name": "@AmanSidhu212231",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "AmanSidhu212231"
+   "x": "AmanSidhu212231",
+   "x_conflict": true
   },
   "0xe1519765473309e6313fce2d84c91fa77b27aac3": {
    "name": "@speculumina",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "speculumina"
+   "x": "speculumina",
+   "x_conflict": true
   },
   "0xe28071ed8bd95d4416b1750575e30136eb1f4516": {
    "name": "@sangge2232",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "sangge2232"
+   "x": "sangge2232",
+   "x_conflict": true
   },
   "0xe8e95cfb86e863ff0ac920c6615b44b6d1ce585d": {
    "name": "@MYBagsFULL",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "MYBagsFULL"
+   "x": "MYBagsFULL",
+   "x_conflict": true
   },
   "0xf5f1ff947945bf5c4e8c61c1547df624cddeb04c": {
    "name": "@XKL13452",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "XKL13452"
+   "x": "XKL13452",
+   "x_conflict": true
   },
   "0xfac39a19d60cb0b36f8aa66f00cc96a5c4e484f2": {
    "name": "@Athur128654",
    "type": "OTHER",
    "source": "x:multi",
-   "x": "Athur128654"
+   "x": "Athur128654",
+   "x_conflict": true
+  },
+  "0x67c87c11250a3dd2c459d896d862b0c599db4248": {
+   "name": "@MeltedMindz",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "MeltedMindz"
+  },
+  "0x7874dc22eaf73be21f4dd8b73d08c2fa3fa83088": {
+   "name": "@gokunocool",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "gokunocool"
+  },
+  "0xaa35e37e55fafc3f1a2dc488daa283ed870f23f4": {
+   "name": "@0xTheEye",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "0xTheEye"
   }
  },
  "_updated": "2026-10-04T18:00:56.566534+00:00"

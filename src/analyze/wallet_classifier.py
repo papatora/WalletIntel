@@ -94,10 +94,11 @@ CONF = {
 
 # taxonomy priority 1→14 (prefix match covers CLUSTER_MEMBER:<id>)
 PRIMARY_PRIORITY = (
-    "POOL_CONTRACT", "NOISE", "ACTIVE_MIN", "DORMANT",
     "DEV_SERIAL_RUGGER", "DEV", "BUNDLER_SUSPECT", "SNIPER", "INSIDER",
     "PHISHING_SUSPECT", "CT_ATTRIBUTED", "CLUSTER_MEMBER", "AIRDROP_FARMER",
-    "SMART_TRACKER", "FRESH_GOOD", "FRESH_BAD", "MEV_BOT",
+    "SMART_TRACKER", "WHALE", "WHALE_SUS", "FRESH_GOOD", "FRESH_BAD", "MEV_BOT",
+    # bucket sisa (S-51c): kalah dari semua identitas kuat di atas
+    "POOL_CONTRACT", "NOISE", "ACTIVE_MIN", "DORMANT",
 )
 
 

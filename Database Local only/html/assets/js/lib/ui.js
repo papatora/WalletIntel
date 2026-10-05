@@ -25,6 +25,8 @@ export const LABEL = {
   WHALE_SUS:       { c: 'var(--c-whalesus)', icon: 'eye', desc: 'High est. PnL but linked to airdrop/insider/cluster - wealth may come from allocations.' },
   POOL_CONTRACT:   { c: 'var(--c-cluster)', icon: 'bundle', desc: 'Smart contract (pool/arb/router template) - excluded from trader rankings, on-chain eth_getCode verified.' },
   NOISE:           { c: 'var(--c-generalist)', icon: 'wallet', desc: 'Exactly 1 swap and no on-chain activity since - one-shot noise, not a real trader.' },
+  ACTIVE_MIN:      { c: '#3ddc97', icon: 'tx', desc: 'Trader aktif kecil: ≥3 swap dalam 30 hari terakhir, belum lolos klasifikasi khusus (insider/sniper/dst).' },
+  DORMANT:         { c: '#7a8bb5', icon: 'clock', desc: '1–2 swap lalu tidur ≥30 hari — tidak ada aktivitas on-chain terkini.' },
 };
 export const labelMeta = n => LABEL[n?.startsWith('CLUSTER_MEMBER') ? 'CLUSTER' : n] || LABEL.GENERALIST;
 export const pretty = n => n?.startsWith('CLUSTER_MEMBER:') ? 'CLUSTER ' + n.split('_').pop() : String(n).replace(/_/g, ' ');

@@ -295,6 +295,19 @@ def build() -> dict:
                      [round(v["confidence"].get(l, 0), 2) for l in v["labels"]] + [0.8] * len(dl),
                      name])
 
+    # S-51d: WHALE / WHALE_SUS derived menang sbg primary type di atas
+    # bucket ACTIVE_MIN/DORMANT (podium jujur menampilkan identitas kuat).
+    whale_ti = t_i.get("WHALE"); whale_sus_ti = t_i.get("WHALE_SUS")
+    if whale_ti is not None or whale_sus_ti is not None:
+        for wi, labs in derived.items():
+            if not ("WHALE" in labs or "WHALE_SUS" in labs):
+                continue
+            want = whale_sus_ti if "WHALE_SUS" in labs else whale_ti
+            cur = rows[wi][1]
+            cur_name = types[cur]
+            if cur_name in ("ACTIVE_MIN", "DORMANT", "GENERALIST"):
+                rows[wi][1] = want
+
     fc = _load("results/funder_clusters.json")
     if fc.get("cluster_id") in clusters:
         clusters[fc["cluster_id"]].update(funded_wallets=fc.get("funded_wallets"),

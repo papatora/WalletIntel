@@ -141,7 +141,9 @@ export function render(root) {
     if (id === 'minswaps') { st.minSwaps = +value; st.page = 0; return draw(); }
     st.page = 0; draw();
   });
-  root.querySelector('#lb-hidden')?.addEventListener('change', ev => {
-    st.showHidden = ev.target.checked; st.page = 0; draw();
+  root.addEventListener('change', ev => {
+    if (ev.target && ev.target.id === 'lb-hidden') {
+      st.showHidden = ev.target.checked; st.page = 0; draw();
+    }
   });
 }

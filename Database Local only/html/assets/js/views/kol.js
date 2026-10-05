@@ -20,12 +20,22 @@ const COLS = [
   { k: 'r', label: '#' },
   { k: 'a', label: 'Wallet' },
   { k: 'x', label: 'X (Twitter)' },
+  { k: 'net', label: 'Net flow est.', rt: 1, sort: 1 },
+  { k: 'swaps', label: 'Swaps', rt: 1, sort: 1 },
+  { k: 'pnl', label: 'PnL 30d (GMGN)', rt: 1, sort: 1 },
+  { k: 'win', label: 'Winrate 30d', rt: 1, sort: 1 },
   { k: 'tags', label: 'Tags' },
   { k: 'fans', label: 'Followers', rt: 1, sort: 1 },
-  { k: 'pnl', label: 'Realized 30d (GMGN)', rt: 1, sort: 1 },
-  { k: 'win', label: 'Winrate 30d', rt: 1, sort: 1 },
   { k: 'src', label: 'Sumber' },
 ];
+
+// S-51b: net flow + swaps dihitung dari dataset lokal — jangan bergantung
+// pada field GMGN rank yang hanya ada utk 352 wallet rank.
+function addrIndex(a) { return (S.addrIndex || new Map()).get(a); }
+function localStats(a) {
+  const i = addrIndex(a);
+  return i == null ? null : S.statsAll.get(i) || null;
+}
 
 function rows() {
   const soc = S.social || {};
@@ -51,6 +61,9 @@ function rows() {
     if (key === 'win') {
       const v = parseFloat(e.rank?.winrate_30d); return isNaN(v) ? -1e18 : v;
     }
+    const ls = localStats(a);
+    if (key === 'net') return ls?.net ?? -1e18;
+    if (key === 'swaps') return ls?.swaps ?? -1e18;
     return 0;
   };
   list.sort((a, b) => (val(b) - val(a)) * -st.dir);

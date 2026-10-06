@@ -1,0 +1,29 @@
+{
+ "done": [
+  "robinhood|smart_degen|1d",
+  "robinhood|smart_degen|7d",
+  "robinhood|smart_degen|30d",
+  "robinhood|pump_smart|1d",
+  "robinhood|pump_smart|7d",
+  "robinhood|pump_smart|30d",
+  "robinhood|kol|1d",
+  "robinhood|kol|7d",
+  "robinhood|kol|30d",
+  "robinhood|dev|1d",
+  "robinhood|dev|7d",
+  "robinhood|dev|30d",
+  "robinhood|renowned|1d",
+  "robinhood|renowned|7d",
+  "robinhood|renowned|30d",
+  "robinhood|sniper|1d",
+  "robinhood|sniper|7d",
+  "robinhood|sniper|30d",
+  "robinhood|fresh_wallet|1d",
+  "robinhood|fresh_wallet|7d",
+  "robinhood|fresh_wallet|30d",
+  "robinhood|rat_trader|1d",
+  "robinhood|rat_trader|7d",
+  "robinhood|rat_trader|30d"
+ ],
+ "updated_at": "2026-10-06T09:51:02.256590+00:00"
+}

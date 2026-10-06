@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-05T18:13:29.509281+00:00",
+ "updated_at": "2026-10-06T10:13:07.473239+00:00",
  "labels": [
   {
    "address": "0x023ab8e20a4682d315daef4c91db96bd77934d66",
@@ -87339,12 +87339,6 @@
   },
   {
    "address": "0x6a25aa31964f7f6daea0e46c650b241682b445ea",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x6a27e639dcca1d5e966c3aa41153f2c80583d09b",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -202703,271 +202697,2383 @@
    "address": "0xed5f39078b34b071fb5f790d6fdb28cd9784145a",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 5100574, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 5100574, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x2006d123e3578e4b40c072c1fc18ae099db1d818",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 16233903, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 16233903, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x09495c7cf7eef7937fdccefed30ba9a789a3d24f",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 29402083, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 29402083, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x9a164ce06cb00e58b0bfe7b57190da004f8e3edb",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 39331522, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 39331522, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x827886c8c3e0d890fc643d8edc9ac8ae5914e41f",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 29400207, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 29400207, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xb73e812a1dc7a368d49f95c1faf1adf6153d1b3c",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 22084642, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 22084642, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x69f3784a8f48f25171d3799f40d8596737c17907",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 22153250, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 22153250, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x6725c61b12cc91fbd46c9f8cd7c05105d2af5a0d",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 22240493, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 22240493, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x06b064b93aad66bb8c2149eff7e261e46003f090",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 22267151, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 22267151, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xb61c2b15663722c1ed1315bfdf53f3d8ecc8185f",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 22301333, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 22301333, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x41dcbd12cd9463d3777541f478138ff54d55869f",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 22561895, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 22561895, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xab607e7a288b69c0811480ded5a77e03dd87f3c3",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 15738405, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 15738405, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xbc4bcf988d3eee5a18df91a9be8de513f99336ea",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 33206392, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 33206392, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x9dada2a1b968a5ee05c8fc64545d8f79b2fb304c",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 25343491, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 25343491, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x51e7e6d483636b6de14adcf889f33a3f912cd234",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 31766383, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 31766383, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x7efb057ecd8f584e1a35ddb92347a8b542a52334",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 36031695, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 36031695, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x8f78e461dfdc9f19aed0b4637bd937e32b6c2748",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 31735531, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 31735531, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x2c4e5183edf9c89c45a1ef6376f1f6434ad1fe45",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 34848638, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 34848638, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xca123c25db70d4506aa63611d7df0fb600447547",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 37429415, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 37429415, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x3d53b2284eba20b101392264c5d75af2fd213961",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 45635582, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 45635582, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x93a0f525a8505be74537b7e08b051e0fbddc5b13",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 45781113, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 45781113, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xaf1f34e843b154628eed410b1d43c361cade93ac",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 46544925, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 46544925, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xd50ac8d6d14f5d799538695ed91cd9c79953dc86",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 46928672, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 46928672, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xaed4f09dbb6365d23dccff71f5e76ceed1ce4d08",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 47324105, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 47324105, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x91313beeff71b11fb3d970a2b8299e24a5e01922",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 47420553, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 47420553, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x3e23f60bd33a9a4e42b0fabb3d285ad05845617b",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 47579009, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 47579009, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x983d7cb30c88571ba4c4700ba8b56d73ccdc6b56",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 47580358, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 47580358, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x64c5c3f4a02780522565f495a3293706c4358e4a",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 48316199, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 48316199, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x399e92b280c724e942c10810612c3d0a4b2a617f",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 48249808, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 48249808, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xf92e2bce90fc16f0226172e7419e55470d6bf130",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 52990273, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 52990273, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x93714e38f9e7372f208ced6872a345c705291a89",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 48373026, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 48373026, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x88f93744fed917fa2c4597a5c7f34aabf9c13c03",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 49381503, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 49381503, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xc89a8936de2e7be3464446e76130bf08922d200c",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 49381756, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 49381756, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x45020041e091301b5bfb4df1882169c5b59d1562",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 49352572, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 49352572, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xaee17a8b4628ec8786cc4f7058fee5117a01eea0",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 49352413, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 49352413, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xc7b4bdc70ca54e1fa61f23a81b11435990ee9099",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 49974494, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 49974494, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x317d945349a469c341caf94abcf68b4ce9854b5c",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 50044786, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 50044786, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xf1aedcef7d7f5188712670b909b530ce5c9a2fcd",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 51766025, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 51766025, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x7a62d20a8b27fb65bbfdf03a82de72e55f151579",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 51766003, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 51766003, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x26284131cb6246ec38efa64a7971074994722295",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 51765980, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 51765980, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xedfca80f01e19c0cf0d7da1922a982b12186eb2e",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 51765962, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 51765962, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0x4833a28bac195f647e65026fb961782a8df47c0a",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 52175272, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 52175272, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xfc8af7712d788d7a38d4997dfeebf378e94fda46",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 52730357, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 52730357, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xb265cbe491dd7ab013048766b79225dab2f71d90",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 53218583, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 53218583, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
   },
   {
    "address": "0xf77103aa6524dfd4d1239adb2956d6faf4281ef9",
    "label": "NOISE",
    "confidence": 0.9,
-   "evidence": "{\"last_onchain_block\": 54689225, \"cutoff_block\": 54963029, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+   "evidence": "{\"last_onchain_block\": 54689225, \"cutoff_block\": 55627929, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+  },
+  {
+   "address": "0x0630dfbda119326d6c64589fb684f3b0e5c0df41",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 82}"
+  },
+  {
+   "address": "0x07057beb589f8397ca046ec13f55061e0c99ac8c",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x08e237af862abbfd81ae2bf1054f063734eee81a",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 7445}"
+  },
+  {
+   "address": "0x0a51a5d73028d9a7913cd5594890a3951120d8be",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x0a97aea895665903206435b9ed63dfac2a6549b0",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 82}"
+  },
+  {
+   "address": "0x0dad4d36be384fa8e6bcef296b4f1c44dd3d4c3c",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x0e1651aec67b2a049a4fa6aeb6c1c305aabfc35b",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 130}"
+  },
+  {
+   "address": "0x0e40080f39c897b93a60eadfd2b45ffb3e143b39",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x0fcc7c1c9bc097c86bd4c9d951b20cc1af79b440",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 545}"
+  },
+  {
+   "address": "0x0ff291ca017c5c06a86f80c329bc95c8535f629e",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x10f2756e373bab14999fdc9177587d51d30a1cf5",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 130}"
+  },
+  {
+   "address": "0x11fc184b0792a60ef38f840f47ad6aab774ef73c",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x1293c76b2524e1e35e840d12ab73cd62751ad484",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 82}"
+  },
+  {
+   "address": "0x131168e50612299c2bef655516b51e7b627a40eb",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x13f501cbfd47a07ccee7e9ef4134bb0e770d138f",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22586}"
+  },
+  {
+   "address": "0x153cd4cdaaa208c30cffa65a8ca168c72ea3f4df",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x1754fff60bb5c7b51671fb5132b35853bec89296",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x1b6dd57f722c61bc16e584c792094f39d97915a7",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 7659}"
+  },
+  {
+   "address": "0x1d2837f6977573ed6e1c4467896d7bd2889fa19f",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x1d984a414346552e077862885f275d264ed03d14",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 61}"
+  },
+  {
+   "address": "0x1de9f7a3b27aa8fbb7a1c20c304d272d7df34e9c",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 11293}"
+  },
+  {
+   "address": "0x1df6c73503a2d94eca72b6b0c86371e39bb261c5",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x214a7db29eae4b8734f7d1d388dc26892de10dd2",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x218fe78a35caae6530ebd9114ea4daba0f6867c3",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x23e4ddf11bf280d08a506e60c5b7bd50ec781b22",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 6524}"
+  },
+  {
+   "address": "0x24adb77d3f2c5da618f171d3aa3a566a440e6d28",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x29451f0e470a76f12480ef873811a083085af025",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x2ca37ff95caf25366ef16fc2e655b78a165d125f",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 12513}"
+  },
+  {
+   "address": "0x2eb846d1253a978b1b152601c565c61e4ecc7a40",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x334b2010e0613fb0da2fc248e1c33b7850407596",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x35409557c4f80012124d657ec7d6f3891113c957",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x385daf9305b9f132657d5946478202ca43fc3126",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x3af49c05e1ed3ae8ac7242c25ed4a1aa2a736e26",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 24197}"
+  },
+  {
+   "address": "0x3f17b0c1d21da9c8896452afd87c62c45fc815db",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x4048afb121e343891a4a5985b2216c5f3443c1e8",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 61}"
+  },
+  {
+   "address": "0x4498c42b9a0dc8c44a2e1be5e8a55f322e13edee",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x44c6718f38df89685e2a78650561cf8f063fc59a",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 130}"
+  },
+  {
+   "address": "0x46540a2e4b27ff778f8ec6648616660472945fc6",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x483c24d1e36df01b650f1e9beeb2a1c31c005c39",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x4ba0c98c680e7209020550444bfc96148a3f0965",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x4e32bc8c27396e1e422cb7a64df2698c338a853b",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x4e9b4157820b70e1e96b5cc196c1a40a706c8d9e",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 82}"
+  },
+  {
+   "address": "0x55fd1f1dc769fb81ee9d94c8843f17b321b2e14f",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x5ad215ed6dac7defc71fe563f764131c31024018",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x5bf2d65e70cb5d0e5a08bb891ae20a70b0c7c29f",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x5c06c46d16bfc4a46e51cc1f5e6d71bc1d8bf347",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 27871}"
+  },
+  {
+   "address": "0x5e32b8e0929d84978f87457332589a86c9debe22",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x5f94e4bb440a20ace2ac652282cf002a6b71e70b",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x628cd55cbbe1e0f0721f0337ac1bf92cc94e711d",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 14926}"
+  },
+  {
+   "address": "0x644158ee4f85a2d0dbc5b6f35ba93f400e9ae16c",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x6a49af1a35b9d888d8f8d7ee877a82cf7be2d6c2",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x719c5e5849638a360bb01791fdb192506b60bcaf",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x74192610fb8bdcb15c5fa19325c8ebe9dd53d814",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x757a119e3517095e1ac8d593041aa67da38e8001",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 82}"
+  },
+  {
+   "address": "0x75b60d116bfb634f8ce5169d3062ccbfc237b435",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x7e6c1b0bfaa7a8deaca5cb932726e170e6e2a7bd",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x8003d006b6c89e9eea04de8e1d47eb861f996d77",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x85e969f6b4792107625336ec686ca235c85e99ea",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 82}"
+  },
+  {
+   "address": "0x8695820e01903c83ccfc27a0933c9fd69f13cac1",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 21609}"
+  },
+  {
+   "address": "0x87a976f08e9e4120fd4e9941bb45d9ac32bdb7ea",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x8ece6c090cbee2f46c9e9cbeb66fd3d143b985dc",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x92c4b53bbe64f0d494915f39ff01ae651958d0c7",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x932d3719bd7710e4d9e52518933b55a4028950fa",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x96938bea8f49c555451b39e355363ad578c6f304",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x96eb42429ac8884959be7d0a49fc902f6510f0e6",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x9ca2f8be2c660d4c37403e027563ec20f784b64c",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x9dc7e0ebdcc074a114483c1ae898037aac8227b0",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xa2fe8e38a14cf7beece22ae71e951f78ce233643",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 82}"
+  },
+  {
+   "address": "0xa92c645e23c2d9f20eef618811090b2beb7e5a29",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xa9874f8f272432455cbcf063e771162e2cd9b89e",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xaa2544a7857839ace1f2669b5fc0eab71f9d8ea9",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xaa2c335d31afc107dd0fbdfa50d86e8c4127d89e",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xabccb78e5ab2af8a1cab867f1f2cd45b24e5638b",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 15264}"
+  },
+  {
+   "address": "0xb0423944fa9f420179dbcc030a97ec3c07537097",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xb1c2beeeaa20fa384ce963d987550fa6b616683e",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xb1f8f5763cbe0adb0f7f7106b9e315a120a615a3",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xb4b0dfeaa2e2a838f0f7a304f005ebe32390d4ef",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xb96aa53ed81f1802c51d9380a2d44e422693fa8a",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xba54b3399959ab1e32598e68840b5493a98fe8d7",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 11293}"
+  },
+  {
+   "address": "0xbc897aa1cd7d54d5acf861d135c30d090a3c375e",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xc2fba49d1c987532523f96c49fc0fb26d7f43e6b",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 9149}"
+  },
+  {
+   "address": "0xc45847f27843474b113c8751a25ee15d4780baa8",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xc571077bcd05d5c511e931c8c7645f0d04799a39",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 82}"
+  },
+  {
+   "address": "0xc6d18a11bd54618a156834e0a0aaad8a5bd592b2",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xcea679fd32142182302ff8795d8cb90642a92b4d",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xd03e3ce3da9689aafa896af146069200c2bd62f7",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xd15af1b3305d4996d50632e3ec37dcddf2b5b1ba",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xd5d29ada0bcdd09dd9cce3114877ba5a6407c5b1",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xd87b01e520e9b50928f5046dd2f104b1d71e5a81",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 15264}"
+  },
+  {
+   "address": "0xd929fce80152e986088af291b582890a6c6bc619",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 82}"
+  },
+  {
+   "address": "0xdd0e1aa8a5da29a645d3f5a23e10128d421fb838",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xded7e3181398b7d77e50c727481ee5f5c53cb4e9",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xdefdda13fd5415d930218883a354110dc193fde4",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xe4ceab0a647fb0a1a632eed16b35013812017bad",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 31551}"
+  },
+  {
+   "address": "0xe62c294150def5e55a50010bb44024d85e195c16",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 130}"
+  },
+  {
+   "address": "0xe72688f7d25d7318b9a81f21edda640ca948c83b",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 16259}"
+  },
+  {
+   "address": "0xe8f6a6444dd5965776196bc4f24ead40a4b28100",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 23686}"
+  },
+  {
+   "address": "0xea2f6eadc8d4b86e423d539f35c6f9ccc01a9e34",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xf4ddc96ddc9e5479c11893c11875c60231e63a35",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xf5b1500c0ebe128480e6c0a7e43c494d9de4c024",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xf9f8c7a6f9dad7949bca55aa025b3b401b8cf0d2",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xfb6f4f05330cccccd2ab8859401ccd6ea038180f",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xfc271b2c4d2ca8b168d10cf5e2c530d3a6ebf08c",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0xfcecf9c702bb68d123da9c620935b9717b209a75",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xfd517f3a035c52a28f1ee1c7cf3e24704012586e",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0xff7567f6a000ac5ca665c714d3de7ebe4cac1c0a",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x00745591f85e2589291f12ddf51f21c87df58e19",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x01773dfb97bae1343ff5bd90f75e1b4bde19a07a",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x0374ddb5fdc902d50e9e84d3e1c3b67eaf45de72",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x042f142799b6f3e696bd0be09dd6c9b86fd977f6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x05866f9fa5981f583334393247853c3b472176a4",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x05f3ca05fe962772f000fb58041a3870956766bb",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x072867f74226e9a3cd8e4fe099acf86e95952b2e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x07507b4b53067d1a10eda7cd63da491dd68364db",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x079a45f24fff467d76906ddd4fbdfc0321bfc7db",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x0882f33e42db1a3cdea2a5dc9e30020df8a99576",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x08e73bc49eca5733ea018fec89100eb7cafb93fa",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x093c4ad717b4c0d296bf8a6cd48d09ffc47352c6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x0a62a57b5b6177398335118ed0515c55fc937a86",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x0d078663b9999386ca8d248bb785d3394c9382ef",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x10a2f3c1a0ae18cec343bdc2fb8710637fb82c9c",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x10b4514223499e7d26dafed514a5dc0c78789763",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x1111fd529cbf47dc61dfb57fe73a1ed9d1051111",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x12bfba904a26dd9d2891fc317aad44a4bb9122a0",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x1309da7b8d1fb6ab2c723710eeda248d75e216fb",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x15ec0ad2f8b8ad896ed496069e7bae3d42e2bcc1",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x1655665b5c6371c14177eae6098a5df0a4c123ba",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x17be4880e76be500a3f1cc0aee297729ff7f94a8",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x17f4ef69243dcd96699f888782f14f5d425bfee7",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x187ea52746d22e0ffcdf0d8e3e6e4988574cf535",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x198fce27fd79c095b792dfcef97ab89bf2de3c53",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x1bdd36eb229ba316e5c438d5a26c6498e0111314",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x1c2fd53e9b19037c3b1c20c12346ba6f01c33336",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x1e52007136597c6f7bf30efeb34f5d7ec66b84b1",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x1f3e47a519a0a64ec71904af674c4727b6d36a6d",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x1f3eacc7c1ebed24a7cb6f81301d6dab0bc6262a",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x2111dc8ca020a985999a515e83a86471710cdbed",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x2136e98f8dab535daad5355ee1e2dc7bc1819174",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x21ed160351b20ef2acb41dcd549608baefa86053",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x2473e8a11ecc93e3e6eebb0a78cd3d2559f99890",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x26d7b4fe67f4601643304b5023b3caf3a72e8504",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x289a68b9fb794fde8de2b22a1a8f7130b1646c04",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x28d135b49b2385512fbe2f000e4b27ae22e290d1",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x29173df7a8128249902e5058d0f802b587fdf943",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x293a4ffb431348a6e72ffdcc4a9464ae830e969e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x29a6d8ca4b86d5b82c59a4d8fc3eb0cb532ae1a8",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x2a52973ff47105dad054950c9d00953fa90c8128",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x2b23612e4308ed478dc61ce3682aea7a36929648",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x2d8221e771ad5e71ce99530e17d6cbb353b6186a",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x2d897aaa26550c8ca5234e9b6852f7e826539404",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x2fa193bce65993b909d0faf486c8050c4eba7453",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x30635352bec1ea420ceb69ac46f130870da3f556",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x329ce48ee62fa6cd75c4942488fb1144ebdac9ba",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x36445a46371112edd515f60162fb9cfed6cd4129",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x37ca9a5209dd9bf56469b9982edca45f2e27bc35",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x38370607bdb651be2d30e507ed5076c1e2b1e2cc",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x38b4e16725634b8dbd8c9102424f3b0bb1b3be0f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x392a5592b95bcf794f8e05ae060e2fe89edf9de2",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x39538c6b409d1bdd706a529788f3eab159d377f7",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x396de4078d293d57cfd7452705532064353e513d",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x3b443ed39f8cc358d53baa1328705b95ee0e5912",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x3b6ecce6270aa250de764758dbcc7d5c0fa3a07a",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x3c8d20001af769cfd0bb89d9810755f226bc2093",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x3cdc239afe12b80742d36f61806f37393e10b317",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x3d89c69bd1e9b2814e32fae5bc459fe08c2dbb22",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x3e1f23a1c64f199ea2864dce05b8ec624a82eb9f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x3fce55233a71eab1661afcc7f60d02ff0f78314f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x406fda17c52f4ad50f81670b375aca22485db287",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x41f1ad11724b8c978b5e671289083c6ba0478cb6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x42c4ab3546ed4d0664e6e8032585444a46722533",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x46e99a919e58368032490d0e63e70fdbda6e859f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x48b1b7c4c0751edcaec8a049679782506cccb152",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x4958cde93218e9bbeaa922cd9f8b3feec1342772",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x4a551fd922fc0621920a91f6eda32ce0b679a301",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x4b57c8fbdc71e5131c340624e0c5a45597462110",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x4cebee4f4239feff922815d92473f58fbd96ae2e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x4e53560ada960f4ae643cc5d5b7fd8502fac1cd2",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x4eeaf6c86396ade220c686e7041bac245e9b4562",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x4ffa7cb2ff91ef9b9ce7029b2ac32a36fb5d8608",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x518b392d32142e1222bcaad9c1066fe866447d3d",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x528d25c97ca3eea0dd2484988fac3259284be5ae",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x542387c04c31646110f355222a438b90eb7084c8",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x54f13663c2fc931d57d2a0b85e35c7baed867cbd",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x56b66f56adab61b0d89ca1463eb6686fc265f33e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x56c41330c7c4c8c4cc51dac59d51111d7e2eba37",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x5729d845f8da6b6a398c928c13f890556a0e3469",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x57e0f193e5d6bae01317383caa2f3f2264990cf0",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x595b9e677b40dbb9cdf921c11bc7a9646dbffa8a",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x5ab80573d3d1cf0ebbdd42dcc9b9e5ab0dfd4559",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x5b7a450047d67e25e6563bd13f50504ecb7e0d67",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x5c5ceccf4da12a9979e95e2fadf13df3dc3b6017",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x5cc2ddbed804c8d8debf31c65787003b2fe4610f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x5fb602b543e861a1897a44ae181b1016d658bdd2",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x5fb82528d3e1b0ce795f8ca82081655ab5323feb",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x601639cae671945f375ed06eca638285c2f48de8",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x60ac3424f48a1d4d7170b8bb95fa6314143a6ef5",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x61d5865a9912b4158e675690aec020246f6eb502",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x62064c22666ee842eb9b56dd73d7ea3136725b25",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x62b7e5a527d919cfd727fd60c26c1bf1d2f81109",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x62d1b21b1dad17196193caae7234431a34738f79",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x640c0ef345e3385118e804886dc64496594d0790",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x64f4fe9c3ed445ac124896c53a9b138834ecc0bb",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x653df8312cf841df774bc9f7a0b5765be07fd65e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x65d89e513206a42a9e2b75893016af103fb4ee4f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x668f37ed76cb7d5e23a15e0ba66e02e69b51ad4d",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x67028242d4479f7c1f6333d61aec0b611ac7a41b",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x68a038e41586eff1f0ff980c7923c93ff9a2dec9",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x696e1029cfd79321da3f0c085dc13905d72fe494",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x69d47cde3307e690622ebe898238e692e63314bd",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x6ccf087e40b636c4bfb1aab44a118dc4f39ae503",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x6d70def28baf640f011eb4c1b44c76f3542583f5",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x70d775a5b5b3e25d2492c9366b42b0d1aae33d59",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x71aaa9c54c4c1faa6b918110a16b8281a11dabf2",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x73395532d9117836d9c48ea9ff4bbe193efc8ef2",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x74d58cb24fa7f5ad7f94c49d4dbd35b8f9e8dbc7",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x750d25bddd713ead00cb6953a9f0eb4489f5d56e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x7582ef2735b63639b72315d77f852ac4d8fd53c3",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x773d271b76d0447f5a419f2e1ce4f215f1bef493",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x7812d51c303d70b3792f954f9505a018ee9c4be4",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x790b0a70fbb8d924eb4bd7829864e446ab712ba9",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x7a498e01c9e9cd2dc9a35fa7842000d3b07c14e6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x7ad7634407561b356f3cc4396f1af5f42347020f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x7b41a46f1e962ad458c3ae3147e83c4d56ac599e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x7f23c079b42b1eaa67e754bf2826054360c7d81c",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x7f334e0e07d0b4a8b2061dcec0ccfdc5a45b06ea",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x801f3f2822af33a5a127aeec4487882464ab4c31",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x806739059fa81a14c1cfc2fbe466498a57ab7437",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x838c6a876fd7142d7e9dae14dd89e39e3c775971",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x8468926dc3b9e5dfaec5fa3f424ee2ab01b6e7d6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x848789672d60861023a84700071eed4d909200d7",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x8492a8d21cf85de2f57b73b4ee6497802e7152fe",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x85116709a01c9207c1be920aa13cfae0c9e3352d",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x876c9c88f800e6cff522dfefe66ace0a0b3924fd",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x89eb59324a933d1a017e6c4390317f787facde53",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x8aa3c9603f0b77af8424271731df58f7f48400e0",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x8d524c7f9dcd2e3de0a1c2c5a4c25585e012100c",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x8da5dcf6d86fece8c3618ec238fa4ca4735b4001",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x8e7ee630225d2da798e44d5625b190270d956147",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x8f676efdba3564a997483b0c0dd615f4178abf36",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x8f95157895d2bde8b10c84d90104e61156404f3c",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x905aa692049e3b1cd8595592b1e400cbeb2e2fea",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x90729be85b8c59cd3eb334bacd12493e61d3fb71",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x91aebb66b7cc28e93106e637e7c5a5cac2583a0c",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x91f0a6ff5470a7c65802368d40af97846553d194",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x9230a0cbdf25e025580dac28e03d91d09679475f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x926a2560be985d61c3eaf5b3972759b5b41e30d8",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x946b3cc152525a50a1b3650b959ebb534fdf378f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x9482eb90c4421e2c5909d2c1212b02084bd2d717",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x97e189b4df7616684688e398bcc1842d9c9479c4",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x98c71a448d0aaaaf30497bd8037f77c98d930465",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x9965680df158c11a5e27bcc33aa3f462139c6dec",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x9a78a05fa727e64e74a121203a43f599517ac1ef",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x9ae604163753e58961128813ab4b5735a0aaf9a4",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0x9d5a19ee6ae4cce14ad5057fd73801dc9d99b1bd",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa13243100e7fc8d69fef589c317160a9deb5919a",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa24d1c248cbc82128044cbe141465667fb82478e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa4b50c44138a8000d6a22e9ea6ff4120cbb02df5",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa5264844374b12813f1a32341ebb19693b6c4672",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa5c7b11d4fa5f8cfc11c0a4c33dd5e682d3b9bbe",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa6b2e7f37a04c31cea66d4f03996ab2ae9a94cbd",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa6d8a145bcd8a915999b0cfbfdc1d6680328d23c",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa71c9f9d58202541e014c1f2a738c520b70d95ed",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa821bd1caa025e2026b91260a41f3aa3444e1d89",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa88f878dfdad9a6c1c258c5981cdcb1e2ecdb51d",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa972b75ca65c42828eac04fbdd875717b24296cb",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xa99915e4649ddbd7899bc19a7f9dbcedc5d24a51",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xaa916015b09b0b16b3a2495a39880299c0f13f3d",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xaaaa6bc3ae771346a4bf914b53440219dbb0f6b5",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xac1292d134136de632d1949e11a6ac499a365cf5",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xada79720e6bc6655d3708418a8866d12a3e2c5e9",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xae66610cf3b4ea5de4062a841fa20b67d5d15787",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xae776fc9dd36e75fa2aa427b130f03ab3ee4cfec",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xaeb679e8cce17e2c2f13c1a1a1bbf647c31163a9",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xaf0f601e0063e2d19c1e34c567776fe08887fdfa",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xafd08372f8631944c4b9eaac585a7cebd9f32e5b",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xb1aefa80a63de72ffddb4e05646eb7cc094add0a",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xb3dcf2d83b26b52286ccf7870b87fe2befb847fb",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xb4158db82c58116722829db0c983f88f92162c0b",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xb743a4d6e865f57f3876dd75dacf10238959b2ba",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xb79e774b522c1756337de989e1cae6bb2be242f1",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xb869489d07e431f3d5fac802bdba3761a928d393",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xb8fb27fb7d3860dabc365890e33ba24920c89a0a",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xba26446a6df56c8514fbf16975151f510330164c",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xbd3d056a6eab0c5b9ed2f16d924fda3ff0438056",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xbd7dc00e249658dacbd88e13bcb5f92166c5d66f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc0663b0068725e54d99844f9b9e37c76241f848f",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc1c55c86f8cf679da04d483f7a55899b72a5ba15",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc2c731415aa525643cb25fc124e4b5caa21f4798",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc50723b547d1337667493af50b1a8ea856ef66b4",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc54f441a33a5fe71eb90f39c150eaff48d57e09e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc55d163826f7cc703da0432d533cade611882829",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc56a111c561fbb7ebc835be828646d75b1270905",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc57092e7710990587867d68eaaf344138b71e2ef",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc60cbcd93d57360955e61bcae870444ba950f8bd",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc6cb3209eafff467f1b5790001ecc70f2210ba2e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xc6f7c3c9a24f1724d40a27070d09837accadb4c4",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xcafc35e4e3b4b534f010eed272c057b47076e7e5",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xccbbbfe9aba36fef7a4d5895ac33f0f2fef44850",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd0598f6f5305405f3e2aa1a596bf9df12e75d04b",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd14b830460c1b8af0d3d39a74e2219d6a09385d6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd2ec62077b3605e77204444d357f305f75d0c714",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd40859d4f736577c96c63a5e5d10a602de9d50a1",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd41e9c9a5fdac5546b9b5de4d7f8f24b19164e8c",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd45feceb4f7d5d8cd77714d72016c01d55a8beb3",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd4dda0e7938a32d9b6430ab6a51d42beffd31d05",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd4e3f10df05e0850f05ada4e445af6d6a6da0112",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd4f9b56c434a4d691db7f33905020ed39a8e9f3d",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd53a40e9de65bbcd2d34942c5c5d18255903efb6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd76d794e871285fba78a47c19b84111df3cdfef6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd783b6cc5bcc3f4cb28e841bd4d9ffc64143eaa9",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xd9dedb7a37604db6323400e9cb4a39ef3febd6ab",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xdab8d6e5a76647aa2905b4d857af991dbd68939e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xdb47e68f8e6f6198b2ae7244ace84b11b400c01d",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xdc8fc4bce9b5685d485a615463ed0d57964557f6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xdcd3687e2bde3da4cda64ffdc2e30bdb024a5100",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xdd09cd117b4a636963c55c08f65b766cc332bfe4",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xdd97f4464f59df7091eed87d8ac8d6111c93aca8",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xdfe0237236b738eb2dcc18ba489708255e4cc22c",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xe0dbfec0ff0b488e62bb742489d7d24616f6db5e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xe13196987c4c37c2b5f4c0867158553f4a0261c1",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xe150db3b45f23f08eba26fd3f8798f48923f2622",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xe1a3eeeae92f5a74d6292b673fc8f3ef507a45ec",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xe3217b72db4fc44e7abda04bbcf823e3a9ed1a3d",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xe4a718104474da81790a305bcec5cf98c0359a10",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xe4e00f0b48b89d9b39a44644b4890a418ffabccb",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xe5bef695e08ab0abf01b462b19ca75f862eb658a",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xe8fbbc6d08bcbe85a723a7a99d3eea6fe36b5eb6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xea76544354be96555c27e040b2e3750874909665",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xea7f6b9e9a117488c31798d47a104c7a87205ac9",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xeaf07c7c6fbc453aab7844360ea39048d4963066",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xeb26d4d8e328545e9ff14f2cdf0e471adf058f28",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xeb9adee89ad56f5d89d461f193abee84aad14198",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xec357e7a08f2dc0f446f22ec5b0242eaf3323f25",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xed351ce8c12a743b51b3d42b06644e823f2d3b89",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xedcfefe1d0dd2f4c8f3d349b6ffcfa732ceb9d5b",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xeddccfb28a90ebaca5d31368d5d379c1b96fe95e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xee891e1bad4ef1a074551bdad4764dddb656d25e",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xeee3d35256e669f3f6967b44ad7a6dffda5b128b",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xef8aa775a35a4dd3f314d49c61ac7ac3fff453b1",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xeffd5b54dd82cd64d8a020c0c0de7dfa0ed52b52",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xf1271454a36f1d9a98a40cad7aa34a49fdbc4a19",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xf2bdd479863379dd6ea9af1145a75ec00561ca55",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xf31534a6781e72162b9a9024b7ff5fa126635ccb",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xf39827833c18046e01f8bda41235f2838d24fa8a",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xf456c921639cf494fff603477d71f04ceb74e908",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xf5620ac9b4dc17051e65c1428d361e311fe76ee1",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xf76c1f423320ce802378308d8401b33dcd02d7c6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xf78858f9770f4bb4a2b8b51b9ca3d6a3ccb15339",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xf91c6b560275ff36a829a48bb69ae46256f6a4f4",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xfd02c29a71ebf53333cc322b4fcfce0b2c166893",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xfdcd8226972b4d45df20e2359c9275a9f78fd7fe",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
+  },
+  {
+   "address": "0xff75afb037c19dbf2ec448502c04dc7b02de00e6",
+   "label": "DORMANT",
+   "confidence": 0.9,
+   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 55369496}"
   }
  ]
 }

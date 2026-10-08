@@ -44,6 +44,16 @@
     }
   }, 5000);
 
+  // S-51j AUTO-HEAL: selama logged_out, coba login ulang tiap 45 detik
+  // (form kadang butuh beberapa attempt — Cloudflare/redirect/autofill timing).
+  // Berhenti otomatis begitu state ok.
+  setInterval(() => {
+    const root2 = document.documentElement;
+    if (root2.dataset.wiLogin === "logged_out" && typeof window.__wiTryLogin === "function") {
+      try { window.__wiTryLogin(); } catch (e) { /* quiet */ }
+    }
+  }, 45000);
+
   if (typeof window.__wiDetect === "function") {
     try { window.__wiDetect(); } catch (e) { /* quiet */ }
   }

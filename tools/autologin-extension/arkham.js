@@ -76,10 +76,20 @@
           setter(email, cred.id);
           setter(pass, cred.password);
           await new Promise(r => setTimeout(r, 600));
+          let submitted = false;
           for (const el of document.querySelectorAll("button")) {
             const t = (el.innerText || "").trim().toLowerCase();
             if (t === "log in" || t === "login" || t === "sign in"
-                || t === "continue") { el.click(); break; }
+                || t === "continue") { el.click(); submitted = true; break; }
+          }
+          if (!submitted) {
+            // fallback: Enter di field password
+            pass.dispatchEvent(new KeyboardEvent("keydown",
+              {key: "Enter", code: "Enter", bubbles: true}));
+            pass.dispatchEvent(new KeyboardEvent("keypress",
+              {key: "Enter", code: "Enter", bubbles: true}));
+            pass.dispatchEvent(new KeyboardEvent("keyup",
+              {key: "Enter", code: "Enter", bubbles: true}));
           }
         }
       }

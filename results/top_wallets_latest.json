@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-08T08:55:52.418866+00:00",
+ "generated_at": "2026-10-08T15:05:40.540027+00:00",
  "chain": "robinhood",
  "chain_id": 4663,
- "total_ranked": 69,
+ "total_ranked": 73,
  "source": "regenerated locally from wallet_scores (refresh_results_local.py)",
  "wallets": [
   {
@@ -42,6 +42,41 @@
   },
   {
    "rank": 2,
+   "wallet_address": "0x306c9a0c0fa7cb4243a2fda87f4991bebb85dfde",
+   "composite_score": 70.41,
+   "metrics": {
+    "total_positions": 3,
+    "closed_positions": 3,
+    "open_positions": 0,
+    "winning_positions": 3,
+    "win_rate": 1.0,
+    "median_return_multiple": 8.9475,
+    "max_return_multiple": 9.6364,
+    "total_realized_pnl_usd": 1782.69,
+    "total_unrealized_pnl_usd": 0,
+    "avg_hold_duration_hours": 0.08,
+    "consistency_score": 0.44,
+    "dip_buying_accuracy": 1.0,
+    "top_selling_accuracy": 0.0,
+    "distinct_tokens": 1,
+    "big_wins": 0,
+    "recent_win_rate": 1.0,
+    "active_months": 1,
+    "last_active": "2026-10-06T12:21:11+00:00",
+    "median_position_size_usd": 107.14,
+    "unrealized_pnl_usd": 0,
+    "unrealized_ratio": 0.0,
+    "bags_count": 0
+   },
+   "trading_style": "dip_buyer_scalper",
+   "risk_flags": [
+    "SINGLE_TOKEN_SAMPLE"
+   ],
+   "cluster_id": "cluster_4d08e5f9",
+   "computed_at": "2026-10-06 18:28:55.216173"
+  },
+  {
+   "rank": 3,
    "wallet_address": "0x1bcccd91840bd81ab6716eb88eb25d0846571893",
    "composite_score": 70.28,
    "metrics": {
@@ -76,7 +111,42 @@
    "computed_at": "2026-09-30 15:56:38.619326"
   },
   {
-   "rank": 3,
+   "rank": 4,
+   "wallet_address": "0x57b995d520ee2b467fdfdc67ce1d967c4a14cc90",
+   "composite_score": 68.6,
+   "metrics": {
+    "total_positions": 3,
+    "closed_positions": 3,
+    "open_positions": 0,
+    "winning_positions": 3,
+    "win_rate": 1.0,
+    "median_return_multiple": 7.0829,
+    "max_return_multiple": 7.4539,
+    "total_realized_pnl_usd": 1761.17,
+    "total_unrealized_pnl_usd": 0,
+    "avg_hold_duration_hours": 0.08,
+    "consistency_score": 0.44,
+    "dip_buying_accuracy": 1.0,
+    "top_selling_accuracy": 0.0,
+    "distinct_tokens": 1,
+    "big_wins": 0,
+    "recent_win_rate": 1.0,
+    "active_months": 1,
+    "last_active": "2026-10-06T12:21:11+00:00",
+    "median_position_size_usd": 138.52,
+    "unrealized_pnl_usd": 0,
+    "unrealized_ratio": 0.0,
+    "bags_count": 0
+   },
+   "trading_style": "dip_buyer_scalper",
+   "risk_flags": [
+    "SINGLE_TOKEN_SAMPLE"
+   ],
+   "cluster_id": "cluster_4d08e5f9",
+   "computed_at": "2026-10-06 18:28:55.216182"
+  },
+  {
+   "rank": 5,
    "wallet_address": "0x99a8e6d0a9b27ae51503ec8aec3d42efe9976659",
    "composite_score": 64.37,
    "metrics": {
@@ -112,7 +182,7 @@
    "computed_at": "2026-10-01 02:34:37.295061"
   },
   {
-   "rank": 4,
+   "rank": 6,
    "wallet_address": "0xb531b9f62111a6f63f84c59736ab7c9bb4cba8e5",
    "composite_score": 54.53,
    "metrics": {
@@ -147,7 +217,7 @@
    "computed_at": "2026-10-02 08:58:05.061798"
   },
   {
-   "rank": 5,
+   "rank": 7,
    "wallet_address": "0x9f4ab21d0a2ae7e5714a5fac85049143f5fe8ba4",
    "composite_score": 54.12,
    "metrics": {
@@ -182,7 +252,7 @@
    "computed_at": "2026-10-01 02:34:37.295068"
   },
   {
-   "rank": 6,
+   "rank": 8,
    "wallet_address": "0x0043265bbff2bb9a69670e38a2eaf54c553224c9",
    "composite_score": 53.75,
    "metrics": {
@@ -217,7 +287,7 @@
    "computed_at": "2026-10-01 02:34:37.295070"
   },
   {
-   "rank": 7,
+   "rank": 9,
    "wallet_address": "0x86414f2ddf52c6099489cd41459ea9cdb93bfeb8",
    "composite_score": 52.01,
    "metrics": {
@@ -253,7 +323,7 @@
    "computed_at": "2026-10-01 02:34:37.295071"
   },
   {
-   "rank": 8,
+   "rank": 10,
    "wallet_address": "0xb2cc40d27a52c81dff03db2726e1382532de514d",
    "composite_score": 51.69,
    "metrics": {
@@ -289,7 +359,7 @@
    "computed_at": "2026-10-03 00:41:40.697832"
   },
   {
-   "rank": 9,
+   "rank": 11,
    "wallet_address": "0x25d74a9da51396d4d3530642e74928d678a2a5bb",
    "composite_score": 51.01,
    "metrics": {
@@ -324,7 +394,7 @@
    "computed_at": "2026-10-01 02:34:37.295073"
   },
   {
-   "rank": 10,
+   "rank": 12,
    "wallet_address": "0x1a6a23abcba928993328a30bb1c4aa211fe27f17",
    "composite_score": 50.31,
    "metrics": {
@@ -359,7 +429,7 @@
    "computed_at": "2026-10-01 02:34:37.295075"
   },
   {
-   "rank": 11,
+   "rank": 13,
    "wallet_address": "0x63ebcfdab9a598a7d1de40eb34ec1f2ab2012d32",
    "composite_score": 50.15,
    "metrics": {
@@ -395,7 +465,7 @@
    "computed_at": "2026-10-01 02:34:37.295077"
   },
   {
-   "rank": 12,
+   "rank": 14,
    "wallet_address": "0xa1b017c4950cf159b0c4ed2ec0b1780164d7b370",
    "composite_score": 50.01,
    "metrics": {
@@ -430,7 +500,7 @@
    "computed_at": "2026-10-01 02:34:37.295079"
   },
   {
-   "rank": 13,
+   "rank": 15,
    "wallet_address": "0x21e151a46e35ec96f63ec62ac3267c4c6686e7d9",
    "composite_score": 50.0,
    "metrics": {
@@ -465,7 +535,7 @@
    "computed_at": "2026-10-01 02:34:37.295080"
   },
   {
-   "rank": 14,
+   "rank": 16,
    "wallet_address": "0x8b7bb1f50f999a2e14d9f1b79b6b1221dc6314fd",
    "composite_score": 49.93,
    "metrics": {
@@ -500,7 +570,7 @@
    "computed_at": "2026-10-01 02:34:37.295082"
   },
   {
-   "rank": 15,
+   "rank": 17,
    "wallet_address": "0xf15fc62931408cca1c0e84979d2a91d3af8e86b1",
    "composite_score": 49.66,
    "metrics": {
@@ -535,7 +605,7 @@
    "computed_at": "2026-10-03 05:35:25.555790"
   },
   {
-   "rank": 16,
+   "rank": 18,
    "wallet_address": "0x2b06a3ee9defb99aa9e5aa7af0b2414556752334",
    "composite_score": 47.64,
    "metrics": {
@@ -570,7 +640,7 @@
    "computed_at": "2026-10-04 11:44:27.528712"
   },
   {
-   "rank": 17,
+   "rank": 19,
    "wallet_address": "0x96c0ceab2218c31d607baf6d5c56fb4a0f31f8de",
    "composite_score": 45.77,
    "metrics": {
@@ -605,7 +675,7 @@
    "computed_at": "2026-10-02 08:58:05.061807"
   },
   {
-   "rank": 18,
+   "rank": 20,
    "wallet_address": "0x93cd81e7d61e38144f92266b9dafe2923c475707",
    "composite_score": 45.77,
    "metrics": {
@@ -640,7 +710,7 @@
    "computed_at": "2026-10-02 08:58:05.061809"
   },
   {
-   "rank": 19,
+   "rank": 21,
    "wallet_address": "0x2bd06391ca20560f2e8ad364375a87fb448d0b7a",
    "composite_score": 45.21,
    "metrics": {
@@ -675,7 +745,7 @@
    "computed_at": "2026-10-03 13:29:55.298747"
   },
   {
-   "rank": 20,
+   "rank": 22,
    "wallet_address": "0x2d1b113a8c6e16608a61f8556614cf3e09b911b4",
    "composite_score": 44.14,
    "metrics": {
@@ -708,7 +778,7 @@
    "computed_at": "2026-10-01 00:36:15.981106"
   },
   {
-   "rank": 21,
+   "rank": 23,
    "wallet_address": "0x1b3367ba7b13ca623b9e6e8fdabff0cc600f5751",
    "composite_score": 36.27,
    "metrics": {
@@ -743,7 +813,7 @@
    "computed_at": "2026-10-04 22:02:54.917863"
   },
   {
-   "rank": 22,
+   "rank": 24,
    "wallet_address": "0x564ae6b2c13bf6c8314168e9a6c9634672c03208",
    "composite_score": 36.25,
    "metrics": {
@@ -778,7 +848,7 @@
    "computed_at": "2026-10-03 13:29:55.298764"
   },
   {
-   "rank": 23,
+   "rank": 25,
    "wallet_address": "0xa450f6dbf9737495c9b723ec11a269f9cdf700bb",
    "composite_score": 35.5,
    "metrics": {
@@ -811,7 +881,7 @@
    "computed_at": "2026-10-06 00:48:45.888653"
   },
   {
-   "rank": 24,
+   "rank": 26,
    "wallet_address": "0x148f986b670becd8535e8f7005ddd94907f89134",
    "composite_score": 34.66,
    "metrics": {
@@ -844,7 +914,7 @@
    "computed_at": "2026-09-30 22:48:29.293618"
   },
   {
-   "rank": 25,
+   "rank": 27,
    "wallet_address": "0x6a2953b9d68ed5921aa5873a97c9367bec3b16d6",
    "composite_score": 32.55,
    "metrics": {
@@ -879,7 +949,7 @@
    "computed_at": "2026-10-01 18:06:35.337335"
   },
   {
-   "rank": 26,
+   "rank": 28,
    "wallet_address": "0x8ee99f56672daaaff9d79b0f86d5b1e41f0f3e7b",
    "composite_score": 32.52,
    "metrics": {
@@ -912,7 +982,7 @@
    "computed_at": "2026-10-06 00:48:45.888662"
   },
   {
-   "rank": 27,
+   "rank": 29,
    "wallet_address": "0x391a2cd2be579429d305694068f27f5025fffa0e",
    "composite_score": 32.52,
    "metrics": {
@@ -945,7 +1015,7 @@
    "computed_at": "2026-10-06 00:48:45.888666"
   },
   {
-   "rank": 28,
+   "rank": 30,
    "wallet_address": "0x9ad56e406f503997b4e9cc9c60d93efe2ddce6df",
    "composite_score": 32.52,
    "metrics": {
@@ -978,7 +1048,7 @@
    "computed_at": "2026-10-06 00:48:45.888669"
   },
   {
-   "rank": 29,
+   "rank": 31,
    "wallet_address": "0xe017580bc1c5eec737f7125157d35c271a755b04",
    "composite_score": 32.52,
    "metrics": {
@@ -1011,7 +1081,7 @@
    "computed_at": "2026-10-06 00:48:45.888671"
   },
   {
-   "rank": 30,
+   "rank": 32,
    "wallet_address": "0x9c510e0aac1cf25db5660d0c8b34486d1d7bc422",
    "composite_score": 29.42,
    "metrics": {
@@ -1046,7 +1116,7 @@
    "computed_at": "2026-10-04 11:44:27.528722"
   },
   {
-   "rank": 31,
+   "rank": 33,
    "wallet_address": "0x6034bc669270f38cd81afb940dc450fe34845b7a",
    "composite_score": 29.33,
    "metrics": {
@@ -1081,7 +1151,7 @@
    "computed_at": "2026-10-04 11:44:27.528725"
   },
   {
-   "rank": 32,
+   "rank": 34,
    "wallet_address": "0x66eb8af30805718fef8190bac5c5c66b6505c69a",
    "composite_score": 29.06,
    "metrics": {
@@ -1114,7 +1184,7 @@
    "computed_at": "2026-10-01 00:36:15.981113"
   },
   {
-   "rank": 33,
+   "rank": 35,
    "wallet_address": "0x8e43a8a43d0237b3f88f4e23dbd067fbaa5e43cd",
    "composite_score": 28.67,
    "metrics": {
@@ -1147,7 +1217,7 @@
    "computed_at": "2026-10-05 09:02:42.295148"
   },
   {
-   "rank": 34,
+   "rank": 36,
    "wallet_address": "0xf30759605023be67a457744b9c0286d818172ce1",
    "composite_score": 28.65,
    "metrics": {
@@ -1182,7 +1252,7 @@
    "computed_at": "2026-10-02 19:25:55.139015"
   },
   {
-   "rank": 35,
+   "rank": 37,
    "wallet_address": "0x1410a5ca07a05edf10dd7b2ed386b508f290318b",
    "composite_score": 28.08,
    "metrics": {
@@ -1217,7 +1287,40 @@
    "computed_at": "2026-10-02 08:58:05.061813"
   },
   {
-   "rank": 36,
+   "rank": 38,
+   "wallet_address": "0xe49f45ce6ce0cea7c59d303b8f45f39d2e137465",
+   "composite_score": 26.87,
+   "metrics": {
+    "total_positions": 11,
+    "closed_positions": 11,
+    "open_positions": 0,
+    "winning_positions": 4,
+    "win_rate": 0.3636,
+    "median_return_multiple": 1.0,
+    "max_return_multiple": 5.0579,
+    "total_realized_pnl_usd": 286.81,
+    "total_unrealized_pnl_usd": 0,
+    "avg_hold_duration_hours": 1.02,
+    "consistency_score": 0.2327,
+    "dip_buying_accuracy": 0.3636,
+    "top_selling_accuracy": 0.3636,
+    "distinct_tokens": 6,
+    "big_wins": 0,
+    "recent_win_rate": 0.3687,
+    "active_months": 2,
+    "last_active": "2026-10-03T04:51:02+00:00",
+    "median_position_size_usd": 67.14,
+    "unrealized_pnl_usd": 0,
+    "unrealized_ratio": 0.0,
+    "bags_count": 0
+   },
+   "trading_style": "scalper",
+   "risk_flags": [],
+   "cluster_id": null,
+   "computed_at": "2026-10-07 17:06:00.991094"
+  },
+  {
+   "rank": 39,
    "wallet_address": "0x8c71be13783cfee9f44a3b4cfe49b8035c24bb48",
    "composite_score": 26.6,
    "metrics": {
@@ -1252,7 +1355,7 @@
    "computed_at": "2026-10-03 13:29:55.298766"
   },
   {
-   "rank": 37,
+   "rank": 40,
    "wallet_address": "0x80b89b85a00be692219b0e12d5be7ad269c183dc",
    "composite_score": 26.5,
    "metrics": {
@@ -1287,29 +1390,29 @@
    "computed_at": "2026-10-03 13:29:55.298769"
   },
   {
-   "rank": 38,
+   "rank": 41,
    "wallet_address": "0xf7a149cb7fea3438ffdccc8f505fc13e4aa2cc60",
-   "composite_score": 25.82,
+   "composite_score": 25.93,
    "metrics": {
-    "total_positions": 300,
-    "closed_positions": 300,
+    "total_positions": 328,
+    "closed_positions": 328,
     "open_positions": 0,
-    "winning_positions": 123,
-    "win_rate": 0.41,
+    "winning_positions": 138,
+    "win_rate": 0.4207,
     "median_return_multiple": 1.0,
     "max_return_multiple": 1.7761,
-    "total_realized_pnl_usd": 402.47,
+    "total_realized_pnl_usd": 401.17,
     "total_unrealized_pnl_usd": 0,
     "avg_hold_duration_hours": 0.03,
-    "consistency_score": 0.41,
-    "dip_buying_accuracy": 0.1967,
-    "top_selling_accuracy": 0.2667,
-    "distinct_tokens": 34,
+    "consistency_score": 0.4207,
+    "dip_buying_accuracy": 0.1829,
+    "top_selling_accuracy": 0.247,
+    "distinct_tokens": 37,
     "big_wins": 0,
-    "recent_win_rate": 0.4109,
+    "recent_win_rate": 0.4223,
     "active_months": 2,
-    "last_active": "2026-10-04T16:55:32+00:00",
-    "median_position_size_usd": 26.26,
+    "last_active": "2026-10-05T23:33:58+00:00",
+    "median_position_size_usd": 26.34,
     "unrealized_pnl_usd": 0,
     "unrealized_ratio": 0.0,
     "bags_count": 0
@@ -1319,10 +1422,10 @@
     "MEV_BOT"
    ],
    "cluster_id": null,
-   "computed_at": "2026-10-06 00:48:45.888673"
+   "computed_at": "2026-10-06 23:12:18.524714"
   },
   {
-   "rank": 39,
+   "rank": 42,
    "wallet_address": "0x90f7e615d9a8b944fe8a972c928417af0a1f25fb",
    "composite_score": 25.3,
    "metrics": {
@@ -1357,7 +1460,7 @@
    "computed_at": "2026-10-03 13:29:55.298771"
   },
   {
-   "rank": 40,
+   "rank": 43,
    "wallet_address": "0xb1d83118dfb55f27d75020c9b6e3b0c01835fe44",
    "composite_score": 25.2,
    "metrics": {
@@ -1390,7 +1493,7 @@
    "computed_at": "2026-09-30 18:35:02.475278"
   },
   {
-   "rank": 41,
+   "rank": 44,
    "wallet_address": "0x5f65c9e8eb98e9c75676bc6e049609504446215d",
    "composite_score": 24.82,
    "metrics": {
@@ -1425,7 +1528,7 @@
    "computed_at": "2026-10-02 08:58:05.061814"
   },
   {
-   "rank": 42,
+   "rank": 45,
    "wallet_address": "0x86827887e8ad27c83ff12c873003f2c4b0909dae",
    "composite_score": 24.43,
    "metrics": {
@@ -1462,7 +1565,7 @@
    "computed_at": "2026-10-06 00:48:45.888675"
   },
   {
-   "rank": 43,
+   "rank": 46,
    "wallet_address": "0x2b9651cc57a8e544732b0988845943783b66e080",
    "composite_score": 23.6,
    "metrics": {
@@ -1495,7 +1598,7 @@
    "computed_at": "2026-10-06 00:48:45.888677"
   },
   {
-   "rank": 44,
+   "rank": 47,
    "wallet_address": "0x0afeb98a5b40bc38e9cf5a3f202c17843a7ce553",
    "composite_score": 22.93,
    "metrics": {
@@ -1531,7 +1634,7 @@
    "computed_at": "2026-10-06 00:48:45.888679"
   },
   {
-   "rank": 45,
+   "rank": 48,
    "wallet_address": "0x5f73bc01786d22e9653423bd912662b7f524204c",
    "composite_score": 22.85,
    "metrics": {
@@ -1567,7 +1670,7 @@
    "computed_at": "2026-10-02 08:58:05.061816"
   },
   {
-   "rank": 46,
+   "rank": 49,
    "wallet_address": "0xcc00d47039dc20754eaeb3a21f7891226d52534c",
    "composite_score": 21.8,
    "metrics": {
@@ -1602,7 +1705,7 @@
    "computed_at": "2026-09-30 22:48:29.293628"
   },
   {
-   "rank": 47,
+   "rank": 50,
    "wallet_address": "0x768263481c4703c22144558112d931b683492b52",
    "composite_score": 21.75,
    "metrics": {
@@ -1635,7 +1738,7 @@
    "computed_at": "2026-10-03 13:29:55.298773"
   },
   {
-   "rank": 48,
+   "rank": 51,
    "wallet_address": "0xbb75f6e4bde3dfa3716239e02274175f37892cc7",
    "composite_score": 21.23,
    "metrics": {
@@ -1671,7 +1774,7 @@
    "computed_at": "2026-10-05 20:56:01.933708"
   },
   {
-   "rank": 49,
+   "rank": 52,
    "wallet_address": "0x03ad9259a227e44886c6b1c1833c2e79379b976a",
    "composite_score": 20.21,
    "metrics": {
@@ -1704,7 +1807,40 @@
    "computed_at": "2026-10-05 09:02:42.295162"
   },
   {
-   "rank": 50,
+   "rank": 53,
+   "wallet_address": "0x7ef183ca29e692a345d8da8340134df89fc00a93",
+   "composite_score": 19.35,
+   "metrics": {
+    "total_positions": 42,
+    "closed_positions": 41,
+    "open_positions": 1,
+    "winning_positions": 19,
+    "win_rate": 0.4634,
+    "median_return_multiple": 1.0,
+    "max_return_multiple": 1.2269,
+    "total_realized_pnl_usd": 46.26,
+    "total_unrealized_pnl_usd": -99.99,
+    "avg_hold_duration_hours": 17.86,
+    "consistency_score": 0.2224,
+    "dip_buying_accuracy": 0.0,
+    "top_selling_accuracy": 0.0976,
+    "distinct_tokens": 2,
+    "big_wins": 0,
+    "recent_win_rate": 0.4517,
+    "active_months": 2,
+    "last_active": "2026-09-15T02:13:04+00:00",
+    "median_position_size_usd": 493.07,
+    "unrealized_pnl_usd": 0.0,
+    "unrealized_ratio": 0.0,
+    "bags_count": 0
+   },
+   "trading_style": "generalist",
+   "risk_flags": [],
+   "cluster_id": null,
+   "computed_at": "2026-10-07 14:10:40.628525"
+  },
+  {
+   "rank": 54,
    "wallet_address": "0x23d8e9e94eceb5d3819089ac5076d526f947c452",
    "composite_score": 19.04,
    "metrics": {
@@ -1739,7 +1875,7 @@
    "computed_at": "2026-10-04 11:44:27.528727"
   },
   {
-   "rank": 51,
+   "rank": 55,
    "wallet_address": "0x91f99c026126f60a35c4306cb288388848b48faf",
    "composite_score": 19.03,
    "metrics": {
@@ -1775,40 +1911,7 @@
    "computed_at": "2026-10-04 03:12:14.997415"
   },
   {
-   "rank": 52,
-   "wallet_address": "0xe49f45ce6ce0cea7c59d303b8f45f39d2e137465",
-   "composite_score": 18.67,
-   "metrics": {
-    "total_positions": 7,
-    "closed_positions": 7,
-    "open_positions": 0,
-    "winning_positions": 2,
-    "win_rate": 0.2857,
-    "median_return_multiple": 0.6738,
-    "max_return_multiple": 2.6537,
-    "total_realized_pnl_usd": 50.94,
-    "total_unrealized_pnl_usd": 0,
-    "avg_hold_duration_hours": 0.65,
-    "consistency_score": 0.1486,
-    "dip_buying_accuracy": 0.2857,
-    "top_selling_accuracy": 0.1429,
-    "distinct_tokens": 3,
-    "big_wins": 0,
-    "recent_win_rate": 0.2869,
-    "active_months": 1,
-    "last_active": "2026-09-28T13:24:55+00:00",
-    "median_position_size_usd": 67.16,
-    "unrealized_pnl_usd": 0,
-    "unrealized_ratio": 0.0,
-    "bags_count": 0
-   },
-   "trading_style": "scalper",
-   "risk_flags": [],
-   "cluster_id": null,
-   "computed_at": "2026-10-02 03:30:40.892725"
-  },
-  {
-   "rank": 53,
+   "rank": 56,
    "wallet_address": "0xa461cf57a1519ad2e0527e3c968080be5bcaaf46",
    "composite_score": 18.18,
    "metrics": {
@@ -1840,10 +1943,10 @@
     "DUST_ONLY"
    ],
    "cluster_id": null,
-   "computed_at": "2026-10-01 14:15:23.917835"
+   "computed_at": "2026-10-07 14:10:40.628539"
   },
   {
-   "rank": 54,
+   "rank": 57,
    "wallet_address": "0x57344c3380728f33872e5a9a8e4b9aababef3e1c",
    "composite_score": 16.86,
    "metrics": {
@@ -1878,7 +1981,7 @@
    "computed_at": "2026-10-02 19:25:55.139019"
   },
   {
-   "rank": 55,
+   "rank": 58,
    "wallet_address": "0x2cb2a174e10c2e14b797f4d276053ac0693ca1b1",
    "composite_score": 16.08,
    "metrics": {
@@ -1911,7 +2014,7 @@
    "computed_at": "2026-10-02 14:07:01.384873"
   },
   {
-   "rank": 56,
+   "rank": 59,
    "wallet_address": "0x651e8dbacea4b3f0d3c26c9668e279b868a63c1e",
    "composite_score": 14.87,
    "metrics": {
@@ -1947,7 +2050,7 @@
    "computed_at": "2026-10-02 03:30:40.892736"
   },
   {
-   "rank": 57,
+   "rank": 60,
    "wallet_address": "0x796fb184b63d31230ccaa169fdfb03cce7bd2c64",
    "composite_score": 14.26,
    "metrics": {
@@ -1983,7 +2086,7 @@
    "computed_at": "2026-10-04 00:45:05.466143"
   },
   {
-   "rank": 58,
+   "rank": 61,
    "wallet_address": "0x56fbb48ae5aa7283c42d4ec364e10bb63c4ba07a",
    "composite_score": 14.25,
    "metrics": {
@@ -2016,7 +2119,7 @@
    "computed_at": "2026-10-05 03:15:18.456706"
   },
   {
-   "rank": 59,
+   "rank": 62,
    "wallet_address": "0xee169b5fd2734184f2613266070ce74b7b128444",
    "composite_score": 13.65,
    "metrics": {
@@ -2048,10 +2151,10 @@
     "SINGLE_TOKEN_SAMPLE"
    ],
    "cluster_id": "cluster_8cc65fb9",
-   "computed_at": "2026-10-01 14:15:23.917842"
+   "computed_at": "2026-10-07 06:05:00.906179"
   },
   {
-   "rank": 60,
+   "rank": 63,
    "wallet_address": "0xc1b0ec5408aaf5ab79239bb3419bfae8297758c5",
    "composite_score": 13.41,
    "metrics": {
@@ -2086,7 +2189,7 @@
    "computed_at": "2026-10-02 03:30:40.892739"
   },
   {
-   "rank": 61,
+   "rank": 64,
    "wallet_address": "0x6f5bfcb3cc4fa2251e72a3928707e874d0bd3de4",
    "composite_score": 12.98,
    "metrics": {
@@ -2098,7 +2201,7 @@
     "median_return_multiple": 1.0113,
     "max_return_multiple": 1.0328,
     "total_realized_pnl_usd": 12.25,
-    "total_unrealized_pnl_usd": -225.44,
+    "total_unrealized_pnl_usd": -752.28,
     "avg_hold_duration_hours": 28.6,
     "consistency_score": 0.1467,
     "dip_buying_accuracy": 0.0,
@@ -2118,10 +2221,10 @@
     "SINGLE_TOKEN_SAMPLE"
    ],
    "cluster_id": "cluster_5eaed561",
-   "computed_at": "2026-10-01 06:18:11.173943"
+   "computed_at": "2026-10-07 06:05:00.906180"
   },
   {
-   "rank": 62,
+   "rank": 65,
    "wallet_address": "0x0a47ebfdb31875133444a369f9021bf7f5f85269",
    "composite_score": 12.36,
    "metrics": {
@@ -2158,7 +2261,7 @@
    "computed_at": "2026-10-01 08:25:48.858513"
   },
   {
-   "rank": 63,
+   "rank": 66,
    "wallet_address": "0x5c1950504edff2e960c5f2104fdd17390ee278e7",
    "composite_score": 12.35,
    "metrics": {
@@ -2194,7 +2297,7 @@
    "computed_at": "2026-10-02 12:17:27.654699"
   },
   {
-   "rank": 64,
+   "rank": 67,
    "wallet_address": "0x867ab60b3d5655e5ba51e636ec160ffcffe5fa97",
    "composite_score": 11.76,
    "metrics": {
@@ -2229,7 +2332,7 @@
    "computed_at": "2026-10-05 09:02:42.295164"
   },
   {
-   "rank": 65,
+   "rank": 68,
    "wallet_address": "0x6c2684b75dd759e45f3f199148e62dbaae7811a3",
    "composite_score": 11.58,
    "metrics": {
@@ -2262,7 +2365,7 @@
    "computed_at": "2026-10-05 05:56:57.354682"
   },
   {
-   "rank": 66,
+   "rank": 69,
    "wallet_address": "0xed7ec83185b3cdac50685999a35ab26d30c20583",
    "composite_score": 10.82,
    "metrics": {
@@ -2299,7 +2402,7 @@
    "computed_at": "2026-10-04 00:45:05.466352"
   },
   {
-   "rank": 67,
+   "rank": 70,
    "wallet_address": "0xafadd882d7a1e70006ce903d660832c1cc841795",
    "composite_score": 10.02,
    "metrics": {
@@ -2334,7 +2437,7 @@
    "computed_at": "2026-10-02 08:58:05.061820"
   },
   {
-   "rank": 68,
+   "rank": 71,
    "wallet_address": "0xcfbb348313b42890b5f8de6a926526c63433d826",
    "composite_score": 9.16,
    "metrics": {
@@ -2369,7 +2472,7 @@
    "computed_at": "2026-09-30 20:42:40.774126"
   },
   {
-   "rank": 69,
+   "rank": 72,
    "wallet_address": "0xc3732ad37bdd30d30e112f2f80a27189b631433e",
    "composite_score": 3.32,
    "metrics": {
@@ -2402,6 +2505,41 @@
    ],
    "cluster_id": "cluster_87ebedb8",
    "computed_at": "2026-09-30 20:42:40.774129"
+  },
+  {
+   "rank": 73,
+   "wallet_address": "0x0d01f4ca4357819fa6edc93560bdf4938fb49da7",
+   "composite_score": 0.02,
+   "metrics": {
+    "total_positions": 3,
+    "closed_positions": 3,
+    "open_positions": 0,
+    "winning_positions": 0,
+    "win_rate": 0.0,
+    "median_return_multiple": 1.0,
+    "max_return_multiple": 1.0152,
+    "total_realized_pnl_usd": 1.38,
+    "total_unrealized_pnl_usd": 0,
+    "avg_hold_duration_hours": 0.75,
+    "consistency_score": 0.0,
+    "dip_buying_accuracy": 0.0,
+    "top_selling_accuracy": 0.0,
+    "distinct_tokens": 1,
+    "big_wins": 0,
+    "recent_win_rate": 0.0,
+    "active_months": 1,
+    "last_active": "2026-09-13T02:54:47+00:00",
+    "median_position_size_usd": 90.46,
+    "unrealized_pnl_usd": 0,
+    "unrealized_ratio": 0.0,
+    "bags_count": 0
+   },
+   "trading_style": "scalper",
+   "risk_flags": [
+    "SINGLE_TOKEN_SAMPLE"
+   ],
+   "cluster_id": null,
+   "computed_at": "2026-10-07 19:37:02.195210"
   }
  ]
 }

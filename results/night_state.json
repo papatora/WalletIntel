@@ -1,7 +1,7 @@
 {
  "traceback_baseline": 3885,
- "delta_started_at": "2026-10-08T08:51:59.941307+00:00",
- "delta_status": "done",
+ "delta_started_at": "2026-10-09T15:31:57.392221+00:00",
+ "delta_status": "running",
  "traceback_signature": "AllEndpointsDown: 429 from endpoint",
  "delta_note": "reset 2026-09-25: run lama mati saat force-shutdown tanpa status terminal",
  "delta_done": true,

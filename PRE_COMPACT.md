@@ -1530,3 +1530,38 @@ confidence rata² 74%" (dihitung live).
 sendiri salah hitung dan lolos 2 commit); docs "LABEL FINAL" hanya boleh
 ditulis SETELAH angka di-query dari DB; jangan klaim live-verified tanpa
 bukti CDP tersimpan.
+
+## SNAPSHOT S-51i — 2026-10-06 malam: PLAYBOOK PENGUNA TERTES + SESI DIJEDA
+
+**INPUT USER (2026-10-06) — "HOW I FIND SMART WALLETS BEFORE THEY FIND THE NEXT RUNNER":**
+playbook resmi masuk repo: scripts/playbook_smart_confluence.py + results/playbook/pumps.json.
+Terjemahan playbook -> terukur:
+- P1 coin gila: token pump >=20x dari price_points (298 token ditemukan).
+- P2 first 20 buyers: swap_events, BUY terawal per wallet (top-20/token).
+- P3 buang bot/dead: label MEV/BOT/SNIPER_BOT + tanpa aktivitas >30 hari.
+- P4 same low cap >=3 smart wallets: SMART = early di >=2 pump + net>0.
+
+**HASIL TES PERTAMA (jujur):**
+- 298 pump token terdeteksi (pumps.json).
+- Wallet early: 8.719 di 1 pump; **457 di 2 pump; 86 di 3; 37 di 4; 6 di 5; 8 di 8; 1 di 9** →
+  KONFLUENSI NYATA ADA (598 wallet early>=2).
+- TAPI net-flow SEMUA = 0 karena **usd_value sekarang 100% NULL di dump VPS** —
+  pipeline VPS versi baru menyimpan swap TANPA usd (kolom price_usd juga kosong).
+  USD kini dihitung DERIVED oleh dataset builder (dataset.py: estimasi nearest
+  pool price per swap block; terdokumentasi di header dataset.py). Jadi filter
+  "net>0" TIDAK BISA dari usd_value — harus dari derived pricing (dataset build)
+  atau harga snapshot token.
+
+**AKAR TUMPUKAN GENERALIST/ACTIVE_MIN (terkonfirmasi angka):**
+26.700 wallet `enriched` belum terklasifikasi (analyze VPS cycle lambat) +
+dump harian menambah wallet baru tanpa label → GENERALIST/ACTIVE_MIN numpuk.
+FIX PERMANEN: scripts/classify_local.py — detektor yang sama dijalankan LOKAL
+atas data lokal (compute-only). Hasil +2.872 label khusus. Sudah masuk rantai.
+
+**STATUS TERTUNDA (besok):**
+1. classify_local rerun rutin pasca-delta (sudah otomatis di rantai? cek hook).
+2. Verifikasi ulang USD derived utk net-flow SMART (pakai dataset builder).
+3. Vision 4.6v run screenshot labels/leaderboard — hasil di artifacts terakhir.
+
+**CATATAN SESI:** usage user menipis — sesi dijeda di sini; semua state aman
+(di-push); besok lanjut tanpa kehilangan konteks (PRE_COMPACT ini).

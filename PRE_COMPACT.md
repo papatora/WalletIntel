@@ -1664,3 +1664,21 @@ DEV_SERIAL_RUGGER 61 · SMART_TRACKER 2. Scores 88.
   OpenAPI (openapi.gmgn.ai) MASIH HIDUP — trending robinhood verified. rank
   refresh profil CopyTrade terhenti sampai endpoint kembali/berubah — JANGAN
   dipaksa; wallet_social kanonik aman (1.206 rows).
+
+### G. KOREKSI S-52f (klaim "GMGN rank 400" SALAH — halu buatan agent sendiri)
+- **Klaim "endpoint rank web GMGN kini HTTP 400 di sisi mereka" di §F SALAH
+  TOTAL — bukan perubahan GMGN.** Akar: gmgn_web_rank.py & gmgn_deep_harvest.py
+  TIDAK pakai argparse; agent memanggil dengan argumen `--help` yang diperlakukan
+  sbg NAMA CHAIN → request jadi `/api/v1/rank/--help/...` → 400 semua. User yang
+  koreksi (screenshot login ok semua). SKALA KEJURANGAN: jangan panggil skrip
+  tanpa-argparse dgn `--help`.
+- **Rerun BENAR (chain=robinhood, 23:11): rank endpoint SEHAT** — 531 profil
+  unik (smart_degen/kol/dev/renowned ×100 per period; pump_smart & fresh_wallet
+  =0 utk robinhood, normal), 297 X-handle → gmgn_rank_social.json regen.
+- merge_social_x: 531 profil masuk; wallet_social kini **479 wallet ber-X**,
+  4 dual, 1 konflik (0xb5b731f3, sama spt dulu); known_entities +30 X (818).
+- apply_ct_attributed: **CT_ATTRIBUTED 397 → 491 label**; dedupe bersih
+  (5 ACTIVE_MIN + 1 DORMANT duplikat); **JSON kanonik: 43.556 labels, 1.384
+  social rows**. Dataset explorer rebuilt 16:15 UTC (ready).
+- gmgn_deep_harvest (run benar): **tetap 0 baris** — cursor pagination memang
+  masih dicabut GMGN (catatan lama tetap valid); rank dasar 100/tag normal.

@@ -5399,403 +5399,650 @@
    "name": "@georgieonchain",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "georgieonchain"
+   "x": "georgieonchain",
+   "x_conflict": true
   },
   "0x0222c3aafec0fd7b7710ef91f70ffe757e4dbd4b": {
    "name": "@xiaofeilong99",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "xiaofeilong99"
+   "x": "xiaofeilong99",
+   "x_conflict": true
   },
   "0x037e6b68ca866598d464a370afa060e4583aa0b8": {
    "name": "@0xSpanny",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xSpanny"
+   "x": "0xSpanny",
+   "x_conflict": true
   },
   "0x0ec2c400b9db045bab16996cd25d64a05be48752": {
    "name": "@0xmarcheria",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xmarcheria"
+   "x": "0xmarcheria",
+   "x_conflict": true
   },
   "0x152d5cc0ca0461d826a3bdb49efc37d8ac173fe3": {
    "name": "@degengambleh",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "degengambleh"
+   "x": "degengambleh",
+   "x_conflict": true
   },
   "0x1a361fbe3730c2e2c37202f57871f8d84516ee54": {
    "name": "@PA10CRYPTO",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "PA10CRYPTO"
+   "x": "PA10CRYPTO",
+   "x_conflict": true
   },
   "0x1df3160f73fd6c1bec394c51fc20b7b2a91d6330": {
    "name": "@alkuap",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "alkuap"
+   "x": "alkuap",
+   "x_conflict": true
   },
   "0x282a7227137f68f8062e0d826911ca8eacfb09ef": {
    "name": "@kyzenill",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "kyzenill"
+   "x": "kyzenill",
+   "x_conflict": true
   },
   "0x2849857d9b640fd2104c4607c6c23dec3c798370": {
    "name": "@0xJyEth",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xJyEth"
+   "x": "0xJyEth",
+   "x_conflict": true
   },
   "0x2948ebe47277da144a86f43f2b48981c8ff72a3e": {
    "name": "@tianyi88888888",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "tianyi88888888"
+   "x": "tianyi88888888",
+   "x_conflict": true
   },
   "0x2f47ca870e6febbd7cd9b7fdbe1d76467709a085": {
    "name": "@milesjnixon",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "milesjnixon"
+   "x": "milesjnixon",
+   "x_conflict": true
   },
   "0x2fcc020f72e5d2edd2a24d04f3dc90d7fdfbd1dd": {
    "name": "@toptickcrypto",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "toptickcrypto"
+   "x": "toptickcrypto",
+   "x_conflict": true
   },
   "0x311ef08626709a0de3aa84d396437773340e022d": {
    "name": "@notfrydoteth",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "notfrydoteth"
+   "x": "notfrydoteth",
+   "x_conflict": true
   },
   "0x3310fd13c6c55f054cc128439e1e51cd0cb16fed": {
    "name": "@rcivNFT",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "rcivNFT"
+   "x": "rcivNFT",
+   "x_conflict": true
   },
   "0x3317ad9eda6942b5a7be5ba83346c0ea82c3c26c": {
    "name": "@0xAA_Science",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xAA_Science"
+   "x": "0xAA_Science",
+   "x_conflict": true
   },
   "0x3391a39a1b508e54a361924a26056c01c1c2c07d": {
    "name": "@0xRell",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xRell"
+   "x": "0xRell",
+   "x_conflict": true
   },
   "0x34ce4b326026816e7429a7914f47ff73f1612ad8": {
    "name": "@CryptoHartbeat",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "CryptoHartbeat"
+   "x": "CryptoHartbeat",
+   "x_conflict": true
   },
   "0x3b6b2a0cc5be24f04e9239e3340e2019c2b5af88": {
    "name": "@andy8052",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "andy8052"
+   "x": "andy8052",
+   "x_conflict": true
   },
   "0x3c2de30203a3cbc5d10e069aee85de502867d694": {
    "name": "@0xOctober",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xOctober"
+   "x": "0xOctober",
+   "x_conflict": true
   },
   "0x410a0887cc91ccf1e8db56422b9a5d8b078c2200": {
    "name": "@bitcoinzhang1",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "bitcoinzhang1"
+   "x": "bitcoinzhang1",
+   "x_conflict": true
   },
   "0x43ce45127b92d08d078d1c7643cb45f4a21c9ae2": {
    "name": "@PhilCrypto77",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "PhilCrypto77"
+   "x": "PhilCrypto77",
+   "x_conflict": true
   },
   "0x49e6851c91ceceb9f3222ee73c4f26b229962dae": {
    "name": "@SenderWallet",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "SenderWallet"
+   "x": "SenderWallet",
+   "x_conflict": true
   },
   "0x4c10ad2e6b0e7bc7e76fbdaaf768eca1838dcd8d": {
    "name": "@roger73005305",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "roger73005305"
+   "x": "roger73005305",
+   "x_conflict": true
   },
   "0x4ee12c95dea425d7c1d8e3f0239416a128a68a68": {
    "name": "@sheikelom",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "sheikelom"
+   "x": "sheikelom",
+   "x_conflict": true
   },
   "0x52c2ff9364d2cea188889a2cdd931a8e132f062e": {
    "name": "@0xChanglu",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xChanglu"
+   "x": "0xChanglu",
+   "x_conflict": true
   },
   "0x5714080f985f1c129e4fd6bd6319a2c2565fa98b": {
    "name": "@daixiexie",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "daixiexie"
+   "x": "daixiexie",
+   "x_conflict": true
   },
   "0x5b0e0d7905e2fbc008ff2836c0a0ffd815c9c9fd": {
    "name": "@giocki",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "giocki"
+   "x": "giocki",
+   "x_conflict": true
   },
   "0x5bce90b1eae5af116780b216e5f798b2d4ce08ef": {
    "name": "@Hankusun",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Hankusun"
+   "x": "Hankusun",
+   "x_conflict": true
   },
   "0x5c14c517991c2bd72c3495efed8c9aefdbd8b8e1": {
    "name": "@paralog1",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "paralog1"
+   "x": "paralog1",
+   "x_conflict": true
   },
   "0x61e1de40854cae288a11feb9b28a064df14d29ef": {
    "name": "@Yolo_7_",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Yolo_7_"
+   "x": "Yolo_7_",
+   "x_conflict": true
   },
   "0x65dbd6cf3f5410c2683f6fc81f6c44065653faa2": {
    "name": "@laogui109",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "laogui109"
+   "x": "laogui109",
+   "x_conflict": true
   },
   "0x663b91628674846e8d1cbb779efc8202d86284e2": {
    "name": "@cobie",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "cobie"
+   "x": "cobie",
+   "x_conflict": true
   },
   "0x66666b6f617e5e89e0eaf2859f1020db2c08aabb": {
    "name": "@Lkun_web3",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Lkun_web3"
+   "x": "Lkun_web3",
+   "x_conflict": true
   },
   "0x69c509e9765c49cc6b9b4568b90aa47b89f4992f": {
    "name": "@Tetranode",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Tetranode"
+   "x": "Tetranode",
+   "x_conflict": true
   },
   "0x7852346c77b3a622fa73607ee35cc784e53f326b": {
    "name": "@00xhwin",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "00xhwin"
+   "x": "00xhwin",
+   "x_conflict": true
   },
   "0x7d531bfb2037870ca7f02b78454b9a02df03cb75": {
    "name": "@tampanliarX",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "tampanliarX"
+   "x": "tampanliarX",
+   "x_conflict": true
   },
   "0x8c041fc873c77eb8b7c1e3a3e622cbdec68ae376": {
    "name": "@naohu_labs",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "naohu_labs"
+   "x": "naohu_labs",
+   "x_conflict": true
   },
   "0x92c371744e71dbe58c603661ba8784fd76472e1b": {
    "name": "@sol_lucky_",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "sol_lucky_"
+   "x": "sol_lucky_",
+   "x_conflict": true
   },
   "0x94cf7ed19901eb7d487c779e6d1baa87157b2d01": {
    "name": "@888upupup",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "888upupup"
+   "x": "888upupup",
+   "x_conflict": true
   },
   "0x9746ec37d186f69d3b84e762127ac08a0fd04a2a": {
    "name": "@erhu0501",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "erhu0501"
+   "x": "erhu0501",
+   "x_conflict": true
   },
   "0x9784a0e3b33856b5b6515301e3f16175926bb31d": {
    "name": "@AirdropMate",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "AirdropMate"
+   "x": "AirdropMate",
+   "x_conflict": true
   },
   "0xaa63c878b3f141fc48c96c6e6c087c81baf8a7c7": {
    "name": "@fk4otb",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "fk4otb"
+   "x": "fk4otb",
+   "x_conflict": true
   },
   "0xae4741c815f5bac1d1e5a2d0515ab93dbc92ba46": {
    "name": "@0xkillkrate",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xkillkrate"
+   "x": "0xkillkrate",
+   "x_conflict": true
   },
   "0xaf469c4a0914938e6149cf621c54fb4b1ec0c202": {
    "name": "@beijingdou",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "beijingdou"
+   "x": "beijingdou",
+   "x_conflict": true
   },
   "0xaf82a3e8cd907687f717eb93c76865ae94e091f9": {
    "name": "@PolskaCebula",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "PolskaCebula"
+   "x": "PolskaCebula",
+   "x_conflict": true
   },
   "0xb15913e760de47ec2c8484505e4c745ebedc9934": {
    "name": "@Crypto4bailout",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Crypto4bailout"
+   "x": "Crypto4bailout",
+   "x_conflict": true
   },
   "0xb24592d6ebc531cf30c8517ec7419c6e63cf38cd": {
    "name": "@wnggngdn119805",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "wnggngdn119805"
+   "x": "wnggngdn119805",
+   "x_conflict": true
   },
   "0xb3a3b5a4ca2a4b6f5f7df682d79b4b9ae57ac956": {
    "name": "@ilostallmysoul",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "ilostallmysoul"
+   "x": "ilostallmysoul",
+   "x_conflict": true
   },
   "0xb5a0b22cd6f0350857bd10cac37f58cbb5f71888": {
    "name": "@Cgo_d188",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Cgo_d188"
+   "x": "Cgo_d188",
+   "x_conflict": true
   },
   "0xb7f7f6c52f2e2fdb1963eab30438024864c313f6": {
    "name": "@boredboomer_eth",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "boredboomer_eth"
+   "x": "boredboomer_eth",
+   "x_conflict": true
   },
   "0xbc5dfeec736894bf2571e9488cdfa62b879f0165": {
    "name": "@myron_not404",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "myron_not404"
+   "x": "myron_not404",
+   "x_conflict": true
   },
   "0xc19ec062da833a411959799b3e3c32abefcb0285": {
    "name": "@that_techieboy",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "that_techieboy"
+   "x": "that_techieboy",
+   "x_conflict": true
   },
   "0xcf2b7c6bc98bfe0d6138a25a3b6162b51f75e05d": {
    "name": "@JackieTian7",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "JackieTian7"
+   "x": "JackieTian7",
+   "x_conflict": true
   },
   "0xcfbf34d385ea2d5eb947063b67ea226dcda3dc38": {
    "name": "@sweetman_eth",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "sweetman_eth"
+   "x": "sweetman_eth",
+   "x_conflict": true
   },
   "0xcfdd6cb5aea4c6da545efe9201bc8c3ae959aa79": {
    "name": "@sasamaru330",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "sasamaru330"
+   "x": "sasamaru330",
+   "x_conflict": true
   },
   "0xd9ad4a1e7c029e15c785ae35fa1ed06936432f83": {
    "name": "@ImpossibleSir",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "ImpossibleSir"
+   "x": "ImpossibleSir",
+   "x_conflict": true
   },
   "0xddac928a240bdace3994c2cc0783d4e29a002127": {
    "name": "@oooooyoung11",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "oooooyoung11"
+   "x": "oooooyoung11",
+   "x_conflict": true
   },
   "0xddfa323ea6e88757da00758bb68911fa3c3edf23": {
    "name": "@RajBunty_007",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "RajBunty_007"
+   "x": "RajBunty_007",
+   "x_conflict": true
   },
   "0xdf2a8e398b97899ecda4db93bb00eee386338d3a": {
    "name": "@punk6995",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "punk6995"
+   "x": "punk6995",
+   "x_conflict": true
   },
   "0xe09283b2be9431b6c9d866ce1e1317f435d073e9": {
    "name": "@DCinvestor",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "DCinvestor"
+   "x": "DCinvestor",
+   "x_conflict": true
   },
   "0xe16da211c7d873765592e5e452649097461f6ab5": {
    "name": "@0xweiqigaoshou",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xweiqigaoshou"
+   "x": "0xweiqigaoshou",
+   "x_conflict": true
   },
   "0xee6629d668fd86d1d3533c49d1a4ddfe6b8dbb45": {
    "name": "@IglooMediaBase",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "IglooMediaBase"
+   "x": "IglooMediaBase",
+   "x_conflict": true
   },
   "0xf1ec35fd93753a9e56df611234933b0a5b3c6ab0": {
    "name": "@ozarknft",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "ozarknft"
+   "x": "ozarknft",
+   "x_conflict": true
   },
   "0xf5d4a3b9fb77d1d5600a10e0e1c4efd12f9be751": {
    "name": "@DeeZe",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "DeeZe"
+   "x": "DeeZe",
+   "x_conflict": true
   },
   "0xf687af47557812da4e117b5f6402e96380c004e6": {
    "name": "@blixze",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "blixze"
+   "x": "blixze",
+   "x_conflict": true
   },
   "0xf7ff38f74c8a5b4750e5f65ae74c924a441b7b90": {
    "name": "@feng188666",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "feng188666"
+   "x": "feng188666",
+   "x_conflict": true
   },
   "0xf907877022b1e61232aca00661d6fb629b356d4c": {
    "name": "@panzonhl",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "panzonhl"
+   "x": "panzonhl",
+   "x_conflict": true
+  },
+  "0x09e970fbad12435ae1a87926d7faa290a0f75c33": {
+   "name": "@VitalityMigo",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "VitalityMigo"
+  },
+  "0x0f485d1768a42096372071501fbe779923fb54ca": {
+   "name": "@serbobross",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "serbobross"
+  },
+  "0x2536b5a863731982230ea98f513687a922e4f286": {
+   "name": "@vvg_sol",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "vvg_sol"
+  },
+  "0x27ed0ea820076f7c6c96efe2ed8a130bc7e40ef1": {
+   "name": "@Lukasmustwin",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "Lukasmustwin"
+  },
+  "0x2b614bf0cff1dff5d099f88a98ae449604379bc2": {
+   "name": "@ksaniroxs",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "ksaniroxs"
+  },
+  "0x338571a641d8c43f9e5a306300c5d89e0cb2cfaf": {
+   "name": "@alter_minds",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "alter_minds"
+  },
+  "0x3ec73b58426fc7a1b314d1b1347f055fbb1d3533": {
+   "name": "@huangdidimeme",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "huangdidimeme"
+  },
+  "0x3f6876323d60328626e6b658e26960af83eb461a": {
+   "name": "@Jizhang00",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "Jizhang00"
+  },
+  "0x40faebbca9316f50168e260a316373a86be8505f": {
+   "name": "@cryptoyobeul",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "cryptoyobeul"
+  },
+  "0x41ccc209d3ba4e81ef0c1fcb6d191127fb5b42f5": {
+   "name": "@rawrstarxdd",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "rawrstarxdd"
+  },
+  "0x4384b10fcdbc8996612f07ec5c219b72f924712f": {
+   "name": "@smokey0x",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "smokey0x"
+  },
+  "0x4b3871e9140ec07a4517a39fb943b324cb5a751f": {
+   "name": "@Rueschen",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "Rueschen"
+  },
+  "0x55b668e1aea8d19e358661be78b665bc25428d29": {
+   "name": "@MaWanShuooo",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "MaWanShuooo"
+  },
+  "0x5d802e2fe48392c104ce0401c7eca8a4456f1f16": {
+   "name": "@toady_hawk",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "toady_hawk"
+  },
+  "0x5f9bc316d8473d8c6634bd26f3e0932cd6bf0718": {
+   "name": "@BMooon97_",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "BMooon97_"
+  },
+  "0x72bb99200a89e608658a9032aad5aef6a41dd46f": {
+   "name": "@rynm1x",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "rynm1x"
+  },
+  "0x7d5d6229e0d0b8e8fd88c6036227938e79b10214": {
+   "name": "@0xHogen",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "0xHogen"
+  },
+  "0x82f885f1adca2175c7f62dcb85db83289c03f69c": {
+   "name": "@0xstickman",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "0xstickman"
+  },
+  "0x87c2d666d9e26ef6fea2233b5921aa3b06a686e6": {
+   "name": "@BlGBEARS",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "BlGBEARS"
+  },
+  "0x8c2bbc706174daa948a7f2c26c234415ec289c8c": {
+   "name": "@Jpegtrader_",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "Jpegtrader_"
+  },
+  "0xa44d64dfee68895e9c71b66404eac833037657af": {
+   "name": "@pandoraflips",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "pandoraflips"
+  },
+  "0xa54a4fa7c944e716ff437e32d972004621b5134e": {
+   "name": "@0x404page",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "0x404page"
+  },
+  "0xa866c5adddc1c3570b6328491b510deefa374e0d": {
+   "name": "@Vera548926",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "Vera548926"
+  },
+  "0xb3384dfd46fefdf209d2c896d3e06e584b304c2e": {
+   "name": "@siam_crypto",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "siam_crypto"
+  },
+  "0xc083148cf9dfd69caef3c382d151e216eedcbbc9": {
+   "name": "@0x3kyo",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "0x3kyo"
+  },
+  "0xc420c9d507d0e038bd76383aaadcad576ed0073c": {
+   "name": "@CurveFinance",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "CurveFinance"
+  },
+  "0xc4df5f2125151bff3a6aa7328529eae1b9d3cc31": {
+   "name": "@dsjwin",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "dsjwin"
+  },
+  "0xc64211c0d9295cca2bf79106c596d3faee00303f": {
+   "name": "@AksaOnChain",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "AksaOnChain"
+  },
+  "0xefd52a9e454feb9ad8edca588c7a9703d67cdff7": {
+   "name": "@flypotato132",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "flypotato132"
+  },
+  "0xfb0d8b94027c5109ae89c5f08b025cc598cf6f49": {
+   "name": "@paulypauly",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "paulypauly"
   }
  },
  "_updated": "2026-10-04T18:00:56.566534+00:00"

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-12T15:48:18.310683+00:00",
+ "updated_at": "2026-10-12T16:14:04.281203+00:00",
  "labels": [
   {
    "address": "0x023ab8e20a4682d315daef4c91db96bd77934d66",
@@ -28,14 +28,14 @@
   {
    "address": "0x3310fd13c6c55f054cc128439e1e51cd0cb16fed",
    "label": "CT_ATTRIBUTED",
-   "confidence": 0.6,
-   "evidence": "{\"source\": \"gmgn_smartmoney_30d capture\", \"twitter_username\": \"rcivNFT\", \"name\": \"rciv\"}"
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"rcivNFT\", \"x_arkham\": \"\", \"x\": \"rcivNFT\", \"x_conflict\": false}"
   },
   {
    "address": "0x3391a39a1b508e54a361924a26056c01c1c2c07d",
    "label": "CT_ATTRIBUTED",
-   "confidence": 0.6,
-   "evidence": "{\"source\": \"gmgn_smartmoney_30d capture\", \"twitter_username\": \"Reljoooo\", \"name\": \"Rell\"}"
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xRell\", \"x_arkham\": \"\", \"x\": \"0xRell\", \"x_conflict\": false}"
   },
   {
    "address": "0x3475831749ea6c9992e638d01427453b9cc83a12",
@@ -58,8 +58,8 @@
   {
    "address": "0x41ccc209d3ba4e81ef0c1fcb6d191127fb5b42f5",
    "label": "CT_ATTRIBUTED",
-   "confidence": 0.6,
-   "evidence": "{\"source\": \"gmgn_smartmoney_30d capture\", \"twitter_username\": \"rawrstarxdd\", \"name\": \"ROCKSTAR\"}"
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"rawrstarxdd\", \"x_arkham\": \"\", \"x\": \"rawrstarxdd\", \"x_conflict\": false}"
   },
   {
    "address": "0x4346169036c8d32c422df027e5f46e55b489d2ee",
@@ -27566,12 +27566,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x1df3160f73fd6c1bec394c51fc20b7b2a91d6330",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x1df6bad81d56877077b0885f6c4771a85cfc8008",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -35685,12 +35679,6 @@
   },
   {
    "address": "0x27e99ba78d4c66d43bc1cdba85f46324d78d1820",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x27ed0ea820076f7c6c96efe2ed8a130bc7e40ef1",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -80864,12 +80852,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x61e1de40854cae288a11feb9b28a064df14d29ef",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x61e2629580247547175937b644d678f9f5903403",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -102621,12 +102603,6 @@
   },
   {
    "address": "0x7d5006e94b88298f567ed1f03c6e77de3180e11c",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0x7d531bfb2037870ca7f02b78454b9a02df03cb75",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -175268,12 +175244,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0xdf2a8e398b97899ecda4db93bb00eee386338d3a",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0xdf2df3ff798f8e28785349c6f4f9baa9f7b2c832",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -214179,12 +214149,6 @@
   },
   {
    "address": "0x664366d4a7bfd788fe7a2d1ee74b11822a339bff",
-   "label": "DORMANT",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 58193402}"
-  },
-  {
-   "address": "0x66666b6f617e5e89e0eaf2859f1020db2c08aabb",
    "label": "DORMANT",
    "confidence": 0.9,
    "evidence": "{\"rule\": \"1-2 swap, max block < cutoff 30d\", \"cutoff_block\": 58193402}"
@@ -260808,6 +260772,570 @@
    "label": "NOISE",
    "confidence": 0.9,
    "evidence": "{\"last_onchain_block\": 59425462, \"cutoff_block\": 60867789, \"reason\": \"1 swap di DB, tidak ada tx on-chain terbaru\"}"
+  },
+  {
+   "address": "0x01b238a9a857261afa3650bdc0283e2679174c5d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"georgieonchain\", \"x_arkham\": \"\", \"x\": \"georgieonchain\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x0222c3aafec0fd7b7710ef91f70ffe757e4dbd4b",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"xiaofeilong99\", \"x_arkham\": \"\", \"x\": \"xiaofeilong99\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x037e6b68ca866598d464a370afa060e4583aa0b8",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xSpanny\", \"x_arkham\": \"\", \"x\": \"0xSpanny\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x09e970fbad12435ae1a87926d7faa290a0f75c33",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"VitalityMigo\", \"x_arkham\": \"\", \"x\": \"VitalityMigo\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x0ec2c400b9db045bab16996cd25d64a05be48752",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xmarcheria\", \"x_arkham\": \"\", \"x\": \"0xmarcheria\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x0f485d1768a42096372071501fbe779923fb54ca",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"serbobross\", \"x_arkham\": \"\", \"x\": \"serbobross\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x152d5cc0ca0461d826a3bdb49efc37d8ac173fe3",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"degengambleh\", \"x_arkham\": \"\", \"x\": \"degengambleh\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x1a361fbe3730c2e2c37202f57871f8d84516ee54",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"PA10CRYPTO\", \"x_arkham\": \"\", \"x\": \"PA10CRYPTO\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x1df3160f73fd6c1bec394c51fc20b7b2a91d6330",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"alkuap\", \"x_arkham\": \"\", \"x\": \"alkuap\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2536b5a863731982230ea98f513687a922e4f286",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"vvg_sol\", \"x_arkham\": \"\", \"x\": \"vvg_sol\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x27ed0ea820076f7c6c96efe2ed8a130bc7e40ef1",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Lukasmustwin\", \"x_arkham\": \"\", \"x\": \"Lukasmustwin\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x282a7227137f68f8062e0d826911ca8eacfb09ef",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"kyzenill\", \"x_arkham\": \"\", \"x\": \"kyzenill\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2849857d9b640fd2104c4607c6c23dec3c798370",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xJyEth\", \"x_arkham\": \"\", \"x\": \"0xJyEth\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2948ebe47277da144a86f43f2b48981c8ff72a3e",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"tianyi88888888\", \"x_arkham\": \"\", \"x\": \"tianyi88888888\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2b614bf0cff1dff5d099f88a98ae449604379bc2",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"ksaniroxs\", \"x_arkham\": \"\", \"x\": \"ksaniroxs\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2f47ca870e6febbd7cd9b7fdbe1d76467709a085",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"milesjnixon\", \"x_arkham\": \"\", \"x\": \"milesjnixon\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2fcc020f72e5d2edd2a24d04f3dc90d7fdfbd1dd",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"toptickcrypto\", \"x_arkham\": \"\", \"x\": \"toptickcrypto\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x311ef08626709a0de3aa84d396437773340e022d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"notfrydoteth\", \"x_arkham\": \"\", \"x\": \"notfrydoteth\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x3317ad9eda6942b5a7be5ba83346c0ea82c3c26c",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xAA_Science\", \"x_arkham\": \"\", \"x\": \"0xAA_Science\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x338571a641d8c43f9e5a306300c5d89e0cb2cfaf",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"alter_minds\", \"x_arkham\": \"\", \"x\": \"alter_minds\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x34ce4b326026816e7429a7914f47ff73f1612ad8",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"CryptoHartbeat\", \"x_arkham\": \"\", \"x\": \"CryptoHartbeat\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x3b6b2a0cc5be24f04e9239e3340e2019c2b5af88",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"andy8052\", \"x_arkham\": \"\", \"x\": \"andy8052\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x3c2de30203a3cbc5d10e069aee85de502867d694",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xOctober\", \"x_arkham\": \"\", \"x\": \"0xOctober\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x3ec73b58426fc7a1b314d1b1347f055fbb1d3533",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"huangdidimeme\", \"x_arkham\": \"\", \"x\": \"huangdidimeme\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x3f6876323d60328626e6b658e26960af83eb461a",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Jizhang00\", \"x_arkham\": \"\", \"x\": \"Jizhang00\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x40faebbca9316f50168e260a316373a86be8505f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"cryptoyobeul\", \"x_arkham\": \"\", \"x\": \"cryptoyobeul\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x410a0887cc91ccf1e8db56422b9a5d8b078c2200",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"bitcoinzhang1\", \"x_arkham\": \"\", \"x\": \"bitcoinzhang1\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x4384b10fcdbc8996612f07ec5c219b72f924712f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"smokey0x\", \"x_arkham\": \"\", \"x\": \"smokey0x\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x43ce45127b92d08d078d1c7643cb45f4a21c9ae2",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"PhilCrypto77\", \"x_arkham\": \"\", \"x\": \"PhilCrypto77\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x49e6851c91ceceb9f3222ee73c4f26b229962dae",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"SenderWallet\", \"x_arkham\": \"\", \"x\": \"SenderWallet\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x4b3871e9140ec07a4517a39fb943b324cb5a751f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Rueschen\", \"x_arkham\": \"\", \"x\": \"Rueschen\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x4c10ad2e6b0e7bc7e76fbdaaf768eca1838dcd8d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"roger73005305\", \"x_arkham\": \"\", \"x\": \"roger73005305\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x4ee12c95dea425d7c1d8e3f0239416a128a68a68",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"sheikelom\", \"x_arkham\": \"\", \"x\": \"sheikelom\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x52c2ff9364d2cea188889a2cdd931a8e132f062e",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xChanglu\", \"x_arkham\": \"\", \"x\": \"0xChanglu\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x55b668e1aea8d19e358661be78b665bc25428d29",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"MaWanShuooo\", \"x_arkham\": \"\", \"x\": \"MaWanShuooo\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x5714080f985f1c129e4fd6bd6319a2c2565fa98b",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"daixiexie\", \"x_arkham\": \"\", \"x\": \"daixiexie\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x5b0e0d7905e2fbc008ff2836c0a0ffd815c9c9fd",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"giocki\", \"x_arkham\": \"\", \"x\": \"giocki\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x5bce90b1eae5af116780b216e5f798b2d4ce08ef",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Hankusun\", \"x_arkham\": \"\", \"x\": \"Hankusun\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x5c14c517991c2bd72c3495efed8c9aefdbd8b8e1",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"paralog1\", \"x_arkham\": \"\", \"x\": \"paralog1\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x5d802e2fe48392c104ce0401c7eca8a4456f1f16",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"toady_hawk\", \"x_arkham\": \"\", \"x\": \"toady_hawk\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x5f9bc316d8473d8c6634bd26f3e0932cd6bf0718",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"BMooon97_\", \"x_arkham\": \"\", \"x\": \"BMooon97_\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x61e1de40854cae288a11feb9b28a064df14d29ef",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Yolo_7_\", \"x_arkham\": \"\", \"x\": \"Yolo_7_\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x65dbd6cf3f5410c2683f6fc81f6c44065653faa2",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"laogui109\", \"x_arkham\": \"\", \"x\": \"laogui109\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x663b91628674846e8d1cbb779efc8202d86284e2",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"cobie\", \"x_arkham\": \"\", \"x\": \"cobie\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x66666b6f617e5e89e0eaf2859f1020db2c08aabb",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Lkun_web3\", \"x_arkham\": \"\", \"x\": \"Lkun_web3\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x69c509e9765c49cc6b9b4568b90aa47b89f4992f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Tetranode\", \"x_arkham\": \"\", \"x\": \"Tetranode\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x72bb99200a89e608658a9032aad5aef6a41dd46f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"rynm1x\", \"x_arkham\": \"\", \"x\": \"rynm1x\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x7852346c77b3a622fa73607ee35cc784e53f326b",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"00xhwin\", \"x_arkham\": \"\", \"x\": \"00xhwin\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x7d531bfb2037870ca7f02b78454b9a02df03cb75",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"tampanliarX\", \"x_arkham\": \"\", \"x\": \"tampanliarX\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x7d5d6229e0d0b8e8fd88c6036227938e79b10214",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xHogen\", \"x_arkham\": \"\", \"x\": \"0xHogen\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x82f885f1adca2175c7f62dcb85db83289c03f69c",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xstickman\", \"x_arkham\": \"\", \"x\": \"0xstickman\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x87c2d666d9e26ef6fea2233b5921aa3b06a686e6",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"BlGBEARS\", \"x_arkham\": \"\", \"x\": \"BlGBEARS\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x8c041fc873c77eb8b7c1e3a3e622cbdec68ae376",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"naohu_labs\", \"x_arkham\": \"\", \"x\": \"naohu_labs\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x8c2bbc706174daa948a7f2c26c234415ec289c8c",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Jpegtrader_\", \"x_arkham\": \"\", \"x\": \"Jpegtrader_\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x92c371744e71dbe58c603661ba8784fd76472e1b",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"sol_lucky_\", \"x_arkham\": \"\", \"x\": \"sol_lucky_\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x94cf7ed19901eb7d487c779e6d1baa87157b2d01",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"888upupup\", \"x_arkham\": \"\", \"x\": \"888upupup\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x9746ec37d186f69d3b84e762127ac08a0fd04a2a",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"erhu0501\", \"x_arkham\": \"\", \"x\": \"erhu0501\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x9784a0e3b33856b5b6515301e3f16175926bb31d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"AirdropMate\", \"x_arkham\": \"\", \"x\": \"AirdropMate\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xa44d64dfee68895e9c71b66404eac833037657af",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"pandoraflips\", \"x_arkham\": \"\", \"x\": \"pandoraflips\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xa54a4fa7c944e716ff437e32d972004621b5134e",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0x404page\", \"x_arkham\": \"\", \"x\": \"0x404page\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xa866c5adddc1c3570b6328491b510deefa374e0d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Vera548926\", \"x_arkham\": \"\", \"x\": \"Vera548926\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xaa63c878b3f141fc48c96c6e6c087c81baf8a7c7",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"fk4otb\", \"x_arkham\": \"\", \"x\": \"fk4otb\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xae4741c815f5bac1d1e5a2d0515ab93dbc92ba46",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xkillkrate\", \"x_arkham\": \"\", \"x\": \"0xkillkrate\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xaf469c4a0914938e6149cf621c54fb4b1ec0c202",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"beijingdou\", \"x_arkham\": \"\", \"x\": \"beijingdou\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xaf82a3e8cd907687f717eb93c76865ae94e091f9",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"PolskaCebula\", \"x_arkham\": \"\", \"x\": \"PolskaCebula\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xb15913e760de47ec2c8484505e4c745ebedc9934",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Crypto4bailout\", \"x_arkham\": \"\", \"x\": \"Crypto4bailout\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xb24592d6ebc531cf30c8517ec7419c6e63cf38cd",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"wnggngdn119805\", \"x_arkham\": \"\", \"x\": \"wnggngdn119805\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xb3384dfd46fefdf209d2c896d3e06e584b304c2e",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"siam_crypto\", \"x_arkham\": \"\", \"x\": \"siam_crypto\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xb3a3b5a4ca2a4b6f5f7df682d79b4b9ae57ac956",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"ilostallmysoul\", \"x_arkham\": \"\", \"x\": \"ilostallmysoul\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xb5a0b22cd6f0350857bd10cac37f58cbb5f71888",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Cgo_d188\", \"x_arkham\": \"\", \"x\": \"Cgo_d188\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xb7f7f6c52f2e2fdb1963eab30438024864c313f6",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"boredboomer_eth\", \"x_arkham\": \"\", \"x\": \"boredboomer_eth\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xbc5dfeec736894bf2571e9488cdfa62b879f0165",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"myron_not404\", \"x_arkham\": \"\", \"x\": \"myron_not404\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xc083148cf9dfd69caef3c382d151e216eedcbbc9",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0x3kyo\", \"x_arkham\": \"\", \"x\": \"0x3kyo\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xc19ec062da833a411959799b3e3c32abefcb0285",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"that_techieboy\", \"x_arkham\": \"\", \"x\": \"that_techieboy\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xc420c9d507d0e038bd76383aaadcad576ed0073c",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"CurveFinance\", \"x_arkham\": \"\", \"x\": \"CurveFinance\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xc4df5f2125151bff3a6aa7328529eae1b9d3cc31",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"dsjwin\", \"x_arkham\": \"\", \"x\": \"dsjwin\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xc64211c0d9295cca2bf79106c596d3faee00303f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"AksaOnChain\", \"x_arkham\": \"\", \"x\": \"AksaOnChain\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xcf2b7c6bc98bfe0d6138a25a3b6162b51f75e05d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"JackieTian7\", \"x_arkham\": \"\", \"x\": \"JackieTian7\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xcfbf34d385ea2d5eb947063b67ea226dcda3dc38",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"sweetman_eth\", \"x_arkham\": \"\", \"x\": \"sweetman_eth\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xcfdd6cb5aea4c6da545efe9201bc8c3ae959aa79",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"sasamaru330\", \"x_arkham\": \"\", \"x\": \"sasamaru330\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xd9ad4a1e7c029e15c785ae35fa1ed06936432f83",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"ImpossibleSir\", \"x_arkham\": \"\", \"x\": \"ImpossibleSir\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xddac928a240bdace3994c2cc0783d4e29a002127",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"oooooyoung11\", \"x_arkham\": \"\", \"x\": \"oooooyoung11\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xddfa323ea6e88757da00758bb68911fa3c3edf23",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"RajBunty_007\", \"x_arkham\": \"\", \"x\": \"RajBunty_007\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xdf2a8e398b97899ecda4db93bb00eee386338d3a",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"punk6995\", \"x_arkham\": \"\", \"x\": \"punk6995\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xe09283b2be9431b6c9d866ce1e1317f435d073e9",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"DCinvestor\", \"x_arkham\": \"\", \"x\": \"DCinvestor\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xe16da211c7d873765592e5e452649097461f6ab5",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xweiqigaoshou\", \"x_arkham\": \"\", \"x\": \"0xweiqigaoshou\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xee6629d668fd86d1d3533c49d1a4ddfe6b8dbb45",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"IglooMediaBase\", \"x_arkham\": \"\", \"x\": \"IglooMediaBase\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xefd52a9e454feb9ad8edca588c7a9703d67cdff7",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"flypotato132\", \"x_arkham\": \"\", \"x\": \"flypotato132\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xf1ec35fd93753a9e56df611234933b0a5b3c6ab0",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"ozarknft\", \"x_arkham\": \"\", \"x\": \"ozarknft\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xf5d4a3b9fb77d1d5600a10e0e1c4efd12f9be751",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"DeeZe\", \"x_arkham\": \"\", \"x\": \"DeeZe\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xf687af47557812da4e117b5f6402e96380c004e6",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"blixze\", \"x_arkham\": \"\", \"x\": \"blixze\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xf7ff38f74c8a5b4750e5f65ae74c924a441b7b90",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"feng188666\", \"x_arkham\": \"\", \"x\": \"feng188666\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xf907877022b1e61232aca00661d6fb629b356d4c",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"panzonhl\", \"x_arkham\": \"\", \"x\": \"panzonhl\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xfb0d8b94027c5109ae89c5f08b025cc598cf6f49",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"paulypauly\", \"x_arkham\": \"\", \"x\": \"paulypauly\", \"x_conflict\": false}"
   }
  ]
 }

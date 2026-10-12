@@ -1646,3 +1646,21 @@ DEV_SERIAL_RUGGER 61 · SMART_TRACKER 2. Scores 88.
    cek import rantai harian sebelum klaim "reapply selesai".
 4. Angka early/confluence playbook LOMPET antar-delta (598→4.758) — selalu
    sebut tanggal-data-nya; kohor refresh menambah histori retroaktif.
+
+### F. S-52 lanjutan: BRAVE DIBUKA OTONOM + VERIFIKASI SESI BROWSER (permintaan user)
+- Brave dibuka agent sendiri via `scripts/arkham_open.py brave` (profil persist
+  + CDP 9222). Extension auto-heal langsung aktif.
+- **Login-state via marker DOM extension (sumber kebenaran): arkm.com = ok
+  (3 tab), gmgn.ai = ok.** Login otonom terbukti lagi, tanpa campur tangan.
+- Arkham orchestrator dijalankan (single-flight) → **todo asli = 0**: 299 entri
+  di arkham_queue.json semuanya SUDAH ada di arkham_entities.json (1.100
+  dicek total, 325 labeled, 27 error) — file antrean sengaja tidak dibersihkan
+  (todo dihitung queue−entities). Bukan kegagalan.
+- Bubblemaps capture: 12/12 token antrean = sudah ter-capture (skip semua).
+  Antrean browser-based KOSONG semua.
+- **TEMUAN BARU: endpoint rank web GMGN `/api/v1/rank/...` kini HTTP 400**
+  (semua tag×period, via in-page fetch browser login). Pola lanjutan pencabutan
+  sisi GMGN (dulu cursor, sekarang endpoint rank no-login ikut mati).
+  OpenAPI (openapi.gmgn.ai) MASIH HIDUP — trending robinhood verified. rank
+  refresh profil CopyTrade terhenti sampai endpoint kembali/berubah — JANGAN
+  dipaksa; wallet_social kanonik aman (1.206 rows).

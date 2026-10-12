@@ -1565,3 +1565,84 @@ atas data lokal (compute-only). Hasil +2.872 label khusus. Sudah masuk rantai.
 
 **CATATAN SESI:** usage user menipis — sesi dijeda di sini; semua state aman
 (di-push); besok lanjut tanpa kehilangan konteks (PRE_COMPACT ini).
+
+## SNAPSHOT S-52 — 2026-10-12 malam: DELTA CATCH-UP 3 HARI + PLAYBOOK NET-FLOW DERIVED TUNTAS + TEMUAN KALIBRASI 30x
+
+### A. [VPS→PC] Daily delta catch-up (data 10-12 Okt, terakhir baru 9 Okt)
+- **DB lokal: 200.651 wallet · 1.496.341 swap · price_points 7.983.389 ·
+  swap_max_ts 2026-10-12 14:38 UTC · wallet_scores 88** (semua dari
+  night_state.json + query).
+- post_delta_reapply: restore social 1.206 + label lokal, classify_local,
+  NOISE baru +68, dedupe DORMANT 13, JSON kanonik 43.468 label.
+- INSIDEN KECIL + FIX: `classify_contracts_noise.py` gagal
+  `ModuleNotFoundError: aiolimiter` — python lokal berganti ke 3.14
+  (pythoncore-3.14-64) dan env-nya belum punya dependency lama. aiolimiter
+  SUDAH ADA di requirements.txt (Aturan 3.6: boleh tanpa lapor) →
+  di-install aiolimiter 1.3.0 → rerun post_delta_reapply utuh → tuntas
+  (POOL_CONTRACT 334, NOISE 77 final).
+- Explorer 8787: POST /api/rebuild OK (built 15:52 UTC); dataset served
+  diverifikasi fresh (price_points = 7.983.389 persis DB baru).
+- Verify: GMGN OpenAPI trending robinhood 1h HIDUP (10 token balas).
+  Arkham: Brave/CDP 9222 MATI saat sesi → login-state belum bisa diverifikasi
+  (extension auto-heal kerja saat Brave jalan).
+
+### B. PLAYBOOK NET-FLOW DERIVED — TUNTAS (tugas mandat user #1 dari S-51j)
+- Engine: `scripts/playbook_smart_confluence.py` v2. Net-flow dari **derived
+  pricing** (port dataset.py: nearest-block ≤ swap block, fallback titik
+  pertama sesudah, outlier guard usd>liquidity) — BUKAN usd_value (NULL 100%).
+- **Hasil final (DB 12 Okt):** 354 token pump ≥20x · early≥1 26.954 ·
+  early≥2 4.758 → filter bot 92 + dead>30d 296 → **SMART 148 (net>0),
+  91 BERSIH** (tanpa label insider/airdrop/dev/sniper/bundler).
+- Tier (P5): ≥$100K: 2 · 10K-100K: 15 · 1K-10K: 49 · <1K: 82.
+  118/148 SMART pernah jadi strict first-20 buyer.
+- Confluence (P4): **62 token** dgn ≥3 SMART early (30 di antaranya ≥3 clean).
+- Top clean diamond: 0xae15bb2b net $49,0K (pump_net $50,3K) · 0xeb75d210
+  $22,1K · 0x57f6bc83 $20,9K. Sinyal terbaik: 0x7dbf3897 pump 1622x dgn
+  11 clean SMART early. Detail: results/playbook/smart_confluence.json.
+- Provenance jujur: 82% swap priced-series · 17% fallback snapshot · 1,5%
+  outlier dibuang; pump-scope 99,9% priced.
+- Catatan metodologi: angka early≥2 naik 598 (S-51i, data 6 Okt) → 4.758
+  (data 12 Okt) — bukan bug: kohor refresh VPS menambah histori lebih dalam
+  (first-buy makin awal) + 3 hari swap baru.
+
+### C. TEMUAN PENTING: KALIBRASI 30x dataset.py SALAH TEMBAK (explorer BELUM difix)
+- Kasus terukur: **BLAST 0x724a163f** (ETH-quoted v4): harga series di blok
+  swap 16 Sep = $0,00127 (real), titik terakhir 28 Sep = $7,2e-5, snapshot
+  = $0,0027 → rasio last/snapshot 37x → rule-30x dataset.py me-rescale
+  SELURUH histori ×37,58 → net wallet top berubah $3,6K → $135K PALSU.
+  Ini bukan bug skala (bukan USDG 1e-12) — harga memang bergerak
+  pasca-titik-terakhir.
+- Playbook engine pakai koreksi: **rescale hanya bila rasio ≥1000x**
+  (signature bug skala). Efek: 9 series terkalibrasi vs 109 dgn rule-30x.
+- Spot-check independen (SQL murni nearest-block): net BLAST = $5.481 vs
+  engine terkoreksi $4.960 (selisih = outlier guard) ✓ konsisten.
+- ⚠️ **dataset.py explorer (kolom "Net flow est." KOL & X + dataset build)
+  MASIH rule-30x** → net-flow bisa terdistorsi di token yang pump/dump
+  setelah titik harga terakhir. FIX harus lewat siklus audit sendiri
+  (jangan diam-diam) — JADWALKAN sesi berikutnya.
+
+### D. LABEL DIST FINAL (query DB 12 Okt pasca-reapply — sumber DB, bukan ingatan)
+ACTIVE_MIN 32.830 · GENERALIST 14.555 · DORMANT 9.830 · INSIDER 9.124 ·
+AIRDROP_FARMER 7.470 · SNIPER 1.514 · BUNDLER_SUSPECT 1.114 · MEV_BOT 600 ·
+CT_ATTRIBUTED 397 · POOL_CONTRACT 334 · DEV 114 · NOISE 77 ·
+DEV_SERIAL_RUGGER 61 · SMART_TRACKER 2. Scores 88.
+
+### E. STATUS TERTUNDA (urutan sesi berikutnya)
+1. **Fix kalibrasi dataset.py 30x→1000x** (temuan C) lewat audit + verifikasi
+   served dataset, JANGAN edit langsung.
+2. Verifier R1-R3 utk 38 diamond Cielo via pipeline VPS (tetap tertunda).
+3. GMGN deep harvest: cursor tetap dicabut — cek berkala, jangan paksa.
+4. Arkham login-state verify saat Brave jalan (extension auto-heal).
+5. Diamond playbook 91 clean → cross-check X (wallet_social) → kandidat
+   watchlist copytrade (playbook P5: pisahkan tier $100K vs $1K).
+
+### PELAJARAN S-52
+1. Spot-check independen via SQL murni MENYELAMATKAN dari klaim palsu —
+   net "$135K" palsu ketemu <5 menit karena dicek silang. WAJIB utk top-k
+   klaim finansial.
+2. Kalibrasi yang menyentuh SELURUH histori berdasar rasio titik-terakhir vs
+   snapshot = rapuh utk net-flow historis (harga bergerak ≠ skala salah).
+3. Python lokal berganti versi (3.14) = env kehilangan dependency lama —
+   cek import rantai harian sebelum klaim "reapply selesai".
+4. Angka early/confluence playbook LOMPET antar-delta (598→4.758) — selalu
+   sebut tanggal-data-nya; kohor refresh menambah histori retroaktif.

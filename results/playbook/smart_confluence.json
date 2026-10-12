@@ -1,8 +1,1997 @@
 {
- "generated_at": "2026-10-11T15:10:06.480912+00:00",
- "pump_tokens": 298,
- "smart_wallets": 0,
- "smart_with_bot_labels": 0,
- "confluence_tokens": 0,
- "signals": []
+ "generated_at": "2026-10-12T15:50:51.979745+00:00",
+ "db": "C:\\Users\\ROG\\Documents\\ClaudeCode\\AlphaIntel\\WalletIntel\\data\\topwallet.db",
+ "db_max_ts": "2026-10-12 14:38:01.000000",
+ "pump_tokens": 354,
+ "early_wallets_ge1": 26954,
+ "early_ge2_before_filters": 4758,
+ "excluded_bot": 92,
+ "excluded_dead_gt30d": 296,
+ "smart_wallets": 148,
+ "smart_clean_wallets": 91,
+ "smart_tiers": {
+  "10K-100K": 15,
+  "1K-10K": 49,
+  "<1K": 82,
+  ">=100K": 2
+ },
+ "smart_first20_any": 118,
+ "confluence_tokens": 62,
+ "confluence_tokens_clean": 30,
+ "pricing_provenance": {
+  "all_swaps": {
+   "priced_series": 1225743,
+   "priced_fallback": 248658,
+   "unpriced": 21940,
+   "outlier": 21940
+  },
+  "pump_swaps": {
+   "priced": 484089,
+   "unpriced": 427
+  },
+  "series_tokens": 1463,
+  "calibrated_series_ge1000x": 9,
+  "series_dataset30x_would_rescale": 109,
+  "calibrate_policy": "rescale hanya rasio >= 1000x (bug skala); harga historis dari series mentah — lihat temuan BLAST 0x724a163f"
+ },
+ "top_smart_wallets": [
+  {
+   "wallet": "0xf5c4f3dc02c3fb9279495a8fef7b0741da956157",
+   "n_early_pumps": 15,
+   "net_all_usd": 161948.59,
+   "net_pump_usd": 5731.55,
+   "buy_all_usd": 0.0,
+   "first20_buys": 6,
+   "labels": [
+    "AIRDROP_FARMER",
+    "INSIDER"
+   ],
+   "last_active": "2026-09-26 20:24:56.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xb666fd9b55572a3cf6d42b16fb550787670a000f",
+   "n_early_pumps": 4,
+   "net_all_usd": 104744.94,
+   "net_pump_usd": 589.15,
+   "buy_all_usd": 0.0,
+   "first20_buys": 0,
+   "labels": [
+    "AIRDROP_FARMER",
+    "INSIDER"
+   ],
+   "last_active": "2026-09-26 15:55:34.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xca5b3bbb368db39d223a9fa57a577f9a98a03638",
+   "n_early_pumps": 18,
+   "net_all_usd": 62228.09,
+   "net_pump_usd": 5008.4,
+   "buy_all_usd": 0.0,
+   "first20_buys": 7,
+   "labels": [
+    "AIRDROP_FARMER",
+    "INSIDER"
+   ],
+   "last_active": "2026-09-30 04:21:05.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x4acb6c4321253548a7d4bb9c84032cc4ee04bfd7",
+   "n_early_pumps": 8,
+   "net_all_usd": 57826.31,
+   "net_pump_usd": 3919.08,
+   "buy_all_usd": 0.0,
+   "first20_buys": 4,
+   "labels": [
+    "AIRDROP_FARMER",
+    "INSIDER"
+   ],
+   "last_active": "2026-09-29 16:51:07.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xae15bb2b2dfc8c49a08cd5ae4555422b91200db2",
+   "n_early_pumps": 2,
+   "net_all_usd": 48994.64,
+   "net_pump_usd": 50286.73,
+   "buy_all_usd": 32449.35,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-16 20:17:15.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x3fb0ee621d41da7d9a9e774c5f4c2eb53a872f0b",
+   "n_early_pumps": 2,
+   "net_all_usd": 45799.48,
+   "net_pump_usd": 45293.02,
+   "buy_all_usd": 45916.22,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-27 02:00:06.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x90b2c60c8aedcbcb60f575d8cb901ac609fffbf1",
+   "n_early_pumps": 2,
+   "net_all_usd": 38731.11,
+   "net_pump_usd": 38163.53,
+   "buy_all_usd": 2399.64,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-15 03:32:40.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x05607d87494c3f9d6e43be2c2e5ed23a95574548",
+   "n_early_pumps": 2,
+   "net_all_usd": 36353.15,
+   "net_pump_usd": 3979.84,
+   "buy_all_usd": 52675.34,
+   "first20_buys": 2,
+   "labels": [
+    "DEV",
+    "INSIDER"
+   ],
+   "last_active": "2026-09-12 18:43:18.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xad01c20d5886137e056775af56915de824c8fce5",
+   "n_early_pumps": 22,
+   "net_all_usd": 35463.15,
+   "net_pump_usd": 1485.96,
+   "buy_all_usd": 0.0,
+   "first20_buys": 9,
+   "labels": [
+    "AIRDROP_FARMER",
+    "INSIDER"
+   ],
+   "last_active": "2026-09-30 04:19:52.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x2e27296db73efa090c33823b0b637f031d1a1f97",
+   "n_early_pumps": 5,
+   "net_all_usd": 25136.91,
+   "net_pump_usd": 720.98,
+   "buy_all_usd": 58436.64,
+   "first20_buys": 4,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-10-10 17:27:37.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xa1bf81e88f32f069d02a2248730824970283c726",
+   "n_early_pumps": 2,
+   "net_all_usd": 23999.67,
+   "net_pump_usd": 23498.53,
+   "buy_all_usd": 23536.51,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-27 02:00:06.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xeb75d21061332b2e62d7abb5fa9f0a789056dd83",
+   "n_early_pumps": 2,
+   "net_all_usd": 22133.93,
+   "net_pump_usd": 21481.2,
+   "buy_all_usd": 2740.16,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-15 03:33:16.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x57f6bc835d4814853731443d840af7ed4d4cc27f",
+   "n_early_pumps": 2,
+   "net_all_usd": 20906.97,
+   "net_pump_usd": 4442.44,
+   "buy_all_usd": 94777.22,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-15 17:04:14.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xcd6b980029e6e6e0733ac8ec3e02be9410d09799",
+   "n_early_pumps": 10,
+   "net_all_usd": 20501.75,
+   "net_pump_usd": 817.26,
+   "buy_all_usd": 0.0,
+   "first20_buys": 2,
+   "labels": [
+    "AIRDROP_FARMER",
+    "INSIDER"
+   ],
+   "last_active": "2026-09-29 17:25:17.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xf9d33b7def5d8d6015ce2784e6fcf82802e247dd",
+   "n_early_pumps": 5,
+   "net_all_usd": 13979.81,
+   "net_pump_usd": 12868.21,
+   "buy_all_usd": 17051.9,
+   "first20_buys": 3,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-10-11 17:14:24.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x18a78d024edd70617231c21d0cfde69ae374ef97",
+   "n_early_pumps": 2,
+   "net_all_usd": 11399.21,
+   "net_pump_usd": 10815.73,
+   "buy_all_usd": 23000.85,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-27 02:00:06.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x5aafc1f252d544f744d17a4e734afd6efc47ede4",
+   "n_early_pumps": 3,
+   "net_all_usd": 11331.87,
+   "net_pump_usd": 489.81,
+   "buy_all_usd": 0.0,
+   "first20_buys": 1,
+   "labels": [
+    "AIRDROP_FARMER",
+    "INSIDER"
+   ],
+   "last_active": "2026-09-30 01:47:53.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x762565c177986a09f091b32ac204aa262b3f200a",
+   "n_early_pumps": 5,
+   "net_all_usd": 9230.47,
+   "net_pump_usd": 8194.77,
+   "buy_all_usd": 16251.16,
+   "first20_buys": 4,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-10-11 17:14:24.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xdf6b43dca3ab880c976e2453cd7e9ecedbcfe905",
+   "n_early_pumps": 2,
+   "net_all_usd": 9159.84,
+   "net_pump_usd": 9112.34,
+   "buy_all_usd": 3508.61,
+   "first20_buys": 1,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-16 00:43:09.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xa995ce21f88a1011daf09b50cd807fea3088d102",
+   "n_early_pumps": 4,
+   "net_all_usd": 8966.13,
+   "net_pump_usd": 9579.55,
+   "buy_all_usd": 8870.33,
+   "first20_buys": 3,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-10-05 01:33:16.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xb750f03e86980a3dffdfad269a88f008bb78ea51",
+   "n_early_pumps": 2,
+   "net_all_usd": 8412.83,
+   "net_pump_usd": 3249.7,
+   "buy_all_usd": 12157.78,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-14 04:55:52.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xa580cdba20944a0d58e1198ff7e6e7e517f389dd",
+   "n_early_pumps": 5,
+   "net_all_usd": 8054.18,
+   "net_pump_usd": 6852.42,
+   "buy_all_usd": 15080.66,
+   "first20_buys": 3,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-10-11 17:14:25.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x873a6043fb89fdfaaa3f116b9526451836cbc892",
+   "n_early_pumps": 5,
+   "net_all_usd": 7657.15,
+   "net_pump_usd": 6637.35,
+   "buy_all_usd": 15868.67,
+   "first20_buys": 3,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-10-11 17:14:24.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xc207df8dc9ee5113c6374c70c2a29bb87e94cfdf",
+   "n_early_pumps": 4,
+   "net_all_usd": 7070.5,
+   "net_pump_usd": -310.43,
+   "buy_all_usd": 725278.76,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-03 04:13:02.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x00d78daf782921b27a6b407d34f19842c10a4a6b",
+   "n_early_pumps": 4,
+   "net_all_usd": 6766.25,
+   "net_pump_usd": 9645.86,
+   "buy_all_usd": 14318.26,
+   "first20_buys": 3,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-10-05 01:33:16.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x0554b9724bff7cc93dc1c92671f73c90cb4ca8b6",
+   "n_early_pumps": 2,
+   "net_all_usd": 6079.79,
+   "net_pump_usd": 1317.71,
+   "buy_all_usd": 1840.89,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-07 22:50:31.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x861eb694ebc371027f82377814c973cc24f741a8",
+   "n_early_pumps": 2,
+   "net_all_usd": 5863.65,
+   "net_pump_usd": 5748.19,
+   "buy_all_usd": 13148.21,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-14 07:28:14.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x237cf619653c8ffa1c2f27f075e8961611e2902c",
+   "n_early_pumps": 2,
+   "net_all_usd": 5746.14,
+   "net_pump_usd": 5713.91,
+   "buy_all_usd": 2449.44,
+   "first20_buys": 1,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-27 06:59:44.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xb0b72fd48bd4212c77e75756a7ec977165a41657",
+   "n_early_pumps": 4,
+   "net_all_usd": 5660.23,
+   "net_pump_usd": 4529.6,
+   "buy_all_usd": 15264.37,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-10-11 17:14:24.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x3765ef45136448712c55cfc338be38e0f920e769",
+   "n_early_pumps": 2,
+   "net_all_usd": 5264.84,
+   "net_pump_usd": 6190.37,
+   "buy_all_usd": 34427.45,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-14 14:32:47.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x33adc6c330b6d69b9254c3e30594b5d7824e3394",
+   "n_early_pumps": 2,
+   "net_all_usd": 4960.2,
+   "net_pump_usd": 5481.15,
+   "buy_all_usd": 51271.6,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-15 22:16:29.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x6fe11a4d01a4fa9d1177888fdf3e13f793001634",
+   "n_early_pumps": 2,
+   "net_all_usd": 4944.01,
+   "net_pump_usd": 5772.45,
+   "buy_all_usd": 14242.25,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-13 19:13:36.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x14c8de276386391d205d13b2e19cf1f3d39f4b34",
+   "n_early_pumps": 2,
+   "net_all_usd": 4909.37,
+   "net_pump_usd": 4678.08,
+   "buy_all_usd": 1633.76,
+   "first20_buys": 1,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-13 09:13:14.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xfac39a19d60cb0b36f8aa66f00cc96a5c4e484f2",
+   "n_early_pumps": 4,
+   "net_all_usd": 4798.92,
+   "net_pump_usd": 653.47,
+   "buy_all_usd": 2462.49,
+   "first20_buys": 2,
+   "labels": [
+    "CT_ATTRIBUTED",
+    "INSIDER"
+   ],
+   "last_active": "2026-10-10 21:06:42.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x7f64b2d8dd745930d8086b89f79b66926b4bef3a",
+   "n_early_pumps": 4,
+   "net_all_usd": 4583.63,
+   "net_pump_usd": 539.39,
+   "buy_all_usd": 2743.75,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-10-03 06:56:13.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xc8348e804cf22c4bfe1937c8a564dffe50d62788",
+   "n_early_pumps": 2,
+   "net_all_usd": 4476.49,
+   "net_pump_usd": 4476.49,
+   "buy_all_usd": 671.27,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-16 22:49:02.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xb22af6f1eaf22379b48971f080d7b9abdec4a1ea",
+   "n_early_pumps": 2,
+   "net_all_usd": 4002.11,
+   "net_pump_usd": 4253.51,
+   "buy_all_usd": 17516.03,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-13 07:46:21.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x06b61f2b343f3a6fed0116ee266652b05ef5d275",
+   "n_early_pumps": 2,
+   "net_all_usd": 3842.68,
+   "net_pump_usd": 4463.07,
+   "buy_all_usd": 24915.51,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-12 18:56:38.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xb1fe8d7274efcad6571f11465709a7df0521b2a9",
+   "n_early_pumps": 2,
+   "net_all_usd": 3623.71,
+   "net_pump_usd": 4405.74,
+   "buy_all_usd": 3283.35,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-07 08:54:57.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xbbd29512c56979c178d9dbc30a10ab097fae54db",
+   "n_early_pumps": 2,
+   "net_all_usd": 3393.25,
+   "net_pump_usd": 2436.15,
+   "buy_all_usd": 477.2,
+   "first20_buys": 1,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-27 09:02:55.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xca29e19599f4aa65ff318c7ae6859d4fd0a4a115",
+   "n_early_pumps": 3,
+   "net_all_usd": 3294.19,
+   "net_pump_usd": 1167.81,
+   "buy_all_usd": 5516.63,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-14 23:13:59.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xaa7f5ec828fec4ec58f36cec7a6f76ee6d7b047c",
+   "n_early_pumps": 2,
+   "net_all_usd": 3217.11,
+   "net_pump_usd": 1249.94,
+   "buy_all_usd": 6545.17,
+   "first20_buys": 1,
+   "labels": [
+    "DEV_SERIAL_RUGGER"
+   ],
+   "last_active": "2026-10-10 20:05:54.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0xe3226fb26aea0c10136e76d568f05a201680f421",
+   "n_early_pumps": 2,
+   "net_all_usd": 2844.87,
+   "net_pump_usd": 2844.87,
+   "buy_all_usd": 5873.65,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-12 23:40:39.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xcc66036909d2c99fc70c4555f550f2038fa1675c",
+   "n_early_pumps": 2,
+   "net_all_usd": 2821.42,
+   "net_pump_usd": 3329.09,
+   "buy_all_usd": 20871.02,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-14 14:03:12.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x549c902c63787a66424f8422e8968481694892f3",
+   "n_early_pumps": 2,
+   "net_all_usd": 2516.08,
+   "net_pump_usd": 501.62,
+   "buy_all_usd": 3208203.52,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-18 08:43:50.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xb910ec00617f08db6e1e4c2bdb6f1970db3e959b",
+   "n_early_pumps": 2,
+   "net_all_usd": 2372.86,
+   "net_pump_usd": 1795.94,
+   "buy_all_usd": 973.47,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-09-30 15:57:20.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x6d1bcb7072582ddba60450f9cc94e1eb1315a68b",
+   "n_early_pumps": 2,
+   "net_all_usd": 2164.64,
+   "net_pump_usd": 2.99,
+   "buy_all_usd": 8507.55,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-13 16:11:58.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xd4d8a5f5ad99349ae53746926b077505ead139aa",
+   "n_early_pumps": 2,
+   "net_all_usd": 2055.97,
+   "net_pump_usd": 1410.58,
+   "buy_all_usd": 1161.41,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-13 11:11:18.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x488f65be0bfca713ad8618fb1c413c4d1ff17ae2",
+   "n_early_pumps": 3,
+   "net_all_usd": 2005.55,
+   "net_pump_usd": 1227.92,
+   "buy_all_usd": 5461.91,
+   "first20_buys": 2,
+   "labels": [
+    "INSIDER"
+   ],
+   "last_active": "2026-10-10 07:58:04.000000",
+   "clean": false
+  },
+  {
+   "wallet": "0x07856de09e8c0c2427e16b9372ebf4d80257a5cd",
+   "n_early_pumps": 2,
+   "net_all_usd": 1876.24,
+   "net_pump_usd": 117.76,
+   "buy_all_usd": 0.0,
+   "first20_buys": 0,
+   "labels": [
+    "AIRDROP_FARMER",
+    "INSIDER"
+   ],
+   "last_active": "2026-09-13 04:56:38.000000",
+   "clean": false
+  }
+ ],
+ "top_clean_wallets": [
+  {
+   "wallet": "0xae15bb2b2dfc8c49a08cd5ae4555422b91200db2",
+   "n_early_pumps": 2,
+   "net_all_usd": 48994.64,
+   "net_pump_usd": 50286.73,
+   "buy_all_usd": 32449.35,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-16 20:17:15.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xeb75d21061332b2e62d7abb5fa9f0a789056dd83",
+   "n_early_pumps": 2,
+   "net_all_usd": 22133.93,
+   "net_pump_usd": 21481.2,
+   "buy_all_usd": 2740.16,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-15 03:33:16.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x57f6bc835d4814853731443d840af7ed4d4cc27f",
+   "n_early_pumps": 2,
+   "net_all_usd": 20906.97,
+   "net_pump_usd": 4442.44,
+   "buy_all_usd": 94777.22,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-15 17:04:14.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xb750f03e86980a3dffdfad269a88f008bb78ea51",
+   "n_early_pumps": 2,
+   "net_all_usd": 8412.83,
+   "net_pump_usd": 3249.7,
+   "buy_all_usd": 12157.78,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-14 04:55:52.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xc207df8dc9ee5113c6374c70c2a29bb87e94cfdf",
+   "n_early_pumps": 4,
+   "net_all_usd": 7070.5,
+   "net_pump_usd": -310.43,
+   "buy_all_usd": 725278.76,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-03 04:13:02.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x0554b9724bff7cc93dc1c92671f73c90cb4ca8b6",
+   "n_early_pumps": 2,
+   "net_all_usd": 6079.79,
+   "net_pump_usd": 1317.71,
+   "buy_all_usd": 1840.89,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-07 22:50:31.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x861eb694ebc371027f82377814c973cc24f741a8",
+   "n_early_pumps": 2,
+   "net_all_usd": 5863.65,
+   "net_pump_usd": 5748.19,
+   "buy_all_usd": 13148.21,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-14 07:28:14.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x3765ef45136448712c55cfc338be38e0f920e769",
+   "n_early_pumps": 2,
+   "net_all_usd": 5264.84,
+   "net_pump_usd": 6190.37,
+   "buy_all_usd": 34427.45,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-14 14:32:47.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x33adc6c330b6d69b9254c3e30594b5d7824e3394",
+   "n_early_pumps": 2,
+   "net_all_usd": 4960.2,
+   "net_pump_usd": 5481.15,
+   "buy_all_usd": 51271.6,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-15 22:16:29.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xc8348e804cf22c4bfe1937c8a564dffe50d62788",
+   "n_early_pumps": 2,
+   "net_all_usd": 4476.49,
+   "net_pump_usd": 4476.49,
+   "buy_all_usd": 671.27,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-16 22:49:02.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xb22af6f1eaf22379b48971f080d7b9abdec4a1ea",
+   "n_early_pumps": 2,
+   "net_all_usd": 4002.11,
+   "net_pump_usd": 4253.51,
+   "buy_all_usd": 17516.03,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-13 07:46:21.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xb1fe8d7274efcad6571f11465709a7df0521b2a9",
+   "n_early_pumps": 2,
+   "net_all_usd": 3623.71,
+   "net_pump_usd": 4405.74,
+   "buy_all_usd": 3283.35,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-07 08:54:57.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xe3226fb26aea0c10136e76d568f05a201680f421",
+   "n_early_pumps": 2,
+   "net_all_usd": 2844.87,
+   "net_pump_usd": 2844.87,
+   "buy_all_usd": 5873.65,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-12 23:40:39.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x549c902c63787a66424f8422e8968481694892f3",
+   "n_early_pumps": 2,
+   "net_all_usd": 2516.08,
+   "net_pump_usd": 501.62,
+   "buy_all_usd": 3208203.52,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-18 08:43:50.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x6d1bcb7072582ddba60450f9cc94e1eb1315a68b",
+   "n_early_pumps": 2,
+   "net_all_usd": 2164.64,
+   "net_pump_usd": 2.99,
+   "buy_all_usd": 8507.55,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-13 16:11:58.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xd4d8a5f5ad99349ae53746926b077505ead139aa",
+   "n_early_pumps": 2,
+   "net_all_usd": 2055.97,
+   "net_pump_usd": 1410.58,
+   "buy_all_usd": 1161.41,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-13 11:11:18.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x9bcecef9f6c46e40220c7622cfa133d8c3ccc243",
+   "n_early_pumps": 2,
+   "net_all_usd": 1707.77,
+   "net_pump_usd": -498.05,
+   "buy_all_usd": 15496.03,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-12 22:13:15.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x70da00d844a1372d81ccb537804b3c8e43a3f57c",
+   "n_early_pumps": 2,
+   "net_all_usd": 1680.9,
+   "net_pump_usd": -361.04,
+   "buy_all_usd": 363362.24,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-24 15:43:13.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x471abcd68bf92238f521f3a189c75da81d6dfeec",
+   "n_early_pumps": 4,
+   "net_all_usd": 1602.23,
+   "net_pump_usd": 1573.86,
+   "buy_all_usd": 9219.62,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-15 07:24:24.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x9748566962e3f6caac751d860614889794c2f098",
+   "n_early_pumps": 2,
+   "net_all_usd": 1450.32,
+   "net_pump_usd": 2698.17,
+   "buy_all_usd": 4241.78,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-26 04:22:02.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x21fd65d5cf729986f2cc647cbeb9e0204d026735",
+   "n_early_pumps": 2,
+   "net_all_usd": 1350.32,
+   "net_pump_usd": -74.41,
+   "buy_all_usd": 13939.01,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-27 21:39:32.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x0547eb4bfeeca56a00aae2cc5aebd5b928adf020",
+   "n_early_pumps": 2,
+   "net_all_usd": 1277.23,
+   "net_pump_usd": 1266.65,
+   "buy_all_usd": 3117.15,
+   "first20_buys": 1,
+   "labels": [],
+   "last_active": "2026-10-12 12:49:08.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x2d60e43ce0048e842d66badd8a0f62a3a05430e5",
+   "n_early_pumps": 2,
+   "net_all_usd": 1268.01,
+   "net_pump_usd": 1268.01,
+   "buy_all_usd": 28894.57,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-30 16:07:52.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xd4eca15c91bec4565bf8145f240e3e484874c17b",
+   "n_early_pumps": 2,
+   "net_all_usd": 1087.42,
+   "net_pump_usd": 1266.44,
+   "buy_all_usd": 707.47,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-13 13:52:37.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x76949d1349f07f05b3dbe9f40eaf5fb334d60706",
+   "n_early_pumps": 2,
+   "net_all_usd": 1043.73,
+   "net_pump_usd": 919.86,
+   "buy_all_usd": 1490.63,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-06 18:21:41.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xa4bd4806a7e7e49baaa1343e303eeaeab52988ee",
+   "n_early_pumps": 4,
+   "net_all_usd": 840.86,
+   "net_pump_usd": 831.11,
+   "buy_all_usd": 15467.88,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-01 14:15:19.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xf08d3c2abbf4d7edc77d8786215c29fe23b1acda",
+   "n_early_pumps": 2,
+   "net_all_usd": 729.95,
+   "net_pump_usd": 729.95,
+   "buy_all_usd": 2933.68,
+   "first20_buys": 1,
+   "labels": [],
+   "last_active": "2026-10-04 23:12:06.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x80ebfd139c7c395c21aa599e5a37ae9d2ea794dd",
+   "n_early_pumps": 2,
+   "net_all_usd": 670.09,
+   "net_pump_usd": -37.95,
+   "buy_all_usd": 3007.47,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-13 10:34:41.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xedb513bf6add4d8e7bf2beffa133902da537f6f8",
+   "n_early_pumps": 2,
+   "net_all_usd": 600.52,
+   "net_pump_usd": 589.64,
+   "buy_all_usd": 2927.14,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-14 16:40:51.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x1ad8a638a1269cd2a4d2c9a31a14ef428f434e1c",
+   "n_early_pumps": 3,
+   "net_all_usd": 560.84,
+   "net_pump_usd": 560.85,
+   "buy_all_usd": 3662.48,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-30 18:42:17.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x62efc9c63efed35aaeda628acc3086a5a9581538",
+   "n_early_pumps": 2,
+   "net_all_usd": 539.55,
+   "net_pump_usd": 539.55,
+   "buy_all_usd": 2069.15,
+   "first20_buys": 2,
+   "labels": [],
+   "last_active": "2026-10-10 02:11:21.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x9c3967fabbd48038d0f53f102c4e380ea913c47d",
+   "n_early_pumps": 2,
+   "net_all_usd": 331.54,
+   "net_pump_usd": 429.19,
+   "buy_all_usd": 350.88,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-14 14:38:43.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x8e43a8a43d0237b3f88f4e23dbd067fbaa5e43cd",
+   "n_early_pumps": 2,
+   "net_all_usd": 289.52,
+   "net_pump_usd": 6.13,
+   "buy_all_usd": 282.1,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-05 01:03:06.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xdc22d5d1a776358799b6f3121ded8c90e9806e15",
+   "n_early_pumps": 5,
+   "net_all_usd": 212.82,
+   "net_pump_usd": 65.62,
+   "buy_all_usd": 203.04,
+   "first20_buys": 5,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-11 04:33:02.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xa776f00bac131f123bee1363634f3e5906111eb0",
+   "n_early_pumps": 2,
+   "net_all_usd": 194.15,
+   "net_pump_usd": 326.33,
+   "buy_all_usd": 1803.59,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-09 18:36:32.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x03e7d36780e31e1b134373e2b0e49275b69378a6",
+   "n_early_pumps": 2,
+   "net_all_usd": 181.0,
+   "net_pump_usd": -56.3,
+   "buy_all_usd": 2948.3,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-09 20:20:41.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xb76a53c0578e714faba2f8c14a5e2433e396ad8f",
+   "n_early_pumps": 2,
+   "net_all_usd": 157.27,
+   "net_pump_usd": 157.27,
+   "buy_all_usd": 200.1,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-15 18:59:13.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+   "n_early_pumps": 8,
+   "net_all_usd": 153.54,
+   "net_pump_usd": 156.72,
+   "buy_all_usd": 1037.06,
+   "first20_buys": 7,
+   "labels": [],
+   "last_active": "2026-10-12 10:08:41.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0xa214747a77569b8a9b44e173b5eccf24fdb0165d",
+   "n_early_pumps": 2,
+   "net_all_usd": 146.21,
+   "net_pump_usd": 146.21,
+   "buy_all_usd": 252.31,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-15 23:54:48.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x6bb109639ea17c39531093c5ed7457358f71f9cf",
+   "n_early_pumps": 2,
+   "net_all_usd": 105.74,
+   "net_pump_usd": 162.04,
+   "buy_all_usd": 679.88,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-13 11:14:02.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x1c0eacab7572b4e7d218dcda108e29014bb3771d",
+   "n_early_pumps": 3,
+   "net_all_usd": 92.53,
+   "net_pump_usd": 114.83,
+   "buy_all_usd": 187.1,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-16 01:18:10.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x3f830fbcdd0e4babdae57a2dcfc185be5fab0f0d",
+   "n_early_pumps": 2,
+   "net_all_usd": 90.27,
+   "net_pump_usd": 54.28,
+   "buy_all_usd": 351.84,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-10 00:54:48.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x3164a5209eeaaa94bad2da6cea5d733a2b3c748c",
+   "n_early_pumps": 3,
+   "net_all_usd": 90.18,
+   "net_pump_usd": 58.7,
+   "buy_all_usd": 226.08,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-01 08:33:56.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+   "n_early_pumps": 17,
+   "net_all_usd": 89.12,
+   "net_pump_usd": 149.56,
+   "buy_all_usd": 1763.59,
+   "first20_buys": 7,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-10-12 12:02:15.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x2ffb702bedb41ca96c4e94dffb1f36df76d6c38c",
+   "n_early_pumps": 2,
+   "net_all_usd": 73.63,
+   "net_pump_usd": 71.39,
+   "buy_all_usd": 1059.87,
+   "first20_buys": 0,
+   "labels": [],
+   "last_active": "2026-10-05 22:02:59.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x8262628c1394e09302fa91080c49e6c3e0582037",
+   "n_early_pumps": 2,
+   "net_all_usd": 65.99,
+   "net_pump_usd": 65.99,
+   "buy_all_usd": 168.66,
+   "first20_buys": 1,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-13 05:35:44.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa",
+   "n_early_pumps": 6,
+   "net_all_usd": 65.65,
+   "net_pump_usd": 60.93,
+   "buy_all_usd": 50.94,
+   "first20_buys": 5,
+   "labels": [],
+   "last_active": "2026-10-12 05:02:18.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x511a69dab088f1885260882e12b0354fed3fac0c",
+   "n_early_pumps": 3,
+   "net_all_usd": 65.21,
+   "net_pump_usd": -30.18,
+   "buy_all_usd": 199.11,
+   "first20_buys": 2,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-14 00:25:45.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x796cd42e0a4fc9de25458fb875ce3666f73bd81b",
+   "n_early_pumps": 2,
+   "net_all_usd": 56.82,
+   "net_pump_usd": 47.5,
+   "buy_all_usd": 56.46,
+   "first20_buys": 2,
+   "labels": [],
+   "last_active": "2026-10-11 08:01:16.000000",
+   "clean": true
+  },
+  {
+   "wallet": "0x7ced9a0f398b6c011e61e3a6eac1293b51341f31",
+   "n_early_pumps": 2,
+   "net_all_usd": 48.18,
+   "net_pump_usd": 10.47,
+   "buy_all_usd": 1317.96,
+   "first20_buys": 0,
+   "labels": [
+    "ACTIVE_MIN"
+   ],
+   "last_active": "2026-09-26 09:54:04.000000",
+   "clean": true
+  }
+ ],
+ "signals": [
+  {
+   "token": "0x7dbf38976f6d3b9c529e7d9484a71898b409ee6a",
+   "smart_wallets": 24,
+   "wallets": [
+    "0x4acb6c4321253548a7d4bb9c84032cc4ee04bfd7",
+    "0xf5c4f3dc02c3fb9279495a8fef7b0741da956157",
+    "0xad01c20d5886137e056775af56915de824c8fce5",
+    "0xca5b3bbb368db39d223a9fa57a577f9a98a03638",
+    "0x28b161d9055a0dc765c5bd714ca803f8f21bbc93",
+    "0x511a69dab088f1885260882e12b0354fed3fac0c",
+    "0x682cf68fc214d99b0cbb2438d44bcd921f763b4f",
+    "0x6d1bcb7072582ddba60450f9cc94e1eb1315a68b",
+    "0x70da00d844a1372d81ccb537804b3c8e43a3f57c",
+    "0xb666fd9b55572a3cf6d42b16fb550787670a000f",
+    "0xbed11fb398e7ce9ca2a3e16d98d35acf0001c92a",
+    "0xcd6b980029e6e6e0733ac8ec3e02be9410d09799",
+    "0xe056aa367dda34c0e3c4c2cb2760f5695be90526",
+    "0xc207df8dc9ee5113c6374c70c2a29bb87e94cfdf",
+    "0x5aafc1f252d544f744d17a4e734afd6efc47ede4",
+    "0x2e27296db73efa090c33823b0b637f031d1a1f97",
+    "0xd4eca15c91bec4565bf8145f240e3e484874c17b",
+    "0x07856de09e8c0c2427e16b9372ebf4d80257a5cd",
+    "0x089561056fa0dec176c912f77a7409b9cdbea539",
+    "0x3765ef45136448712c55cfc338be38e0f920e769",
+    "0x9748566962e3f6caac751d860614889794c2f098",
+    "0xbbd29512c56979c178d9dbc30a10ab097fae54db",
+    "0xc8348e804cf22c4bfe1937c8a564dffe50d62788",
+    "0xdf6b43dca3ab880c976e2453cd7e9ecedbcfe905"
+   ],
+   "clean_wallets": [
+    "0x28b161d9055a0dc765c5bd714ca803f8f21bbc93",
+    "0x511a69dab088f1885260882e12b0354fed3fac0c",
+    "0x6d1bcb7072582ddba60450f9cc94e1eb1315a68b",
+    "0x70da00d844a1372d81ccb537804b3c8e43a3f57c",
+    "0xbed11fb398e7ce9ca2a3e16d98d35acf0001c92a",
+    "0xc207df8dc9ee5113c6374c70c2a29bb87e94cfdf",
+    "0xd4eca15c91bec4565bf8145f240e3e484874c17b",
+    "0x089561056fa0dec176c912f77a7409b9cdbea539",
+    "0x3765ef45136448712c55cfc338be38e0f920e769",
+    "0x9748566962e3f6caac751d860614889794c2f098",
+    "0xc8348e804cf22c4bfe1937c8a564dffe50d62788"
+   ],
+   "pump_x": 1621.5,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xacbe4ba8603a74562fc5cf233ae2f1b9856e496d",
+   "smart_wallets": 10,
+   "wallets": [
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xb659c6d2847c7dcc59c6a6f7a08ef0fab33e7ddd",
+    "0xdc22d5d1a776358799b6f3121ded8c90e9806e15",
+    "0x3155c72daee67d4aaaf4489fc1d6dc23f68fb119",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa",
+    "0x2c27efa20bf499e41b24f8274daa4232b7e4fa7c",
+    "0xdc5058a98192e7b73b32d38a20962f752c0cdb30",
+    "0xe1ec35a6baf2c77b036ac77a044a9a0c358904ee"
+   ],
+   "clean_wallets": [
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xb659c6d2847c7dcc59c6a6f7a08ef0fab33e7ddd",
+    "0xdc22d5d1a776358799b6f3121ded8c90e9806e15",
+    "0x3155c72daee67d4aaaf4489fc1d6dc23f68fb119",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa",
+    "0x2c27efa20bf499e41b24f8274daa4232b7e4fa7c",
+    "0xdc5058a98192e7b73b32d38a20962f752c0cdb30",
+    "0xe1ec35a6baf2c77b036ac77a044a9a0c358904ee"
+   ],
+   "pump_x": 53.7,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x30d6c3d03c2e950bb05d10a6ae26b38c4e42b1fe",
+   "smart_wallets": 9,
+   "wallets": [
+    "0x2511a8d6ad7332742a7c6118c324cff25f58c75b",
+    "0x30a6a559b26e9a1fdec8619e03b69ef12788b355",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x743fdc057f13c7dc7eb977156db2783460dc7e05",
+    "0xf30e383d70267c5660f531afac234deef9a2b75f",
+    "0x3155c72daee67d4aaaf4489fc1d6dc23f68fb119",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0xe8177b0a39d33d2e1d4a7ae881b624ed95898e0f"
+   ],
+   "clean_wallets": [
+    "0x2511a8d6ad7332742a7c6118c324cff25f58c75b",
+    "0x30a6a559b26e9a1fdec8619e03b69ef12788b355",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x743fdc057f13c7dc7eb977156db2783460dc7e05",
+    "0x3155c72daee67d4aaaf4489fc1d6dc23f68fb119",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0xe8177b0a39d33d2e1d4a7ae881b624ed95898e0f"
+   ],
+   "pump_x": 44.2,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xc61ff46ccf3a38eb3055a3697c267276093b68c3",
+   "smart_wallets": 9,
+   "wallets": [
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xf30e383d70267c5660f531afac234deef9a2b75f",
+    "0x3155c72daee67d4aaaf4489fc1d6dc23f68fb119",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa",
+    "0xf776cb13f3056a0d0871b2e53ed01fd74c8b4d46",
+    "0x55acb77b88321821eb2f6e937e62cc798283b901",
+    "0x2c27efa20bf499e41b24f8274daa4232b7e4fa7c",
+    "0xe7f16131b415d14e8e7a55b36b1fedcff5a277d8"
+   ],
+   "clean_wallets": [
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x3155c72daee67d4aaaf4489fc1d6dc23f68fb119",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa",
+    "0xf776cb13f3056a0d0871b2e53ed01fd74c8b4d46",
+    "0x55acb77b88321821eb2f6e937e62cc798283b901",
+    "0x2c27efa20bf499e41b24f8274daa4232b7e4fa7c",
+    "0xe7f16131b415d14e8e7a55b36b1fedcff5a277d8"
+   ],
+   "pump_x": 28.2,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xba527c23903eff094a987197ccd643f2da76e4ff",
+   "smart_wallets": 15,
+   "wallets": [
+    "0xf5c4f3dc02c3fb9279495a8fef7b0741da956157",
+    "0xad01c20d5886137e056775af56915de824c8fce5",
+    "0xca5b3bbb368db39d223a9fa57a577f9a98a03638",
+    "0x28b161d9055a0dc765c5bd714ca803f8f21bbc93",
+    "0x3ce020839bca572d67fbf2029aa0b7bf43744122",
+    "0x511a69dab088f1885260882e12b0354fed3fac0c",
+    "0x57f6bc835d4814853731443d840af7ed4d4cc27f",
+    "0x682cf68fc214d99b0cbb2438d44bcd921f763b4f",
+    "0x6d1bcb7072582ddba60450f9cc94e1eb1315a68b",
+    "0x70da00d844a1372d81ccb537804b3c8e43a3f57c",
+    "0xa214747a77569b8a9b44e173b5eccf24fdb0165d",
+    "0xb666fd9b55572a3cf6d42b16fb550787670a000f",
+    "0xbed11fb398e7ce9ca2a3e16d98d35acf0001c92a",
+    "0xcd6b980029e6e6e0733ac8ec3e02be9410d09799",
+    "0xe056aa367dda34c0e3c4c2cb2760f5695be90526"
+   ],
+   "clean_wallets": [
+    "0x28b161d9055a0dc765c5bd714ca803f8f21bbc93",
+    "0x511a69dab088f1885260882e12b0354fed3fac0c",
+    "0x57f6bc835d4814853731443d840af7ed4d4cc27f",
+    "0x6d1bcb7072582ddba60450f9cc94e1eb1315a68b",
+    "0x70da00d844a1372d81ccb537804b3c8e43a3f57c",
+    "0xa214747a77569b8a9b44e173b5eccf24fdb0165d",
+    "0xbed11fb398e7ce9ca2a3e16d98d35acf0001c92a"
+   ],
+   "pump_x": 148.5,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x3c68382e757193f6ddd12a72dcf0adf93c961769",
+   "smart_wallets": 15,
+   "wallets": [
+    "0x4acb6c4321253548a7d4bb9c84032cc4ee04bfd7",
+    "0xf5c4f3dc02c3fb9279495a8fef7b0741da956157",
+    "0xad01c20d5886137e056775af56915de824c8fce5",
+    "0xca5b3bbb368db39d223a9fa57a577f9a98a03638",
+    "0x3ce020839bca572d67fbf2029aa0b7bf43744122",
+    "0x682cf68fc214d99b0cbb2438d44bcd921f763b4f",
+    "0xcd6b980029e6e6e0733ac8ec3e02be9410d09799",
+    "0xae15bb2b2dfc8c49a08cd5ae4555422b91200db2",
+    "0x91401bc3054bc1d5c05e0fdf4edb26af254f30bd",
+    "0xc207df8dc9ee5113c6374c70c2a29bb87e94cfdf",
+    "0x33adc6c330b6d69b9254c3e30594b5d7824e3394",
+    "0x21fd65d5cf729986f2cc647cbeb9e0204d026735",
+    "0x76949d1349f07f05b3dbe9f40eaf5fb334d60706",
+    "0x818416066d4a69c05046f6f2d43d50e50e46b6ce",
+    "0x9bcecef9f6c46e40220c7622cfa133d8c3ccc243"
+   ],
+   "clean_wallets": [
+    "0xae15bb2b2dfc8c49a08cd5ae4555422b91200db2",
+    "0xc207df8dc9ee5113c6374c70c2a29bb87e94cfdf",
+    "0x33adc6c330b6d69b9254c3e30594b5d7824e3394",
+    "0x21fd65d5cf729986f2cc647cbeb9e0204d026735",
+    "0x76949d1349f07f05b3dbe9f40eaf5fb334d60706",
+    "0x9bcecef9f6c46e40220c7622cfa133d8c3ccc243"
+   ],
+   "pump_x": 279.6,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xc32ab2e562ade6fba6d3d1e3960d49b0957ef645",
+   "smart_wallets": 12,
+   "wallets": [
+    "0x2ffb702bedb41ca96c4e94dffb1f36df76d6c38c",
+    "0x018f7c9613cac1ec9ebec4232cd466414c628dea",
+    "0x0554b9724bff7cc93dc1c92671f73c90cb4ca8b6",
+    "0x068513cb4ac693499243882b627bc2b24230f679",
+    "0x3d037f8e2764bffafb4ebbb2d8e5a7cb2e15b369",
+    "0x3f830fbcdd0e4babdae57a2dcfc185be5fab0f0d",
+    "0x45508f43e5439be2d991f53c5586b936e00ebd83",
+    "0x7f64b2d8dd745930d8086b89f79b66926b4bef3a",
+    "0x946ee13a657c5c521708f7ef4b000e948974e824",
+    "0xdc31153d1d0d2e6a1b1dae5356c7ce5207cf0abc",
+    "0xf08d3c2abbf4d7edc77d8786215c29fe23b1acda",
+    "0xfac39a19d60cb0b36f8aa66f00cc96a5c4e484f2"
+   ],
+   "clean_wallets": [
+    "0x2ffb702bedb41ca96c4e94dffb1f36df76d6c38c",
+    "0x0554b9724bff7cc93dc1c92671f73c90cb4ca8b6",
+    "0x068513cb4ac693499243882b627bc2b24230f679",
+    "0x3d037f8e2764bffafb4ebbb2d8e5a7cb2e15b369",
+    "0x3f830fbcdd0e4babdae57a2dcfc185be5fab0f0d",
+    "0xf08d3c2abbf4d7edc77d8786215c29fe23b1acda"
+   ],
+   "pump_x": 20.9,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xebb4c5b97e4117e30ec82ce025e6f21dded05436",
+   "smart_wallets": 11,
+   "wallets": [
+    "0xf86f77a069e0a42a018b419152e22f169a7658b4",
+    "0xf5c4f3dc02c3fb9279495a8fef7b0741da956157",
+    "0x098e97434dbf6c8479241e9b76e10c737e1ce9ae",
+    "0xad01c20d5886137e056775af56915de824c8fce5",
+    "0xca5b3bbb368db39d223a9fa57a577f9a98a03638",
+    "0xcd6b980029e6e6e0733ac8ec3e02be9410d09799",
+    "0x471abcd68bf92238f521f3a189c75da81d6dfeec",
+    "0xa4bd4806a7e7e49baaa1343e303eeaeab52988ee",
+    "0x07856de09e8c0c2427e16b9372ebf4d80257a5cd",
+    "0x9bcecef9f6c46e40220c7622cfa133d8c3ccc243",
+    "0x05607d87494c3f9d6e43be2c2e5ed23a95574548"
+   ],
+   "clean_wallets": [
+    "0xf86f77a069e0a42a018b419152e22f169a7658b4",
+    "0x098e97434dbf6c8479241e9b76e10c737e1ce9ae",
+    "0x471abcd68bf92238f521f3a189c75da81d6dfeec",
+    "0xa4bd4806a7e7e49baaa1343e303eeaeab52988ee",
+    "0x9bcecef9f6c46e40220c7622cfa133d8c3ccc243"
+   ],
+   "pump_x": 180.2,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x724a163f0081fa1771590dda9b55edde2c5b823a",
+   "smart_wallets": 7,
+   "wallets": [
+    "0xca5b3bbb368db39d223a9fa57a577f9a98a03638",
+    "0x57f6bc835d4814853731443d840af7ed4d4cc27f",
+    "0xa214747a77569b8a9b44e173b5eccf24fdb0165d",
+    "0xcd6b980029e6e6e0733ac8ec3e02be9410d09799",
+    "0x33adc6c330b6d69b9254c3e30594b5d7824e3394",
+    "0x80ebfd139c7c395c21aa599e5a37ae9d2ea794dd",
+    "0xb76a53c0578e714faba2f8c14a5e2433e396ad8f"
+   ],
+   "clean_wallets": [
+    "0x57f6bc835d4814853731443d840af7ed4d4cc27f",
+    "0xa214747a77569b8a9b44e173b5eccf24fdb0165d",
+    "0x33adc6c330b6d69b9254c3e30594b5d7824e3394",
+    "0x80ebfd139c7c395c21aa599e5a37ae9d2ea794dd",
+    "0xb76a53c0578e714faba2f8c14a5e2433e396ad8f"
+   ],
+   "pump_x": 57.5,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xec386c03e73bb659319764ebfc455ec667295d45",
+   "smart_wallets": 5,
+   "wallets": [
+    "0xb659c6d2847c7dcc59c6a6f7a08ef0fab33e7ddd",
+    "0xdc22d5d1a776358799b6f3121ded8c90e9806e15",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0x796cd42e0a4fc9de25458fb875ce3666f73bd81b"
+   ],
+   "clean_wallets": [
+    "0xb659c6d2847c7dcc59c6a6f7a08ef0fab33e7ddd",
+    "0xdc22d5d1a776358799b6f3121ded8c90e9806e15",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0x796cd42e0a4fc9de25458fb875ce3666f73bd81b"
+   ],
+   "pump_x": 21.8,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x4e1f4f48934631b1de38b480c58de3b2e2e75a61",
+   "smart_wallets": 6,
+   "wallets": [
+    "0x2511a8d6ad7332742a7c6118c324cff25f58c75b",
+    "0x21cc30835cfd83ef81f92670e1efabf6374a4bbd",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x3164a5209eeaaa94bad2da6cea5d733a2b3c748c",
+    "0x85ad8bf6ae792896f729537456f5dd7ad94afe65",
+    "0xe1d160682d30b761402136333809d610a6507f57"
+   ],
+   "clean_wallets": [
+    "0x2511a8d6ad7332742a7c6118c324cff25f58c75b",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x3164a5209eeaaa94bad2da6cea5d733a2b3c748c",
+    "0xe1d160682d30b761402136333809d610a6507f57"
+   ],
+   "pump_x": 23.8,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x434c832e6352bf0cfeadab8e86361a83e6d572e2",
+   "smart_wallets": 6,
+   "wallets": [
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xe1d160682d30b761402136333809d610a6507f57",
+    "0x2aec7967b653e89043ff680af717119c12ff9cb3",
+    "0x6a8772457a010e6498fe17261e6cad49beef4b0f",
+    "0xa4da6512a2ac42d1a98f3873e6c264c312859ddb",
+    "0xc79576e758cb3b806fe49c1bb8deb85a49e0fcd4"
+   ],
+   "clean_wallets": [
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xe1d160682d30b761402136333809d610a6507f57",
+    "0xa4da6512a2ac42d1a98f3873e6c264c312859ddb",
+    "0xc79576e758cb3b806fe49c1bb8deb85a49e0fcd4"
+   ],
+   "pump_x": 20.9,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xa4ddf89a40a35264e9d7f896a1ef01c59b1e977a",
+   "smart_wallets": 6,
+   "wallets": [
+    "0xad01c20d5886137e056775af56915de824c8fce5",
+    "0x0554b9724bff7cc93dc1c92671f73c90cb4ca8b6",
+    "0x3f830fbcdd0e4babdae57a2dcfc185be5fab0f0d",
+    "0x946ee13a657c5c521708f7ef4b000e948974e824",
+    "0x1ad8a638a1269cd2a4d2c9a31a14ef428f434e1c",
+    "0xa4fbd14725073db3859d82779efb2818b3c9a7e5"
+   ],
+   "clean_wallets": [
+    "0x0554b9724bff7cc93dc1c92671f73c90cb4ca8b6",
+    "0x3f830fbcdd0e4babdae57a2dcfc185be5fab0f0d",
+    "0x1ad8a638a1269cd2a4d2c9a31a14ef428f434e1c",
+    "0xa4fbd14725073db3859d82779efb2818b3c9a7e5"
+   ],
+   "pump_x": 61.2,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xb8cf4ad387cfd607c66a207cfffc46498aacd9d6",
+   "smart_wallets": 6,
+   "wallets": [
+    "0xb1fe8d7274efcad6571f11465709a7df0521b2a9",
+    "0xca29e19599f4aa65ff318c7ae6859d4fd0a4a115",
+    "0x8ab3eb59c3bf3bdd98b379fa74c41111f070f955",
+    "0x7ced9a0f398b6c011e61e3a6eac1293b51341f31",
+    "0xb22af6f1eaf22379b48971f080d7b9abdec4a1ea",
+    "0x861eb694ebc371027f82377814c973cc24f741a8"
+   ],
+   "clean_wallets": [
+    "0xb1fe8d7274efcad6571f11465709a7df0521b2a9",
+    "0x7ced9a0f398b6c011e61e3a6eac1293b51341f31",
+    "0xb22af6f1eaf22379b48971f080d7b9abdec4a1ea",
+    "0x861eb694ebc371027f82377814c973cc24f741a8"
+   ],
+   "pump_x": 111.2,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x111ad89cd373fba5eed320317cd4aad1f8017451",
+   "smart_wallets": 5,
+   "wallets": [
+    "0x2511a8d6ad7332742a7c6118c324cff25f58c75b",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xe8177b0a39d33d2e1d4a7ae881b624ed95898e0f",
+    "0xdc31153d1d0d2e6a1b1dae5356c7ce5207cf0abc",
+    "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa"
+   ],
+   "clean_wallets": [
+    "0x2511a8d6ad7332742a7c6118c324cff25f58c75b",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xe8177b0a39d33d2e1d4a7ae881b624ed95898e0f",
+    "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa"
+   ],
+   "pump_x": 48.3,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xe2a953b5cfd68563393c3db89c4d5e746ea7ea6f",
+   "smart_wallets": 5,
+   "wallets": [
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x776e5a2a72f9711ed818e2a0535d3d01cf8ed3d6",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0x2c27efa20bf499e41b24f8274daa4232b7e4fa7c"
+   ],
+   "clean_wallets": [
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0x2c27efa20bf499e41b24f8274daa4232b7e4fa7c"
+   ],
+   "pump_x": 56.1,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x35aa14e263d4f01fd6f777ca07fd70a82c5e679c",
+   "smart_wallets": 5,
+   "wallets": [
+    "0x45508f43e5439be2d991f53c5586b936e00ebd83",
+    "0xe3226fb26aea0c10136e76d568f05a201680f421",
+    "0x1c0eacab7572b4e7d218dcda108e29014bb3771d",
+    "0x7ced9a0f398b6c011e61e3a6eac1293b51341f31",
+    "0xb22af6f1eaf22379b48971f080d7b9abdec4a1ea"
+   ],
+   "clean_wallets": [
+    "0xe3226fb26aea0c10136e76d568f05a201680f421",
+    "0x1c0eacab7572b4e7d218dcda108e29014bb3771d",
+    "0x7ced9a0f398b6c011e61e3a6eac1293b51341f31",
+    "0xb22af6f1eaf22379b48971f080d7b9abdec4a1ea"
+   ],
+   "pump_x": 86.8,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x84c3eb3befb889debe99192c42dcbbfbd7da761f",
+   "smart_wallets": 4,
+   "wallets": [
+    "0x30a6a559b26e9a1fdec8619e03b69ef12788b355",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xb659c6d2847c7dcc59c6a6f7a08ef0fab33e7ddd",
+    "0xf3e314694cf7a9f990158303c88ba352c4d80667"
+   ],
+   "clean_wallets": [
+    "0x30a6a559b26e9a1fdec8619e03b69ef12788b355",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xb659c6d2847c7dcc59c6a6f7a08ef0fab33e7ddd",
+    "0xf3e314694cf7a9f990158303c88ba352c4d80667"
+   ],
+   "pump_x": 56.5,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x185cd86eb4038504d7a209c23f103c618be56d21",
+   "smart_wallets": 4,
+   "wallets": [
+    "0x30a6a559b26e9a1fdec8619e03b69ef12788b355",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0x50165f78d2b9f0fab451279e86a72f7966bb9966"
+   ],
+   "clean_wallets": [
+    "0x30a6a559b26e9a1fdec8619e03b69ef12788b355",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0x50165f78d2b9f0fab451279e86a72f7966bb9966"
+   ],
+   "pump_x": 23.7,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x5f159735b6019838436ea3ae9d4548145b0d787d",
+   "smart_wallets": 4,
+   "wallets": [
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xb659c6d2847c7dcc59c6a6f7a08ef0fab33e7ddd",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0x29856d127726fd768bab88aa8ea1ed5cb26d0a61"
+   ],
+   "clean_wallets": [
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xb659c6d2847c7dcc59c6a6f7a08ef0fab33e7ddd",
+    "0x5cfe426dde350e72893faa1cef33239837f186ed",
+    "0x29856d127726fd768bab88aa8ea1ed5cb26d0a61"
+   ],
+   "pump_x": 20.6,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x1b161861f5b594be89eafe366d68735859dc1aab",
+   "smart_wallets": 4,
+   "wallets": [
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa",
+    "0xdbfee7d31e4d097013fbac2743eb382580fca234",
+    "0xf776cb13f3056a0d0871b2e53ed01fd74c8b4d46"
+   ],
+   "clean_wallets": [
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa",
+    "0xdbfee7d31e4d097013fbac2743eb382580fca234",
+    "0xf776cb13f3056a0d0871b2e53ed01fd74c8b4d46"
+   ],
+   "pump_x": 46.7,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x008df4b3e857d06c4603aeb11f267ccd32ce2005",
+   "smart_wallets": 13,
+   "wallets": [
+    "0xf5c4f3dc02c3fb9279495a8fef7b0741da956157",
+    "0xad01c20d5886137e056775af56915de824c8fce5",
+    "0xca5b3bbb368db39d223a9fa57a577f9a98a03638",
+    "0x682cf68fc214d99b0cbb2438d44bcd921f763b4f",
+    "0xcd6b980029e6e6e0733ac8ec3e02be9410d09799",
+    "0x471abcd68bf92238f521f3a189c75da81d6dfeec",
+    "0x762565c177986a09f091b32ac204aa262b3f200a",
+    "0x873a6043fb89fdfaaa3f116b9526451836cbc892",
+    "0xa580cdba20944a0d58e1198ff7e6e7e517f389dd",
+    "0xb0b72fd48bd4212c77e75756a7ec977165a41657",
+    "0xf9d33b7def5d8d6015ce2784e6fcf82802e247dd",
+    "0x9c3967fabbd48038d0f53f102c4e380ea913c47d",
+    "0x1c0eacab7572b4e7d218dcda108e29014bb3771d"
+   ],
+   "clean_wallets": [
+    "0x471abcd68bf92238f521f3a189c75da81d6dfeec",
+    "0x9c3967fabbd48038d0f53f102c4e380ea913c47d",
+    "0x1c0eacab7572b4e7d218dcda108e29014bb3771d"
+   ],
+   "pump_x": 81.5,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x3151b9feee443a1bc5db52ed69c279b08ab7fecb",
+   "smart_wallets": 7,
+   "wallets": [
+    "0x03e7d36780e31e1b134373e2b0e49275b69378a6",
+    "0xca29e19599f4aa65ff318c7ae6859d4fd0a4a115",
+    "0xb910ec00617f08db6e1e4c2bdb6f1970db3e959b",
+    "0x488f65be0bfca713ad8618fb1c413c4d1ff17ae2",
+    "0x818416066d4a69c05046f6f2d43d50e50e46b6ce",
+    "0x8262628c1394e09302fa91080c49e6c3e0582037",
+    "0xd4d8a5f5ad99349ae53746926b077505ead139aa"
+   ],
+   "clean_wallets": [
+    "0x03e7d36780e31e1b134373e2b0e49275b69378a6",
+    "0x8262628c1394e09302fa91080c49e6c3e0582037",
+    "0xd4d8a5f5ad99349ae53746926b077505ead139aa"
+   ],
+   "pump_x": 37.2,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xd5c8718d72c5d182dcd5f55c304c4bbd537f12c9",
+   "smart_wallets": 4,
+   "wallets": [
+    "0x30a6a559b26e9a1fdec8619e03b69ef12788b355",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x85ad8bf6ae792896f729537456f5dd7ad94afe65",
+    "0xdbfee7d31e4d097013fbac2743eb382580fca234"
+   ],
+   "clean_wallets": [
+    "0x30a6a559b26e9a1fdec8619e03b69ef12788b355",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0xdbfee7d31e4d097013fbac2743eb382580fca234"
+   ],
+   "pump_x": 21.3,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+   "smart_wallets": 4,
+   "wallets": [
+    "0xc3d2026aa0d63d7bb059fb69b053d6688354b5dd",
+    "0x488f65be0bfca713ad8618fb1c413c4d1ff17ae2",
+    "0x62efc9c63efed35aaeda628acc3086a5a9581538",
+    "0x0547eb4bfeeca56a00aae2cc5aebd5b928adf020"
+   ],
+   "clean_wallets": [
+    "0xc3d2026aa0d63d7bb059fb69b053d6688354b5dd",
+    "0x62efc9c63efed35aaeda628acc3086a5a9581538",
+    "0x0547eb4bfeeca56a00aae2cc5aebd5b928adf020"
+   ],
+   "pump_x": 278.4,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x10b409f69989bc34e36a5105874f6d64e3eb0bff",
+   "smart_wallets": 4,
+   "wallets": [
+    "0xa4bd4806a7e7e49baaa1343e303eeaeab52988ee",
+    "0xb750f03e86980a3dffdfad269a88f008bb78ea51",
+    "0x05607d87494c3f9d6e43be2c2e5ed23a95574548",
+    "0x861eb694ebc371027f82377814c973cc24f741a8"
+   ],
+   "clean_wallets": [
+    "0xa4bd4806a7e7e49baaa1343e303eeaeab52988ee",
+    "0xb750f03e86980a3dffdfad269a88f008bb78ea51",
+    "0x861eb694ebc371027f82377814c973cc24f741a8"
+   ],
+   "pump_x": 48.2,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xf872aa87bd79267c6b7852e19a9ec3ef493cc8bf",
+   "smart_wallets": 3,
+   "wallets": [
+    "0xce478a3e26f76ce5e20ff1c01df39ecc5c372a16",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x2c27efa20bf499e41b24f8274daa4232b7e4fa7c"
+   ],
+   "clean_wallets": [
+    "0xce478a3e26f76ce5e20ff1c01df39ecc5c372a16",
+    "0x7155814014ec19b563a2811f3f26abeb4251bc7d",
+    "0x2c27efa20bf499e41b24f8274daa4232b7e4fa7c"
+   ],
+   "pump_x": 21.2,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xba9b180b1f5ba60fa7eb76ca0a8701b6f204bdb8",
+   "smart_wallets": 3,
+   "wallets": [
+    "0xdc22d5d1a776358799b6f3121ded8c90e9806e15",
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa"
+   ],
+   "clean_wallets": [
+    "0xdc22d5d1a776358799b6f3121ded8c90e9806e15",
+    "0xd102a65084d024a28f0d2f2421a0ea5bff4b23ab",
+    "0x3d8adfc891d0b9bb773045f68eb284bdcde0ccaa"
+   ],
+   "pump_x": 39.4,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0x2ed6599031b783ed6dc6af32beef93df620f55d9",
+   "smart_wallets": 3,
+   "wallets": [
+    "0xdc22d5d1a776358799b6f3121ded8c90e9806e15",
+    "0x796cd42e0a4fc9de25458fb875ce3666f73bd81b",
+    "0xe7f16131b415d14e8e7a55b36b1fedcff5a277d8"
+   ],
+   "clean_wallets": [
+    "0xdc22d5d1a776358799b6f3121ded8c90e9806e15",
+    "0x796cd42e0a4fc9de25458fb875ce3666f73bd81b",
+    "0xe7f16131b415d14e8e7a55b36b1fedcff5a277d8"
+   ],
+   "pump_x": 82.8,
+   "note": "same low cap bought early by >=3 smart wallets"
+  },
+  {
+   "token": "0xfb2bb4bfb97a796abfae750113086b83173b0dcc",
+   "smart_wallets": 3,
+   "wallets": [
+    "0x6c2684b75dd759e45f3f199148e62dbaae7811a3",
+    "0x2684cf357662604d1eafbeebc2bf9eec9d9a6272",
+    "0x62efc9c63efed35aaeda628acc3086a5a9581538"
+   ],
+   "clean_wallets": [
+    "0x6c2684b75dd759e45f3f199148e62dbaae7811a3",
+    "0x2684cf357662604d1eafbeebc2bf9eec9d9a6272",
+    "0x62efc9c63efed35aaeda628acc3086a5a9581538"
+   ],
+   "pump_x": 36.6,
+   "note": "same low cap bought early by >=3 smart wallets"
+  }
+ ]
 }

@@ -1682,3 +1682,68 @@ DEV_SERIAL_RUGGER 61 · SMART_TRACKER 2. Scores 88.
   social rows**. Dataset explorer rebuilt 16:15 UTC (ready).
 - gmgn_deep_harvest (run benar): **tetap 0 baris** — cursor pagination memang
   masih dicabut GMGN (catatan lama tetap valid); rank dasar 100/tag normal.
+
+## SNAPSHOT S-53 — 2026-10-14: DELTA + KERUCUTKAN DISK (mandat user) + PLAYBOOK RECOUNT
+
+### A. AUDIT DISK (jawaban "apa sumber yang makan GB?")
+Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
+1. **topwallet.prev.db 2,84 GB** = backup rolling 1-delta — dibuang, dan
+   rebuild_local_db.py kini TIDAK lagi bikin .prev (KEEP_PREV=1 utk perilaku
+   lama; sumber kebenaran = DB VPS, refetch bisa kapan saja).
+2. **Profil Brave data/arkham-profile-brave 1,1 GB** = mayoritas cache HTTP
+   (Cache 499M + Code Cache 243M) — cache murni dibuang (Cookies/Local
+   Storage/IndexedDB/login TIDAK disentuh; login 3 situs aman) → 221 MB.
+3. **topwallet.db 3,15 GB**: freelist ~0 (PADAT, bukan bloat) = data asli +
+   index:
+   - price_points 8,21 jt rows (0,9 GB+ data): **2 pool MATI (0 swap seumur
+     hidup) hisap 1,32 jt poin (16%!)** — bangkai murni utk pricing lokal.
+   - index swap_events (ts/wallet/token) tak terpakai pola baca lokal.
+   - **Wallet "noise" BUKAN penghemat disk**: 88.825 wallet dorman (≤2 swap,
+     idle >60d, tanpa label khusus) cuma punya 316 baris swap (~15-20 MB).
+     Dibuang demi kebersihan dataset, bukan GB (jujur ke user).
+4. topwallet.pre-s35.db 47 MB (Sep 7) — dibuang.
+
+### B. scripts/kerucutkan.py BARU (dry-run default + --apply)
+- Prune wallet noise (label ⊆ GENERALIST/ACTIVE_MIN/DORMANT/DUST + ≤2 swap +
+  idle >60d, atau label NOISE) + jejaknya (swap_events/wallet_labels/
+  wallet_social). Sanity: ABORT bila prune >60% wallet.
+- Buang price_points pool tanpa swap; downsample pool 1-10 swap → ≤200 poin,
+  11-100 swap → ≤400 poin (titik pertama+terakhir selalu disimpan); pool
+  >100 swap = series PENUH (playbook/pump detection tak terganggu).
+- Drop 3 index swap_events lokal (rebuild berikutnya bikin lagi; kerucutkan
+  jalan lagi tiap delta).
+- VACUUM + ekspor ulang JSON kanonik + refresh_results_local.
+- Laporan: results/kerucutkan_report.json. **Hasil: DB 3.150 → 2.214 MB
+  (hemat 936 MB)**; price_points 8,21 jt → 6,20 jt.
+- **Hook otomatis di night_delta.py** (reapply → kerucutkan → commit → push)
+  — jadi ter-apply tiap delta tanpa campur tangan.
+
+### C. DELTA 14 Okt (catch-up; sebelumnya 12 Okt)
+- Dump: **210.040 wallet · 1.573.547 swap · 8,21 jt price_points · max_ts
+  2026-10-14 11:55 UTC · scores 90**. Reapply tuntas (label baru 6.059;
+  kanonik pasca-kerucut: 45.839 label, 1.332 social).
+- Explorer 8787 sempat mati saat VACUUM (koneksi DB kaget) → start_explorer
+  lagi, dataset rebuilt: 69.101 wallet · 1,28 jt swap · priced 97,6%.
+- **TEMUAN INFRA: GITHUB_TOKEN di .env INVALID** ("Invalid username or token")
+  → push otomatis night_delta gagal. FIX: night_delta kini push via origin
+  (embed token valid), URL .env jadi fallback. ⚠️ User perlu refresh PAT di
+  .env kapan saja (tidak darurat).
+
+### D. PLAYBOOK RECOUNT (data 14 Okt, DB kerucut)
+- early≥1: 28.981 · early≥2: 5.223 → bot 95 + dead 1.209 → **SMART 134
+  (80 bersih)** · tier: ≥$100K 2 · 10K-100K 16 · 1K-10K 36 · <1K 80 ·
+- Confluence 63 token (30 clean). Top clean: 0xae15bb2b $49,0K · 0xf05d0e3f
+  $29,9K (baru) · 0xeb75d210 $22,1K. Pump-scope priced 99,9%.
+
+### E. TOTAL HEMAT DISK (terukur)
+.prev 2,84 GB + pre-s35 47 MB + cache Brave ~0,9 GB + kerucutkan DB 936 MB
+≈ **4,7 GB dibuang**; delta berikutnya tak lagi melahirkan backup 3 GB.
+
+### PELAJARAN S-53
+1. Edit script yang SEDANG JALAN = proses hidup masih pakai kode lama (hook
+   kerucutkan tidak ikut; eksekusi manual) — jangan harap edit menular.
+2. Intuisi "wallet noise makan disk" TIDAK TERBUKTI (227-316 swap rows saja);
+   penghemat beneran = backup, cache browser, price_points bangkai, index.
+   Selalu ukur dulu sebelum memotong.
+3. VACUUM bisa membuat koneksi server explorer mati — start_explorer lagi
+   setelah kerucutkan (sudah dialami, restart sukses).

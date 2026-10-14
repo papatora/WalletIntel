@@ -107,14 +107,15 @@ if not ok:
     sys.exit("REBUILD GAGAL validasi — DB lama utuh, NEW dihapus, "
              "parts dipertahankan untuk investigasi")
 
-# 5. lolos validasi -> replace: lama jadi .prev.db (rolling), pertahankan
-#    backup historis pertama kalau ada
+# 5. lolos validasi -> replace. S-53: backup .prev (2-3 GB!) OPSIONAL —
+#    default TIDAK disimpan lagi (sumber kebenaran = DB VPS; sasa lama bisa
+#    di-refetch). KEEP_PREV=1 utk perilaku lama.
+import os as _os
 if DB.exists():
-    if not BACKUP.exists():
-        import shutil
-
-        shutil.copy2(DB, BACKUP)
-    DB.replace(PREV)
+    if _os.getenv("KEEP_PREV") == "1":
+        DB.replace(PREV)
+    else:
+        DB.unlink()
 NEW.replace(DB)
 
 # 6. bersihkan part

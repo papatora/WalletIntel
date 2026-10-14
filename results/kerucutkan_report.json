@@ -1,0 +1,45 @@
+{
+ "generated_at": "2026-10-14T16:12:55.858216+00:00",
+ "applied": true,
+ "size_before": 3150233600,
+ "plan": {
+  "db_max_ts": "2026-10-14 11:55:53.000000",
+  "idle_cutoff": "2026-08-15 11:55:53",
+  "wallets_total": 210040,
+  "wallet_prune": {
+   "count": 88825,
+   "pct": 42.3,
+   "swap_rows": 316
+  },
+  "price_points": {
+   "total": 8213723,
+   "dead_pool_rows": 1318325,
+   "downsample_pools": 375,
+   "downsample_rows": 725191
+  },
+  "indexes_present": {
+   "ix_swap_events_ts": true,
+   "ix_swap_events_wallet_address": true,
+   "ix_swap_events_token_address": true
+  }
+ },
+ "applied_detail": {
+  "wallet_prune": {
+   "wallets": 88825,
+   "swap_events": 316,
+   "wallet_labels": 179,
+   "wallet_social": 52
+  },
+  "price_points_dead_pool": 1318325,
+  "price_points_downsample": 696047,
+  "indexes_dropped": [
+   "ix_swap_events_ts",
+   "ix_swap_events_wallet_address",
+   "ix_swap_events_token_address"
+  ],
+  "vacuum_s": 0
+ },
+ "vacuum_s": 45.5,
+ "size_after": 2214207488,
+ "freed_bytes": 936026112
+}

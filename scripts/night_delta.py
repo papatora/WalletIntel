@@ -90,19 +90,34 @@ def main() -> int:
             st["reapply_status"] = f"error: {str(e)[:120]}"
             save_state(st)
 
-        tok = ""
-        for line in (REPO / ".env").read_text(encoding="utf-8", errors="replace").splitlines():
-            if line.startswith("GITHUB_TOKEN="):
-                tok = line.split("=", 1)[1].strip()
-                break
+        # S-53: kerucutkan disk (prune wallet noise + poin pool mati +
+        # downsample + drop index + VACUUM). Gagal tidak membatalkan delta.
+        try:
+            run_step([sys.executable, "scripts/kerucutkan.py", "--apply"], 60 * 60)
+        except Exception as e:
+            st["kerucutkan_status"] = f"error: {str(e)[:120]}"
+            save_state(st)
+
+        # S-53: push utama lewat origin (URL-nya embed token valid); URL
+        # GITHUB_TOKEN .env jadi fallback (token .env terbukti invalid 14 Okt:
+        # "Invalid username or token").
         subprocess.run(["git", "add", "-f", "results/night_state.json",
                         "results/wallet_labels.json"], cwd=str(REPO))
         subprocess.run(["git", "commit", "-q",
                         "-m", f"chore(night): delta ekstraksi — swap_max_ts {max_ts}"],
                        cwd=str(REPO))
-        subprocess.run(["git", "push", "-q",
-                        f"https://x-access-token:{tok}@github.com/papatora/WalletIntel.git",
-                        "main:main"], cwd=str(REPO))
+        push = subprocess.run(["git", "push", "-q", "origin", "main:main"],
+                              cwd=str(REPO), capture_output=True, text=True)
+        if push.returncode != 0:
+            tok = ""
+            for line in (REPO / ".env").read_text(encoding="utf-8", errors="replace").splitlines():
+                if line.startswith("GITHUB_TOKEN="):
+                    tok = line.split("=", 1)[1].strip()
+                    break
+            if tok:
+                subprocess.run(["git", "push", "-q",
+                                f"https://x-access-token:{tok}@github.com/papatora/WalletIntel.git",
+                                "main:main"], cwd=str(REPO))
     return 0 if ok else 1
 
 

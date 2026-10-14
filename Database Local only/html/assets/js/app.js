@@ -12,6 +12,7 @@ import * as guide from './views/guide.js';
 import * as address from './views/address.js';
 import * as lookup from './views/lookup.js';
 import * as kol from './views/kol.js';
+import * as copytrade from './views/copytrade.js';
 
 const $ = s => document.querySelector(s);
 const ROUTES = [
@@ -23,6 +24,7 @@ const ROUTES = [
   [/^\/guide$/, guide, 'guide'],
   [/^\/lookup$/, lookup, 'lookup'],
   [/^\/kol$/, kol, 'kol'],
+  [/^\/copytrade$/, copytrade, 'copytrade'],
   [/^\/token\/(0x[0-9a-f]+)$/i, token, 'tokens'],
   [/^\/address\/(0x[0-9a-f]+)$/i, address, ''],
 ];

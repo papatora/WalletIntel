@@ -410,6 +410,35 @@ def build() -> dict:
         if o:
             origins[a] = o
 
+    # ---- copytrade (S-53): GMGN CopyTrade rank per tag x period ----------
+    # Sumber: results/gmgn_web/rank_robinhood_<tag>_<period>.json (harvester
+    # gmgn_web_rank.py). Urutan row = posisi rank utk period file tsb (API
+    # GMGN tidak expose field khusus 1d — order file = ranking period itu).
+    copytrade: dict = {"updated": "", "tags": {}}
+    try:
+        import re as _re
+        _root = Path(__file__).resolve().parents[2] / "results" / "gmgn_web"
+        _keep = ("address", "twitter_username", "twitter_name", "name", "nickname",
+                 "tags", "pnl_7d", "pnl_30d", "winrate_7d", "winrate_30d",
+                 "realized_profit_7d", "realized_profit_30d", "volume_30d",
+                 "buy_30d", "sell_30d", "txs_30d", "follow_count", "last_active")
+        for f in sorted(_root.glob("rank_robinhood_*_*.json")):
+            m = _re.match(r"rank_robinhood_(.+)_([0-9]+[dh])\.json$", f.name)
+            if not m:
+                continue
+            tag, period = m.group(1), m.group(2)
+            doc = json.loads(f.read_text(encoding="utf-8"))
+            rank_rows = [{k: r.get(k) for k in _keep if r.get(k) not in (None, "", [])}
+                         for r in (doc.get("rank") or [])]
+            if not rank_rows:
+                continue
+            slot = copytrade["tags"].setdefault(tag, {})
+            slot[period] = rank_rows
+            if doc.get("updated_at") and doc["updated_at"] > copytrade["updated"]:
+                copytrade["updated"] = doc["updated_at"]
+    except Exception:
+        pass
+
     return {
         "meta": {
             "chain": "Robinhood Chain", "chain_id": 4663, "explorer": EXPLORER,
@@ -434,6 +463,7 @@ def build() -> dict:
         "clusters": list(clusters.values()),
         "known": known,
         "social": social,
+        "copytrade": copytrade,
     }
 
 

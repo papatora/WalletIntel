@@ -1747,3 +1747,33 @@ Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
    Selalu ukur dulu sebelum memotong.
 3. VACUUM bisa membuat koneksi server explorer mati — start_explorer lagi
    setelah kerucutkan (sudah dialami, restart sukses).
+
+### H. S-53 lanjutan: TAB COPYTRADE di EXPLORER (jawaban pertanyaan user)
+- **Jawaban atas "kok gk ada tab copytrade?":** panen CopyTrade GMGN MEMANG
+  jalan sejak S-51i (rank 6 tag × 3 periode × 100 wallet + deep 354 profil
+  era Okt-6) TAPI tampilannya cuma dilebur ke tab "KOL & X" — tidak ada tab
+  khusus. Sekarang ada: **#/copytrade** (Rank per tag+periode ala GMGN +
+  sub-view TopCallers).
+- Implementasi: dataset.py +section `copytrade` (baca results/gmgn_web/
+  rank_robinhood_<tag>_<period>.json; URUTAN BARIS = posisi rank periode itu),
+  views/copytrade.js, nav + route. Smoke test headless: render OK, ganti tag/
+  periode/sort OK, 0 pageerror.
+- **BUG SENDIRI ditemukan+fix saat verifikasi (pola "klaim ≠ runtime"):**
+  blok copytrade awalnya memakai nama variabel `rows` — MENIMPA list 69.101
+  wallet → dataset ter-serve cuma 100 wallet. Ketemu via perbandingan
+  len(W)=69.101 vs len(rows)=100 + trace. Fix: rename `rank_rows`.
+  PELAJARAN: nama variabel di blok baru jangan menimpa nama utama; klaim
+  dataset WAJIB cek len() served, bukan cuma "rebuild ok".
+- Jangan lupa: ubah dataset.py = RESTART server (module cache); /api/rebuild
+  saja TIDAK me-reimport (jebakan berulang, sudah terjadi lagi).
+- Rank refresh 14 Okt: **576 profil unik, 328 X** → merge_social →
+  **wallet_social 1.429 rows / 509 ber-X / 5 dual / 1 konflik; CT_ATTRIBUTED
+  521**. Dataset rebuilt (69.101 wallet).
+- **TopCallers: endpoint callout GMGN kini 404** (dicabut sisi mereka, pola
+  sama dgn cursor) — sub-view tampil kosong + pesan jujur; callout_rank.json
+  tidak terbentuk. Cek berkala kalau endpoint balik.
+- PAT GitHub baru dari user (github_pat_...): GitHub bilang 401 Bad
+  credentials di API — token ditolak mentah (kedaluwarsa/tercabut/kurang
+  karakter saat salin). Wiring .env + origin sudah dipasang; PUSH masih
+  terblokir sampai token valid (Settings → Developer settings → Fine-grained
+  → repo papatora/WalletIntel + Contents: Read and write).

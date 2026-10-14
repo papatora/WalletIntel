@@ -5868,181 +5868,391 @@
    "name": "@VitalityMigo",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "VitalityMigo"
+   "x": "VitalityMigo",
+   "x_conflict": true
   },
   "0x0f485d1768a42096372071501fbe779923fb54ca": {
    "name": "@serbobross",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "serbobross"
+   "x": "serbobross",
+   "x_conflict": true
   },
   "0x2536b5a863731982230ea98f513687a922e4f286": {
    "name": "@vvg_sol",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "vvg_sol"
+   "x": "vvg_sol",
+   "x_conflict": true
   },
   "0x27ed0ea820076f7c6c96efe2ed8a130bc7e40ef1": {
    "name": "@Lukasmustwin",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Lukasmustwin"
+   "x": "Lukasmustwin",
+   "x_conflict": true
   },
   "0x2b614bf0cff1dff5d099f88a98ae449604379bc2": {
    "name": "@ksaniroxs",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "ksaniroxs"
+   "x": "ksaniroxs",
+   "x_conflict": true
   },
   "0x338571a641d8c43f9e5a306300c5d89e0cb2cfaf": {
    "name": "@alter_minds",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "alter_minds"
+   "x": "alter_minds",
+   "x_conflict": true
   },
   "0x3ec73b58426fc7a1b314d1b1347f055fbb1d3533": {
    "name": "@huangdidimeme",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "huangdidimeme"
+   "x": "huangdidimeme",
+   "x_conflict": true
   },
   "0x3f6876323d60328626e6b658e26960af83eb461a": {
    "name": "@Jizhang00",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Jizhang00"
+   "x": "Jizhang00",
+   "x_conflict": true
   },
   "0x40faebbca9316f50168e260a316373a86be8505f": {
    "name": "@cryptoyobeul",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "cryptoyobeul"
+   "x": "cryptoyobeul",
+   "x_conflict": true
   },
   "0x41ccc209d3ba4e81ef0c1fcb6d191127fb5b42f5": {
    "name": "@rawrstarxdd",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "rawrstarxdd"
+   "x": "rawrstarxdd",
+   "x_conflict": true
   },
   "0x4384b10fcdbc8996612f07ec5c219b72f924712f": {
    "name": "@smokey0x",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "smokey0x"
+   "x": "smokey0x",
+   "x_conflict": true
   },
   "0x4b3871e9140ec07a4517a39fb943b324cb5a751f": {
    "name": "@Rueschen",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Rueschen"
+   "x": "Rueschen",
+   "x_conflict": true
   },
   "0x55b668e1aea8d19e358661be78b665bc25428d29": {
    "name": "@MaWanShuooo",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "MaWanShuooo"
+   "x": "MaWanShuooo",
+   "x_conflict": true
   },
   "0x5d802e2fe48392c104ce0401c7eca8a4456f1f16": {
    "name": "@toady_hawk",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "toady_hawk"
+   "x": "toady_hawk",
+   "x_conflict": true
   },
   "0x5f9bc316d8473d8c6634bd26f3e0932cd6bf0718": {
    "name": "@BMooon97_",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "BMooon97_"
+   "x": "BMooon97_",
+   "x_conflict": true
   },
   "0x72bb99200a89e608658a9032aad5aef6a41dd46f": {
    "name": "@rynm1x",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "rynm1x"
+   "x": "rynm1x",
+   "x_conflict": true
   },
   "0x7d5d6229e0d0b8e8fd88c6036227938e79b10214": {
    "name": "@0xHogen",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xHogen"
+   "x": "0xHogen",
+   "x_conflict": true
   },
   "0x82f885f1adca2175c7f62dcb85db83289c03f69c": {
    "name": "@0xstickman",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0xstickman"
+   "x": "0xstickman",
+   "x_conflict": true
   },
   "0x87c2d666d9e26ef6fea2233b5921aa3b06a686e6": {
    "name": "@BlGBEARS",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "BlGBEARS"
+   "x": "BlGBEARS",
+   "x_conflict": true
   },
   "0x8c2bbc706174daa948a7f2c26c234415ec289c8c": {
    "name": "@Jpegtrader_",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Jpegtrader_"
+   "x": "Jpegtrader_",
+   "x_conflict": true
   },
   "0xa44d64dfee68895e9c71b66404eac833037657af": {
    "name": "@pandoraflips",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "pandoraflips"
+   "x": "pandoraflips",
+   "x_conflict": true
   },
   "0xa54a4fa7c944e716ff437e32d972004621b5134e": {
    "name": "@0x404page",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0x404page"
+   "x": "0x404page",
+   "x_conflict": true
   },
   "0xa866c5adddc1c3570b6328491b510deefa374e0d": {
    "name": "@Vera548926",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "Vera548926"
+   "x": "Vera548926",
+   "x_conflict": true
   },
   "0xb3384dfd46fefdf209d2c896d3e06e584b304c2e": {
    "name": "@siam_crypto",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "siam_crypto"
+   "x": "siam_crypto",
+   "x_conflict": true
   },
   "0xc083148cf9dfd69caef3c382d151e216eedcbbc9": {
    "name": "@0x3kyo",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "0x3kyo"
+   "x": "0x3kyo",
+   "x_conflict": true
   },
   "0xc420c9d507d0e038bd76383aaadcad576ed0073c": {
    "name": "@CurveFinance",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "CurveFinance"
+   "x": "CurveFinance",
+   "x_conflict": true
   },
   "0xc4df5f2125151bff3a6aa7328529eae1b9d3cc31": {
    "name": "@dsjwin",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "dsjwin"
+   "x": "dsjwin",
+   "x_conflict": true
   },
   "0xc64211c0d9295cca2bf79106c596d3faee00303f": {
    "name": "@AksaOnChain",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "AksaOnChain"
+   "x": "AksaOnChain",
+   "x_conflict": true
   },
   "0xefd52a9e454feb9ad8edca588c7a9703d67cdff7": {
    "name": "@flypotato132",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "flypotato132"
+   "x": "flypotato132",
+   "x_conflict": true
   },
   "0xfb0d8b94027c5109ae89c5f08b025cc598cf6f49": {
    "name": "@paulypauly",
    "type": "OTHER",
    "source": "x:gmgn+arkham",
-   "x": "paulypauly"
+   "x": "paulypauly",
+   "x_conflict": true
+  },
+  "0x073cb4936fee0c8ec68293edf640b5e0653f2222": {
+   "name": "@aa_AFenng",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "aa_AFenng"
+  },
+  "0x1466f5596c439142b6f39723eed27c117a97f8ed": {
+   "name": "@BankeraDao",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "BankeraDao"
+  },
+  "0x20ff275ee89cbf0ece757d1691325b653dd4e756": {
+   "name": "@YYzzy_diamond",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "YYzzy_diamond"
+  },
+  "0x2364a0fbbb1c8d063daf1adce136b9f5fb3d7eb8": {
+   "name": "@Cented7",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "Cented7"
+  },
+  "0x24a57c42ee865062cfbf657d678d932625c6b992": {
+   "name": "@xc_meme",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "xc_meme"
+  },
+  "0x2bafc1e12704563e329cbfe8332695d72065ba19": {
+   "name": "@FogoNFT",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "FogoNFT"
+  },
+  "0x3831fe5ec6766b15667e4515e0b1f4070204f0bd": {
+   "name": "@j17k_cripto",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "j17k_cripto"
+  },
+  "0x409a1b1168ce8066c43c3d356a4e5bb8fd15a9c2": {
+   "name": "@jafu_thecore",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "jafu_thecore"
+  },
+  "0x454685dec7796c2c747294f7aa7a30b2c5ab05f7": {
+   "name": "@VirtualAlaska_",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "VirtualAlaska_"
+  },
+  "0x490ecb092c05b37834fd5e8eaacfd1037884581e": {
+   "name": "@leshka_eth",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "leshka_eth"
+  },
+  "0x54be3a794282c030b15e43ae2bb182e14c409c5e": {
+   "name": "@dingalingts",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "dingalingts"
+  },
+  "0x5797dd337a92ab76a1241f5fe29f08cd294175ec": {
+   "name": "@merts_eth",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "merts_eth"
+  },
+  "0x5e8343066704cea8f254b637b3e4fc9be6ab318a": {
+   "name": "@gheezfn",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "gheezfn"
+  },
+  "0x676c23b05f635db3a0a8f265a0f63a15975f9d60": {
+   "name": "@sudaqiang775",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "sudaqiang775"
+  },
+  "0x6d3a4313d2b8c93fef5a6d4c6667a05cd754735d": {
+   "name": "@smalldracos",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "smalldracos"
+  },
+  "0x6d5d4fb55c61019c5eb9236c3da58c774b8232d1": {
+   "name": "@HeathleyETH",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "HeathleyETH"
+  },
+  "0x744877517e7c106321a8558060c3bc963010e322": {
+   "name": "@endbodyshaming",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "endbodyshaming"
+  },
+  "0x83421e3a5f84c744bbc39133fa5bfb5705dd90a4": {
+   "name": "@chilsiee",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "chilsiee"
+  },
+  "0x8607a7d180de23645db594d90621d837749408d5": {
+   "name": "@snarkw_",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "snarkw_"
+  },
+  "0x9b7d7c4ce98036c4d6f3d638a00e220e083116c7": {
+   "name": "@cryptamurai",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "cryptamurai"
+  },
+  "0x9cd581ff7804f5f3caf35f55d3cf73fbf42f0072": {
+   "name": "@xuxubaobao0819",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "xuxubaobao0819"
+  },
+  "0xa5435a66362844782ff6503274e99345b43b934b": {
+   "name": "@baolingD",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "baolingD"
+  },
+  "0xa634c1ed6df7a87e4bfbdddc23f936f740417181": {
+   "name": "@jimtalbot",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "jimtalbot"
+  },
+  "0xb10139f95fd4fdc08ef354ce817a161e759fbfc5": {
+   "name": "@Cryptoprofe_",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "Cryptoprofe_"
+  },
+  "0xb968de09c797c4d2eabb498535273bc48293c914": {
+   "name": "@ChartFu",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "ChartFu"
+  },
+  "0xd4a7b8a45a3de248d62951bf60381983cb4d7b06": {
+   "name": "@0xnatsu__",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "0xnatsu__"
+  },
+  "0xdbcab9fb33375cfa6fa1a1c4982e740f2d1fb979": {
+   "name": "@nightcore",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "nightcore"
+  },
+  "0xe3210627730c8e14d6bf2117eab28de531650111": {
+   "name": "@Tekkerrss",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "Tekkerrss"
+  },
+  "0xe33b746a030c3b3c512d274b05ea6e40772cf212": {
+   "name": "@Nephew_Sam_",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "Nephew_Sam_"
+  },
+  "0xf73d780514d7920c7be5dcedcfebd72920eac3b0": {
+   "name": "@99X_FJTL",
+   "type": "OTHER",
+   "source": "x:gmgn+arkham",
+   "x": "99X_FJTL"
   }
  },
  "_updated": "2026-10-04T18:00:56.566534+00:00"

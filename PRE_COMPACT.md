@@ -1777,3 +1777,21 @@ Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
   karakter saat salin). Wiring .env + origin sudah dipasang; PUSH masih
   terblokir sampai token valid (Settings → Developer settings → Fine-grained
   → repo papatora/WalletIntel + Contents: Read and write).
+
+### I. S-53i (15 Okt): PAT BARU VALID + PUSH PULIH + CEK "FLASH PUTIH" (permintaan user)
+- PAT baru user VALID (API /user = papatora) → terpasang di .env lokal + origin
+  + VPS (.env & remote) → **push pulih: 4e6dc32..9932fa6 masuk** (delta 14 Okt +
+  kerucutkan + tab CopyTrade). Rantai auto-push VPS ikut sembuh.
+- User parno: klik tombol copy di explorer → flash putih sekali, klik kedua
+  tidak. DICEK BUKTIAN (bukan tebakan): (1) kode copy explorer = murni
+  navigator.clipboard.writeText — tanpa efek visual; (2) toast gelap kecil,
+  bukan putih; (3) ekstensi Brave: Rabby (punya user), Power Automate
+  (Microsoft, permission berat tp agennya TIDAK hidup), IDM, bawaan Brave —
+  0 asing; (4) scheduled tasks semuanya lama & legit (2010-2024), 0 baru;
+  (5) startup Run keys normal (Steam/LGHUB/WallpaperEngine/EA/Docker);
+  (6) 0 proses capture/screen/obs/snip/automate hidup.
+- Kesimpulan jujur: flash = artefak render Chromium di Windows (white flash
+  saat window activation/first-present setelah refresh — frame putih 1-frame
+  sebelum frame gelap tergambar; klik pertama pemicu aktivasi, klik kedua
+  sudah stabil). Software capture bekerja SENYAP by design — flash justru
+  tanda repaint lokal. Tidak ada indikasi apa pun software perekam.

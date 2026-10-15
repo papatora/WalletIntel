@@ -1,0 +1,43 @@
+{
+ "ok": true,
+ "token": "0x5f7bb59365ce557c26dbcaa4ee9d39a4b95b7127",
+ "symbol": "IMD",
+ "generated_at": "2026-10-15T17:05:15.762158+00:00",
+ "db_coverage": {
+  "swaps": 127,
+  "traders": 16,
+  "early_buyers": 12,
+  "supply_onchain": true,
+  "note": "konsentrasi hanya wallet ter-track; supply on-chain = eth_call totalSupply"
+ },
+ "creation_block": 62253212,
+ "block0_bundles": [],
+ "packed_buys": [],
+ "bri": {
+  "score": 42.5,
+  "band": "HIGH",
+  "funding": 0.0,
+  "temporal": 40.0,
+  "composition": 2.5,
+  "behavioral": 0.0,
+  "new_wallet_pct": 16.7,
+  "sniper_pct": 0.0,
+  "tightest_10min_share": 1.0,
+  "tightest_span_min": 2.1
+ },
+ "clusters": [],
+ "dev": {
+  "wallet": "0x00d78daf782921b27a6b407d34f19842c10a4a6b",
+  "sold_within_1min": false,
+  "labeled_dev": false
+ },
+ "holders": {
+  "top10_pct": 0.0,
+  "top20_pct": 0.0,
+  "tracked_holders": 6
+ },
+ "red_flags": [
+  "BRI 42.5 (HIGH) — indikasi koordinasi"
+ ],
+ "verdict": "SKIP"
+}

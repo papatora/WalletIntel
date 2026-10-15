@@ -327,6 +327,31 @@ def _ring_side(ca: str) -> dict:
     return {"listed": hit is not None, "info": hit}
 
 
+def _bundle_side(ca: str) -> dict:
+    """S-54 — Bundle Risk Index (port trench.bot, compute-only dari DB lokal):
+    block-0 bundle, packed buys, funding cluster (INDUKAN), temporal, dev-flip
+    <1 menit, konsentrasi holder. Lengkap: scripts/bundle_risk.py + docs di
+    results/trench_docs/."""
+    import sys as _sys
+    scripts_dir = str(REPO / "scripts")
+    if scripts_dir not in _sys.path:
+        _sys.path.insert(0, scripts_dir)
+    try:
+        import bundle_risk
+    except Exception as e:
+        return {"ok": False, "error": f"engine: {str(e)[:80]}"}
+    con = None
+    try:
+        con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+        con.execute("pragma busy_timeout=60000")
+        return bundle_risk.analyze(ca, con)
+    except Exception as e:
+        return {"ok": False, "error": str(e)[:100]}
+    finally:
+        if con is not None:
+            con.close()
+
+
 def lookup(raw: str) -> dict:
     ca = parse_input(raw)
     if not ca:
@@ -355,6 +380,20 @@ def lookup(raw: str) -> dict:
         comps.append({"component": "Launch Ring (Wazz)", "score": -3.0, "max": 3.0,
                       "note": f"terbukti bagian ring 53-launch: {info.get('ekstrak', '?')} "
                               f"terekstrak, bundle {info.get('bundle', '?')} wallet, Pons V2"})
+    bund = _bundle_side(ca)
+    if bund.get("ok"):
+        n_reds = len(bund.get("red_flags") or [])
+        pen = -min(3.5, 1.0 * n_reds + (0.5 if (bund.get("bri") or {}).get("score", 0) >= 40 else 0))
+        if pen < 0:
+            rating = max(0.0, rating + pen)
+            comps.append({"component": "Bundle Risk (trench-style)", "score": pen, "max": 3.5,
+                          "note": f"BRI {(bund.get('bri') or {}).get('score')} "
+                                  f"{(bund.get('bri') or {}).get('band')} — "
+                                  + "; ".join(bund.get("red_flags") or [])[:220]})
+        else:
+            comps.append({"component": "Bundle Risk (trench-style)", "score": 0.0, "max": 3.5,
+                          "note": f"BRI {(bund.get('bri') or {}).get('score')} "
+                                  f"{(bund.get('bri') or {}).get('band')} — tanpa red flag utama"})
     result = {
         "ok": True,
         "ca": ca,
@@ -367,6 +406,7 @@ def lookup(raw: str) -> dict:
             "explorer": f"https://robin.etherscan.io/token/{ca}",
         },
         "db": db, "dex": dex, "chain": chain, "cluster": clu, "bubblemaps": bub,
+        "bundle_risk": bund,
         "rating": rating, "rating_components": comps,
         "generated_at": time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime()),
     }

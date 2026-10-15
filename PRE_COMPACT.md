@@ -1795,3 +1795,38 @@ Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
   sebelum frame gelap tergambar; klik pertama pemicu aktivasi, klik kedua
   sudah stabil). Software capture bekerja SENYAP by design — flash justru
   tanda repaint lokal. Tidak ada indikasi apa pun software perekam.
+
+## SNAPSHOT S-54 — 2026-10-15: TRENCH.BOT BUNDLE-DETECTION (review + porting) + delta harian
+
+### A. Permintaan user: review + reverse-engineer cara deteksi bundle (trench.bot)
+- Sumber: dok resmi GitBook mereka (versi .md publik — TERSIMPAN di
+  results/trench_docs/: bundle-scanner-guide, clusters-guide (BRI),
+  bubblemap-bundle-viewer, scoring-system, filter-categories) + rules Telegram
+  user. llms.txt = indeks markdown-nya.
+- **Metode inti (dari dokumen MEREKA):**
+  1. Bundle scanner: bundle = ≥3 wallet unik beli di SLOT sama (Solana) — EVM
+     = block sama. 2 wallet = zona false-positive (copy-trader). Per bundle:
+     wallet, % supply dibeli, % MASIH dipegang (retensi; >100% = wash).
+  2. BRI 0-100: Funding 50% + Temporal 40% + Komposisi wallet 25% +
+     Behavioral 20%; band 70+/40+/20+. Cluster types: Hybrid Strong/Weak,
+     Temporal Only, Funding Only. Red flags: wallet baru >60%, top-20 holder
+     >80%, wash (beli >100% supply / retensi <20%).
+  3. Rules user: cluster 10%+ supply = skip; 4 buy nempel belakang dev = their
+     wallets; dev jual <1 menit = skip; top-10 holder >30% = skip; 1 merah = skip.
+  4. **Aneka penting: mereka AKU bubblemaps bisa dibohongi via funder
+     CEX/mixer yang mendanai semua wallet sebelum launch (funder tak nyentuh
+     coin) — lapisan funding = justru yang KITA PUNYA sejak S-43 (INDUKAN/
+     cluster-by-funder).**
+- **Porting: scripts/bundle_risk.py** (compute-only, DB lokal; RPC cuma 1x
+  eth_call totalSupply per token + cache): block-0 bundle (creation..+2 blk),
+  packed buys (+30 blk, ≥4 wallet), early set (≤1800 blk ≈3 mnt), funding
+  origin dr evidence labels, temporal sliding-window 10 mnt, komposisi
+  (first_seen ≤2 hari / label SNIPER+BUNDLER), behavioral (CV buy amount),
+  BRI weighted, dev-flip ≤60 dtk, top10/20 holder konsentrasi, verdict
+  SKIP/CAUTION/PASS (1 red = SKIP). Output results/bundle_risk/<ca>.json +
+  scan.json (batch pump playbook). CLI: bundle_risk.py <ca> | --scan.
+- **Integrasi Cek Token (#/lookup):** _bundle_side() → komponen rating
+  "Bundle Risk (trench-style)" (−1/flag, maks −3,5) + payload bundle_risk.
+  Doc lengkap: docs/TRENCH_BUNDLE_METHOD.md (peta konsep→implementasi).
+- Keterbatasan jujur (di output engine): coverage holder = wallet ter-track
+  saja; konstanta block (2/30/1800) = adaptasi RH chain, bisa dikalibrasi.

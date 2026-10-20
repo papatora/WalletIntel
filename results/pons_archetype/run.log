@@ -1,0 +1,66 @@
+token kandidat (>= 12 swap): 1993
+  ...300/1993
+  ...600/1993
+  ...900/1993
+{
+ "generated_at": "2026-10-20T17:36:07.737140+00:00",
+ "eth_px_snapshot": 2694.78,
+ "tokens_studied": 1515,
+ "is_n": 1060,
+ "oos_n": 455,
+ "oos_start": "2026-09-30",
+ "all": {
+  "0.6-3.0 ETH": {
+   "n": 96,
+   "dev_eth_median": 1.176,
+   "rug_p50_s": 12240.5,
+   "rug_p80_s": 170185.6,
+   "maxx_p50": 6.87,
+   "maxx_p80": 30.02,
+   "reach4x_pct": 72.9
+  },
+  "3.0-3.5 ETH": {
+   "n": 12,
+   "dev_eth_median": 3.168,
+   "rug_p50_s": 5484.3,
+   "rug_p80_s": 55051.6,
+   "maxx_p50": 10.37,
+   "maxx_p80": 36.15,
+   "reach4x_pct": 66.7
+  },
+  "di_luar_kohort": {
+   "n": 1407,
+   "dev_eth_median": 0.046,
+   "rug_p50_s": 6110.0,
+   "rug_p80_s": 90646.4,
+   "maxx_p50": 4.38,
+   "maxx_p80": 20.49,
+   "reach4x_pct": 52.3
+  }
+ },
+ "oos": {
+  "0.6-3.0 ETH": {
+   "n": 46,
+   "dev_eth_median": 1.442,
+   "rug_p50_s": 6974.9,
+   "rug_p80_s": 54916.9,
+   "maxx_p50": 15.06,
+   "maxx_p80": 82.78,
+   "reach4x_pct": 84.8
+  },
+  "3.0-3.5 ETH": {
+   "n": 5,
+   "dev_eth_median": 3.174,
+   "rug_p50_s": 5484.3,
+   "rug_p80_s": 12101.6,
+   "maxx_p50": 16.42,
+   "maxx_p80": 23.73,
+   "reach4x_pct": 100.0
+  }
+ },
+ "notes": [
+  "dev_buy_eth = aproksimasi (usd derived / WETH snapshot)",
+  "rug_onset = harga <-80% dari puncak berjalan post-launch; belum-rug = disensor di akhir data",
+  "max_x = kelipatan harga (proxy mcap; supply Pons umumnya fixed)"
+ ]
+}

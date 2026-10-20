@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-15T17:01:25.299294+00:00",
+ "generated_at": "2026-10-20T16:00:07.563555+00:00",
  "chain": "robinhood",
  "chain_id": 4663,
- "total_ranked": 103,
+ "total_ranked": 104,
  "source": "regenerated locally from wallet_scores (refresh_results_local.py)",
  "wallets": [
   {
@@ -847,6 +847,41 @@
   },
   {
    "rank": 25,
+   "wallet_address": "0x4641890182313d69f468b205cc8b194ee0346243",
+   "composite_score": 43.0,
+   "metrics": {
+    "total_positions": 4,
+    "closed_positions": 3,
+    "open_positions": 1,
+    "winning_positions": 3,
+    "win_rate": 1.0,
+    "median_return_multiple": 1.041,
+    "max_return_multiple": 1.6738,
+    "total_realized_pnl_usd": 423.97,
+    "total_unrealized_pnl_usd": -209.08,
+    "avg_hold_duration_hours": 79.96,
+    "consistency_score": 0.44,
+    "dip_buying_accuracy": 0.0,
+    "top_selling_accuracy": 0.3333,
+    "distinct_tokens": 1,
+    "big_wins": 0,
+    "recent_win_rate": 1.0,
+    "active_months": 1,
+    "last_active": "2026-09-04T15:36:37+00:00",
+    "median_position_size_usd": 524.18,
+    "unrealized_pnl_usd": 0.0,
+    "unrealized_ratio": 0.0,
+    "bags_count": 0
+   },
+   "trading_style": "generalist",
+   "risk_flags": [
+    "SINGLE_TOKEN_SAMPLE"
+   ],
+   "cluster_id": null,
+   "computed_at": "2026-10-15 22:23:30.774980"
+  },
+  {
+   "rank": 26,
    "wallet_address": "0xbea7bc95ecba0d9bd4054b6edd3a15e6c1155f37",
    "composite_score": 42.56,
    "metrics": {
@@ -881,7 +916,7 @@
    "computed_at": "2026-10-13 09:12:10.228136"
   },
   {
-   "rank": 26,
+   "rank": 27,
    "wallet_address": "0x4329e614dfedf4693cfdce4f56a8d84710498f5e",
    "composite_score": 41.14,
    "metrics": {
@@ -914,7 +949,7 @@
    "computed_at": "2026-10-14 17:57:09.227610"
   },
   {
-   "rank": 27,
+   "rank": 28,
    "wallet_address": "0x31f60f3f0f15f5d905d968d2f48f6e3801a61e34",
    "composite_score": 40.83,
    "metrics": {
@@ -949,7 +984,7 @@
    "computed_at": "2026-10-12 05:28:00.165889"
   },
   {
-   "rank": 28,
+   "rank": 29,
    "wallet_address": "0x3e418e1ca4e3d86e9869b706f791a4a047573f2c",
    "composite_score": 39.67,
    "metrics": {
@@ -982,7 +1017,7 @@
    "computed_at": "2026-10-15 02:04:54.317533"
   },
   {
-   "rank": 29,
+   "rank": 30,
    "wallet_address": "0xda481e09922adb0adee8a697ef95301138883867",
    "composite_score": 39.62,
    "metrics": {
@@ -1015,7 +1050,7 @@
    "computed_at": "2026-10-15 02:04:54.317542"
   },
   {
-   "rank": 30,
+   "rank": 31,
    "wallet_address": "0xe236164de2ce7e2a74ff9f1cf75c9384da6d100b",
    "composite_score": 39.61,
    "metrics": {
@@ -1048,7 +1083,7 @@
    "computed_at": "2026-10-15 02:04:54.317545"
   },
   {
-   "rank": 31,
+   "rank": 32,
    "wallet_address": "0x3b376872cae15b4480f82ad57cdb094aa44da541",
    "composite_score": 37.04,
    "metrics": {
@@ -1083,7 +1118,7 @@
    "computed_at": "2026-10-09 18:53:27.665926"
   },
   {
-   "rank": 32,
+   "rank": 33,
    "wallet_address": "0xd48f6dbc9a2417b69d1baaac515119fd65ac74d6",
    "composite_score": 36.49,
    "metrics": {
@@ -1118,7 +1153,7 @@
    "computed_at": "2026-10-15 09:12:07.150150"
   },
   {
-   "rank": 33,
+   "rank": 34,
    "wallet_address": "0x1b3367ba7b13ca623b9e6e8fdabff0cc600f5751",
    "composite_score": 36.27,
    "metrics": {
@@ -1153,7 +1188,7 @@
    "computed_at": "2026-10-04 22:02:54.917863"
   },
   {
-   "rank": 34,
+   "rank": 35,
    "wallet_address": "0x564ae6b2c13bf6c8314168e9a6c9634672c03208",
    "composite_score": 36.25,
    "metrics": {
@@ -1188,7 +1223,7 @@
    "computed_at": "2026-10-03 13:29:55.298764"
   },
   {
-   "rank": 35,
+   "rank": 36,
    "wallet_address": "0xa450f6dbf9737495c9b723ec11a269f9cdf700bb",
    "composite_score": 35.5,
    "metrics": {
@@ -1221,7 +1256,7 @@
    "computed_at": "2026-10-06 00:48:45.888653"
   },
   {
-   "rank": 36,
+   "rank": 37,
    "wallet_address": "0xb2514659edd5be950593949eee641c3703b93fdf",
    "composite_score": 34.82,
    "metrics": {
@@ -1254,7 +1289,7 @@
    "computed_at": "2026-10-14 11:55:11.303767"
   },
   {
-   "rank": 37,
+   "rank": 38,
    "wallet_address": "0x148f986b670becd8535e8f7005ddd94907f89134",
    "composite_score": 34.66,
    "metrics": {
@@ -1287,7 +1322,7 @@
    "computed_at": "2026-09-30 22:48:29.293618"
   },
   {
-   "rank": 38,
+   "rank": 39,
    "wallet_address": "0x6a2953b9d68ed5921aa5873a97c9367bec3b16d6",
    "composite_score": 32.55,
    "metrics": {
@@ -1322,7 +1357,7 @@
    "computed_at": "2026-10-01 18:06:35.337335"
   },
   {
-   "rank": 39,
+   "rank": 40,
    "wallet_address": "0x8ee99f56672daaaff9d79b0f86d5b1e41f0f3e7b",
    "composite_score": 32.52,
    "metrics": {
@@ -1355,7 +1390,7 @@
    "computed_at": "2026-10-06 00:48:45.888662"
   },
   {
-   "rank": 40,
+   "rank": 41,
    "wallet_address": "0x391a2cd2be579429d305694068f27f5025fffa0e",
    "composite_score": 32.52,
    "metrics": {
@@ -1388,7 +1423,7 @@
    "computed_at": "2026-10-06 00:48:45.888666"
   },
   {
-   "rank": 41,
+   "rank": 42,
    "wallet_address": "0x9ad56e406f503997b4e9cc9c60d93efe2ddce6df",
    "composite_score": 32.52,
    "metrics": {
@@ -1421,7 +1456,7 @@
    "computed_at": "2026-10-06 00:48:45.888669"
   },
   {
-   "rank": 42,
+   "rank": 43,
    "wallet_address": "0xe017580bc1c5eec737f7125157d35c271a755b04",
    "composite_score": 32.52,
    "metrics": {
@@ -1454,7 +1489,7 @@
    "computed_at": "2026-10-06 00:48:45.888671"
   },
   {
-   "rank": 43,
+   "rank": 44,
    "wallet_address": "0x44342998b9cd3b45ff992875b93c61c71dcabcf2",
    "composite_score": 31.57,
    "metrics": {
@@ -1487,7 +1522,7 @@
    "computed_at": "2026-10-10 23:52:04.418774"
   },
   {
-   "rank": 44,
+   "rank": 45,
    "wallet_address": "0x8866e00593c9be34debc95355333767b43a5d249",
    "composite_score": 30.75,
    "metrics": {
@@ -1522,7 +1557,7 @@
    "computed_at": "2026-10-14 23:32:25.802608"
   },
   {
-   "rank": 45,
+   "rank": 46,
    "wallet_address": "0x7b6612962a9305d4d3f3cd99456b96bc492f5421",
    "composite_score": 30.21,
    "metrics": {
@@ -1555,7 +1590,7 @@
    "computed_at": "2026-10-12 20:45:23.706421"
   },
   {
-   "rank": 46,
+   "rank": 47,
    "wallet_address": "0x9a26c0dcd3d3f6f194301a17a66232b84cd1e5f3",
    "composite_score": 30.07,
    "metrics": {
@@ -1588,7 +1623,7 @@
    "computed_at": "2026-10-15 11:23:22.146432"
   },
   {
-   "rank": 47,
+   "rank": 48,
    "wallet_address": "0x9c510e0aac1cf25db5660d0c8b34486d1d7bc422",
    "composite_score": 29.42,
    "metrics": {
@@ -1623,7 +1658,7 @@
    "computed_at": "2026-10-04 11:44:27.528722"
   },
   {
-   "rank": 48,
+   "rank": 49,
    "wallet_address": "0x6034bc669270f38cd81afb940dc450fe34845b7a",
    "composite_score": 29.33,
    "metrics": {
@@ -1658,7 +1693,7 @@
    "computed_at": "2026-10-04 11:44:27.528725"
   },
   {
-   "rank": 49,
+   "rank": 50,
    "wallet_address": "0x66eb8af30805718fef8190bac5c5c66b6505c69a",
    "composite_score": 29.06,
    "metrics": {
@@ -1691,7 +1726,7 @@
    "computed_at": "2026-10-01 00:36:15.981113"
   },
   {
-   "rank": 50,
+   "rank": 51,
    "wallet_address": "0x8e43a8a43d0237b3f88f4e23dbd067fbaa5e43cd",
    "composite_score": 28.67,
    "metrics": {
@@ -1724,7 +1759,7 @@
    "computed_at": "2026-10-05 09:02:42.295148"
   },
   {
-   "rank": 51,
+   "rank": 52,
    "wallet_address": "0xf30759605023be67a457744b9c0286d818172ce1",
    "composite_score": 28.65,
    "metrics": {
@@ -1759,7 +1794,7 @@
    "computed_at": "2026-10-02 19:25:55.139015"
   },
   {
-   "rank": 52,
+   "rank": 53,
    "wallet_address": "0x1410a5ca07a05edf10dd7b2ed386b508f290318b",
    "composite_score": 28.08,
    "metrics": {
@@ -1794,7 +1829,7 @@
    "computed_at": "2026-10-02 08:58:05.061813"
   },
   {
-   "rank": 53,
+   "rank": 54,
    "wallet_address": "0x32f2853667a753cad3facf1fb1a1a785dc2dc0b1",
    "composite_score": 27.49,
    "metrics": {
@@ -1830,7 +1865,7 @@
    "computed_at": "2026-10-12 08:27:32.886032"
   },
   {
-   "rank": 54,
+   "rank": 55,
    "wallet_address": "0xe49f45ce6ce0cea7c59d303b8f45f39d2e137465",
    "composite_score": 26.87,
    "metrics": {
@@ -1863,7 +1898,7 @@
    "computed_at": "2026-10-07 17:06:00.991094"
   },
   {
-   "rank": 55,
+   "rank": 56,
    "wallet_address": "0x8c71be13783cfee9f44a3b4cfe49b8035c24bb48",
    "composite_score": 26.6,
    "metrics": {
@@ -1898,7 +1933,7 @@
    "computed_at": "2026-10-03 13:29:55.298766"
   },
   {
-   "rank": 56,
+   "rank": 57,
    "wallet_address": "0x80b89b85a00be692219b0e12d5be7ad269c183dc",
    "composite_score": 26.5,
    "metrics": {
@@ -1933,7 +1968,7 @@
    "computed_at": "2026-10-03 13:29:55.298769"
   },
   {
-   "rank": 57,
+   "rank": 58,
    "wallet_address": "0xf7a149cb7fea3438ffdccc8f505fc13e4aa2cc60",
    "composite_score": 26.34,
    "metrics": {
@@ -1968,7 +2003,7 @@
    "computed_at": "2026-10-10 23:52:04.418784"
   },
   {
-   "rank": 58,
+   "rank": 59,
    "wallet_address": "0x90f7e615d9a8b944fe8a972c928417af0a1f25fb",
    "composite_score": 25.3,
    "metrics": {
@@ -2003,7 +2038,7 @@
    "computed_at": "2026-10-03 13:29:55.298771"
   },
   {
-   "rank": 59,
+   "rank": 60,
    "wallet_address": "0x86827887e8ad27c83ff12c873003f2c4b0909dae",
    "composite_score": 25.22,
    "metrics": {
@@ -2040,7 +2075,7 @@
    "computed_at": "2026-10-10 23:52:04.418786"
   },
   {
-   "rank": 60,
+   "rank": 61,
    "wallet_address": "0xb1d83118dfb55f27d75020c9b6e3b0c01835fe44",
    "composite_score": 25.2,
    "metrics": {
@@ -2073,7 +2108,7 @@
    "computed_at": "2026-09-30 18:35:02.475278"
   },
   {
-   "rank": 61,
+   "rank": 62,
    "wallet_address": "0x5f65c9e8eb98e9c75676bc6e049609504446215d",
    "composite_score": 24.82,
    "metrics": {
@@ -2108,7 +2143,7 @@
    "computed_at": "2026-10-02 08:58:05.061814"
   },
   {
-   "rank": 62,
+   "rank": 63,
    "wallet_address": "0x03e7d36780e31e1b134373e2b0e49275b69378a6",
    "composite_score": 24.6,
    "metrics": {
@@ -2141,7 +2176,7 @@
    "computed_at": "2026-10-10 00:21:05.128823"
   },
   {
-   "rank": 63,
+   "rank": 64,
    "wallet_address": "0x2b9651cc57a8e544732b0988845943783b66e080",
    "composite_score": 23.6,
    "metrics": {
@@ -2174,7 +2209,7 @@
    "computed_at": "2026-10-06 00:48:45.888677"
   },
   {
-   "rank": 64,
+   "rank": 65,
    "wallet_address": "0x8cd5cc2d0da7bc3d9dc3972aeb0663127107eff2",
    "composite_score": 23.46,
    "metrics": {
@@ -2207,7 +2242,7 @@
    "computed_at": "2026-10-09 18:53:27.665935"
   },
   {
-   "rank": 65,
+   "rank": 66,
    "wallet_address": "0x0afeb98a5b40bc38e9cf5a3f202c17843a7ce553",
    "composite_score": 23.23,
    "metrics": {
@@ -2243,7 +2278,7 @@
    "computed_at": "2026-10-10 23:52:04.418787"
   },
   {
-   "rank": 66,
+   "rank": 67,
    "wallet_address": "0x744b68d8ecfc86c614455b5fc8f5723358de68cf",
    "composite_score": 22.66,
    "metrics": {
@@ -2276,7 +2311,7 @@
    "computed_at": "2026-10-09 11:53:32.529573"
   },
   {
-   "rank": 67,
+   "rank": 68,
    "wallet_address": "0xbb75f6e4bde3dfa3716239e02274175f37892cc7",
    "composite_score": 22.21,
    "metrics": {
@@ -2312,7 +2347,7 @@
    "computed_at": "2026-10-13 23:28:27.115031"
   },
   {
-   "rank": 68,
+   "rank": 69,
    "wallet_address": "0xcc00d47039dc20754eaeb3a21f7891226d52534c",
    "composite_score": 21.8,
    "metrics": {
@@ -2347,7 +2382,7 @@
    "computed_at": "2026-09-30 22:48:29.293628"
   },
   {
-   "rank": 69,
+   "rank": 70,
    "wallet_address": "0x768263481c4703c22144558112d931b683492b52",
    "composite_score": 21.75,
    "metrics": {
@@ -2380,7 +2415,7 @@
    "computed_at": "2026-10-03 13:29:55.298773"
   },
   {
-   "rank": 70,
+   "rank": 71,
    "wallet_address": "0xf3d473c13f02b7d074c97c4f4efd6b722c4e436d",
    "composite_score": 20.85,
    "metrics": {
@@ -2415,7 +2450,7 @@
    "computed_at": "2026-10-10 23:52:04.418790"
   },
   {
-   "rank": 71,
+   "rank": 72,
    "wallet_address": "0x5f73bc01786d22e9653423bd912662b7f524204c",
    "composite_score": 20.27,
    "metrics": {
@@ -2451,7 +2486,7 @@
    "computed_at": "2026-10-12 05:28:00.165898"
   },
   {
-   "rank": 72,
+   "rank": 73,
    "wallet_address": "0x03ad9259a227e44886c6b1c1833c2e79379b976a",
    "composite_score": 20.21,
    "metrics": {
@@ -2484,7 +2519,7 @@
    "computed_at": "2026-10-05 09:02:42.295162"
   },
   {
-   "rank": 73,
+   "rank": 74,
    "wallet_address": "0x7ef183ca29e692a345d8da8340134df89fc00a93",
    "composite_score": 19.35,
    "metrics": {
@@ -2517,7 +2552,7 @@
    "computed_at": "2026-10-07 14:10:40.628525"
   },
   {
-   "rank": 74,
+   "rank": 75,
    "wallet_address": "0x23d8e9e94eceb5d3819089ac5076d526f947c452",
    "composite_score": 19.04,
    "metrics": {
@@ -2552,7 +2587,7 @@
    "computed_at": "2026-10-04 11:44:27.528727"
   },
   {
-   "rank": 75,
+   "rank": 76,
    "wallet_address": "0x91f99c026126f60a35c4306cb288388848b48faf",
    "composite_score": 19.03,
    "metrics": {
@@ -2588,7 +2623,7 @@
    "computed_at": "2026-10-04 03:12:14.997415"
   },
   {
-   "rank": 76,
+   "rank": 77,
    "wallet_address": "0xa461cf57a1519ad2e0527e3c968080be5bcaaf46",
    "composite_score": 18.18,
    "metrics": {
@@ -2620,10 +2655,10 @@
     "DUST_ONLY"
    ],
    "cluster_id": null,
-   "computed_at": "2026-10-15 03:11:18.214913"
+   "computed_at": "2026-10-16 04:41:47.659682"
   },
   {
-   "rank": 77,
+   "rank": 78,
    "wallet_address": "0x59495c0497abb3c2a60eb7df89b6ad94df8b6993",
    "composite_score": 17.24,
    "metrics": {
@@ -2656,7 +2691,7 @@
    "computed_at": "2026-10-10 00:21:05.128833"
   },
   {
-   "rank": 78,
+   "rank": 79,
    "wallet_address": "0x57344c3380728f33872e5a9a8e4b9aababef3e1c",
    "composite_score": 16.86,
    "metrics": {
@@ -2691,7 +2726,7 @@
    "computed_at": "2026-10-02 19:25:55.139019"
   },
   {
-   "rank": 79,
+   "rank": 80,
    "wallet_address": "0xb2e0b9c46c6a13d34df913c7ba608ebd5c186804",
    "composite_score": 16.84,
    "metrics": {
@@ -2726,7 +2761,7 @@
    "computed_at": "2026-10-15 04:43:58.437659"
   },
   {
-   "rank": 80,
+   "rank": 81,
    "wallet_address": "0xe107ef8d3b614dd01f5fd06c3ec07c0e964374bb",
    "composite_score": 14.91,
    "metrics": {
@@ -2761,7 +2796,7 @@
    "computed_at": "2026-10-15 04:43:58.437670"
   },
   {
-   "rank": 81,
+   "rank": 82,
    "wallet_address": "0x651e8dbacea4b3f0d3c26c9668e279b868a63c1e",
    "composite_score": 14.87,
    "metrics": {
@@ -2797,7 +2832,7 @@
    "computed_at": "2026-10-02 03:30:40.892736"
   },
   {
-   "rank": 82,
+   "rank": 83,
    "wallet_address": "0xc84eb98c1ff92e3819c928af0e95c334697fa4f3",
    "composite_score": 14.5,
    "metrics": {
@@ -2830,7 +2865,7 @@
    "computed_at": "2026-10-10 23:52:04.418792"
   },
   {
-   "rank": 83,
+   "rank": 84,
    "wallet_address": "0x796fb184b63d31230ccaa169fdfb03cce7bd2c64",
    "composite_score": 14.26,
    "metrics": {
@@ -2866,7 +2901,7 @@
    "computed_at": "2026-10-04 00:45:05.466143"
   },
   {
-   "rank": 84,
+   "rank": 85,
    "wallet_address": "0x56fbb48ae5aa7283c42d4ec364e10bb63c4ba07a",
    "composite_score": 14.25,
    "metrics": {
@@ -2899,7 +2934,7 @@
    "computed_at": "2026-10-05 03:15:18.456706"
   },
   {
-   "rank": 85,
+   "rank": 86,
    "wallet_address": "0x1ef88dfa49f125b287083408c802b0fc5b5bdb3f",
    "composite_score": 13.9,
    "metrics": {
@@ -2934,7 +2969,7 @@
    "computed_at": "2026-10-12 12:09:16.142744"
   },
   {
-   "rank": 86,
+   "rank": 87,
    "wallet_address": "0xee169b5fd2734184f2613266070ce74b7b128444",
    "composite_score": 13.65,
    "metrics": {
@@ -2969,7 +3004,7 @@
    "computed_at": "2026-10-07 06:05:00.906179"
   },
   {
-   "rank": 87,
+   "rank": 88,
    "wallet_address": "0xc1b0ec5408aaf5ab79239bb3419bfae8297758c5",
    "composite_score": 13.41,
    "metrics": {
@@ -3004,7 +3039,7 @@
    "computed_at": "2026-10-02 03:30:40.892739"
   },
   {
-   "rank": 88,
+   "rank": 89,
    "wallet_address": "0x2cb2a174e10c2e14b797f4d276053ac0693ca1b1",
    "composite_score": 13.33,
    "metrics": {
@@ -3037,7 +3072,7 @@
    "computed_at": "2026-10-09 18:53:27.665937"
   },
   {
-   "rank": 89,
+   "rank": 90,
    "wallet_address": "0x6f5bfcb3cc4fa2251e72a3928707e874d0bd3de4",
    "composite_score": 12.98,
    "metrics": {
@@ -3072,7 +3107,7 @@
    "computed_at": "2026-10-07 06:05:00.906180"
   },
   {
-   "rank": 90,
+   "rank": 91,
    "wallet_address": "0x0a47ebfdb31875133444a369f9021bf7f5f85269",
    "composite_score": 12.36,
    "metrics": {
@@ -3109,7 +3144,7 @@
    "computed_at": "2026-10-01 08:25:48.858513"
   },
   {
-   "rank": 91,
+   "rank": 92,
    "wallet_address": "0x5c1950504edff2e960c5f2104fdd17390ee278e7",
    "composite_score": 12.35,
    "metrics": {
@@ -3145,7 +3180,7 @@
    "computed_at": "2026-10-02 12:17:27.654699"
   },
   {
-   "rank": 92,
+   "rank": 93,
    "wallet_address": "0xb928d2d92d2863753e76040a2bdfd768ef5c7ad5",
    "composite_score": 12.11,
    "metrics": {
@@ -3181,7 +3216,7 @@
    "computed_at": "2026-10-14 19:06:28.067263"
   },
   {
-   "rank": 93,
+   "rank": 94,
    "wallet_address": "0x68d54eb3c09047a36712106cf34fdfc82439bc20",
    "composite_score": 11.95,
    "metrics": {
@@ -3216,7 +3251,7 @@
    "computed_at": "2026-10-10 00:21:05.128835"
   },
   {
-   "rank": 94,
+   "rank": 95,
    "wallet_address": "0x867ab60b3d5655e5ba51e636ec160ffcffe5fa97",
    "composite_score": 11.76,
    "metrics": {
@@ -3251,7 +3286,7 @@
    "computed_at": "2026-10-05 09:02:42.295164"
   },
   {
-   "rank": 95,
+   "rank": 96,
    "wallet_address": "0x6c2684b75dd759e45f3f199148e62dbaae7811a3",
    "composite_score": 11.58,
    "metrics": {
@@ -3284,7 +3319,7 @@
    "computed_at": "2026-10-05 05:56:57.354682"
   },
   {
-   "rank": 96,
+   "rank": 97,
    "wallet_address": "0x48db154d5c2a8140924adcf0b4a31fa930eb08f7",
    "composite_score": 10.98,
    "metrics": {
@@ -3320,7 +3355,7 @@
    "computed_at": "2026-10-14 19:06:28.067271"
   },
   {
-   "rank": 97,
+   "rank": 98,
    "wallet_address": "0xed7ec83185b3cdac50685999a35ab26d30c20583",
    "composite_score": 10.82,
    "metrics": {
@@ -3357,7 +3392,7 @@
    "computed_at": "2026-10-04 00:45:05.466352"
   },
   {
-   "rank": 98,
+   "rank": 99,
    "wallet_address": "0x138c0dc2b8775c7b6860cb6e11df7191f823516f",
    "composite_score": 10.55,
    "metrics": {
@@ -3393,7 +3428,7 @@
    "computed_at": "2026-10-14 19:06:28.067273"
   },
   {
-   "rank": 99,
+   "rank": 100,
    "wallet_address": "0xafadd882d7a1e70006ce903d660832c1cc841795",
    "composite_score": 10.02,
    "metrics": {
@@ -3428,7 +3463,7 @@
    "computed_at": "2026-10-02 08:58:05.061820"
   },
   {
-   "rank": 100,
+   "rank": 101,
    "wallet_address": "0xcfbb348313b42890b5f8de6a926526c63433d826",
    "composite_score": 9.16,
    "metrics": {
@@ -3463,7 +3498,7 @@
    "computed_at": "2026-09-30 20:42:40.774126"
   },
   {
-   "rank": 101,
+   "rank": 102,
    "wallet_address": "0xd4313fab26f6b8a972c68900d73a9e6258247819",
    "composite_score": 6.85,
    "metrics": {
@@ -3499,7 +3534,7 @@
    "computed_at": "2026-10-12 00:49:23.038339"
   },
   {
-   "rank": 102,
+   "rank": 103,
    "wallet_address": "0xc3732ad37bdd30d30e112f2f80a27189b631433e",
    "composite_score": 3.32,
    "metrics": {
@@ -3534,7 +3569,7 @@
    "computed_at": "2026-09-30 20:42:40.774129"
   },
   {
-   "rank": 103,
+   "rank": 104,
    "wallet_address": "0x0d01f4ca4357819fa6edc93560bdf4938fb49da7",
    "composite_score": 0.02,
    "metrics": {

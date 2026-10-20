@@ -1830,3 +1830,51 @@ Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
   Doc lengkap: docs/TRENCH_BUNDLE_METHOD.md (peta konsep→implementasi).
 - Keterbatasan jujur (di output engine): coverage holder = wallet ter-track
   saja; konstanta block (2/30/1800) = adaptasi RH chain, bisa dikalibrasi.
+
+## SNAPSHOT S-55 — 2026-10-20/21: DELTA CATCH-UP 3 HARI + PELAJARAN TEMAN USER (rug archetype Pons) + STUDI KOHORT
+
+### A. Delta catch-up (17→20 Okt)
+- Dump: **217.011 wallet · 1.643.775 swap · max_ts 2026-10-16 04:41 UTC ·
+  scores 104** — CATATAN: max_ts mentok 16 Okt = VPS-side freeze LAGI (lihat D).
+  Kerucutkan otomatis: DB 3.239,7 → **2.272,1 MB** (−968 MB).
+- **INSIDEN: classify_contracts_noise BEKU** 70+ menit (17s CPU flat) di
+  rantai reapply → dibunuh → rantai langsung lanjut (desain continue-on-fail).
+  Diagnosis run langsung: TIDAK ADA deadlock — `--mode all` memindai SEMUA
+  11.821 address (membengkak tiap delta, ~2,4 jam penuh); hang kemarin =
+  transient. **ANTREAN: batasi scan incremental** (top-n tidak membatasi fase
+  eth_getCode).
+- PELAJARAN (lagi): jangan jalankan proses pembaca berat (studi kohort) saat
+  reapply menulis — journal-mode SQLite = saling gembok (studi kupaksa kill).
+
+### B. VPS FREEZE 16 OKT — akar + fix
+- **volume_sweep.py PID 68000 jalan 15,5 JAM** (normal: menit) — hang di
+  track-ca token AMERICA, loop fetch tokentx `asc` tanpa akhir, pegang flock
+  → cycle kelaparan (cuma "2 verified wallets"/jam) → swap mentok 16 Okt.
+- FIX: kill presisi PID 68000+wrapper → flock bebas, cron */5 mulai fresh,
+  cycle jam-jaman lanjut. **PANTAU swap_max_ts VPS naik dalam beberapa jam**
+  (python scripts/vps_query.py).
+- Watchdog error berulang `'choices'` sejak 18 Okt = respons ZAI tanpa
+  'choices' (kuota/key?) — non-fatal (LLM verdict saja), CEK ZAI_API_KEY.
+
+### C. Materi teman user (anotherresearchtoken) → docs/RUG_ARCHETYPE_PONS.md
+- Arketipe rug tangga Pons (~70% launch), fingerprint dev buy 0,6-3 ETH →
+  TP 4x; varian 3-3,5 ETH → exit 90 dtk; **sinyal approve-dev mendahului rug**
+  (mati saat dev pre-approve); disiplin IS/OOS/FORWARD/Paper + buang top-10
+  trade; edge selalu decay. Modal $16 → $764 (verif profil GMGN).
+- **Studi validasi kita: scripts/pons_rug_archetype.py →
+  results/pons_archetype/study.json** — fingerprint TERKONFIRMASI (kohort
+  0,6-3 ETH median 1,18 ETH; reach-4x 73% ALL → 85% OOS; launch dev-receh
+  0,05 ETH cuma maxx p50 4,4x). "90 detik utk 3-3,5 ETH" TIDAK mereplikasi
+  (n=12; metrik beda). Detail tabel: docs/RUG_ARCHETYPE_PONS.md §6.
+- Playbook recount (data 20 Okt): SMART 120 (70 bersih) · confluence 60.
+- Explorer rebuilt (69.356 wallet dataset, priced 97,6%).
+
+### PELAJARAN S-55
+1. `lower(kolom)=?` di query = FULL SCAN (index mati) — 2,5K token × 6,3 jt
+   rows = jam-an. Query exact match (data sudah lowercase). Pola sama di
+   pons_rug_archetype (2x) dan bundle_risk (sudah preload dict).
+2. Jangan jalankan pembaca berat bareng reapply (SQLite journal 1-writer).
+3. `--mode all` classify_contracts_noise = biaya tumbuh tanpa batas — perlu
+   bound incremental (antrean).
+4. volume_sweep hang 15 jam = pola baru freeze; pantau etime proses sweep di
+   health check rutin.

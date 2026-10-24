@@ -1878,3 +1878,45 @@ Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
    bound incremental (antrean).
 4. volume_sweep hang 15 jam = pola baru freeze; pantau etime proses sweep di
    health check rutin.
+
+## SNAPSHOT S-56 — 2026-10-24: ETHERSCAN FREE DEAD (4663) → BACKEND ALCHEMY + VPS DOWN
+
+### A. Etherscan free plan DICABUT utk Robinhood chain (info user, terverifikasi)
+- `api.etherscan.io/v2?chainid=4663` → "Free API access is not supported for
+  this chain. Please upgrade your api plan" (semua module). Pipeline enrich VPS
+  (EtherscanV2 primer) TERSANDERA sampai backend baru.
+- Blockscout (robinhoodchain.blockscout.com) kini CF-challenge dari luar —
+  bukan jalur (policy: no CF bypass).
+- **SOLUSI: src/utils/alchemy_transfers.py — AlchemyTransfersClient** di atas
+  `alchemy_getAssetTransfers` (erc20 + external, pageKey 1000/page,
+  withMetadata → blockTimestamp). Drop-in: method sama EtherscanV2Client,
+  output bentuk Blockscout identik. Key DIDERIVE dari URL alchemy di
+  EVM_RPC_ENDPOINTS (env ALCHEMY_API_KEYS utk override), round-robin 4 key.
+- **Live-tested (24 Okt):** address_token_transfers 183 ✓ · token_transfers
+  303 ✓ · holders derived 50 ✓ · address_transactions external 1224 ✓ (first
+  funder + value + block) · token_info (eth_call RPC) ✓ · stats ETH
+  CoinGecko ✓. KETERBATASAN: kategori 'internal' tidak didukung network ini
+  (-32602) — funding internal via kontrak tak terjangka (external cukup utk
+  first-touch).
+- make_explorer_client: prioritas **Alchemy → Etherscan (kalau berbayar
+  balik) → Blockscout**; override env EXPLORER_BACKEND=etherscan|blockscout.
+- pytest 112/112 hijau (env python 3.14 lokal kehilangan dev-deps —
+  pytest/pytest-asyncio/aiosqlite/fastapi diinstall dari requirements.txt;
+  catatan: opentelemetry version conflict warning, harmless).
+
+### B. VPS DOWN (24 Okt malam)
+- Ping 100% loss + port 22 timeout = host mati/null-route SISI PROVIDER
+  (pola S-42) — BUKAN kode. night_delta gagal di fase fetch (log lengkap).
+- **USER PERLU CS CHUNKSERVE** (tiket "host unreachable"). Setelah balik:
+  (1) rerun night_delta (resumable), (2) deploy commit Alchemy ke VPS
+  (git reset --hard origin/main + systemctl restart topwallet-supervisor),
+  (3) cek supervisor cycle jalan dgn backend alchemy di log ("alchemy"),
+  (4) cek swap_max_ts naik lagi.
+
+### C. Login SSH key Termius + rotasi proxy (24 Okt, sesi sebelumnya)
+- VPS_SSH_KEY terpasang (data/termius_ed25519, gitignored) — login root via
+  key TERBUKTI. sshd: passwordauthentication NO (password leak tidak
+  terpakai lagi). 100 proxy Webshare baru terpasang di proxies.txt VPS
+  (2 dites live OK); aktif penuh pasca restart supervisor.
+- Pelajaran quoting: `$()` dalam exec_command double-quoted DIEKSPANSI GIT
+  BASH LOKAL (kena 3x) — operasi remote SELALU via file skrip.

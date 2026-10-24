@@ -338,8 +338,21 @@ class EtherscanV2Client:
 
 
 def make_explorer_client(rps: float | None = None):
-    """Factory explorer: Etherscan V2 bila ETHERSCAN_API_KEY terpasang,
-    Blockscout legacy sebagai fallback (sampah tapi masih jalan)."""
+    """Factory explorer. Prioritas (S-56): Alchemy getAssetTransfers (Etherscan
+    free plan DICABUT utk chain 4663, Okt 2026) → Etherscan V2 (kalau key
+    berbayar/akses kembali) → Blockscout legacy. Override: EXPLORER_BACKEND=
+    alchemy|etherscan|blockscout."""
+    import os
+    backend = os.getenv("EXPLORER_BACKEND", "").lower()
+    if backend != "etherscan":
+        try:
+            from src.utils.alchemy_transfers import AlchemyTransfersClient
+            return AlchemyTransfersClient(rps=rps)
+        except ValueError:
+            if backend == "alchemy":
+                raise
+            log = logging.getLogger("walletintel.etherscan")
+            log.warning("ALCHEMY tidak tersedia (tidak ada key) — coba Etherscan")
     if settings.etherscan_api_key:
         from src.utils.etherscan_client import EtherscanV2Client
 

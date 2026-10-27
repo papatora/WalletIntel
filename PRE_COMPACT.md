@@ -1920,3 +1920,50 @@ Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
   (2 dites live OK); aktif penuh pasca restart supervisor.
 - Pelajaran quoting: `$()` dalam exec_command double-quoted DIEKSPANSI GIT
   BASH LOKAL (kena 3x) — operasi remote SELALU via file skrip.
+
+## SNAPSHOT S-57 — 2026-10-27/28: VPS PULIH + DEPLOY ALCHEMY + FIX IntegrityError + delta lambat
+
+### A. Kondisi pasca-VPS-down (temuan berantai)
+- VPS balik ~25 Okt; supervisor "active" tapi REALITANYA: cycle mentok "cycle 2"
+  sejak 26 Okt (Etherscan dead → tiap enrich retry 6x backoff → cycle nyaris
+  berhenti; 6h53m CPU terbakar sia-sia). max_ts VPS sempat maju ke 27 Okt 10:07
+  tapi cuma +56 swap/10 hari (jalur non-Etherscan saja yang lolos).
+- volume_sweep HANG LAGI 5,5 jam (pola S-55 berulang) → dibunuh presisi.
+- SUPERVISOR STUCK MISTERIUS: setelah "cycle 1 OK ... Sleeping 3600s" 14:31,
+  tidak pernah bangun (status file tak pernah cycle 2, journal kosong 7 jam,
+  NRestarts=0). Belum jelas akarnya (kandidat: sleep tak kembali / stuck pra-
+  spawn). FIX PRAGMATIS: restart bersih pasca deploy — cycle baru LANGSUNG
+  jalan normal. PANTAU: kalau pola "sleeping lalu diam" muncul lagi, bedah
+  supervisor main-loop (kandidat: time.sleep besar + status write race).
+
+### B. Deploy backend Alchemy + BUG BARU DITEMUKAN & DIFIX
+- Deploy 7f3ab03 + restart: pipeline log menunjukkan **POST
+  robinhood-mainnet.g.alchemy.com 200 OK — backend Alchemy AKTIF di VPS**.
+- Cycle pertama pasca-deploy MATI exit 1: **IntegrityError e3q8 (uq_swap)**
+  saat insert swap 0x05fe437c/tx 0xcc10685d (data 25 Okt, BUY). Bedah
+  _persist_events: `existing` hanya cek baris DB; dua transfer SATU tx sama
+  dgn amount beda (multi-hop route — kini terlihat Alchemy karena bentuk
+  item lebih lengkap) lolos `seen` → di-add 2x → commit nabrak UNIQUE.
+  FIX (53d5526): track `added` set (token, side, tx) in-loop — skip duplikat
+  sesama event baru. 112/112 tests hijau. Deploy + restart → cycle jalan.
+- Watchdog 'choices' AKAR TERSISA: **ZAI API 429 "Insufficient balance or
+  no resource package. Please recharge"** — saldo/kuota ZAI habis (butuh
+  user recharge; watchdog non-fatal, supervisor jalan tanpa verdict).
+
+### C. Delta catch-up 7 hari — JALAN TAPI LAMBAT
+- Dump VPS ok (10,37 jt baris, fp baru) tapi download 6MB/part ≈ 15 menit
+  (bandwidth VPS pasca-recovery jelek) → 54 part ≈ semalam. Dibiarkan jalan
+  (resumable, single-flight). Data yang dibawa = kondisi 27 Okt (hampir tanpa
+  swap baru — enrich mati 10 hari); GELOMBANG data segar akan tampak di delta
+  BERIKUTNYA setelah cycle Alchemy mengejar.
+- Kerucutkan otomatis akan jalan di ujung rantai delta seperti biasa.
+
+### D. Antrean berikutnya
+1. Besok: cek delta malam selesai + rantai reapply/kerucutkan; rebuild
+   explorer + playbook recount.
+2. Pantau cycle VPS: swap_max_ts harus NAIK signifikan dalam 24 jam (backend
+   Alchemy + fix dedupe + sweep hang dibunuh + supervisor fresh).
+3. Kalau supervisor "sleeping-diam" terulang → bedah main loop (S-57 §A).
+4. ZAI recharge (user) → watchdog LLM aktif lagi.
+5. Sweep perlu TIMEOUT internal (hang 2x dalam 10 hari — 15,5 jam & 5,5 jam):
+  bungkus track-ca dgn watchdog deadline di volume_sweep.py.

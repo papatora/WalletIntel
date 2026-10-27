@@ -1967,3 +1967,25 @@ Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
 4. ZAI recharge (user) → watchdog LLM aktif lagi.
 5. Sweep perlu TIMEOUT internal (hang 2x dalam 10 hari — 15,5 jam & 5,5 jam):
   bungkus track-ca dgn watchdog deadline di volume_sweep.py.
+
+### E. S-57c: DELTA VIA GITHUB RELAY (SFTP 7 KB/s → 20 MB/s) — TUNTAS
+- SFTP VPS→PC terukur **7 KB/s per koneksi** (3 paralel pun cuma 19 KB/s
+  agregat = limit per-koneksi, bukan CPU — load 1.0). 324MB ≈ 13 jam → tidak
+  praktis. Tes VPS→GitHub: **3,3-20 MB/s** (upload 333MB dalam 18 detik!).
+- **Solusi: scripts/_relay_dump_once.py** — VPS tar 54 part → upload 1 asset
+  ke release temp (tag relay-<fp>) → lokal tarik dari CDN GitHub (menit) →
+  extract → rantai lengkap rebuild_local_db → reapply → kerucutkan → refresh
+  → night_state update → **release+tag dihapus** (repo publik bersih lagi).
+- HASIL: delta 27 Okt tuntas MALAM INI juga (bukan 13 jam): reapply 47.307
+  label; kerucutkan otomatis −984 MB (DB 3.256 → 2.272 MB; 91.612 wallet
+  noise); explorer rebuilt (dataset 69.218 wallet berlabel, price_points
+  6,3 jt). night_state transport="github-relay".
+- Pemakaian ulang: `python scripts/_relay_dump_once.py upload` lalu `local`
+  (atau wire ke night_delta sbg fallback saat SFTP lambat — antrean).
+- Catatan data: wallet_scores=0 di dump (VPS analyze belum menyelesaikan
+  pass pasca restart — isi di cycle berikut, delta berikutnya membawanya).
+
+### F. VERIFIKASI AKHIR 27 Okt malam: VPS MENGALIR LAGI
+- swap VPS: 1.643.388 → **1.645.241 (+1.853) dalam ~1 jam**; max_ts maju ke
+  **2026-10-27 15:27 UTC** (data menit ini) — backend Alchemy + fix dedupe +
+  supervisor fresh = pipeline hidup kembali setelah 10 hari mati suri.

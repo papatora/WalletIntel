@@ -1,14 +1,15 @@
 {
  "traceback_baseline": 3885,
  "delta_started_at": "2026-10-27T13:52:38.943986+00:00",
- "delta_status": "running",
+ "delta_status": "done",
  "traceback_signature": "AllEndpointsDown: 429 from endpoint",
  "delta_note": "reset 2026-09-25: run lama mati saat force-shutdown tanpa status terminal",
  "delta_done": true,
- "wallets": 217011,
- "swaps": 1643775,
- "swap_max_ts": "2026-10-16 04:41:35.000000",
- "wallet_scores": 104,
- "delta_finished_at": "2026-10-20T15:09:05.708426+00:00",
- "labels_in_db": 71069
+ "wallets": 126011,
+ "swaps": 1643388,
+ "swap_max_ts": "2026-10-27 10:07:07.000000",
+ "wallet_scores": 0,
+ "delta_finished_at": "2026-10-27T15:54:09+00:00",
+ "labels_in_db": 71069,
+ "transport": "github-relay (relay-333464821)"
 }

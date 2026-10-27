@@ -615,6 +615,10 @@ class Pipeline:
         missing_ts_blocks = [e.block_num for e in events if e.ts is None]
         ts_map = await self.rpc.block_timestamps(missing_ts_blocks) if missing_ts_blocks else {}
         seen: set[tuple] = set()
+        added: set[tuple] = set()  # S-56b: dup-key yang sudah di-add di loop INI —
+        # dua transfer di TX sama (multi-hop route) dgn amount beda lolos dari
+        # `seen` tapi menabrak uq_swap (wallet,tx,token,side) saat commit
+        # (IntegrityError e3q8, insiden 27 Okt setelah backend Alchemy).
         kept = 0
         for ev in events:
             key = (ev.token, ev.side, ev.block_num, round(ev.token_amount, 12))
@@ -624,8 +628,9 @@ class Pipeline:
             # S-45i: append-only — lewati yang sudah ada (kunci unik DB:
             # wallet+tx+token+side); tanpa delete-all
             dup = (ev.token, ev.side, (ev.tx_hash or "").lower())
-            if dup in existing:
+            if dup in existing or dup in added:
                 continue
+            added.add(dup)
             ts = ev.ts or (
                 datetime.fromtimestamp(ts_map[ev.block_num], tz=timezone.utc)
                 if ev.block_num in ts_map else None

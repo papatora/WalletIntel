@@ -1989,3 +1989,15 @@ Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
 - swap VPS: 1.643.388 → **1.645.241 (+1.853) dalam ~1 jam**; max_ts maju ke
   **2026-10-27 15:27 UTC** (data menit ini) — backend Alchemy + fix dedupe +
   supervisor fresh = pipeline hidup kembali setelah 10 hari mati suri.
+
+### G. S-57d/28 Okt pagi: verifikasi pemulihan + sweep watchdog
+- **VPS 15 jam pasca-pemulihan: +9.875 swap (max_ts → 28 Okt 06:30) ·
+  wallets 126K → 222.558 (+96 ribu ditemukan Alchemy!)** · supervisor sehat
+  17+ jam, cycle 11 berjalan per jam — pola "sleeping-diam" TIDAK kambuh.
+  scores masih 0 (analyze menunggu backlog enrich 96K wallet; delta
+  berikutnya membawanya). Watchdog 'choices' masih = ZAI belum recharge.
+- **Sweep watchdog SHIPPED (36b7a5e, deployed)**: asyncio.wait_for
+  TRACK_CA_DEADLINE_S (default 15 menit, env VOLUME_SWEEP_TRACK_DEADLINE_S)
+  per run_track_by_ca — timeout dibayar tries++ (retry biasa, antrean aman),
+  log event track_ca_timeout/track_ca_dropped. 112 tests hijau. Cron ambil
+  kode baru per run (proes baru per siklus) — tanpa restart.

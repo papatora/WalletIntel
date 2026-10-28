@@ -77,6 +77,11 @@ QUEUE_DROP_TRIES = 3
 # S-44b: jeda antar entry track-ca (detik) — beri jendela waiter flock
 # (pipeline) merebut kunci; flock tidak FIFO.
 ENTRY_YIELD_S = 15
+# S-57d: hard deadline per token — track-ca pernah stall TANPA batas di
+# loop fetch (15,5 jam 16 Okt; 5,5 jam 27 Okt) memegang flock → cycle
+# supervisor kelaparan. Normal 5-15 menit; lewat itu = abort token
+# (dihitung retry biasa, antrean tidak hilang).
+TRACK_CA_DEADLINE_S = float(os.getenv("VOLUME_SWEEP_TRACK_DEADLINE_S", str(15 * 60)))
 
 STATE_FILE = Path(REPO_ROOT) / "data" / "volume_sweep_state.json"
 POOL_FILE = Path(settings.results_dir) / "wallet_pool.json"
@@ -300,7 +305,25 @@ async def process_queue(queue: list[dict], budget: int) -> list[dict]:
         if attempts > 1:
             await asyncio.sleep(ENTRY_YIELD_S)
         try:
-            payload = await run_track_by_ca(ca, top_n=50)
+            # S-57d: watchdog deadline — fetch stall tak berbatas dulu bikin
+            # sweep memegang flock berjam-jam (2 insiden Okt). wait_for
+            # membatalkan task di titik await (rollback transaksi via context
+            # manager db_write_lock); aman.
+            payload = await asyncio.wait_for(
+                run_track_by_ca(ca, top_n=50), timeout=TRACK_CA_DEADLINE_S)
+        except asyncio.TimeoutError:
+            entry["tries"] = int(entry.get("tries") or 0) + 1
+            entry["error"] = f"deadline {TRACK_CA_DEADLINE_S/60:.0f}m (watchdog S-57d)"
+            if entry["tries"] >= QUEUE_DROP_TRIES * 2:
+                queue.remove(entry)
+                append_log({"ts": datetime.now(timezone.utc).isoformat(),
+                            "event": "track_ca_dropped", "token": ca,
+                            "tries": entry["tries"], "error": entry["error"]})
+            else:
+                append_log({"ts": datetime.now(timezone.utc).isoformat(),
+                            "event": "track_ca_timeout", "token": ca,
+                            "tries": entry["tries"]})
+            continue
         except Exception as e:  # lock contention, network, apapun — retry
             entry["tries"] = int(entry.get("tries") or 0) + 1
             entry["error"] = str(e)[:160]

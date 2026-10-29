@@ -7,6 +7,7 @@
 
 (function () {
   const root = document.documentElement;
+  root.dataset.wiVer = "1.1"; // v1.1 (28 Okt): arkham form bertahap + klik Continue otonom — fingerprint utk CDP
 
   function setState(s) {
     root.dataset.wiSite = window.__wiSite || "unknown";

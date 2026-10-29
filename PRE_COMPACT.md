@@ -2001,3 +2001,38 @@ Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
   per run_track_by_ca — timeout dibayar tries++ (retry biasa, antrean aman),
   log event track_ca_timeout/track_ca_dropped. 112 tests hijau. Cron ambil
   kode baru per run (proes baru per siklus) — tanpa restart.
+
+## SNAPSHOT S-58 — 2026-10-29/30: DELTA GELOMBANG PEMULIHAN (via relay) + sweep watchdog live-proof
+
+### A. Delta 29 Okt — GELOMBANG DATA PEMULIHAN ALCHEMY MASUK
+- Relay path dipakai lagi (SFTP tetap lambat): upload 354MB 18 detik (20,8
+  MB/s) → download CDN menit → rantai lengkap tuntas.
+- **HASIL: 1.833.985 swap (+190.607 dari delta 27 Okt!) · max_ts 29 Okt
+  14:02 · VPS raw 251.102 wallet → lokal pasca-kerucutkan 139.839** (prune
+  111.263 noise wallet + 1,43 jt poin pool mati; DB 3.448 → **2.419 MB**,
+  hemat 1.028 MB — kerucutkan otomatis jalan lagi).
+- Reapply: 51.167 label. Explorer rebuilt: dataset 70.540 wallet berlabel ·
+  2.718 token · 6,58 jt price_points · priced 97,7%.
+- Playbook recount: SMART 105 (66 bersih) · confluence 54 · tier 10K-100K: 10.
+- **scores MASIH 0** [VPS]: analyze belum menyelesaikan satu pass pun sejak
+  pemulihan (backlog enrich 125K+ wallet memakan cycle). PANTAU — kalau
+  minggu depan masih 0, bedah stage analyze (checkpoint/autoflush OOM?).
+
+### B. Sweep watchdog TERBUKTI di produksi
+- **55 event track_ca_timeout** dalam 2 hari — deadline 15 mnt menangkap
+  token berat dan me-retrinya dengan tertib (nol hang, flock bebas, cycle
+  supervisor lancar). Watchdog balik fungsi semula: sweep tidak lagi bisa
+  menyandera pipeline.
+
+### C. Relay tooling dikerasikan (bug tag + idempotensi)
+- BUG (kena 2x malam ini): tag relay per-timestamp → run upload vs local
+  beda menit = tag beda = 404. FIX: default tag date-only (stabil seharian)
+  + upload menghapus release lama bertag sama dulu (idempoten rerun) +
+  opsi tag eksplisit via argv[2].
+- Alur delta-relay final: `night_delta.py` dijalankan → tunggu "parts: N"
+  → kill → `_relay_dump_once.py upload` → `local` (tanpa argv). Malam ini
+  total delta dari mulai dump sampai dataset rebuilt ≈ 75 menit.
+
+### D. Verify rutin
+- GMGN OpenAPI trending hidup (PONS +230% pump 1h). VPS: supervisor 2 hari
+  sehat (cycle 23+), sweep normal, max_ts segar ke menit.

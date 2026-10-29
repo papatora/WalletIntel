@@ -25,8 +25,10 @@ import _vps  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[1]
 DATA = REPO / "data"
-TAG = "relay-333464821"          # fp dump 27 Okt (fetch_dump log)
-ASSET = f"{TAG}.tar"
+# tag HARUS sama antara run upload & local — default date-only (stabil
+# seharian); run kedua sehari: upload menghapus release lama dulu.
+TAG = sys.argv[2] if len(sys.argv) > 2 else time.strftime("relay-%Y%m%d")
+ASSET = "dump.tar"
 GH_API = "https://api.github.com/repos/papatora/WalletIntel"
 
 UPLOAD_SH = r"""
@@ -37,6 +39,12 @@ echo "parts di VPS: $N"
 tar cf /tmp/relay.tar local_snapshot.sql.part*
 ls -la /tmp/relay.tar
 TOK=$(grep ^GITHUB_TOKEN= /opt/topwallet/.env | cut -d= -f2)
+# idempoten: hapus release + ref bertag sama bila ada (rerun seharian)
+OLD=$(curl -s -H "Authorization: Bearer $TOK" https://api.github.com/repos/papatora/WalletIntel/releases/tags/TAGNAME | grep -o '"id": *[0-9]*' | head -1 | grep -o '[0-9]*')
+if [ -n "$OLD" ] && [ "$OLD" != "1" ]; then
+  curl -s -X DELETE -H "Authorization: Bearer $TOK" https://api.github.com/repos/papatora/WalletIntel/releases/$OLD || true
+  git -C /opt/topwallet push origin --delete TAGNAME 2>/dev/null || true
+fi
 RID=$(curl -s -X POST -H "Authorization: Bearer $TOK" \
   -H "Accept: application/vnd.github+json" \
   https://api.github.com/repos/papatora/WalletIntel/releases \

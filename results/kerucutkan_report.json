@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-29T16:46:01.124526+00:00",
+ "generated_at": "2026-11-12T17:34:43.281442+00:00",
  "applied": true,
- "size_before": 3447988224,
+ "size_before": 4361711616,
  "plan": {
-  "db_max_ts": "2026-10-29 14:02:41.000000",
-  "idle_cutoff": "2026-08-30 14:02:41",
-  "wallets_total": 251102,
+  "db_max_ts": "2026-11-12 16:31:12.000000",
+  "idle_cutoff": "2026-09-13 16:31:12",
+  "wallets_total": 348024,
   "wallet_prune": {
-   "count": 111263,
-   "pct": 44.3,
-   "swap_rows": 525
+   "count": 165940,
+   "pct": 47.7,
+   "swap_rows": 19125
   },
   "price_points": {
-   "total": 8705641,
-   "dead_pool_rows": 1430773,
-   "downsample_pools": 375,
-   "downsample_rows": 726688
+   "total": 9994186,
+   "dead_pool_rows": 1513131,
+   "downsample_pools": 394,
+   "downsample_rows": 748070
   },
   "indexes_present": {
    "ix_swap_events_ts": true,
@@ -25,13 +25,13 @@
  },
  "applied_detail": {
   "wallet_prune": {
-   "wallets": 111263,
-   "swap_events": 525,
-   "wallet_labels": 427,
-   "wallet_social": 0
+   "wallets": 165940,
+   "swap_events": 19125,
+   "wallet_labels": 12488,
+   "wallet_social": 16
   },
-  "price_points_dead_pool": 1430773,
-  "price_points_downsample": 697422,
+  "price_points_dead_pool": 1513131,
+  "price_points_downsample": 717795,
   "indexes_dropped": [
    "ix_swap_events_ts",
    "ix_swap_events_wallet_address",
@@ -39,7 +39,7 @@
   ],
   "vacuum_s": 0
  },
- "vacuum_s": 42.7,
- "size_after": 2419466240,
- "freed_bytes": 1028521984
+ "vacuum_s": 60.5,
+ "size_after": 3089305600,
+ "freed_bytes": 1272406016
 }

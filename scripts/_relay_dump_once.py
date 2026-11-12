@@ -39,8 +39,10 @@ echo "parts di VPS: $N"
 tar cf /tmp/relay.tar local_snapshot.sql.part*
 ls -la /tmp/relay.tar
 TOK=$(grep ^GITHUB_TOKEN= /opt/topwallet/.env | cut -d= -f2)
-# idempoten: hapus release + ref bertag sama bila ada (rerun seharian)
-OLD=$(curl -s -H "Authorization: Bearer $TOK" https://api.github.com/repos/papatora/WalletIntel/releases/tags/TAGNAME | grep -o '"id": *[0-9]*' | head -1 | grep -o '[0-9]*')
+# idempoten: hapus release + ref bertag sama bila ada (rerun seharian).
+# Pipeline dibungkus || true — 404 (tag belum ada) TIDAK boleh mematikan
+# skrip via set -e (bug S-58: upload mati diam sebelum RID dibuat).
+OLD=$( { curl -s -H "Authorization: Bearer $TOK" https://api.github.com/repos/papatora/WalletIntel/releases/tags/TAGNAME | grep -o '"id": *[0-9]*' | head -1 | grep -o '[0-9]*'; } || true )
 if [ -n "$OLD" ] && [ "$OLD" != "1" ]; then
   curl -s -X DELETE -H "Authorization: Bearer $TOK" https://api.github.com/repos/papatora/WalletIntel/releases/$OLD || true
   git -C /opt/topwallet push origin --delete TAGNAME 2>/dev/null || true

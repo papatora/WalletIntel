@@ -2036,3 +2036,40 @@ Repo ~8,1 GB sebelum. Pecahan (semua dari pengukuran, bukan perkiraan):
 ### D. Verify rutin
 - GMGN OpenAPI trending hidup (PONS +230% pump 1h). VPS: supervisor 2 hari
   sehat (cycle 23+), sweep normal, max_ts segar ke menit.
+
+## SNAPSHOT S-59 — 2026-11-12/13: DELTA CATCH-UP 14 HARI (relay) + price_points AMAN
+
+### A. Konteks: tidak ada sesi antara S-58 (29 Okt) dan ini. VPS uptime 12 hari
+(reboot ~30/31 Okt pasca pemulihan, tidak pernah mati lagi), supervisor active,
+sweep dalam batas watchdog, load tinggi dari Chrome callout-history (projek
+lain — JANGAN disentuh).
+
+### B. Delta 14 hari via GitHub relay (jalur baku sekarang)
+- Dump VPS: 10,87 jt baris · 73 part · 454MB. Upload release temp **24 detik
+  (19,7 MB/s)** → download CDN menit → rantai penuh tuntas.
+- **BUG FIX relay: step cleanup idempoten gagal diam (grep 404 → set -e bunuh
+  skrip sebelum RID dibuat)** — pipeline dibungkus || true. Tag date-only
+  default (relay-YYYYMMDD) + opsi argv[2] tetap.
+- **HASIL: swaps 2.758.441 (+924.456!) · max_ts 12 Nov 16:31 · VPS raw 348K
+  wallet → lokal 182.084 pasca-kerucutkan** (prune ~166K noise; DB 4.362 →
+  **3.089 MB**, hemat 1.272 MB otomatis). Reapply 45.733 label.
+- Explorer rebuilt: dataset 65.082 wallet berlabel · 3.043 token · **7,76 jt
+  price_points (naik dari 6,58 jt!)** · priced 98,2%.
+- Playbook recount: early≥2 = 7.701 · **SMART 228 (136 bersih)** · confluence
+  **106 token**. Label dist: INSIDER 16.750 · AIRDROP 14.674 (14 hari enrich
+  Alchemy menambah ribuan label terverifikasi).
+
+### C. PELAJARAN PENTING: "VPS pp=0" di log fetch_dump = BOHONG (lock contention)
+- fetch_dump mencetak "VPS price_points=0" — angka itu dari query count yang
+  TIMEOUT kena lock (writer berat) dan fetch_dump menganggapnya 0. REALITA:
+  dump berisi 7,76 jt poin (stage prices VPS hidup dan menambah poin selama
+  14 hari). Traceback "database is locked" di supervisor_pipeline.log =
+  transient (bukan stage prices mati).
+- PELAJARAN: angka pra-flight di log fetch_dump HARUS dibedakan "0 asli" vs
+  "0 karena query gagal" — kalau tidak, kelalaian kecil bisa memicu panik
+  salah diagnosis (hampir kucatat sebagai regresi data).
+- scores VPS = 0 ASLI (analyze belum tuntas satu pass sejak pemulihan —
+  backlog enrich raksasa). PANTAU mingguan; kalau tetap 0 → bedah stage.
+
+### D. Verify rutin
+- GMGN OpenAPI hidup (NVDA/SPCX/SPY). VPS sehat; supervisor cycle 23+.

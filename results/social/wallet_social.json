@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-29T16:46:59.478241+00:00",
+ "updated_at": "2026-11-12T17:36:09.811221+00:00",
  "rows": [
   {
    "address": "0xe5e702641ea86f4ae6cc3cdaed2b886f976be044",
@@ -3182,21 +3182,6 @@
    "updated_at": "2026-10-14T16:45:50.142896+00:00"
   },
   {
-   "address": "0x9a44d4974cad27175458ee071c189c2619f417c0",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\", \"fomo\"]",
-   "extra": "{\"pnl_30d\": \"0.1171004436205496\", \"winrate_30d\": 0.7142857142857143, \"realized_profit_30d\": \"3665.93411193532004902103\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\", \"smart_degen:30d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
    "address": "0xa921da481fd9dafbd69c3ce1bfea3244ec250242",
    "source": "gmgn_rank",
    "twitter_username": "",
@@ -3220,21 +3205,6 @@
    "name": null,
    "tags": "[\"smart_degen\", \"gmgn_go\", \"fomo\", \"gmgn\"]",
    "extra": "{\"pnl_30d\": \"0.0810948957669633\", \"winrate_30d\": 0.4230769230769231, \"realized_profit_30d\": \"3955.67264646238620537502\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\", \"smart_degen:30d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
-   "address": "0xe957a99f5134e7129c30ff87c173b536a38188f2",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\", \"gmgn_go\", \"gmgn\"]",
-   "extra": "{\"pnl_30d\": \"0.2420866553145336\", \"winrate_30d\": 0.36688311688311687, \"realized_profit_30d\": \"21544.84427247825364453449\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\", \"smart_degen:30d\"], \"caller_avg_multiplier\": null}",
    "x_gmgn": null,
    "x_arkham": null,
    "x_conflict": null,
@@ -3437,21 +3407,6 @@
    "updated_at": "2026-10-14T16:45:50.142896+00:00"
   },
   {
-   "address": "0x40985581da12d55f2b4aafe65606572a0817b4f8",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\"]",
-   "extra": "{\"pnl_30d\": \"0.4291703227994205\", \"winrate_30d\": 0.42857142857142855, \"realized_profit_30d\": \"8477.9940492784049663546\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\", \"smart_degen:30d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
    "address": "0x5906656a46bf014e0bc52df9870a10236899923f",
    "source": "gmgn_rank",
    "twitter_username": "SolTwencher",
@@ -3460,21 +3415,6 @@
    "name": null,
    "tags": "[\"smart_degen\", \"gmgn_go\", \"gmgn\"]",
    "extra": "{\"pnl_30d\": \"0.0620967633027843\", \"winrate_30d\": 0.3333333333333333, \"realized_profit_30d\": \"1925.33954849564609713736\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\", \"smart_degen:30d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
-   "address": "0x14102761b2a02a9bb030d29152665176bbd87340",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\", \"fomo\"]",
-   "extra": "{\"pnl_30d\": \"0.0677991413718078\", \"winrate_30d\": 0.487012987012987, \"realized_profit_30d\": \"3192.92275967606378332281\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\", \"smart_degen:30d\"], \"caller_avg_multiplier\": null}",
    "x_gmgn": null,
    "x_arkham": null,
    "x_conflict": null,
@@ -3947,21 +3887,6 @@
    "updated_at": "2026-10-14T16:45:50.142896+00:00"
   },
   {
-   "address": "0xd7fec8a82afc596f5e05428e4345b83bb131545d",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\", \"gmgn\"]",
-   "extra": "{\"pnl_30d\": \"0.0918731275956822\", \"winrate_30d\": 0.5471698113207547, \"realized_profit_30d\": \"1182.30041397451312479887\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
    "address": "0xf5ff3cb552379038d2cdee353bb822da7f7df0a7",
    "source": "gmgn_rank",
    "twitter_username": "",
@@ -4022,21 +3947,6 @@
    "updated_at": "2026-10-14T16:45:50.142896+00:00"
   },
   {
-   "address": "0xf9410f77573c4793c7d1a8076bc959b9896d2380",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\"]",
-   "extra": "{\"pnl_30d\": \"0.0476228677393516\", \"winrate_30d\": 0.5714285714285714, \"realized_profit_30d\": \"13840.32522994215579046009\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\", \"smart_degen:30d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
    "address": "0x09b8211af3d9ab946d8e4e65e1133457e86fb1a2",
    "source": "gmgn_rank",
    "twitter_username": "Jesennnm",
@@ -4075,21 +3985,6 @@
    "name": null,
    "tags": "[\"smart_degen\", \"fomo\"]",
    "extra": "{\"pnl_30d\": \"0.3460100710451597\", \"winrate_30d\": 0.4, \"realized_profit_30d\": \"48326.92294637973757206298\", \"sources\": [\"smart_degen:30d\", \"smart_degen:1d\", \"smart_degen:7d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
-   "address": "0xd04dd0194eb5b7246d83be5fc5d7464d5fabacb2",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\", \"fomo\", \"gmgn\"]",
-   "extra": "{\"pnl_30d\": \"1.5443114998478122\", \"winrate_30d\": 0.5, \"realized_profit_30d\": \"21408.34060078182846197702\", \"sources\": [\"smart_degen:30d\", \"smart_degen:1d\", \"smart_degen:7d\"], \"caller_avg_multiplier\": null}",
    "x_gmgn": null,
    "x_arkham": null,
    "x_conflict": null,
@@ -6917,21 +6812,6 @@
    "updated_at": "2026-10-14T16:45:50.142896+00:00"
   },
   {
-   "address": "0xf36803a545dab359a93bd9cd1f5e23de847e1123",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"gmgn_go\", \"launchpad_smart\", \"gmgn\"]",
-   "extra": "{\"pnl_30d\": \"0.3576499774199148\", \"winrate_30d\": 0.3068181818181818, \"realized_profit_30d\": \"21989.14739789422859872924\", \"sources\": [\"dev:1d\", \"dev:7d\", \"dev:30d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
    "address": "0xba30aefa3a84e40c8ed047b110761ac10d0b4c1c",
    "source": "gmgn_rank",
    "twitter_username": "",
@@ -7127,21 +7007,6 @@
    "updated_at": "2026-10-14T16:45:50.142896+00:00"
   },
   {
-   "address": "0xa2c69e35399c364bbd8824c0d41fac0289e85c2b",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"fomo\", \"launchpad_smart\", \"gmgn\"]",
-   "extra": "{\"pnl_30d\": \"1.0410953145311817\", \"winrate_30d\": 0.42857142857142855, \"realized_profit_30d\": \"4569.3291980731276482121\", \"sources\": [\"dev:1d\", \"dev:7d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
    "address": "0x9eed092b5fc232338362858add47e0d9ebe01ea3",
    "source": "gmgn_rank",
    "twitter_username": "",
@@ -7240,21 +7105,6 @@
    "name": null,
    "tags": "[\"launchpad_smart\", \"smart_degen\", \"gmgn\"]",
    "extra": "{\"pnl_30d\": \"0.0792982571805435\", \"winrate_30d\": 0.4782608695652174, \"realized_profit_30d\": \"7286.51850206252291670242\", \"sources\": [\"dev:1d\", \"dev:7d\", \"dev:30d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
-   "address": "0x9f1914410af972a5c54e3707e64caae5c3b5b990",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"launchpad_smart\", \"smart_degen\", \"gmgn\"]",
-   "extra": "{\"pnl_30d\": \"0.0980181463215235\", \"winrate_30d\": 0.4835164835164835, \"realized_profit_30d\": \"1532.47214630168978470329\", \"sources\": [\"dev:1d\", \"dev:7d\"], \"caller_avg_multiplier\": null}",
    "x_gmgn": null,
    "x_arkham": null,
    "x_conflict": null,
@@ -17687,21 +17537,6 @@
    "updated_at": "2026-10-14T16:45:50.142896+00:00"
   },
   {
-   "address": "0xfa1a6eda46b826c2f255889333fba70e6e88c082",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\", \"gmgn\"]",
-   "extra": "{\"pnl_30d\": \"-0.0344543678452118\", \"winrate_30d\": 0.27586206896551724, \"realized_profit_30d\": \"-1551.90953059940285851966\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
    "address": "0x3ba2d9a5cf3808b657e4656b75b089df6f37f1c2",
    "source": "gmgn_rank",
    "twitter_username": "",
@@ -17897,21 +17732,6 @@
    "updated_at": "2026-10-14T16:45:50.142896+00:00"
   },
   {
-   "address": "0x75a3f2f42024818a2b303ec71e70376fd689a030",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\"]",
-   "extra": "{\"pnl_30d\": \"0.3544901778890472\", \"winrate_30d\": 0.5, \"realized_profit_30d\": \"1269.63457475937583097927\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
    "address": "0x212e0b996e0ba839ebce0f1cfd22a60de4cbdfd5",
    "source": "gmgn_rank",
    "twitter_username": "",
@@ -17935,21 +17755,6 @@
    "name": null,
    "tags": "[\"smart_degen\"]",
    "extra": "{\"pnl_30d\": \"-0.1482965075853356\", \"winrate_30d\": 0.2, \"realized_profit_30d\": \"-117.65871244990283147522\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
-   "address": "0x17dfbf069fc300790403e1cdc13d15c1bea2b5c9",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\"]",
-   "extra": "{\"pnl_30d\": \"0.0013585404905532\", \"winrate_30d\": 0.10344827586206896, \"realized_profit_30d\": \"41.21476970952518100086\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\"], \"caller_avg_multiplier\": null}",
    "x_gmgn": null,
    "x_arkham": null,
    "x_conflict": null,
@@ -19202,21 +19007,6 @@
    "updated_at": "2026-10-14T16:45:50.142896+00:00"
   },
   {
-   "address": "0x8095739c9a2860b53e1dc1b113cd3a6a95b0c050",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\", \"gmgn\"]",
-   "extra": "{\"pnl_30d\": \"0.0355845525721111\", \"winrate_30d\": 0.3177842565597668, \"realized_profit_30d\": \"2159.5493046384845775616\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\", \"smart_degen:30d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
    "address": "0x45e0ef868b85255c0902d79008e693d9e70d6e1f",
    "source": "gmgn_rank",
    "twitter_username": "",
@@ -19247,21 +19037,6 @@
    "updated_at": "2026-10-14T16:45:50.142896+00:00"
   },
   {
-   "address": "0xe1d6f00222d7735d999dc465d6d04e75ac8ec50c",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\"]",
-   "extra": "{\"pnl_30d\": \"0.032441802219671\", \"winrate_30d\": 0.6363636363636364, \"realized_profit_30d\": \"11988.86504179445096558253\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\", \"smart_degen:30d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
    "address": "0x52deacccf3bddfbf41a612bd14ae38ad5d896d3f",
    "source": "gmgn_rank",
    "twitter_username": "",
@@ -19285,21 +19060,6 @@
    "name": null,
    "tags": "[\"smart_degen\", \"gmgn\"]",
    "extra": "{\"pnl_30d\": \"0.0901061237203211\", \"winrate_30d\": 0.39285714285714285, \"realized_profit_30d\": \"405.93151695238349538197\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\"], \"caller_avg_multiplier\": null}",
-   "x_gmgn": null,
-   "x_arkham": null,
-   "x_conflict": null,
-   "x_primary": null,
-   "updated_at": "2026-10-14T16:45:50.142896+00:00"
-  },
-  {
-   "address": "0x4d0d74df04acd01ddaa9238e1fdff9c5d712e0bb",
-   "source": "gmgn_rank",
-   "twitter_username": "",
-   "twitter_name": "",
-   "twitter_fans": null,
-   "name": null,
-   "tags": "[\"smart_degen\", \"gmgn\"]",
-   "extra": "{\"pnl_30d\": \"-0.0040379610342431\", \"winrate_30d\": 0.2665094339622642, \"realized_profit_30d\": \"-292.2090782919652015494\", \"sources\": [\"smart_degen:1d\", \"smart_degen:7d\"], \"caller_avg_multiplier\": null}",
    "x_gmgn": null,
    "x_arkham": null,
    "x_conflict": null,

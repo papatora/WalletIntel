@@ -77,6 +77,23 @@ class AlchemyTransfersClient:
         self._limiter = AsyncLimiter(rps or settings.etherscan_rps * len(self.keys), 1.0)
         self._client: httpx.AsyncClient | None = None
         self._consec_err = 0
+        # S-59b: kompatibilitas pnl_verifier.verify_top_wallets — verifier
+        # membaca total_ok/total_5xx/consecutive_5xx/wait_until_healthy pada
+        # client explorer apa pun. Tanpa ini analyze crash TIAP cycle
+        # (AttributeError e3q8 — scores=0 3 minggu, akar ditemukan 13 Nov).
+        self.total_ok = 0
+        self.total_5xx = 0
+
+    @property
+    def consecutive_5xx(self) -> int:
+        return self._consec_err
+
+    async def wait_until_healthy(self, max_wait_s: float = 120.0) -> None:
+        """Bounded wait saat degraded (>=5 error beruntun) — berbeda dari
+        Blockscout lama yang bisa menunggu tak terbatas."""
+        deadline = time.time() + max_wait_s
+        while self.is_degraded and time.time() < deadline:
+            await asyncio.sleep(10.0)
 
     # ---------------- infra ----------------
 
@@ -106,17 +123,21 @@ class AlchemyTransfersClient:
                     resp = await client.post(url, json={
                         "jsonrpc": "2.0", "id": 1, "method": method, "params": params})
                 if resp.status_code in (401, 403, 429):
+                    self.total_5xx += 1
                     last_err = f"http {resp.status_code}"
                     await asyncio.sleep(min(30.0, 2.0 * (2 ** attempt)))
                     continue
                 data = resp.json()
                 if isinstance(data, dict) and data.get("error"):
+                    self.total_5xx += 1
                     last_err = str(data["error"])[:120]
                     await asyncio.sleep(min(30.0, 1.5 * (2 ** attempt)))
                     continue
                 self._consec_err = 0
+                self.total_ok += 1
                 return data
             except (httpx.HTTPError, ValueError) as e:
+                self.total_5xx += 1
                 last_err = f"{type(e).__name__}: {str(e)[:80]}"
                 await asyncio.sleep(min(30.0, 2.0 * (2 ** attempt)))
         self._consec_err += 1

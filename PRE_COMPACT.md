@@ -2073,3 +2073,35 @@ lain — JANGAN disentuh).
 
 ### D. Verify rutin
 - GMGN OpenAPI hidup (NVDA/SPCX/SPY). VPS sehat; supervisor cycle 23+.
+
+## SNAPSHOT S-60 — 2026-11-13: DELTA HARIAN + FIX AKAR scores=0 3 MINGGU (bug verifier S-56)
+
+### A. Delta harian via relay (jalur baku)
+- Dump 458MB (73 part) → upload **21 detik (23,5 MB/s)** → download CDN →
+  rantai penuh. **HASIL: swaps 2.808.440 (+49.999) · max_ts 13 Nov 14:29 ·
+  182.529 wallet lokal · kerucutkan otomatis −1.284 MB (DB 4.398 → 3.114).**
+- Reapply 45.607 label. Explorer rebuilt: dataset 65.113 wallet · 3.057 token
+  · 7,79 jt price_points · priced 98,2%.
+- Playbook recount: **SMART 227 (136 bersih) · confluence 109 token** ·
+  tier 10K-100K: 9.
+- classify_contracts_noise --mode all LAGI lambat (14s CPU/40 mnt, re-derive
+  11K kontrak utk delta 1 hari) → dibunuh (preseden S-55; rantai lanjut).
+  **ANTREAN TETAP: bound incremental utk scan ini.**
+
+### B. FIX AKAR scores=0 ~3 MINGGU (watch-item yang ditepati)
+- Bukti: pnl_verifier.py:110 `blockscout.total_ok` → **AttributeError TIAP
+  cycle** sejak backend Alchemy (S-56, 24 Okt). Verifier membaca 5 atribut
+  client: is_degraded ✓, total_ok/total_5xx/consecutive_5xx/wait_until_healthy ✗.
+- FIX (6760e27): AlchemyTransfersClient + counter riil (total_ok/total_5xx
+  dihitung di _rpc), consecutive_5xx property, wait_until_healthy BOUNDED
+  (max 120s — bukan menunggu tak terbatas spt Blockscout lama). 112 tests
+  hijau. Deployed + supervisor restarted → **analyze malam ini berjalan tanpa
+  crash pertama kalinya sejak 24 Okt; scores terisi dalam 1-2 cycle**.
+- PELAJARAN (perpanjangan S-58 "klaim ≠ runtime"): saat menambah drop-in
+  client, AUDIT SEMUA konsumen client (bukan cuma method utama) — pnl_verifier
+  membaca atribut internal yang tak terdaftar di interface resmi. Smoke test
+  S-56 lewat karena tidak mengeksekusi verify_top_wallets.
+
+### C. Verify rutin
+- GMGN OpenAPI hidup. VPS: supervisor cycle 11+ sehat; sweep normal
+  (11 mnt < deadline). VPS swaps 2,83 jt (+75K/1,5 jam), max_ts 16:01 segar.

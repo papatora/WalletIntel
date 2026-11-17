@@ -99,14 +99,39 @@ def main() -> int:
         print(f"[2/4] dump VPS dipakai ulang (fp cocok) — skip re-dump", flush=True)
     else:
         print("[2/4] dump atomik (detached) + poll...", flush=True)
-        sh("cd /opt/topwallet && rm -f data/local_snapshot.sql.part* "
-           "data/local_snapshot.sql.gz && setsid nohup .venv/bin/python "
-           "scripts/dump_snapshot.py > logs/dump.log 2>&1 < /dev/null "
-           "& > /dev/null 2>&1", 20)
+        # S-59d: spawn LAMA bisa gagal diam — channel SSH ditutup setelah 20s
+        # di VPS berload tinggi sebelum remote shell sempat eksekusi rm+spawn
+        # (insiden 17 Nov: dump.log mtime tetap 13 Nov, poll membaca log LAMA
+        # yang masih ada "lines=" → menganggap dump selesai → mendownload
+        # part basi 4 hari). Sekarang: spawn diverifikasi efeknya (dump.log
+        # mtime muda), retry sampai 3x; poll WAJIB melihat dump.log muda +
+        # "lines=" baru, selain itu terus menunggu.
+        import time as _t
+        spawn_epoch = int(_t.time())
+        spawned = False
+        for spawn_try in range(3):
+            sh("cd /opt/topwallet && rm -f data/local_snapshot.sql.part* "
+               "data/local_snapshot.sql.gz && setsid nohup .venv/bin/python "
+               "scripts/dump_snapshot.py > logs/dump.log 2>&1 < /dev/null "
+               "& > /dev/null 2>&1", 20)
+            _t.sleep(5)
+            mtime = sh("stat -c %Y /opt/topwallet/logs/dump.log 2>/dev/null", 30)
+            if mtime.strip().isdigit() and int(mtime) >= spawn_epoch - 5:
+                spawned = True
+                print(f"  spawn terverifikasi (dump.log mtime {mtime})", flush=True)
+                break
+            print(f"  spawn percobaan {spawn_try + 1} tidak tereksekusi "
+                  f"(dump.log mtime {mtime.strip() or 'kosong'}) — retry", flush=True)
+        if not spawned:
+            print("spawn dump gagal 3x — dump VPS tidak akan berjalan; ABORT "
+                  "(jangan download part basi)", flush=True)
+            return 1
         for _ in range(60):  # maks 15 menit
             time.sleep(15)
             log = sh("cat /opt/topwallet/logs/dump.log 2>/dev/null", 30)
-            if "lines=" in log:
+            mt = sh("stat -c %Y /opt/topwallet/logs/dump.log 2>/dev/null", 30)
+            fresh = mt.strip().isdigit() and int(mt) >= spawn_epoch - 5
+            if fresh and "lines=" in log:
                 print("  dump:", log, flush=True)
                 break
         else:

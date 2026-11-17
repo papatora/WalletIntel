@@ -66,9 +66,26 @@ async def _commit_locked(session: AsyncSession) -> None:
     """S-45e: satu-satunya pintu tulis DB untuk pipeline. Dengan autoflush
     off, seluruh tulisan melewati commit() — dan commit dibungkus flock
     yang dipegang hanya detik-an (dulu kunci per-STAGE membuat track-ca
-    menunggu 30-60 menit di sela tahap fetch panjang, py-spy 2026-09-25)."""
-    async with db_write_lock():
-        await session.commit()
+    menunggu 30-60 menit di sela tahap fetch panjang, py-spy 2026-09-25).
+
+    S-59b: commit besar (ribuan WalletScore UPDATE saat analyze) bisa
+    kalah race dengan writer yang TIDAK memakai flock (trending_scanner,
+    cron lain) — sqlite "database is locked" menggugurkan SELURUH cycle
+    (scores=0 3 minggu, insiden 13-17 Nov). Sekarang: rollback + retry
+    dgn backoff; objek sesi tetap dirty, commit ulang me-flush semuanya."""
+    last_err: Exception | None = None
+    for attempt in range(5):
+        async with db_write_lock():
+            try:
+                await session.commit()
+                return
+            except OperationalError as e:
+                if "database is locked" not in str(e):
+                    raise
+                last_err = e
+        await asyncio.sleep(min(90.0, 20.0 * (attempt + 1)))
+    log.error("commit gagal setelah retry (db locked): %s", str(last_err)[:120])
+    raise last_err  # type: ignore[misc]
 
 
 class Pipeline:

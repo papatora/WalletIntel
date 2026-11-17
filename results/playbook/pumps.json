@@ -12,12 +12,12 @@
  {
   "token": "0x1dc878194328a96680c23b8d3c1186637b199eb3",
   "pool": "0xdcbaa80b34223189fa016bc38f1170113f4adcbe",
-  "x": 1.914967706357702e+35,
-  "bottom_block": 107304561,
-  "top_block": 109252176,
-  "bottom_price": 6.547022922470316e-36,
-  "top_price": 1.253733746931428,
-  "n_points": 78
+  "x": 1.970779583157358e+35,
+  "bottom_block": 114594538,
+  "top_block": 114625301,
+  "bottom_price": 5.077150457095779e-36,
+  "top_price": 1.0005944461462408,
+  "n_points": 133
  },
  {
   "token": "0xbdff490b9c88dabd6f0a59c6fe1119ef07b9d05b",
@@ -38,6 +38,16 @@
   "bottom_price": 7.903560211698681e-36,
   "top_price": 0.0010992470406467319,
   "n_points": 926
+ },
+ {
+  "token": "0x7d5afabd12a30ec1e213bbcefaced2ffbde56948",
+  "pool": "0x29d0f1c0ed9fdd434dab1937b9ace7f0802375aeac429ec630423a803bbedd03",
+  "x": 1.2934224988358381e+32,
+  "bottom_block": 102026019,
+  "top_block": 106270884,
+  "bottom_price": 6.57090513394029e-36,
+  "top_price": 0.0008498956537954287,
+  "n_points": 230
  },
  {
   "token": "0xc2378f126167c55b42ba4f49e012d0d9dcdf52e0",
@@ -70,6 +80,26 @@
   "n_points": 182
  },
  {
+  "token": "0xab8d65cbbfdab164eb76f01b59e284161c1e72b1",
+  "pool": "0x47b6e3cd49132f3b620b770aa62268778d944d64",
+  "x": 8.671776882560188e+30,
+  "bottom_block": 113014107,
+  "top_block": 113642444,
+  "bottom_price": 5.869096538256515e-36,
+  "top_price": 5.0895495681966874e-05,
+  "n_points": 463
+ },
+ {
+  "token": "0x32ac8c1d7672667d5ebdea22935f7b06fc8d496f",
+  "pool": "0x7fb39eb653999feb9f0d3b1410848911383dfc681f3585229df4aa5b560bf0ba",
+  "x": 7119582712.688382,
+  "bottom_block": 113506110,
+  "top_block": 113650793,
+  "bottom_price": 1.0945532923879292e-08,
+  "top_price": 77.92762698601253,
+  "n_points": 3480
+ },
+ {
   "token": "0x000050e18ffa3f8f7ad170eb9cef160eb3ed1111",
   "pool": "0x1649550af1e3363b4c25236434530af7e6886b183e1f574a98fdd1d04d287a2d",
   "x": 9027.63232806775,
@@ -77,7 +107,7 @@
   "top_block": 93598278,
   "bottom_price": 2.1714260161182124e-06,
   "top_price": 0.019602835701116136,
-  "n_points": 68185
+  "n_points": 68459
  },
  {
   "token": "0xc9675fe679c7d4e1b94416f66d61c96127eb964a",
@@ -87,7 +117,7 @@
   "top_block": 93679730,
   "bottom_price": 1.5173633025134071e-06,
   "top_price": 0.004600744569813484,
-  "n_points": 224876
+  "n_points": 229383
  },
  {
   "token": "0xceebf25b318201f1f949be2fabbfcee231737139",
@@ -130,6 +160,16 @@
   "n_points": 4056
  },
  {
+  "token": "0x36c2861a1f94c6f277a388338a4f8a686e0d9b30",
+  "pool": "0xaf7d2ecec21c88509c317726ee7408a390199103f242695dfe554ff5d559f9c3",
+  "x": 1716.866124596148,
+  "bottom_block": 104214363,
+  "top_block": 115183323,
+  "bottom_price": 2.293191621124922e-06,
+  "top_price": 0.003937103011517103,
+  "n_points": 18011
+ },
+ {
   "token": "0x7dbf38976f6d3b9c529e7d9484a71898b409ee6a",
   "pool": "0x6538e2c223ed70228114983afecbe5e69fe627e2fafdf367bdd6bdeff2ad391f",
   "x": 1621.5075041992554,
@@ -137,7 +177,7 @@
   "top_block": 69206363,
   "bottom_price": 2.3781883920984992e-05,
   "top_price": 0.03856250324187278,
-  "n_points": 10001
+  "n_points": 10644
  },
  {
   "token": "0x04ad72cff4135e976e9d6d5545e23d476c9e0df5",
@@ -157,7 +197,7 @@
   "top_block": 109362980,
   "bottom_price": 1.3580782170116526e-05,
   "top_price": 0.015677051990111653,
-  "n_points": 13271
+  "n_points": 13435
  },
  {
   "token": "0x3df3644bcf4ce0d993e18c86c3080e53bfea06f1",
@@ -177,7 +217,7 @@
   "top_block": 57775827,
   "bottom_price": 8.639252898189759e-06,
   "top_price": 0.0054266160986498,
-  "n_points": 18272
+  "n_points": 18314
  },
  {
   "token": "0xf7d77243fbd0413a6528edc275b09d31c25cb201",
@@ -198,6 +238,16 @@
   "bottom_price": 1.2317157969857504e-05,
   "top_price": 0.006305614544398693,
   "n_points": 3768
+ },
+ {
+  "token": "0x6a1c6e3c794cbd2125ad7d95307495174b1409a7",
+  "pool": "0xde31bb1a303f7b1c0a7fb54fa665a17e5ed6e5ed1c0e8b505c45b2e826bc09f0",
+  "x": 495.4662575794963,
+  "bottom_block": 105618305,
+  "top_block": 105827840,
+  "bottom_price": 4.564231591936005e-06,
+  "top_price": 0.002261422745582639,
+  "n_points": 6256
  },
  {
   "token": "0xbb43a3685fcd0fe4f88f7e4324b0b8a226050f94",
@@ -237,7 +287,7 @@
   "top_block": 101172637,
   "bottom_price": 8.487289276879176e-06,
   "top_price": 0.003950897241811493,
-  "n_points": 33024
+  "n_points": 33379
  },
  {
   "token": "0x91d3005a582c2217cdf0f6db13be2f3a1725717c",
@@ -307,7 +357,7 @@
   "top_block": 85945378,
   "bottom_price": 4.444727637357173e-06,
   "top_price": 0.001237399278906494,
-  "n_points": 2063
+  "n_points": 2155
  },
  {
   "token": "0xd17c81cb01d44cc6e822936e8f098960001b47d2",
@@ -407,7 +457,7 @@
   "top_block": 109364431,
   "bottom_price": 1.0241996354502281e-05,
   "top_price": 0.0021310803715268796,
-  "n_points": 5517
+  "n_points": 5599
  },
  {
   "token": "0x73482d5ca24fddfd5f194c20b766efc2fcc089a7",
@@ -470,6 +520,16 @@
   "n_points": 10322
  },
  {
+  "token": "0x93addb7efb030263ff6bb240c5f8b97afd20a5c4",
+  "pool": "0xaf6a61bd9103b2c45f510f5f76f12840edec0822",
+  "x": 165.92933725863026,
+  "bottom_block": 110792002,
+  "top_block": 114030309,
+  "bottom_price": 2.3327741991311495e-06,
+  "top_price": 0.0003870756768358636,
+  "n_points": 6028
+ },
+ {
   "token": "0xc6132fdc41433b46cdf0374a7fb9a105752bb148",
   "pool": "0x5171a62abf9131d4e1dbc3725b04e38feb91f59321f00815d1f3e30fefa51317",
   "x": 163.27526440867356,
@@ -530,14 +590,14 @@
   "n_points": 22374
  },
  {
-  "token": "0x6a1c6e3c794cbd2125ad7d95307495174b1409a7",
-  "pool": "0xde31bb1a303f7b1c0a7fb54fa665a17e5ed6e5ed1c0e8b505c45b2e826bc09f0",
-  "x": 146.41579816493046,
-  "bottom_block": 105618305,
-  "top_block": 105700758,
-  "bottom_price": 4.564231591936005e-06,
-  "top_price": 0.0006682756115429014,
-  "n_points": 3802
+  "token": "0x8fc8dde78bce3f50345cfdcbb102e5d8702a63ad",
+  "pool": "0xad884b59567bbf86a74e7d3226514ca8db690791",
+  "x": 148.21727657016746,
+  "bottom_block": 101861557,
+  "top_block": 103480641,
+  "bottom_price": 2.2334849245565183e-06,
+  "top_price": 0.00033104105277829304,
+  "n_points": 1360
  },
  {
   "token": "0xd9a4d422f26f2ea037c5bf2a924622a8ca249e86",
@@ -580,16 +640,6 @@
   "n_points": 4424
  },
  {
-  "token": "0x8fc8dde78bce3f50345cfdcbb102e5d8702a63ad",
-  "pool": "0xad884b59567bbf86a74e7d3226514ca8db690791",
-  "x": 136.787023399989,
-  "bottom_block": 101861557,
-  "top_block": 101908536,
-  "bottom_price": 2.2334849245565183e-06,
-  "top_price": 0.00030551175463883515,
-  "n_points": 1083
- },
- {
   "token": "0xad5345c692a92f8398707b6a9ea82e48e2acd2e1",
   "pool": "0x15981222782436984992769a3a85a67f2285a2c96d1fba06f9b8cd504dc69ea5",
   "x": 135.82501246471776,
@@ -617,7 +667,7 @@
   "top_block": 113078998,
   "bottom_price": 7.522841766572032e-06,
   "top_price": 0.0009957992316583554,
-  "n_points": 1563
+  "n_points": 1657
  },
  {
   "token": "0x086a4ce508debe170331693254143f3da1190a7d",
@@ -667,17 +717,7 @@
   "top_block": 100797405,
   "bottom_price": 7.37608823926883e-06,
   "top_price": 0.0009422109082165546,
-  "n_points": 13289
- },
- {
-  "token": "0xd5553a56e4722ffef9ec01a956f4b43b1a149dfa",
-  "pool": "0x14908e828d2c836d1ff4c025eb3c620ace053393",
-  "x": 127.25668007275861,
-  "bottom_block": 113180083,
-  "top_block": 113226280,
-  "bottom_price": 5.830308312474971e-06,
-  "top_price": 0.0007419456796461725,
-  "n_points": 3357
+  "n_points": 13963
  },
  {
   "token": "0x949cd192c78df210b5840843e60c06a95b055a46",
@@ -887,7 +927,7 @@
   "top_block": 111259200,
   "bottom_price": 2.4776246842692402e-08,
   "top_price": 2.6115889391760947e-06,
-  "n_points": 334
+  "n_points": 352
  },
  {
   "token": "0x3544df7295e5fbb3c5e9603972db4a27fb821ee8",
@@ -937,7 +977,7 @@
   "top_block": 59325399,
   "bottom_price": 8.593297191597976e-06,
   "top_price": 0.0008754213859198687,
-  "n_points": 11908
+  "n_points": 11909
  },
  {
   "token": "0x7a3c86c8966d280ff85ebc355cbb52c46fe6fb01",
@@ -968,16 +1008,6 @@
   "bottom_price": 2.7913720624523846e-07,
   "top_price": 2.8275350546287357e-05,
   "n_points": 8870
- },
- {
-  "token": "0x36c2861a1f94c6f277a388338a4f8a686e0d9b30",
-  "pool": "0xaf7d2ecec21c88509c317726ee7408a390199103f242695dfe554ff5d559f9c3",
-  "x": 99.9592455075264,
-  "bottom_block": 104214363,
-  "top_block": 104284781,
-  "bottom_price": 2.293191621124922e-06,
-  "top_price": 0.00022922570425182854,
-  "n_points": 2690
  },
  {
   "token": "0x47a26637a7b08297a0539dce4f3fa700710aec12",
@@ -1050,6 +1080,16 @@
   "n_points": 1411
  },
  {
+  "token": "0x0e5045506fa080da8635a0b461492086f25d05a4",
+  "pool": "0x1961cdb63d7848a86eb42b9698871633ca32083d",
+  "x": 95.91271621340067,
+  "bottom_block": 113808477,
+  "top_block": 114160150,
+  "bottom_price": 5.784097335070813e-07,
+  "top_price": 5.54768486249334e-05,
+  "n_points": 5205
+ },
+ {
   "token": "0x194fdfc35bb4ce703815540a2469ffe8b9e1b3e9",
   "pool": "0x4610ae223f22f519e3d05da444bcd5ec59197f88d6bfcc84bd8183e854faac6f",
   "x": 95.46525549330583,
@@ -1087,7 +1127,7 @@
   "top_block": 110340789,
   "bottom_price": 2.999650949199026e-06,
   "top_price": 0.00028168041067616606,
-  "n_points": 14059
+  "n_points": 14329
  },
  {
   "token": "0xb898f3b307ad2641172856a624eb3f4af0f1ff28",
@@ -1297,7 +1337,7 @@
   "top_block": 67348828,
   "bottom_price": 5.108383569597177e-05,
   "top_price": 0.0041650756392161556,
-  "n_points": 16098
+  "n_points": 16119
  },
  {
   "token": "0x06d2d9229a9491969ecfb4c94d2e45c31b463f59",
@@ -1308,6 +1348,16 @@
   "bottom_price": 3.0650574098586023e-07,
   "top_price": 2.4878859305166253e-05,
   "n_points": 4101
+ },
+ {
+  "token": "0x6d1f3baefb22d725b8068e60105b45c8a97da1fa",
+  "pool": "0xdf18d5dbf9c01e875dc889bd9fcb4663b772a1a1",
+  "x": 80.78882869753421,
+  "bottom_block": 74705168,
+  "top_block": 82280171,
+  "bottom_price": 8.379211976493452e-06,
+  "top_price": 0.0006769467209892566,
+  "n_points": 1289
  },
  {
   "token": "0x444907d44c65237fb679738647ab7fd877a773d0",
@@ -1407,7 +1457,7 @@
   "top_block": 73149432,
   "bottom_price": 0.0001414211436350529,
   "top_price": 0.010440136149543346,
-  "n_points": 40097
+  "n_points": 40128
  },
  {
   "token": "0x2773b23925dcb51e2e0c7b719794ec8798e90087",
@@ -1427,7 +1477,7 @@
   "top_block": 97864706,
   "bottom_price": 1.2691526653634843e-08,
   "top_price": 9.179322805106605e-07,
-  "n_points": 8229
+  "n_points": 8288
  },
  {
   "token": "0xe42b98a54912a910650431b3c44dd386134bba6b",
@@ -1520,6 +1570,26 @@
   "n_points": 3791
  },
  {
+  "token": "0x8d729c2d08a3de7afeab186896260cd7180664c5",
+  "pool": "0x769f4a8df00c903118249359e749a95be6ecaf8d",
+  "x": 68.05801524259752,
+  "bottom_block": 114623608,
+  "top_block": 114672273,
+  "bottom_price": 5.3102420677813394e-06,
+  "top_price": 0.000361404535590945,
+  "n_points": 2123
+ },
+ {
+  "token": "0xb69ed26addd625e06f384d4f3a6af2bb1bafe5fd",
+  "pool": "0x8a55dd2483fde0a261d23d7c7e34eefba9d675f0c5799d62f5162f0cbaf850a7",
+  "x": 67.72267098673032,
+  "bottom_block": 113353466,
+  "top_block": 113422466,
+  "bottom_price": 1.1948876145123349e-05,
+  "top_price": 0.000809209807837379,
+  "n_points": 2586
+ },
+ {
   "token": "0x94641b97010608c3827fb058074889f19868ff33",
   "pool": "0x338fce553e60c8b0acccde1956bc378586ef6f2935339ebae5804d429d461e44",
   "x": 67.68081803399417,
@@ -1527,7 +1597,7 @@
   "top_block": 89366196,
   "bottom_price": 0.00015833016923507217,
   "top_price": 0.010715915373290422,
-  "n_points": 58170
+  "n_points": 58985
  },
  {
   "token": "0x52c4c365cf5317c89c817cf2516141613d38d08c",
@@ -1567,7 +1637,7 @@
   "top_block": 106953938,
   "bottom_price": 1.1482232832397391e-05,
   "top_price": 0.0007652242667570905,
-  "n_points": 30321
+  "n_points": 30422
  },
  {
   "token": "0xa0f22252536c212e621c1a049a87b210cd1d3a44",
@@ -1637,7 +1707,7 @@
   "top_block": 107595396,
   "bottom_price": 5.443487988443513e-06,
   "top_price": 0.00035454944141298273,
-  "n_points": 2941
+  "n_points": 2970
  },
  {
   "token": "0xb862389bf1ad271c70edbc2249bf1b0a6cd8783b",
@@ -1817,7 +1887,7 @@
   "top_block": 100518239,
   "bottom_price": 2.3942686101597385e-06,
   "top_price": 0.0001427752189503459,
-  "n_points": 4688
+  "n_points": 5857
  },
  {
   "token": "0xe6cc00bce809530a53e6eed14bbe4976fdda9f5a",
@@ -1907,7 +1977,7 @@
   "top_block": 104075674,
   "bottom_price": 8.378739250914656e-06,
   "top_price": 0.00047543713152316903,
-  "n_points": 1857
+  "n_points": 2787
  },
  {
   "token": "0x72be1277e198d0c476869253cb4e62807e14533c",
@@ -1960,6 +2030,16 @@
   "n_points": 1474
  },
  {
+  "token": "0x4834f9d376543cdc6bc788c5a047724289f1fc5d",
+  "pool": "0x5b2d4ec6a3106ae175095faab24c26019dd82461",
+  "x": 56.0827938692862,
+  "bottom_block": 115426203,
+  "top_block": 115450175,
+  "bottom_price": 6.406098630748035e-06,
+  "top_price": 0.0003592719090145586,
+  "n_points": 2077
+ },
+ {
   "token": "0xd6ebe1aa689059d6d74aa3a497e13bc6d290056e",
   "pool": "0xd1122ffa6beb1ac7e45186983de98cc3eaece530",
   "x": 56.02440735215774,
@@ -1978,16 +2058,6 @@
   "bottom_price": 8.94524068162469e-06,
   "top_price": 0.0004986988787303799,
   "n_points": 7400
- },
- {
-  "token": "0x6d1f3baefb22d725b8068e60105b45c8a97da1fa",
-  "pool": "0xdf18d5dbf9c01e875dc889bd9fcb4663b772a1a1",
-  "x": 55.4115772228327,
-  "bottom_block": 74705168,
-  "top_block": 74706850,
-  "bottom_price": 8.379211976493452e-06,
-  "top_price": 0.0004643053515019515,
-  "n_points": 1229
  },
  {
   "token": "0x489d206b7fd6c8eafdee9c6642d94fef1ddd7385",
@@ -2028,6 +2098,16 @@
   "bottom_price": 3.2806828518414123e-07,
   "top_price": 1.7907254600415505e-05,
   "n_points": 2642
+ },
+ {
+  "token": "0xae7d3aa92d4f4ccf18540693514cb1e080920a06",
+  "pool": "0x39ede8a57e3f0552c4ea55768253f7fd706f6140e069c285725f6c85aaed5d98",
+  "x": 54.36697703327609,
+  "bottom_block": 58471595,
+  "top_block": 86848791,
+  "bottom_price": 3.204721440559111e-06,
+  "top_price": 0.00017423101695692467,
+  "n_points": 1418
  },
  {
   "token": "0xacbe4ba8603a74562fc5cf233ae2f1b9856e496d",
@@ -2210,6 +2290,26 @@
   "n_points": 7774
  },
  {
+  "token": "0x7416d80d391d49fb96f4fe6145247ae91ee4b957",
+  "pool": "0xd09adce63a4faf303e0229ea618244aa7c200302",
+  "x": 48.37463672694684,
+  "bottom_block": 115021944,
+  "top_block": 115228816,
+  "bottom_price": 5.215466036191828e-06,
+  "top_price": 0.00025229627486250905,
+  "n_points": 1949
+ },
+ {
+  "token": "0x581e9f41ce7c8ecaa1bd60c5070b010eb3cc092f",
+  "pool": "0x263f23fdd897b68d80e49999ceb50d7de8f4e48d",
+  "x": 48.34586763059767,
+  "bottom_block": 113852327,
+  "top_block": 113894394,
+  "bottom_price": 7.645426932608189e-06,
+  "top_price": 0.00036962479846328186,
+  "n_points": 3237
+ },
+ {
   "token": "0xd054cac61b09b041c7b6c388f957af70304aea95",
   "pool": "0xf23085a0c4f7333408b5f91c1fe9d7429e2d17e6",
   "x": 48.2444288698674,
@@ -2250,16 +2350,6 @@
   "n_points": 3593
  },
  {
-  "token": "0x93addb7efb030263ff6bb240c5f8b97afd20a5c4",
-  "pool": "0xaf6a61bd9103b2c45f510f5f76f12840edec0822",
-  "x": 47.51941093313289,
-  "bottom_block": 110792002,
-  "top_block": 112201708,
-  "bottom_price": 2.3327741991311495e-06,
-  "top_price": 0.00011085205578272307,
-  "n_points": 4681
- },
- {
   "token": "0xcc96b01452ae970b1186756ea32c97e4334cd451",
   "pool": "0x46896f8ebc8bd07547f195c6d782bcec90967c23",
   "x": 47.49404572920959,
@@ -2277,7 +2367,7 @@
   "top_block": 108021290,
   "bottom_price": 0.8845967189270849,
   "top_price": 41.63427273613961,
-  "n_points": 677
+  "n_points": 687
  },
  {
   "token": "0x77e187005d6b5eb6aac43bf1d0bfabbcd87a2afd",
@@ -2587,7 +2677,7 @@
   "top_block": 109447879,
   "bottom_price": 3.004957663876855e-05,
   "top_price": 0.001294885266507636,
-  "n_points": 9283
+  "n_points": 9730
  },
  {
   "token": "0xf30eaec0f333d0afac16c145162a2ba8c72bf092",
@@ -2607,7 +2697,7 @@
   "top_block": 109365646,
   "bottom_price": 1.1637510608945652e-05,
   "top_price": 0.0005007822250545842,
-  "n_points": 1583
+  "n_points": 1608
  },
  {
   "token": "0xe9ece98ff3711773b220d2038afa21026b35702c",
@@ -2777,7 +2867,7 @@
   "top_block": 83201561,
   "bottom_price": 9.138971381774247e-06,
   "top_price": 0.00037114439848965486,
-  "n_points": 6506
+  "n_points": 6515
  },
  {
   "token": "0x207e7047107c69a48c8cbea76c8d92d0d55c09d6",
@@ -2827,7 +2917,7 @@
   "top_block": 112251806,
   "bottom_price": 6.440649220980925e-06,
   "top_price": 0.00025419052553768564,
-  "n_points": 284
+  "n_points": 527
  },
  {
   "token": "0x34c5d003d4bc9a9389503a9aa23c8b0b3f7c7968",
@@ -2947,7 +3037,7 @@
   "top_block": 109946755,
   "bottom_price": 1.006401409509949e-05,
   "top_price": 0.0003816126832180521,
-  "n_points": 1821
+  "n_points": 1913
  },
  {
   "token": "0x1b56a00674297596768ffed1b1fec2a521554c39",
@@ -3110,6 +3200,16 @@
   "n_points": 1507
  },
  {
+  "token": "0x65987ed655de5ba5cd33c0450035bc78952e070d",
+  "pool": "0xcf62e658fe9783230b3d995a559793f60bd70937",
+  "x": 36.7531904158962,
+  "bottom_block": 114531810,
+  "top_block": 114562009,
+  "bottom_price": 5.234024086804121e-06,
+  "top_price": 0.00019236708390369908,
+  "n_points": 950
+ },
+ {
   "token": "0xfb2bb4bfb97a796abfae750113086b83173b0dcc",
   "pool": "0xb20f215e6b55ed39bc2376bc4d7fc4eabb2943fad0e0e3456a69869e1d4ce53a",
   "x": 36.609758008210065,
@@ -3120,6 +3220,16 @@
   "n_points": 1958
  },
  {
+  "token": "0x9b366c41c810761a6c8689546bfaab5d2f85b9c3",
+  "pool": "0x5d0ba8bf5ef2a8675b8822245a5bf79c1c05ccec",
+  "x": 36.556269836935236,
+  "bottom_block": 114748313,
+  "top_block": 114788205,
+  "bottom_price": 5.389685020144575e-06,
+  "top_price": 0.0001970267799324928,
+  "n_points": 2650
+ },
+ {
   "token": "0x582b30ea8c644152656083eea9abaa4ab2e7e78d",
   "pool": "0xef5533e34a5d9f265b3588651320e6f024bbbc8b",
   "x": 36.54911836028278,
@@ -3127,7 +3237,7 @@
   "top_block": 106273449,
   "bottom_price": 7.244175349418895e-06,
   "top_price": 0.0002647682222685541,
-  "n_points": 5530
+  "n_points": 5532
  },
  {
   "token": "0xf73a21ecc084a491a7c4a2f7c97a58dcbe60b416",
@@ -3178,6 +3288,16 @@
   "bottom_price": 8.522774445542017e-06,
   "top_price": 0.00030809936670421684,
   "n_points": 451
+ },
+ {
+  "token": "0xc9938cf96cca6c74dc021e28fc5a2f3e92c2601f",
+  "pool": "0xd9a32a923e6e569e961d751455cca0b80508ce55",
+  "x": 35.928092597591736,
+  "bottom_block": 113814269,
+  "top_block": 113833304,
+  "bottom_price": 9.638513759652608e-06,
+  "top_price": 0.00034629341485996096,
+  "n_points": 727
  },
  {
   "token": "0x71f2631fb37f5b91f71805ad81e9ba20860b18d7",
@@ -3310,6 +3430,16 @@
   "n_points": 1017
  },
  {
+  "token": "0x32e6aeb2b976963387061f0fcfb98eaad051208d",
+  "pool": "0xe047ae73da6e28bfe1afcada8f4935cd4a7bada7",
+  "x": 34.32577844711967,
+  "bottom_block": 114542397,
+  "top_block": 114562245,
+  "bottom_price": 8.805209877418351e-06,
+  "top_price": 0.0003022456834326521,
+  "n_points": 513
+ },
+ {
   "token": "0x9a95957b506185a0f678928a6be63b7d55bf198e",
   "pool": "0x3635abf0d047b848504e790e09bc3153f600e1b5a35cf5fb62216c61ad88129b",
   "x": 34.17692083659565,
@@ -3440,6 +3570,16 @@
   "n_points": 1523
  },
  {
+  "token": "0x4141b757e24be982ca3f8fa98d63d47853b7cbdb",
+  "pool": "0xa234c2582a1b116f4296851ddb3b3302ed8db521",
+  "x": 32.929137262371334,
+  "bottom_block": 115583114,
+  "top_block": 115609574,
+  "bottom_price": 9.071922736439212e-06,
+  "top_price": 0.00029873058902183416,
+  "n_points": 817
+ },
+ {
   "token": "0xc3f40ab7a3b7025fa544895d7af5164572cc7a4f",
   "pool": "0xcc7f76f8cd45e899ea8ac975143ce67e6640df5870ae6f93ef4e3694e6a9a20a",
   "x": 32.925517313475076,
@@ -3488,6 +3628,16 @@
   "bottom_price": 3.082295682102978e-05,
   "top_price": 0.0009980170637193917,
   "n_points": 407
+ },
+ {
+  "token": "0x15f1b01d0c657db250f7acd35f19622203c91ee6",
+  "pool": "0xf039a3dfd9f0d21cc20a4e36799d67233ab754c7",
+  "x": 32.37353285930227,
+  "bottom_block": 113532202,
+  "top_block": 113574397,
+  "bottom_price": 5.796629461546999e-06,
+  "top_price": 0.00018765737434659141,
+  "n_points": 2038
  },
  {
   "token": "0xca0d3b9313714cb3ec0414f5a9fb536aa9ac4cd4",
@@ -3567,7 +3717,7 @@
   "top_block": 79488628,
   "bottom_price": 1.1348677741678915e-05,
   "top_price": 0.00035583941378233754,
-  "n_points": 3009
+  "n_points": 3018
  },
  {
   "token": "0x52e3bf36ce4bb6f3ea3e20d7d14f92b7e8977d94",
@@ -3850,6 +4000,16 @@
   "n_points": 472
  },
  {
+  "token": "0x4b1d6ed85fb71df2e6370e8b77f1049d55cdc9e5",
+  "pool": "0xb81c0f5e1959afb29b84ff96658c401e412705e4",
+  "x": 29.07194801391407,
+  "bottom_block": 113475674,
+  "top_block": 113520768,
+  "bottom_price": 4.531296176466108e-06,
+  "top_price": 0.00013173360687787028,
+  "n_points": 3139
+ },
+ {
   "token": "0x966d7154f102d8c820d779522cc31e81795570cb",
   "pool": "0x65d63572fac44d6fef96995081d79be8e0feb575",
   "x": 29.07117005577866,
@@ -3960,6 +4120,16 @@
   "n_points": 1738
  },
  {
+  "token": "0x2a804708122850a06025e216a57db04f13d2acf6",
+  "pool": "0x435d659e2298ac62d9aad98c7ccb09c2c32d4988",
+  "x": 28.282866926407127,
+  "bottom_block": 113609149,
+  "top_block": 113664015,
+  "bottom_price": 5.845727374520284e-06,
+  "top_price": 0.00016533392942161252,
+  "n_points": 3938
+ },
+ {
   "token": "0x384b028739f8b2c5d187bca0bbe20bd04d72f00d",
   "pool": "0x5c984018b713c07916cc75468173f8f36766c5125844e31ba46e77999dccf442",
   "x": 28.243710877562208,
@@ -3967,7 +4137,7 @@
   "top_block": 104542575,
   "bottom_price": 9.051701293424393e-06,
   "top_price": 0.0002556536342815344,
-  "n_points": 7632
+  "n_points": 7960
  },
  {
   "token": "0xc61ff46ccf3a38eb3055a3697c267276093b68c3",
@@ -4260,16 +4430,6 @@
   "n_points": 1009
  },
  {
-  "token": "0xa8eed6b24d2b3814c6c8b3e13c3a5cbb254be2dc",
-  "pool": "0x1c4458e4fd9ad7cd326d0e5161518166d8196d9e0dbc13376233ea3ef59fd6f6",
-  "x": 25.658031164569095,
-  "bottom_block": 105282454,
-  "top_block": 105296250,
-  "bottom_price": 2.207917295026673e-08,
-  "top_price": 5.665081076458548e-07,
-  "n_points": 3196
- },
- {
   "token": "0x431425c1e0249640c443cd46f3dabd011ea2ec2c",
   "pool": "0x7bfc09be4aa838558abfa7023016b01dceb8d0e2",
   "x": 25.6365122640344,
@@ -4297,7 +4457,7 @@
   "top_block": 104277581,
   "bottom_price": 7.41971423145692e-06,
   "top_price": 0.00018777838211273334,
-  "n_points": 2940
+  "n_points": 3432
  },
  {
   "token": "0x3cbdde7a904907dc130fda2b1335dcd04f437da5",
@@ -4438,6 +4598,16 @@
   "bottom_price": 9.840187070947744e-06,
   "top_price": 0.00023600199516478782,
   "n_points": 486
+ },
+ {
+  "token": "0x2a7550287ca81e82623183ada9238e425f7eb7b0",
+  "pool": "0xcc636f898adc74b259568148efde6a6786ed8877cb5b1a87316f2597e234dbb6",
+  "x": 23.904354842416513,
+  "bottom_block": 114431395,
+  "top_block": 114483655,
+  "bottom_price": 8.808743854501156e-06,
+  "top_price": 0.00021056733881395141,
+  "n_points": 3867
  },
  {
   "token": "0x4e1f4f48934631b1de38b480c58de3b2e2e75a61",
@@ -4617,7 +4787,7 @@
   "top_block": 61761182,
   "bottom_price": 4.506316213458687e-06,
   "top_price": 0.00010171017253401195,
-  "n_points": 2595
+  "n_points": 2598
  },
  {
   "token": "0xe4119a9bfcc86915368502b598bbed4745f7051d",
@@ -4627,7 +4797,7 @@
   "top_block": 101742244,
   "bottom_price": 3.794464439749653e-05,
   "top_price": 0.0008533837942940664,
-  "n_points": 21922
+  "n_points": 21985
  },
  {
   "token": "0x7c725e4e0528dbc4c3521c693de07456e045f3e6",
@@ -4820,6 +4990,16 @@
   "n_points": 464
  },
  {
+  "token": "0xf2155d4a4377d8af1545b9da50c81321e8387f03",
+  "pool": "0x3a3f183752c668059f32f83aa155ddfef755c093",
+  "x": 20.820390192111212,
+  "bottom_block": 114190137,
+  "top_block": 114205731,
+  "bottom_price": 5.381478100552086e-06,
+  "top_price": 0.00011204447386379593,
+  "n_points": 1263
+ },
+ {
   "token": "0xacc8de336f5d2366fa7334383d8fab73499f582a",
   "pool": "0x5132006c8312109dfbde5fd6364aba8c52bdfb99c75f93e820c599ce5cf2edb0",
   "x": 20.790352366053774,
@@ -4827,7 +5007,7 @@
   "top_block": 104422319,
   "bottom_price": 0.0003770423744274703,
   "top_price": 0.007838843821280691,
-  "n_points": 17122
+  "n_points": 17318
  },
  {
   "token": "0x1cb40f12b9a2d9429d613c21ace5ae8b662f7b0e",

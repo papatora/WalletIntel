@@ -2105,3 +2105,49 @@ lain — JANGAN disentuh).
 ### C. Verify rutin
 - GMGN OpenAPI hidup. VPS: supervisor cycle 11+ sehat; sweep normal
   (11 mnt < deadline). VPS swaps 2,83 jt (+75K/1,5 jam), max_ts 16:01 segar.
+
+## SNAPSHOT S-61 — 2026-11-17/18: DELTA 4 HARI + FIX fetch_dump STALE-DUMP + PAT ROTASI
+
+### A. BUG BARU fetch_dump: STALE-DUMP SILENT (dump gagal diam → part basi terkirim)
+- Delta 17 Nov sempat "tuntas" TAPI max_ts mentok 13 Nov: akar berlapis —
+  (1) dump detached TIDAK pernah tereksekusi (channel SSH ditutup 20s di
+  VPS berload sebelum rm+spawn jalan; bukti: dump.log + gz + parts mtime
+  tetap 13 Nov), (2) poll BUTA staleness — membaca dump.log LAMA yang masih
+  ada "lines=" → anggap dump selesai → download part 4-hari-basi.
+- FIX fetch_dump (bc74ef4 + lanjutan): spawn DIVERIFIKASI (dump.log mtime
+  harus muda, retry 3x, abort kalau gagal — jangan download part basi) +
+  poll WAJIB dump.log muda + "lines=" baru. Terverifikasi live: "spawn
+  terverifikasi (dump.log mtime 1794934795)" → dump segar 13,9 jt baris.
+- Terkait: angka pra-flight "pp=0" = lock contention (S-59); kali ini
+  pre-flight jujur: pp=10,19 jt (tumbuh dari 8,7 jt — stage prices sehat).
+
+### B. Delta 17 Nov via relay — GELOMBANG ALCHEMY MASUK
+- 79 part · 491MB tar → upload 32s (15,9 MB/s) → rantai penuh tuntas.
+- **HASIL: swaps 3.241.070 (+482.629!) · max_ts 17 Nov 07:27 · lokal
+  186.307 wallet pasca-kerucutkan (−1.371 MB otomatis; DB 4.689 → 3.318).**
+- Reapply 45.528 label. Explorer rebuilt: dataset 65.502 wallet · 3.111
+  token · 7,94 jt price_points · priced 98,5%.
+- **Playbook LOMPAT: SMART 398 (bersih 297 — naik 2x!) · confluence 122
+  token.** 14+4 hari data Alchemy membuahkan kandidat copytrade nyata.
+- classify_contracts_noise --mode all lambat lagi (10s CPU/20 mnt) →
+  dibunuh (preseden); ANTREAN INKREMENTAL tetap belum dikerjakan.
+
+### C. PAT GITHUB ROTASI KEDUA (kedaluwarsa 24 Okt)
+- PAT lama 401 lagi (fine-grained expired) → PAT baru user valid → terpasang
+  .env + origin + VPS (.env + remote). Push tertahan masuk (c78b21b).
+- RELAY bergantung PAT VPS — tanpa itu upload release gagal; sudah pulih.
+
+### D. _commit_locked RETRY (deployed via SFTP karena PAT mati saat itu)
+- Commit besar analyze kalah race dengan writer non-flock → "database is
+  locked" menggugurkan cycle (scores tetap 0). FIX (c78b21b): rollback +
+  retry 5x backoff di _commit_locked — semua stage kebal penulis nakal.
+  SFTP deploy 1 detik (file kecil cepat; lambatnya hanya dump besar).
+- scores masih 0-1 lokal/VPS — analyze pass penuh pertama pasca-fix
+  diperkirakan tuntas malam ini (pantau delta berikutnya membawa scores).
+
+### PELAJARAN S-61
+1. Pre-flight count yang kena lock ≠ data hilang (S-59); spawn yang tidak
+   tereksekusi ≠ dump gagal (S-61) — SELALU verifikasi efek spawn (mtime).
+2. "Delta tuntas" tanpa cek max_ts = jebakan: night_state done + max_ts
+   basi = dump basi. max_ts adalah kanari sehat delta.
+3. SFTP lambat hanya utk file besar/streaming panjang; file kecil 1 detik.

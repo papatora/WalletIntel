@@ -1,8 +1,45 @@
 {
- "generated_at": "2026-11-13T16:07:59.888403+00:00",
+ "generated_at": "2026-11-17T17:47:37.664493+00:00",
  "chain": "robinhood",
  "chain_id": 4663,
- "total_ranked": 0,
+ "total_ranked": 1,
  "source": "regenerated locally from wallet_scores (refresh_results_local.py)",
- "wallets": []
+ "wallets": [
+  {
+   "rank": 1,
+   "wallet_address": "0x7cc710a7ad759bdea8d2b5745e5582770d5c6ae1",
+   "composite_score": 86.62,
+   "metrics": {
+    "total_positions": 3,
+    "closed_positions": 3,
+    "open_positions": 0,
+    "winning_positions": 3,
+    "win_rate": 1.0,
+    "median_return_multiple": 22.5595,
+    "max_return_multiple": 22.663,
+    "total_realized_pnl_usd": 2256.39,
+    "total_unrealized_pnl_usd": 0,
+    "avg_hold_duration_hours": 10.31,
+    "consistency_score": 0.44,
+    "dip_buying_accuracy": 1.0,
+    "top_selling_accuracy": 1.0,
+    "distinct_tokens": 1,
+    "big_wins": 3,
+    "recent_win_rate": 1.0,
+    "active_months": 1,
+    "last_active": "2026-10-29T14:25:39+00:00",
+    "median_position_size_usd": 39.36,
+    "unrealized_pnl_usd": 0,
+    "unrealized_ratio": 0.0,
+    "bags_count": 0
+   },
+   "trading_style": "dip_buyer_top_seller_multi_moonshot",
+   "risk_flags": [
+    "SINGLE_TOKEN_SAMPLE",
+    "INSIDER_SUSPECT"
+   ],
+   "cluster_id": "cluster_b3fa615d",
+   "computed_at": "2026-11-16 07:38:39.478541"
+  }
+ ]
 }

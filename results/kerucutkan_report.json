@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-11-17T17:46:08.579992+00:00",
+ "generated_at": "2026-11-20T18:05:45.712311+00:00",
  "applied": true,
- "size_before": 4689076224,
+ "size_before": 4689383424,
  "plan": {
   "db_max_ts": "2026-11-17 07:27:52.000000",
   "idle_cutoff": "2026-09-18 07:27:52",
-  "wallets_total": 367003,
+  "wallets_total": 368218,
   "wallet_prune": {
-   "count": 180696,
-   "pct": 49.2,
-   "swap_rows": 19638
+   "count": 181897,
+   "pct": 49.4,
+   "swap_rows": 19636
   },
   "price_points": {
    "total": 10191418,
@@ -25,10 +25,10 @@
  },
  "applied_detail": {
   "wallet_prune": {
-   "wallets": 180696,
-   "swap_events": 19638,
-   "wallet_labels": 24892,
-   "wallet_social": 0
+   "wallets": 181897,
+   "swap_events": 19636,
+   "wallet_labels": 24960,
+   "wallet_social": 83
   },
   "price_points_dead_pool": 1531995,
   "price_points_downsample": 721711,
@@ -39,7 +39,7 @@
   ],
   "vacuum_s": 0
  },
- "vacuum_s": 59.1,
- "size_after": 3318005760,
- "freed_bytes": 1371070464
+ "vacuum_s": 62.3,
+ "size_after": 3318095872,
+ "freed_bytes": 1371287552
 }

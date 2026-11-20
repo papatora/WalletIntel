@@ -2188,3 +2188,40 @@ lain — JANGAN disentuh).
 2. Max_ts + swaps count = kanari freeze (identik antar-probe = beku).
 3. Saat ingest mati, kerjakan jalur CU-free (rank/social/label) — jangan
    buang hari.
+
+## SNAPSHOT S-63 — 2026-11-18/21: INGEST PULIH via ROTASI KEY AKUN LAIN + delta 21 Nov
+
+### A. ROTASI KEY: 3 KEY DARI AKUN LAIN TERBUKTI HIDUP → ingest pulih HARI INI
+- Tes 8 key dari daftar user: RPC 1 (koEw) = "team inactive" (mati permanen);
+  RPC 2/3/4 (bII/T39/ZAM) = 429 monthly cap (akun utama); **RPC 5/6/7
+  (jGp5h/2ebkIrb/eyUXA) HIDUP** (akun lain, kuota terpisah) + RPC 0 (sFuAb)
+  hidup di eth-mainnet DAN robinhood (multi-chain key).
+- `getAssetTransfers` (panggilan berat ingest) TERVERIFIKASI jalan di key
+  baru → rotasi baru dipasang VPS + lokal: **public RPC + sFuAb + jGp5h +
+  2ebkIrb + eyUXA** (buang koEw/bII/T39/ZAM). Supervisor restarted.
+- **BUKTI PEMULIHAN (2 jam pasca-restart): swaps 3.260.708 → 3.272.663
+  (+11.955) · max_ts melompat 17 Nov → 20 Nov 17:46 (backfill periode beku
+  berjalan) · wallets 368.698.**
+- Key bII/T39/ZAM bisa DITAMBAH KEMBALI setelah reset 1 Des (kuota segar).
+
+### B. Delta 21 Nov (dump pertama pasca-rotasi)
+- Dump 13,9 jt baris · 79 part — **SFTP NORMAL LAGI** (79 part MD5-verified
+  9 menit; crawl 7 KB/s 17 Nov = transient era-freeze). Rantai night_delta
+  penuh jalan otomatis (rebuild → reapply 45.630 label → kerucutkan
+  **−1.371 MB** (4.689 → 3.318 MB) → refresh).
+- Dump pertama pasca-restart masih max_ts 17 Nov (dump diambil 1 jam setelah
+  restart — enrich belum sempat menulis swap baru); GELOMBANG Nov 18-21 masuk
+  di delta BERIKUTNYA (max_ts VPS sudah 20 Nov).
+- fetch_dump fix (S-59d) TERBUKTI: "spawn terverifikasi (dump.log mtime...)"
+  + poll sadar staleness — dump basi tidak lagi terkirim diam-diam.
+- Explorer rebuilt: 65.578 wallet berlabel · 3.122 token · 7,94 jt pp.
+- Playbook: **SMART 397 (297 bersih) · confluence 122**.
+- classify_contracts_noise --mode all lambat lagi → dibunuh (pola S-55/60);
+  bound incremental TETAP di antrean.
+
+### C. CATATAN
+- nightly pre-flight "pp=0" = lock contention (S-59) — pre-flight 18 Nov
+  jujur: pp=10,19 jt.
+- scores VPS: menunggu analyze pass penuh pasca fix S-59b/c + ingest;
+  pantau delta berikutnya.
+- ZAI masih habis (watchdog LLM diam) — recharge user.

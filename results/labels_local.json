@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T17:10:12.525618+00:00",
+ "updated_at": "2026-11-20T18:07:17.759293+00:00",
  "labels": [
   {
    "address": "0x023ab8e20a4682d315daef4c91db96bd77934d66",
@@ -121376,12 +121376,6 @@
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
   },
   {
-   "address": "0x9a1ee67e454bb963183884e7e2872fc0016613d3",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
    "address": "0x9a20b2af6f6f04d8f00a708ca8369a7c18de21e4",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
@@ -150501,12 +150495,6 @@
   },
   {
    "address": "0xc1298ef5023d2a4c070b3921649e68d1f833d454",
-   "label": "ACTIVE_MIN",
-   "confidence": 0.9,
-   "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
-  },
-  {
-   "address": "0xc129ca3eff37efab9e013baeaf6bea3185d1e1c2",
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
@@ -273654,6 +273642,144 @@
    "label": "CT_ATTRIBUTED",
    "confidence": 0.75,
    "evidence": "{\"x_gmgn\": \"Aping9888\", \"x_arkham\": \"\", \"x\": \"Aping9888\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2956b1700541de8f48e87ea7f83b5559619235c7",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x29cfdbd641e467bf4c592442e8f4fba791d499b1",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 82}"
+  },
+  {
+   "address": "0x2a16d0973385952cfbe750d37f803d0958472844",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 18481}"
+  },
+  {
+   "address": "0x2ee580005b888205c6a8e93ec910244de21d8de1",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x34dc510aa010d55a6fcc6f2f3a8c336fa8a84b6c",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 7688}"
+  },
+  {
+   "address": "0x376b92929bbe778c6dd64e8d73f8688686288e8a",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 21322}"
+  },
+  {
+   "address": "0x37eaed10ab5f919e77935d49e61ff35cd6884aaf",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 12282}"
+  },
+  {
+   "address": "0x38be7d938a5760d0d809dffc6d2028f20667ff9f",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 7667}"
+  },
+  {
+   "address": "0x3a3f183752c668059f32f83aa155ddfef755c093",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x3d4ad7387cf7b82e782166fc6f25e611955180da",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x3f662863d9b591dc0fac43161fd66ac59d76fca8",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x41d7651a48604df998f3cab40a00114962908433",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x45a54344cfc6f866b9f4e070bd36e9f15309a73f",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 171}"
+  },
+  {
+   "address": "0x54d487a3533d2a99a76849a071a674785d57599c",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 10464}"
+  },
+  {
+   "address": "0x5b2d4ec6a3106ae175095faab24c26019dd82461",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x5d0ba8bf5ef2a8675b8822245a5bf79c1c05ccec",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x60864d7f33ca4e25f5d81963a1e017d920993e3f",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x615ff5ee1e9f6a2b8dae9b3da6ac4c3c4c00a9d1",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 6999}"
+  },
+  {
+   "address": "0x769f4a8df00c903118249359e749a95be6ecaf8d",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x7b754689d0c0a261799d5e146a9c82ee1841b044",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x83ade5f703d1863ecbc56f0664b0ce5e96ac957e",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
+  },
+  {
+   "address": "0x8582dbc3f4f74770b0b64f63267e5330dd517315",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 45}"
+  },
+  {
+   "address": "0x906d7498c313bf70765970e9eed0914fcb3fa0ae",
+   "label": "POOL_CONTRACT",
+   "confidence": 0.98,
+   "evidence": "{\"code_len_bytes\": 22142}"
   }
  ]
 }

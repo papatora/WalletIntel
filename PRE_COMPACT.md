@@ -2151,3 +2151,40 @@ lain — JANGAN disentuh).
 2. "Delta tuntas" tanpa cek max_ts = jebakan: night_state done + max_ts
    basi = dump basi. max_ts adalah kanari sehat delta.
 3. SFTP lambat hanya utk file besar/streaming panjang; file kecil 1 detik.
+
+## SNAPSHOT S-62 — 2026-11-21: VPS BEKU LAGI (Alchemy CU HABIS) + GMGN RANK REFRESH
+
+### A. VPS ingest FROZEN sejak 17 Nov 07:27 — AKAR: Alchemy CU bulanan HABIS
+- Bukti: swaps/max_ts/wallets VPS IDENTIK persis dgn 4 hari lalu (3.260.708 /
+  17 Nov 07:27 / 367.003). Probe langsung key alchemy:
+  **429 "Monthly capacity limit exceeded. Visit dashboard.alchemy.com/settings/
+  billing to upgrade your scaling policy."** Public RPC robinhood SEHAT.
+- Supervisory picture: cycle jalan (cycle 1-3, masing2 6-18 jam — enrich
+  retry-loop 429) tapi cuma "2 verified wallets"/cycle; scores=1 (analyze
+  jalan tapi tak ada data baru utk discor).
+- Konteks kuota: 24M/30M CU terpakai per 24 Okt (screenshot user); skema
+  bulanan → habis lagi pertengahan Nov. SEMUA 4 key = 1 akun = 1 kuota.
+- **OPSI USER (butuh keputusan):** (a) buat akun Alchemy BARU (email lain,
+  30M CU segar, gratis) → kirim key → kupasang di rotasi; (b) upgrade
+  billing; (c) tunggu reset 1 Des (~10 hari, ingest beku sementara).
+- Yang TETAP HIDUP tanpa Alchemy: public RPC robinhood, GMGN OpenAPI+web,
+  DexScreener, CoinGecko, sweep watchdog, supervisor.
+- Delta HARI INI DI-SKIP sadar: VPS beku → dump = data identik dgn 17 Nov
+  yang sudah ada di lokal (tidak ada nilai). Delta rutin LANJUT setelah
+  ingest hidup lagi.
+
+### B. Yang dikerjakan hari ini (CU-free): GMGN RANK REFRESH + label CT
+- Brave dibuka otonom; rank harvest: **709 profil unik (+133), 411 X-handle**.
+- merge_social_x: known_entities **930 (+82)**; **CT_ATTRIBUTED 602** (dari
+  521); wallet_social JSON 1.562 rows. Explorer rebuilt dgn social baru.
+- PAT GITHUB rotasi KETIGA (24 Okt kedaluwarsa → user kirim baru) — terpasang
+  .env+origin+VPS; push tertahan S-59c masuk (c78b21b).
+- _commit_locked RETRY (S-59c) DEPLOYED ke VPS via SFTP (1 detik — file kecil
+  cepat; SFTP lambatnya hanya dump besar). scores menunggu ingest hidup.
+
+### PELAJARAN S-62
+1. Kuota API bulanan = single point of failure ingest — rotasi key SEANGKATAN
+   (1 akun) tidak menyelamatkan. Solusi struktural: key dari akun TERPISAH.
+2. Max_ts + swaps count = kanari freeze (identik antar-probe = beku).
+3. Saat ingest mati, kerjakan jalur CU-free (rank/social/label) — jangan
+   buang hari.

@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-17T17:47:32.870985+00:00",
+ "updated_at": "2026-11-20T17:10:12.525618+00:00",
  "labels": [
   {
    "address": "0x023ab8e20a4682d315daef4c91db96bd77934d66",
@@ -52,8 +52,8 @@
   {
    "address": "0x38e4203f12b1e74d87deb0083d3c8b51ad9a104e",
    "label": "CT_ATTRIBUTED",
-   "confidence": 0.6,
-   "evidence": "{\"source\": \"gmgn_smartmoney_30d capture\", \"twitter_username\": \"Loopierr\", \"name\": \"Loopierr\"}"
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Loopierr\", \"x_arkham\": \"\", \"x\": \"Loopierr\", \"x_conflict\": false}"
   },
   {
    "address": "0x41ccc209d3ba4e81ef0c1fcb6d191127fb5b42f5",
@@ -273168,6 +273168,492 @@
    "label": "ACTIVE_MIN",
    "confidence": 0.9,
    "evidence": "{\"rule\": \">=3 swap & aktif <=30 hari; belum lolos klasifikasi lain\"}"
+  },
+  {
+   "address": "0x00897e2d7168165b81558c3cd9257efb007f2410",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"wronguser000\", \"x_arkham\": \"\", \"x\": \"wronguser000\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x00904773e64e3936a184ef073e3c553ff21e63d0",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"TheJackForge\", \"x_arkham\": \"\", \"x\": \"TheJackForge\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x04cba99bf19958470d03be77fd1936c1ac73784d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"wxffles_eth\", \"x_arkham\": \"\", \"x\": \"wxffles_eth\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x0cef7feff37208e1295ac6537445a9b5bc566fd5",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"bloodredfrog\", \"x_arkham\": \"\", \"x\": \"bloodredfrog\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x11db1321c3f926334eb155d5fe704f6b2ff6a2f9",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"andrea1982amor\", \"x_arkham\": \"\", \"x\": \"andrea1982amor\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x12fba237ac57b408efdbe63c0380ca17ed70b3b1",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"thekryptoking_\", \"x_arkham\": \"\", \"x\": \"thekryptoking_\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x130414c5f9e21b91cab2d46b078a1eca74747982",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Gabizzzy\", \"x_arkham\": \"\", \"x\": \"Gabizzzy\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x18153e3a3bd43a96625e908dd743efd67b1d48b0",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"lisaweb3\", \"x_arkham\": \"\", \"x\": \"lisaweb3\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x20542372cbfd5c6874ae5945af68f2053f89899e",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"eth200000\", \"x_arkham\": \"\", \"x\": \"eth200000\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x29029bbe90540245c3d05cdd52f06730deccac2f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"mztacat\", \"x_arkham\": \"\", \"x\": \"mztacat\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2a93e999816c9826ade0b51aaa2d83240d8f4596",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Hydraze420\", \"x_arkham\": \"\", \"x\": \"Hydraze420\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2b1632e4ef7cde52531e84998df74773ca5216b7",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"ItsDrMoose\", \"x_arkham\": \"\", \"x\": \"ItsDrMoose\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2c378f33187c83b61466909de407bc6389e74837",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"web3_Salem\", \"x_arkham\": \"\", \"x\": \"web3_Salem\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x2e8f6f8662593134dc8311e312885921855332bc",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"zohanlin\", \"x_arkham\": \"\", \"x\": \"zohanlin\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x3269f3cccc877e6f1f9ca671e5a735345dee4940",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Joey01000000\", \"x_arkham\": \"\", \"x\": \"Joey01000000\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x329c54289ff5d6b7b7dae13592c6b1eda1543ed4",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"mzeller\", \"x_arkham\": \"\", \"x\": \"mzeller\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x3477afc3f17420fc6bb564e3381c504451a675cc",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"odes_ai\", \"x_arkham\": \"\", \"x\": \"odes_ai\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x348dc9273b0761f1c26bf105d8dcf7915cdecb33",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"daynnightclub\", \"x_arkham\": \"\", \"x\": \"daynnightclub\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x34b5f399cc5a1dd491666c9866941fb8e8d09746",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"EasusJ\", \"x_arkham\": \"\", \"x\": \"EasusJ\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x363ef108036c3910bfa83116e2cd21928cf39e03",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"ClaireSilver\", \"x_arkham\": \"\", \"x\": \"ClaireSilver\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x3907ec1664095093fa92d382020f71263f9cf87d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Wolf_Epic_Club\", \"x_arkham\": \"\", \"x\": \"Wolf_Epic_Club\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x3cd6084c9c7a6c938279473d6913ab7090257c83",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"DegenCamp\", \"x_arkham\": \"\", \"x\": \"DegenCamp\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x3e76b477f4db618aa02aedb967790e509b747d1b",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"crypto_pumpman\", \"x_arkham\": \"\", \"x\": \"crypto_pumpman\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x430687edd6d1e9b39b1889b014865d7049b238be",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"tiemcom0d\", \"x_arkham\": \"\", \"x\": \"tiemcom0d\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x4a246f583def1a40a39dafa6b08f5abbe9df4235",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"BTC99M\", \"x_arkham\": \"\", \"x\": \"BTC99M\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x4a5dbd0f36115ee848d61406f20c80fff835de34",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"JOJO_IterLabs\", \"x_arkham\": \"\", \"x\": \"JOJO_IterLabs\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x4cf132af54733fc090f038042a7f208dc83ecc22",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"OneGoodJeet\", \"x_arkham\": \"\", \"x\": \"OneGoodJeet\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x4d0e5759e4f2af31b93b25277b77b7c59dbb1f9c",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"yeon__\", \"x_arkham\": \"\", \"x\": \"yeon__\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x4d6afeb4a4fc177e9fc6a69fb1b390864ae7f60f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xKaroshi\", \"x_arkham\": \"\", \"x\": \"0xKaroshi\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x4f234ae48179a51e02b0566e885fcc8a1487db02",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"flongie\", \"x_arkham\": \"\", \"x\": \"flongie\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x503e708b744c5e1f267dd38384f49a169a3ae58e",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Vito_168\", \"x_arkham\": \"\", \"x\": \"Vito_168\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x602db89f897304bfa965fd23276eb84a2381935b",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"DegenJoeX\", \"x_arkham\": \"\", \"x\": \"DegenJoeX\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x603922e2ede8f61510293aa67083b293ca11a8d9",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"solvenant\", \"x_arkham\": \"\", \"x\": \"solvenant\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x628379d497562d794a4532941c9302ea9fb18e8b",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"infamousXBT\", \"x_arkham\": \"\", \"x\": \"infamousXBT\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x6563053d2583a23ef62a07353fed86649d8d7df1",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"shuaksn\", \"x_arkham\": \"\", \"x\": \"shuaksn\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x6994aa3c83455705a514798fc29aff6d94d06da2",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"MustyDiapers\", \"x_arkham\": \"\", \"x\": \"MustyDiapers\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x6db47ed370783dedfc5ffcdd51fbc9c60178cb9b",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"liyidongg\", \"x_arkham\": \"\", \"x\": \"liyidongg\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x6e0a1ddad894e6466d405bb73377f0a257278d74",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"wintermute_t\", \"x_arkham\": \"\", \"x\": \"wintermute_t\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x7007adf6646ca3ce9ef292dfe9046fe76b752d8e",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Xiaobailong0818\", \"x_arkham\": \"\", \"x\": \"Xiaobailong0818\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x75775181080b3684cc3be770ba070d1ecc1ec50d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Tuteth_\", \"x_arkham\": \"\", \"x\": \"Tuteth_\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x75f463f3967f94c85fa510f32b4b81c7d708f686",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xYond\", \"x_arkham\": \"\", \"x\": \"0xYond\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x784b71e4f9b171d837397c0a06a2f6d16470f664",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xJyEth\", \"x_arkham\": \"\", \"x\": \"0xJyEth\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x898a45d45640c011764184719d8e00927f179ab0",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"anglio\", \"x_arkham\": \"\", \"x\": \"anglio\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x8aab2decdccfa5f2bd4f5bf6545ded7ceab11c49",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"alohquant\", \"x_arkham\": \"\", \"x\": \"alohquant\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x8dd42409a8809e9199e146af481b613f52fa934e",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"a92B_\", \"x_arkham\": \"\", \"x\": \"a92B_\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x91d0824439c4544a3b7bceecddb148cf909f9800",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"undrvalued\", \"x_arkham\": \"\", \"x\": \"undrvalued\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x9224bbb4e0fbe2f2f8fab55debc41eb21fdfb804",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"GuruG_crypto\", \"x_arkham\": \"\", \"x\": \"GuruG_crypto\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x9297c619fed4c0e71a922e069ce82121779856d3",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xSunSeeker\", \"x_arkham\": \"\", \"x\": \"0xSunSeeker\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x937ba80a0b47618334b1711b02cd1dff20c79e24",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"ZachZwei\", \"x_arkham\": \"\", \"x\": \"ZachZwei\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x94aa50fe3c1ad32b0419004eee4f278ca3908876",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"brain_pasta\", \"x_arkham\": \"\", \"x\": \"brain_pasta\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x9938dfcb5a93e2242db5dd5eedb176af0cafcf99",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"PeaceWorld_Now\", \"x_arkham\": \"\", \"x\": \"PeaceWorld_Now\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x9a1ee67e454bb963183884e7e2872fc0016613d3",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"erisonmeira\", \"x_arkham\": \"\", \"x\": \"erisonmeira\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x9db43bb875e10bad12cdf798b14f279e3775ddff",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"nineteen_888\", \"x_arkham\": \"\", \"x\": \"nineteen_888\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x9e8df504e32b1abc60d2f2840803db857361a6bc",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"zhao_p42510\", \"x_arkham\": \"\", \"x\": \"zhao_p42510\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0x9f1914410af972a5c54e3707e64caae5c3b5b990",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"alicewdcalls\", \"x_arkham\": \"\", \"x\": \"alicewdcalls\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xa0f716933deda264269e5b4285dbdbd51ede0324",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xLTR\", \"x_arkham\": \"\", \"x\": \"0xLTR\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xa1d7dfbc0b4fa99335f10044aa90f53543d04924",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"LKZ_Hyper\", \"x_arkham\": \"\", \"x\": \"LKZ_Hyper\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xa33b2c38a5829d6d6567b5c5c1e1d4edd0ee1ca5",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Pickle_SUI\", \"x_arkham\": \"\", \"x\": \"Pickle_SUI\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xa4f7f4baea407f18d67a38af4f1abd2365f81917",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"a821haha\", \"x_arkham\": \"\", \"x\": \"a821haha\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xa7635719e1da3520d99e5be57cf925b4ad21636d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"BTCGM1911\", \"x_arkham\": \"\", \"x\": \"BTCGM1911\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xa7d4ffc4eca3c71af150ce302560a9d04a1d2b9f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Mirro7777\", \"x_arkham\": \"\", \"x\": \"Mirro7777\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xa866cefcaa8383ce2446cdae49b7b8902f1ef628",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"LuozhuZhang\", \"x_arkham\": \"\", \"x\": \"LuozhuZhang\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xb753afbee7da3d078fdc103a60dcffb41eec4cf7",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"obijai\", \"x_arkham\": \"\", \"x\": \"obijai\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xb999da0ab2cb8fbf493d0ca73672924ad1d111e5",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"shanheBTC888\", \"x_arkham\": \"\", \"x\": \"shanheBTC888\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xbc5046c679d724ad1d26f7a040e94c16b39eee9a",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"shynobikusama\", \"x_arkham\": \"\", \"x\": \"shynobikusama\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xbcda7a764d4e3937fe587ed13afb19c471e5166f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"qkl2058\", \"x_arkham\": \"\", \"x\": \"qkl2058\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xc0b110808ad28bc6d4dac1f0cfb3b50f28723b85",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"gimmeyoursol\", \"x_arkham\": \"\", \"x\": \"gimmeyoursol\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xc129ca3eff37efab9e013baeaf6bea3185d1e1c2",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"0xKlimq\", \"x_arkham\": \"\", \"x\": \"0xKlimq\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xc90a22cd34e488c00c888127a288f316728526d1",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"HeeYeoSoHOT\", \"x_arkham\": \"\", \"x\": \"HeeYeoSoHOT\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xd257a7e0d8d0a4f833839bfc749296ebe85eb8f3",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Kris7146\", \"x_arkham\": \"\", \"x\": \"Kris7146\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xd595710aedaba1d2e18bfdbab46ab796664c6d89",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"jrugss\", \"x_arkham\": \"\", \"x\": \"jrugss\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xd77eb80f38fec10d87a192d07329415173307e93",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"el4dos\", \"x_arkham\": \"\", \"x\": \"el4dos\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xdd249089642d3de7a90df73b2517176f752eb1ea",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Zhen_9_1\", \"x_arkham\": \"\", \"x\": \"Zhen_9_1\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xeb20b344612e8825ca07206f40f2b88e5afd5dd3",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"SmolHydra\", \"x_arkham\": \"\", \"x\": \"SmolHydra\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xef395d6a8ef0fa4f2593ee3e10b9fd4df1fa9c2e",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"okmetom\", \"x_arkham\": \"\", \"x\": \"okmetom\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xefbc53e0afdc9f649bc1ab692461df57e70a560f",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"drama_moscow\", \"x_arkham\": \"\", \"x\": \"drama_moscow\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xf00408ddcaf624129cc0d08aa122a7abe1f2ef31",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"benmlevy\", \"x_arkham\": \"\", \"x\": \"benmlevy\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xf329d3d60678c5c088dd993d3327b15597632695",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"iamyourchaos\", \"x_arkham\": \"\", \"x\": \"iamyourchaos\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xfe8d6dd17db7a9a17c08012370b6ed2c6e6e0549",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"beimu4911\", \"x_arkham\": \"\", \"x\": \"beimu4911\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xfebded7df0b739564dcb218b4e673f0918528b8d",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"winstongch\", \"x_arkham\": \"\", \"x\": \"winstongch\", \"x_conflict\": false}"
+  },
+  {
+   "address": "0xffe61375b548ca909590501389cbd78e3bebae6e",
+   "label": "CT_ATTRIBUTED",
+   "confidence": 0.75,
+   "evidence": "{\"x_gmgn\": \"Aping9888\", \"x_arkham\": \"\", \"x\": \"Aping9888\", \"x_conflict\": false}"
   }
  ]
 }
